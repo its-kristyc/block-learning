@@ -1,0 +1,34 @@
+:root {
+  /* Brand / accent */
+  --c-red: #A83722;
+  --c-red-deep: #7E2817;
+  --c-red-soft: #F6E7E2;
+  --c-wheel: #AB2B2B;
+
+  /* Surface */
+  --c-paper: #FBF7F1;
+  --c-card: #FFFFFF;
+
+  /* Text */
+  --c-ink: #33291F;
+  --c-muted: #8A7F73;
+
+  /* Borders / dividers */
+  --c-line: #E7DFD3;
+  --c-line-soft: #F2ECE3;
+
+  /* Gold accent (group badge) */
+  --c-gold: #B98A2F;
+  --c-gold-soft: #F7EFDE;
+
+  /* Level semantic colors */
+  --c-level-fund-text: #2F7D5B;
+  --c-level-fund-bg: #E7F2EC;
+  --c-level-int-text: #B98A2F;
+  --c-level-int-bg: #F7EFDE;
+  --c-level-adv-text: #D14747;
+  --c-level-adv-bg: #FBEAEA;
+
+  /* Typography */
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}

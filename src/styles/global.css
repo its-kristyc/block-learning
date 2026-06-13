@@ -1,0 +1,76 @@
+@import './tokens.css';
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--c-paper);
+  color: var(--c-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+button, input, textarea, select {
+  font-family: var(--font-body);
+}
+
+/* Animations */
+@keyframes slideIn {
+  from { transform: translateX(40px); opacity: 0 }
+  to   { transform: none; opacity: 1 }
+}
+@keyframes slideUp {
+  from { transform: translateY(60px); opacity: 0 }
+  to   { transform: none; opacity: 1 }
+}
+@keyframes fadeIn {
+  from { opacity: 0 }
+  to   { opacity: 1 }
+}
+
+/* Hover states — defined globally so component inline styles don't have to handle them */
+.exCard:hover { background: #F7F5F5 !important; }
+.progRow:hover { background: var(--c-red-soft) !important; }
+.menuDots:hover { background: var(--c-line) !important; color: var(--c-ink) !important; }
+.menuDots { min-width: 32px; min-height: 32px; display: inline-flex; align-items: center; justify-content: center; }
+.menuDots svg { width: 16px; height: 16px; }
+.wedge:hover path { fill: var(--c-red-deep) !important; }
+
+@media (max-width: 767px) {
+  .menuDots { min-width: 40px; min-height: 40px; padding: 8px !important; }
+  .menuDots svg { width: 20px; height: 20px; }
+}
+
+/* Data-info tooltip */
+.saveInfo:hover .saveTip,
+.saveInfo:focus .saveTip {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important }
+}
+
+/* Custom scrollbar — inset thumb so it doesn't visually touch adjacent content */
+::-webkit-scrollbar { width: 12px; height: 12px }
+::-webkit-scrollbar-thumb {
+  background: #DDD4C8;
+  border-radius: 99px;
+  border: 3px solid transparent;
+  background-clip: padding-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #CFC4B6;
+  background-clip: padding-box;
+  border: 3px solid transparent;
+}
+* { scrollbar-width: thin; scrollbar-color: #DDD4C8 transparent }
