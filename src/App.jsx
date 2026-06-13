@@ -4,22 +4,8 @@ import { useViewport } from './hooks/useViewport.js';
 import { storage, emptyUser } from './lib/storage.js';
 import { Drawer } from './components/Drawer.jsx';
 import { Explore } from './features/explore/Explore.jsx';
-
-// ── Placeholder tabs (implemented in future sessions) ────────────────────
-function Programs() {
-  return (
-    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100%', color: C.muted, fontSize: 14 }}>
-      Programs — coming soon
-    </div>
-  );
-}
-function Practice() {
-  return (
-    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100%', color: C.muted, fontSize: 14 }}>
-      Practice — coming soon
-    </div>
-  );
-}
+import { Programs } from './features/programs/Programs.jsx';
+import { Practice } from './features/practice/Practice.jsx';
 
 // ── Nav config ────────────────────────────────────────────────────────────
 const TABS = [
@@ -280,8 +266,8 @@ export default function App() {
         {/* Tab content */}
         <main style={{ flex: 1, minHeight: 0, overflowY: isMobile ? 'auto' : 'hidden' }}>
           {tab === 'explore'  && <Explore  user={user} toggleFav={toggleFav} openFrom={openFrom} isMobile={isMobile} />}
-          {tab === 'programs' && <Programs leaveGuard={leaveGuard} />}
-          {tab === 'practice' && <Practice />}
+          {tab === 'programs' && <Programs user={user} setUser={setUser} openFrom={openFrom} isMobile={isMobile} leaveGuard={leaveGuard} />}
+          {tab === 'practice' && <Practice isMobile={isMobile} openFrom={openFrom} />}
         </main>
       </div>
 
