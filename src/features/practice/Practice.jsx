@@ -53,8 +53,8 @@ export function Practice({ isMobile, openFrom }) {
     return (
       <Center>
         <div style={{ fontSize: 44 }}>🃏</div>
-        <h2 style={{ margin: '8px 0 0', fontSize: 24, fontWeight: 800, textTransform: 'uppercase', letterSpacing: 0.5, color: C.ink }}>
-          Practice session
+        <h2 style={{ margin: '8px 0 0', fontSize: 24, fontWeight: 700, color: C.ink }}>
+          Practice Session
         </h2>
         <p style={{ fontSize: 14, lineHeight: 1.55, color: C.muted, textAlign: 'center', maxWidth: 380, margin: '10px 0 18px' }}>
           {DECK_SIZE} exercises, shuffled. Each card shows the name, series or group, and apparatus — perform it on your own, then reveal to check yourself.
@@ -71,8 +71,8 @@ export function Practice({ isMobile, openFrom }) {
     return (
       <Center>
         <div style={{ fontSize: 44 }}>🎉</div>
-        <h2 style={{ margin: '8px 0 0', fontSize: 24, fontWeight: 800, textTransform: 'uppercase', letterSpacing: 0.5, color: C.ink }}>
-          Session complete
+        <h2 style={{ margin: '8px 0 0', fontSize: 24, fontWeight: 700, color: C.ink }}>
+          Session Complete
         </h2>
         <p style={{ fontSize: 14, lineHeight: 1.55, color: C.muted, margin: '8px 0 18px' }}>
           {DECK_SIZE} of {DECK_SIZE} — nicely done.

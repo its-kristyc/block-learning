@@ -33,7 +33,7 @@ export function SeriesGroupedList({ list, user, toggleFav, openFrom }) {
               display: 'flex', alignItems: 'baseline', gap: 8,
               marginBottom: 8, flexWrap: 'wrap',
             }}>
-              <span style={{ fontWeight: 700, fontSize: 14 }}>
+              <span style={{ fontFamily: 'var(--font-display)', fontWeight: 600, fontSize: 17 }}>
                 {seg.collection.name}
               </span>
               <span style={{ fontSize: 12, color: C.muted }}>

@@ -133,7 +133,7 @@ export default function App() {
           borderBottom: `1px solid ${C.line}`,
           background: C.card, flexShrink: 0,
         }}>
-          <span style={{ fontWeight: 800, fontSize: 14, letterSpacing: 0.3, color: C.ink }}>
+          <span style={{ fontWeight: 700, fontSize: 20, color: C.ink, lineHeight: 1 }}>
             BASI Block System
           </span>
 
@@ -169,7 +169,7 @@ export default function App() {
             fontSize: 10.5, fontWeight: 500, color: C.muted,
             userSelect: 'none', whiteSpace: 'nowrap',
           }}>
-            BASI students only &nbsp;·&nbsp; Designed and vibe-coded by Kristy ❤️
+            BASI students only &nbsp;·&nbsp; Designed and vibe-coded by Kristy 🤍
           </span>
         </header>
 

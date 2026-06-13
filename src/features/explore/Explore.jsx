@@ -188,7 +188,7 @@ export function Explore({ user, toggleFav, openFrom, isMobile }) {
       >
         ← All
       </button>
-      <div style={{ fontSize: 11.5, fontWeight: 800, color: C.red, marginTop: 10 }}>
+      <div style={{ fontSize: 11.5, fontWeight: 800, color: C.red, marginTop: 16 }}>
         BLOCK {block}
       </div>
       <div style={{ display: 'flex', alignItems: 'baseline', gap: 8 }}>

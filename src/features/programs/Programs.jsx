@@ -125,8 +125,8 @@ export function Programs({ user, setUser, openFrom, isMobile, leaveGuard }) {
     content = (
       <div style={{ padding: isMobile ? '16px 14px 90px' : '24px 28px', maxWidth: 760, margin: '0 auto', width: '100%', boxSizing: 'border-box' }}>
         <div style={{ display: 'flex', alignItems: 'center', marginBottom: 16 }}>
-          <h2 style={{ margin: 0, fontSize: 19, fontWeight: 800, textTransform: 'uppercase', letterSpacing: 0.5, color: C.ink }}>
-            My programs
+          <h2 style={{ margin: 0, fontSize: 19, fontWeight: 700, color: C.ink }}>
+            My Programs
           </h2>
           <div style={{ flex: 1 }} />
           <button onClick={startNew} style={primaryBtn}>+ New program</button>

@@ -7,7 +7,7 @@ export const C = {
   wheel:    '#AB2B2B',
   paper:    '#FBF7F1',
   card:     '#FFFFFF',
-  ink:      '#33291F',
+  ink:      '#403A3A',
   muted:    '#8A7F73',
   line:     '#E7DFD3',
   lineSoft: '#F2ECE3',

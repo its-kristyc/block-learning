@@ -130,7 +130,7 @@ export function Editor({ draft, setDraft, onSave, onCancel, openFrom, isMobile }
       <button onClick={onCancel} style={{ fontSize: 13, fontWeight: 600, color: C.redDeep, background: 'none', border: 'none', cursor: 'pointer', padding: '4px 0' }}>
         ← Back
       </button>
-      <div style={{ display: 'flex', alignItems: 'center', gap: 10, flexWrap: 'wrap', marginTop: 4 }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: 10, flexWrap: 'wrap', marginTop: 12 }}>
         <input
           value={draft.name}
           onChange={e => setDraft({ ...draft, name: e.target.value })}

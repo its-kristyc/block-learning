@@ -72,8 +72,8 @@ export function Drawer({ ctx, setCtx, user, toggleFav, setNote, isMobile }) {
         }}>
           <div style={{ display: 'flex', alignItems: 'flex-start', gap: 10 }}>
             <h2 style={{
-              margin: 0, flex: 1, fontSize: 22, fontWeight: 800, color: C.ink,
-              textTransform: 'uppercase', letterSpacing: 0.4,
+              margin: 0, flex: 1, fontSize: 26, fontWeight: 500, color: C.ink,
+              fontFamily: 'var(--font-display)', letterSpacing: 0.3, lineHeight: 1.2,
               display: 'flex', alignItems: 'center', gap: 8,
             }}>
               {exo.name}
