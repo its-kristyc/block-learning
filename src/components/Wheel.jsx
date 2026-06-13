@@ -14,12 +14,22 @@ function wedgePath(cx, cy, r1, r2, a1, a2) {
   return `M ${x1} ${y1} A ${r2} ${r2} 0 0 1 ${x2} ${y2} L ${x3} ${y3} A ${r1} ${r1} 0 0 0 ${x4} ${y4} Z`;
 }
 
-function wrapLines(name) {
-  const words = name.split(' ');
-  if (words.length <= 2) return words;
-  if (name === 'Lateral Flexion & Rotation') return ['Lateral', 'Flexion &', 'Rotation'];
-  return [words.slice(0, 3).join(' '), words.slice(3).join(' ')].filter(Boolean);
-}
+// Chord width at label radius 178 ≈ 84 SVG units.
+// Per-label font sizes keep every line within that width.
+const WEDGE_CONFIG = {
+  'Warm Up':                    { lines: ['WARM', 'UP'],                        size: 11 },
+  'Foot Work':                  { lines: ['FOOT', 'WORK'],                      size: 11 },
+  'Abdominal Work':             { lines: ['ABDOMINAL', 'WORK'],                 size: 11 },
+  'Hip Work':                   { lines: ['HIP', 'WORK'],                       size: 11 },
+  'Spinal Articulation':        { lines: ['SPINAL', 'ARTICULATION'],            size: 10, xOffset: 7 },
+  'Stretches':                  { lines: ['STRETCHES'],                         size: 11 },
+  'Full Body Integration I':    { lines: ['FULL BODY', 'INTEGRATION', 'I'],     size: 9.5 },
+  'Arm Work':                   { lines: ['ARM', 'WORK'],                       size: 11 },
+  'Leg Work':                   { lines: ['LEG', 'WORK'],                       size: 11 },
+  'Full Body Integration II':   { lines: ['FULL BODY', 'INTEGRATION', 'II'],    size: 9.5 },
+  'Lateral Flexion & Rotation': { lines: ['LATERAL', 'FLEXION &', 'ROTATION'], size: 9.5 },
+  'Back Extension':             { lines: ['BACK', 'EXTENSION'],                 size: 11 },
+};
 
 export function Wheel({ selected, onSelect, size }) {
   const cx = 250, cy = 250;
@@ -38,7 +48,10 @@ export function Wheel({ selected, onSelect, size }) {
         const sel = selected === n;
         const [lx, ly] = polar(cx, cy, 178, center);
         const [nx, ny] = polar(cx, cy, 112, center);
-        const lines = wrapLines(name);
+        const { lines, size: fontSize, xOffset = 0 } = WEDGE_CONFIG[name] ?? { lines: [name.toUpperCase()], size: 11 };
+        const lineHeight = 12;
+        // Shift the first line up so the whole block is vertically centred around ly
+        const firstY = ly - ((lines.length - 1) * lineHeight) / 2;
 
         return (
           <g key={n} onClick={() => onSelect(sel ? null : n)} style={{ cursor: 'pointer' }} className="wedge">
@@ -47,17 +60,17 @@ export function Wheel({ selected, onSelect, size }) {
               style={{ fill: sel ? C.redDeep : C.wheel, transition: 'fill .2s' }}
             />
             <text
-              x={lx} y={ly - (lines.length - 1) * 5.5}
+              x={lx + xOffset} y={firstY}
               textAnchor="middle"
               fill="#fff"
               fontWeight="800"
-              fontSize="11"
+              fontSize={fontSize}
               letterSpacing="0.3"
-              style={{ textTransform: 'uppercase', pointerEvents: 'none' }}
+              style={{ pointerEvents: 'none' }}
             >
               {lines.map((ln, j) => (
-                <tspan key={j} x={lx} dy={j === 0 ? 0 : 12}>
-                  {ln.toUpperCase()}
+                <tspan key={j} x={lx + xOffset} dy={j === 0 ? 0 : lineHeight}>
+                  {ln}
                 </tspan>
               ))}
             </text>

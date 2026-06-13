@@ -44,7 +44,6 @@ export default function App() {
   const [tab, setTab]     = useState('explore');
   const [user, setUserState] = useState(emptyUser);
   const [drawer, setDrawer]  = useState(null);
-  const fileRef           = useRef(null);
   const saveTimer         = useRef(null);
   const leaveGuard        = useRef(null);
 
@@ -79,33 +78,6 @@ export default function App() {
   });
   const setNote = (id, text) => setUser({ ...user, notes: { ...user.notes, [id]: text } });
   const openFrom = (list, id) => setDrawer({ list, index: list.indexOf(id) });
-
-  // Export all user data as JSON
-  const doExport = () => {
-    const blob = new Blob([JSON.stringify(user, null, 2)], { type: 'application/json' });
-    const a = document.createElement('a');
-    a.href = URL.createObjectURL(blob);
-    a.download = 'basi-study-backup.json';
-    a.click();
-    URL.revokeObjectURL(a.href);
-  };
-
-  // Import a previously exported JSON backup
-  const doImport = e => {
-    const f = e.target.files?.[0];
-    if (!f) return;
-    const r = new FileReader();
-    r.onload = () => {
-      try {
-        const d = JSON.parse(r.result);
-        if (d && typeof d === 'object') setUser({ ...emptyUser, ...d });
-      } catch {
-        alert("That file couldn't be read as a backup.");
-      }
-    };
-    r.readAsText(f);
-    e.target.value = '';
-  };
 
   // ── Nav items ─────────────────────────────────────────────────────────
   const navItems = TABS.map(({ key, label, icon }) => {
@@ -149,41 +121,6 @@ export default function App() {
         }}>
           {navItems}
           <div style={{ flex: 1 }} />
-          {/* Export / import in the rail */}
-          <button
-            onClick={doExport}
-            title="Export my data"
-            style={{
-              fontSize: 12.5, fontWeight: 600, color: C.muted,
-              background: 'none', border: `1px solid ${C.line}`,
-              borderRadius: 8, padding: '5px 8px', cursor: 'pointer',
-              display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
-            }}
-          >
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-              <polyline points="7 10 12 15 17 10" />
-              <line x1="12" y1="15" x2="12" y2="3" />
-            </svg>
-          </button>
-          <button
-            onClick={() => fileRef.current?.click()}
-            title="Import a backup"
-            style={{
-              fontSize: 12.5, fontWeight: 600, color: C.muted,
-              background: 'none', border: `1px solid ${C.line}`,
-              borderRadius: 8, padding: '5px 8px', cursor: 'pointer',
-              display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
-            }}
-          >
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-              <polyline points="7 10 12 15 17 10" transform="rotate(180 12 12)" />
-              <line x1="12" y1="3" x2="12" y2="15" />
-            </svg>
-          </button>
         </nav>
       )}
 
@@ -192,48 +129,13 @@ export default function App() {
         {/* Global header */}
         <header style={{
           display: 'flex', alignItems: 'center', gap: 10,
-          padding: isMobile ? '10px 14px' : '10px 22px',
+          padding: isMobile ? '16px 14px' : '16px 22px',
           borderBottom: `1px solid ${C.line}`,
           background: C.card, flexShrink: 0,
         }}>
           <span style={{ fontWeight: 800, fontSize: 14, letterSpacing: 0.3, color: C.ink }}>
             BASI Block System
           </span>
-          <div style={{ flex: 1 }} />
-
-          {/* Mobile: export / import in header */}
-          {isMobile && (
-            <>
-              <button onClick={doExport} title="Export my data"
-                style={{
-                  fontSize: 12.5, fontWeight: 600, color: C.muted,
-                  background: 'none', border: `1px solid ${C.line}`,
-                  borderRadius: 8, padding: '6px 9px', cursor: 'pointer',
-                  display: 'inline-flex',
-                }}>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-                  stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                  <polyline points="7 10 12 15 17 10" />
-                  <line x1="12" y1="15" x2="12" y2="3" />
-                </svg>
-              </button>
-              <button onClick={() => fileRef.current?.click()} title="Import a backup"
-                style={{
-                  fontSize: 12.5, fontWeight: 600, color: C.muted,
-                  background: 'none', border: `1px solid ${C.line}`,
-                  borderRadius: 8, padding: '6px 9px', cursor: 'pointer',
-                  display: 'inline-flex',
-                }}>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-                  stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                  <polyline points="7 10 12 15 17 10" transform="rotate(180 12 12)" />
-                  <line x1="12" y1="3" x2="12" y2="15" />
-                </svg>
-              </button>
-            </>
-          )}
 
           {/* Data-info tooltip */}
           <span
@@ -248,7 +150,7 @@ export default function App() {
               <circle cx="12" cy="7.5" r="0.6" fill="currentColor" stroke="none" />
             </svg>
             <span className="saveTip" style={{
-              position: 'absolute', top: 28, right: 0,
+              position: 'absolute', top: 28, left: 0,
               width: 230, background: C.ink, color: '#fff',
               fontSize: 11.5, lineHeight: 1.45,
               borderRadius: 8, padding: '9px 11px',
@@ -257,9 +159,17 @@ export default function App() {
               transition: 'opacity .15s', pointerEvents: 'none', fontWeight: 400,
             }}>
               Your notes, favorites, and programs are saved in this browser on this device.
-              They aren't synced or sent anywhere. Use the export button to back them up or
-              move them to another device.
+              They aren't synced or sent anywhere.
             </span>
+          </span>
+
+          <div style={{ flex: 1 }} />
+
+          <span style={{
+            fontSize: 10.5, fontWeight: 500, color: C.muted,
+            userSelect: 'none', whiteSpace: 'nowrap',
+          }}>
+            BASI students only &nbsp;·&nbsp; Designed and vibe-coded by Kristy ❤️
           </span>
         </header>
 
@@ -290,14 +200,6 @@ export default function App() {
         isMobile={isMobile}
       />
 
-      {/* Hidden file input for import */}
-      <input
-        ref={fileRef}
-        type="file"
-        accept="application/json"
-        onChange={doImport}
-        style={{ display: 'none' }}
-      />
     </div>
   );
 }

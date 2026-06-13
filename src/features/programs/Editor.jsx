@@ -41,15 +41,8 @@ function LibrarySearch({ q, setQ }) {
   );
 }
 
-function BoardRow({ e, idx, len, onRemove, onMove, onOpen }) {
+function BoardRow({ e, onRemove, onOpen }) {
   if (!e) return null;
-  const tinyBtn = disabled => ({
-    fontSize: 11, width: 20, height: 20, lineHeight: 1,
-    border: `1px solid ${C.line}`, background: '#fff', borderRadius: 5,
-    cursor: disabled ? 'default' : 'pointer',
-    color: disabled ? '#D9D1C6' : C.muted,
-    padding: 0, flexShrink: 0,
-  });
   return (
     <div style={{ background: C.card, border: `1px solid ${C.line}`, borderRadius: 8, padding: '7px 8px', cursor: 'grab' }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
@@ -77,9 +70,6 @@ function BoardRow({ e, idx, len, onRemove, onMove, onOpen }) {
             <KindBadge kind={e.collection.kind} />
           </>
         )}
-        <span style={{ flex: 1 }} />
-        <button onClick={() => onMove(-1)} disabled={idx === 0} style={tinyBtn(idx === 0)}>↑</button>
-        <button onClick={() => onMove(1)}  disabled={idx === len - 1} style={tinyBtn(idx === len - 1)}>↓</button>
       </div>
     </div>
   );
@@ -314,9 +304,8 @@ export function Editor({ draft, setDraft, onSave, onCancel, openFrom, isMobile }
                           onDragEnd={() => { drag.current = null; setDropHint(null); }}
                         >
                           <BoardRow
-                            e={e} idx={idx} len={ids.length}
+                            e={e}
                             onRemove={() => remove(n, id)}
-                            onMove={dir => move(n, idx, dir)}
                             onOpen={() => openFrom(ids, id)}
                           />
                         </div>
