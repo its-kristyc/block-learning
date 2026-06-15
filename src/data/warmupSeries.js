@@ -1,17 +1,12 @@
 // Warm-up series definitions. Each series is an ordered sequence of exercises
-// taught as the Warm Up block (block 1). Exercises reference names for now;
-// will be updated to IDs after full PDF extraction.
+// taught as the Warm Up block (block 1). Mat Foundation uses real IDs;
+// others use name-based lookup until their exercises are extracted.
 export const WARMUP_SERIES = [
   {
     id: 'wu-foundation',
     name: 'Mat Foundation',
     apparatus: 'Mat',
-    exercises: [
-      'Pelvic Curl',
-      'Spine Twist Supine',
-      'Chest Lift',
-      'Chest Lift with Rotation',
-    ],
+    exercises: ['mat-001', 'mat-002', 'mat-003', 'mat-004'],
   },
   {
     id: 'wu-intermediate',

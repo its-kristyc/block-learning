@@ -6,12 +6,12 @@
     "apparatus": "Mat",
     "collection": null,
     "level": "Fundamental",
-    "image": null,
+    "image": "/images/mat-001.png",
     "setup": "Lying supine in neutral spine position, legs parallel, knees bent, feet placed firmly on Mat, arms by sides",
     "resistance": null,
     "exhale": "Roll pelvis and spine up",
     "inhale": "Pause",
-    "muscleFocus": [],
+    "muscleFocus": ["Spinal flexors", "Hip extensors"],
     "objectives": ["Spinal articulation", "Hip extensor control", "Pelvic lumbar stabilization"],
     "cues": ["Draw abdominals in prior to movement", "Maximize lumbar flexion as pelvis and spine roll up and down", "Articulate through each vertebra as spine rolls up and down", "Return to neutral spine after each repetition"]
   },
@@ -22,12 +22,12 @@
     "apparatus": "Mat",
     "collection": null,
     "level": "Fundamental",
-    "image": null,
+    "image": "/images/mat-002.png",
     "setup": "Lying supine, lower back imprinted, arms in T position, palms facing up, legs in tabletop position (hips and knees at 90 degrees)",
     "resistance": null,
     "inhale": "Lower legs to one side",
     "exhale": "Lift legs to center, return to start position",
-    "muscleFocus": [],
+    "muscleFocus": ["Spinal flexors", "Spinal rotators", "Hip flexors"],
     "objectives": ["Spinal flexor control", "Spinal rotator control and stretch", "Pelvic lumbar stabilization"],
     "cues": ["Keep shoulders relaxed and scapulae on Mat", "Move legs and pelvis as one unit", "Initiate rotation with abdominals"]
   },
@@ -38,12 +38,12 @@
     "apparatus": "Mat",
     "collection": null,
     "level": "Fundamental",
-    "image": null,
+    "image": "/images/mat-003.png",
     "setup": "Lying supine in neutral spine position, legs parallel, knees bent, feet hip width apart, fingers interlaced behind head",
     "resistance": null,
     "exhale": "Lift head and chest",
     "inhale": "Pause",
-    "muscleFocus": [],
+    "muscleFocus": ["Spinal flexors", "Hip adductors"],
     "objectives": ["Spinal flexor strength", "Pelvic lumbar stabilization"],
     "cues": ["Maintain pelvic stabilization", "Keep head aligned with spine when lifting into spinal flexion", "Allow head to rest in hands", "Engage hip adductors throughout"]
   },
@@ -59,7 +59,7 @@
     "resistance": null,
     "exhale": "Rotate to one side",
     "inhale": "Return to center",
-    "muscleFocus": [],
+    "muscleFocus": ["Spinal flexors", "Spinal rotators"],
     "objectives": ["Spinal flexor strength", "Spinal rotator strength", "Pelvic lumbar stabilization"],
     "cues": ["Maintain pelvic stabilization", "Maximize rotation while avoiding lateral flexion", "Move head, shoulders and chest together as one unit", "Maintain trunk flexion at consistent height"]
   },
@@ -75,7 +75,7 @@
     "resistance": null,
     "exhale": "Lift one leg, plantarflex foot",
     "inhale": "Lower leg, touch Mat with toes",
-    "muscleFocus": [],
+    "muscleFocus": ["Hip flexors", "Spinal flexors", "Spinal extensors"],
     "objectives": ["Hip flexor control", "Hip disassociation", "Pelvic lumbar stabilization"],
     "cues": ["Maintain pelvic lumbar stabilization", "Keep shoulders relaxed", "Maintain consistent angle of knee joint (90 degrees)"]
   },
@@ -91,7 +91,7 @@
     "resistance": null,
     "inhale": "Lift one leg, foot plantarflexed",
     "exhale": "Switch legs",
-    "muscleFocus": [],
+    "muscleFocus": ["Hip flexors", "Spinal flexors", "Spinal extensors"],
     "objectives": ["Hip flexor control", "Hip disassociation", "Pelvic lumbar stabilization"],
     "cues": ["Maintain pelvic lumbar stabilization", "Keep shoulders relaxed", "Maintain consistent angle of knee joint (90 degrees)"]
   },
@@ -107,7 +107,7 @@
     "resistance": null,
     "exhale": "Lift arms, head and chest, bringing arms to sides",
     "inhale": "Lift arms to 90 degrees, lower chest and head, return to start position",
-    "muscleFocus": [],
+    "muscleFocus": ["Spinal flexors", "Hip flexors", "Shoulder extensors"],
     "objectives": ["Spinal flexor strength", "Pelvic stabilization", "Shoulder extensor control"],
     "cues": ["Move head and chest as one unit", "Maintain pelvic and lumbar stabilization", "Minimize neck tension", "Maintain tabletop position with legs"]
   },
@@ -123,7 +123,7 @@
     "resistance": null,
     "inhale": "Lift arms up and forward, followed by head and chest; pause",
     "exhale": "Roll up to eyes over knees; roll down, return to start position",
-    "muscleFocus": [],
+    "muscleFocus": ["Spinal flexors", "Shoulder extensors", "Hip flexors"],
     "objectives": ["Spinal flexor strength", "Spinal mobility and stability", "Hip flexor control"],
     "cues": ["Pause briefly in Chest Lift position", "Maintain C curve when rolling up and rolling down", "Pause when shoulders are in front of hip joints and eyes are over knee joints", "Keep head aligned with spine"]
   },
@@ -139,7 +139,7 @@
     "resistance": null,
     "inhale": "Bring leg across center line, circle down and around",
     "exhale": "Complete circle, same direction",
-    "muscleFocus": [],
+    "muscleFocus": ["Spinal flexors", "Spinal extensors", "Hip flexors", "Hip adductors"],
     "objectives": ["Pelvic lumbar stabilization", "Hip disassociation"],
     "cues": ["Keep shoulders stable", "Maintain fluid movement", "Keep circles within range of pelvic lumbar control"]
   },
@@ -155,7 +155,7 @@
     "resistance": null,
     "inhale": "Roll back",
     "exhale": "Roll forward, return to start position",
-    "muscleFocus": [],
+    "muscleFocus": ["Spinal flexors", "Spinal extensors", "Elbow flexors"],
     "objectives": ["Trunk stabilization", "Shoulder stabilization", "Elbow flexor control"],
     "cues": ["Maintain fluid movement", "Keep ball shape consistent", "Keep head aligned with spine", "Keep pulling legs toward chest and heels toward sit bones"]
   }

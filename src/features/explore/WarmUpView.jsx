@@ -23,11 +23,12 @@ export function WarmUpView({ user, toggleFav, openFrom }) {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
       {WARMUP_SERIES.map(series => {
-        const resolved = series.exercises.map(name => ({
-          name,
-          ex: EXERCISES.find(e => e.name === name && e.apparatus === series.apparatus)
-            ?? EXERCISES.find(e => e.name === name),
-        }));
+        const resolved = series.exercises.map(ref => {
+          const ex = EXERCISES.find(e => e.id === ref)
+            ?? EXERCISES.find(e => e.name === ref && e.apparatus === series.apparatus)
+            ?? EXERCISES.find(e => e.name === ref);
+          return { name: ref, ex };
+        });
 
         const foundIds = resolved.filter(r => r.ex).map(r => r.ex.id);
 
