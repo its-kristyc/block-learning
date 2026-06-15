@@ -13,17 +13,24 @@ function levelRank(l) {
   return i === -1 ? 999 : i;
 }
 
-function blockLabel(n) {
-  if (n === 13) return { num: '1.1', name: 'Foundation' };
-  return { num: String(n), name: BLOCKS[n - 1] ?? `Block ${n}` };
+function blockName(n) {
+  if (n === 13) return 'Foundation';
+  return BLOCKS[n - 1] ?? `Block ${n}`;
 }
 
-function sortList(list) {
+function sortList(list, apparatusFirst) {
   return [...list].sort((a, b) => {
-    const bd = blockRank(a.block) - blockRank(b.block);
-    if (bd !== 0) return bd;
-    const ad = apparatusRank(a.apparatus) - apparatusRank(b.apparatus);
-    if (ad !== 0) return ad;
+    if (apparatusFirst) {
+      const ad = apparatusRank(a.apparatus) - apparatusRank(b.apparatus);
+      if (ad !== 0) return ad;
+      const bd = blockRank(a.block) - blockRank(b.block);
+      if (bd !== 0) return bd;
+    } else {
+      const bd = blockRank(a.block) - blockRank(b.block);
+      if (bd !== 0) return bd;
+      const ad = apparatusRank(a.apparatus) - apparatusRank(b.apparatus);
+      if (ad !== 0) return ad;
+    }
     return levelRank(a.level) - levelRank(b.level);
   });
 }
@@ -87,20 +94,13 @@ function CollectionSegments({ segments, allIds, user, toggleFav, openFrom }) {
   );
 }
 
-function ApparatusSection({ apparatus, items, allIds, user, toggleFav, openFrom }) {
-  const segments = toCollectionSegments(items);
+function BlockDivider({ name }) {
   return (
-    <div style={{ marginTop: 10 }}>
-      <div style={{
-        fontSize: 11.5, fontWeight: 800, textTransform: 'uppercase',
-        letterSpacing: 0.8, color: C.muted, paddingBottom: 6,
-      }}>
-        {apparatus}
-      </div>
-      <CollectionSegments
-        segments={segments} allIds={allIds}
-        user={user} toggleFav={toggleFav} openFrom={openFrom}
-      />
+    <div style={{ display: 'flex', alignItems: 'center', gap: 8, margin: '14px 0 8px' }}>
+      <span style={{ fontSize: 11, fontWeight: 700, color: C.muted, whiteSpace: 'nowrap' }}>
+        · {name}
+      </span>
+      <div style={{ flex: 1, height: 1, background: C.line }} />
     </div>
   );
 }
@@ -115,49 +115,59 @@ function groupByApparatus(list) {
 export function SeriesGroupedList({ list, user, toggleFav, openFrom, groupByBlock }) {
   if (!list.length) return <Empty msg="No exercises match these filters." />;
 
-  const sorted = sortList(list);
+  const sorted = sortList(list, groupByBlock);
   const allIds = sorted.map(e => e.id);
 
   if (!groupByBlock) {
+    // Block selected — apparatus sections with more breathing room
     return (
-      <div>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
         {groupByApparatus(sorted).map(({ apparatus, items }) => (
-          <ApparatusSection key={apparatus}
-            apparatus={apparatus} items={items} allIds={allIds}
-            user={user} toggleFav={toggleFav} openFrom={openFrom}
-          />
+          <div key={apparatus}>
+            <div style={{
+              fontSize: 12, fontWeight: 800, textTransform: 'uppercase',
+              letterSpacing: 0.8, color: C.muted, paddingBottom: 8,
+            }}>
+              {apparatus}
+            </div>
+            <CollectionSegments
+              segments={toCollectionSegments(items)} allIds={allIds}
+              user={user} toggleFav={toggleFav} openFrom={openFrom}
+            />
+          </div>
         ))}
       </div>
     );
   }
 
-  const blockNums = [...new Set(sorted.map(e => e.block))]
-    .sort((a, b) => blockRank(a) - blockRank(b));
-
+  // All view — apparatus first, block as subtle in-list divider
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 28 }}>
-      {blockNums.map(n => {
-        const { num, name } = blockLabel(n);
-        const blockExs = sorted.filter(e => e.block === n);
+      {groupByApparatus(sorted).map(({ apparatus, items }) => {
+        const blockNums = [...new Set(items.map(e => e.block))]
+          .sort((a, b) => blockRank(a) - blockRank(b));
+
         return (
-          <div key={n}>
+          <div key={apparatus}>
             <div style={{
-              display: 'flex', alignItems: 'baseline', gap: 7,
-              paddingBottom: 8, borderBottom: `1px solid ${C.line}`,
+              fontSize: 13, fontWeight: 800, textTransform: 'uppercase',
+              letterSpacing: 0.8, color: C.ink, paddingBottom: 8,
+              borderBottom: `1px solid ${C.line}`,
             }}>
-              <span style={{ fontSize: 11, fontWeight: 800, color: C.red, letterSpacing: 0.5 }}>
-                BLOCK {num}
-              </span>
-              <span style={{ fontSize: 14, fontWeight: 800, textTransform: 'uppercase', letterSpacing: 0.5, color: C.ink }}>
-                {name}
-              </span>
+              {apparatus}
             </div>
-            {groupByApparatus(blockExs).map(({ apparatus, items }) => (
-              <ApparatusSection key={apparatus}
-                apparatus={apparatus} items={items} allIds={allIds}
-                user={user} toggleFav={toggleFav} openFrom={openFrom}
-              />
-            ))}
+            {blockNums.map((n, i) => {
+              const blockItems = items.filter(e => e.block === n);
+              return (
+                <div key={n}>
+                  <BlockDivider name={blockName(n)} />
+                  <CollectionSegments
+                    segments={toCollectionSegments(blockItems)} allIds={allIds}
+                    user={user} toggleFav={toggleFav} openFrom={openFrom}
+                  />
+                </div>
+              );
+            })}
           </div>
         );
       })}
