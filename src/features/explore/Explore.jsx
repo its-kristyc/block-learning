@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { C } from '../../styles/tokens.js';
-import { EXERCISES, BLOCKS, APPARATUS_ORDER, applyFilters } from '../../data/index.js';
+import { EXERCISES, BLOCKS, APPARATUS_ORDER, applyFilters, noFilters } from '../../data/index.js';
 import { Wheel } from '../../components/Wheel.jsx';
 import { FilterRow } from '../../components/FilterRow.jsx';
 import { KindBadge } from '../../components/KindBadge.jsx';
@@ -10,7 +10,6 @@ import { SeriesGroupedList } from './SeriesGroupedList.jsx';
 import { ApparatusGroupedList } from './ApparatusGroupedList.jsx';
 import { WarmUpView } from './WarmUpView.jsx';
 
-const noFilters = { apparatus: [], level: [], collection: [] };
 
 function SearchBar({ query, setQuery }) {
   return (
