@@ -9,5 +9,5 @@ export function useViewport() {
     window.addEventListener('resize', f);
     return () => window.removeEventListener('resize', f);
   }, []);
-  return { isMobile: w < 768, w };
+  return { isMobile: w <= 1024, w };
 }
