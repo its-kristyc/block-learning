@@ -166,7 +166,7 @@ export function Editor({ draft, setDraft, onSave, onCancel, openFrom, isMobile }
       <div style={{ paddingBottom: 90 }}>
         {header}
         <div style={{ padding: '4px 14px', display: 'flex', flexDirection: 'column', gap: 10 }}>
-          {BLOCKS.map((name, i) => {
+          {BLOCKS.slice(0, 12).map((name, i) => {
             const n = i + 1;
             const ids = draft.blocks[n] || [];
             return (
@@ -230,7 +230,7 @@ export function Editor({ draft, setDraft, onSave, onCancel, openFrom, isMobile }
                   />
                 </div>
               )}
-              <div style={{ flex: 1, overflowY: 'auto', marginTop: 10, paddingRight: 6, display: 'flex', flexDirection: 'column', gap: 6 }}>
+              <div style={{ flex: 1, overflowY: 'auto', marginTop: 10, paddingRight: 16, display: 'flex', flexDirection: 'column', gap: 6 }}>
                 {pickerList.map(e => {
                   const alreadyHere = (draft.blocks[pickerBlock] || []).includes(e.id);
                   return (
@@ -277,7 +277,7 @@ export function Editor({ draft, setDraft, onSave, onCancel, openFrom, isMobile }
               />
             </div>
           )}
-          <div style={{ flex: 1, overflowY: 'auto', marginTop: 10, paddingRight: 6, display: 'flex', flexDirection: 'column', gap: 6 }}>
+          <div style={{ flex: 1, overflowY: 'auto', marginTop: 10, paddingRight: 16, display: 'flex', flexDirection: 'column', gap: 6 }}>
             {pickerList.map(e => {
               const inProgram = Object.values(draft.blocks).some(ids => ids.includes(e.id));
               return (
@@ -293,7 +293,7 @@ export function Editor({ draft, setDraft, onSave, onCancel, openFrom, isMobile }
 
         {/* Kanban board */}
         <div style={{ flex: 1, overflowX: 'auto', overflowY: 'hidden', display: 'flex', gap: 10, padding: '12px 14px 18px', alignItems: 'stretch' }}>
-          {BLOCKS.map((name, i) => {
+          {BLOCKS.slice(0, 12).map((name, i) => {
             const n = i + 1;
             const ids = draft.blocks[n] || [];
             const hintHere = dropHint && dropHint.block === n ? dropHint.idx : null;
