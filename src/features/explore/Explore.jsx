@@ -160,6 +160,7 @@ export function Explore({ user, toggleFav, openFrom, isMobile }) {
     panelBody = (
       <SeriesGroupedList
         list={visible} user={user} toggleFav={toggleFav} openFrom={openFrom}
+        groupByBlock={!block}
       />
     );
   }

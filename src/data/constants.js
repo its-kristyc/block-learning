@@ -32,6 +32,9 @@ export const APPARATUS_ORDER = [
 
 export const LEVELS = ['Fundamental', 'Intermediate', 'Advanced'];
 
+// Display order for block grouping — Foundation (13) sits after Warm Up (1)
+export const BLOCK_DISPLAY_ORDER = [1, 13, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+
 export function apparatusRank(a) {
   const i = APPARATUS_ORDER.indexOf(a);
   return i === -1 ? APPARATUS_ORDER.length : i;

@@ -2,7 +2,7 @@ import rawExercises from './exercises.json';
 import { APPARATUS_ORDER, LEVELS } from './constants.js';
 
 export { APPARATUS_ORDER, LEVELS };
-export { BLOCKS, apparatusRank } from './constants.js';
+export { BLOCKS, apparatusRank, BLOCK_DISPLAY_ORDER } from './constants.js';
 
 export const EXERCISES = rawExercises;
 
