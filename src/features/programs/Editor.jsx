@@ -85,7 +85,6 @@ export function Editor({ draft, setDraft, onSave, onCancel, openFrom, isMobile }
 
   const add = (blockN, exId) => {
     const arr = draft.blocks[blockN] || [];
-    if (arr.includes(exId)) return;
     setDraft({ ...draft, blocks: { ...draft.blocks, [blockN]: [...arr, exId] } });
   };
   const remove = (blockN, exId) => setDraft({
@@ -109,9 +108,10 @@ export function Editor({ draft, setDraft, onSave, onCancel, openFrom, isMobile }
     if (d.fromBlock != null) {
       blocks[d.fromBlock] = (blocks[d.fromBlock] || []).filter(i => i !== d.exId);
     }
-    const target = (blocks[toBlock] || []).filter(i => i !== d.exId);
+    const target = d.fromBlock != null
+      ? (blocks[toBlock] || []).filter(i => i !== d.exId)
+      : [...(blocks[toBlock] || [])];
     const at = toIdx == null ? target.length : Math.max(0, Math.min(toIdx, target.length));
-    if (d.fromBlock == null && (draft.blocks[toBlock] || []).includes(d.exId)) return;
     target.splice(at, 0, d.exId);
     blocks[toBlock] = target;
     setDraft({ ...draft, blocks });
