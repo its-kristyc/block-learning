@@ -33,7 +33,7 @@ export function FlowView({ board, back, onEdit, onDelete, user, openFrom, isMobi
           ← Back
         </button>
         <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginTop: 12 }}>
-          <h2 style={{ margin: 0, flex: 1, minWidth: 120, fontSize: 19, fontWeight: 800, textTransform: 'uppercase', letterSpacing: 0.5, color: C.ink }}>
+          <h2 style={{ margin: 0, flex: 1, minWidth: 120, fontSize: 19, fontWeight: 800, color: C.ink }}>
             {board.name}
           </h2>
           <button onClick={onEdit} title="Edit" aria-label="Edit program"
@@ -60,11 +60,11 @@ export function FlowView({ board, back, onEdit, onDelete, user, openFrom, isMobi
         {blocksWith.map(([n, name, ids]) => ids.length > 0 && (
           <div key={n} style={{ marginBottom: 22 }}>
             <div style={{
-              display: 'flex', alignItems: 'center', gap: 8,
-              background: C.redSoft, borderRadius: 8, padding: '6px 11px', marginBottom: 10,
+              display: 'flex', justifyContent: 'space-between', alignItems: 'baseline',
+              paddingBottom: 8, borderBottom: `1px solid ${C.line}`, marginBottom: 10,
             }}>
-              <span style={{ fontSize: 12.5, fontWeight: 600, color: C.redDeep }}>{n}</span>
-              <span style={{ fontSize: 13, fontWeight: 600, textTransform: 'uppercase', letterSpacing: 0.6, color: C.redDeep }}>{name}</span>
+              <span style={{ fontSize: 13, fontWeight: 700, color: C.muted }}>Block {n}</span>
+              <span style={{ fontSize: 13, fontWeight: 700, color: C.muted }}>{name}</span>
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 7 }}>
               {ids.map(id => {
