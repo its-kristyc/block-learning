@@ -76,22 +76,6 @@ export function Select({ values, onChange, options, placeholder }) {
             maxHeight: 260,
             overflowY: 'auto',
           }}>
-            {values.length > 0 && (
-              <>
-                <button
-                  onClick={() => onChange([])}
-                  style={{
-                    display: 'block', width: '100%', textAlign: 'left',
-                    fontSize: 12, fontWeight: 600, color: C.muted,
-                    background: 'none', border: 'none', borderRadius: 7,
-                    padding: '6px 12px', cursor: 'pointer',
-                  }}
-                >
-                  Clear
-                </button>
-                <div style={{ height: 1, background: C.line, margin: '2px 4px 4px' }} />
-              </>
-            )}
             <div style={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
             {options.map(o => {
               const selected = values.includes(o);
@@ -130,6 +114,22 @@ export function Select({ values, onChange, options, placeholder }) {
               );
             })}
             </div>
+            {values.length > 0 && (
+              <>
+                <div style={{ height: 1, background: C.line, margin: '4px 4px 2px' }} />
+                <button
+                  onClick={() => onChange([])}
+                  style={{
+                    display: 'block', width: '100%', textAlign: 'left',
+                    fontSize: 12, fontWeight: 600, color: C.muted,
+                    background: 'none', border: 'none', borderRadius: 7,
+                    padding: '6px 12px', cursor: 'pointer',
+                  }}
+                >
+                  Clear
+                </button>
+              </>
+            )}
           </div>
         </>
       )}
