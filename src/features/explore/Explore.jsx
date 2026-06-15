@@ -1,6 +1,6 @@
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { C } from '../../styles/tokens.js';
-import { EXERCISES, BLOCKS, applyFilters, apparatusRank } from '../../data/index.js';
+import { EXERCISES, BLOCKS, APPARATUS_ORDER, applyFilters, apparatusRank } from '../../data/index.js';
 import { Wheel } from '../../components/Wheel.jsx';
 import { FilterRow } from '../../components/FilterRow.jsx';
 import { KindBadge } from '../../components/KindBadge.jsx';
@@ -75,14 +75,8 @@ export function Explore({ user, toggleFav, openFrom, isMobile }) {
   const allView = !block && !searching;
 
   // Apparatus tabs only apply in the All view (no block, not searching)
-  const apparatusesInScope = useMemo(() => {
-    const filtered = applyFilters(baseScope, { ...filters, apparatus: '' });
-    return [...new Set(filtered.map(e => e.apparatus))]
-      .sort((a, b) => apparatusRank(a) - apparatusRank(b));
-  }, [baseScope, filters]);
-
   const activeAppTab = allView
-    ? (apparatusesInScope.includes(apparatusTab) ? apparatusTab : apparatusesInScope[0])
+    ? (APPARATUS_ORDER.includes(apparatusTab) ? apparatusTab : APPARATUS_ORDER[0])
     : null;
 
   const tabScope  = allView && activeAppTab
@@ -253,7 +247,7 @@ export function Explore({ user, toggleFav, openFrom, isMobile }) {
         borderTop: isMobile ? 'none' : `1px solid ${C.line}`,
       }}>
         {/* Apparatus tab row — only in All view */}
-        {allView && apparatusesInScope.length > 0 && (
+        {allView && (
           <div style={{
             display: 'flex', gap: 2,
             overflowX: 'auto', overflowY: 'hidden',
@@ -262,7 +256,7 @@ export function Explore({ user, toggleFav, openFrom, isMobile }) {
             position: isMobile ? 'static' : 'sticky',
             top: 0, background: C.card, zIndex: 2,
           }}>
-            {apparatusesInScope.map(ap => {
+            {APPARATUS_ORDER.map(ap => {
               const count = applyFilters(
                 baseScope.filter(e => e.apparatus === ap),
                 { ...filters, apparatus: '' }
@@ -277,6 +271,7 @@ export function Explore({ user, toggleFav, openFrom, isMobile }) {
                     color: on ? C.red : C.muted,
                     borderBottom: on ? `2px solid ${C.red}` : '2px solid transparent',
                     marginBottom: -1,
+                    opacity: count === 0 ? 0.4 : 1,
                   }}>
                   {ap} <span style={{ fontSize: 11, opacity: 0.7 }}>{count}</span>
                 </button>
