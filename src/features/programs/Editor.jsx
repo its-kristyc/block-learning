@@ -207,16 +207,16 @@ export function Editor({ draft, setDraft, onSave, onCancel, openFrom, isMobile }
               {!searchingLib && (
                 <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', marginTop: 8 }}>
                   <Select
-                    values={libFilters.apparatus}
-                    onChange={v => setLibFilters(f => ({ ...f, apparatus: v }))}
-                    options={libApparatuses}
-                    placeholder="Apparatus"
-                  />
-                  <Select
                     values={libFilters.block}
                     onChange={v => setLibFilters(f => ({ ...f, block: v }))}
                     options={blockOptions}
                     placeholder="Block"
+                  />
+                  <Select
+                    values={libFilters.apparatus}
+                    onChange={v => setLibFilters(f => ({ ...f, apparatus: v }))}
+                    options={libApparatuses}
+                    placeholder="Apparatus"
                   />
                 </div>
               )}
