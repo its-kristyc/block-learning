@@ -63,8 +63,8 @@ export function FlowView({ board, back, onEdit, onDelete, user, openFrom, isMobi
               display: 'flex', justifyContent: 'space-between', alignItems: 'baseline',
               paddingBottom: 8, borderBottom: `1px solid ${C.line}`, marginBottom: 10,
             }}>
-              <span style={{ fontSize: 13, fontWeight: 700, color: C.muted }}>Block {n}</span>
-              <span style={{ fontSize: 13, fontWeight: 700, color: C.muted }}>{name}</span>
+              <span style={{ fontSize: 13, fontWeight: 700, color: C.ink }}>Block {n}</span>
+              <span style={{ fontSize: 13, fontWeight: 700, color: C.ink }}>{name}</span>
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 7 }}>
               {ids.map(id => {
