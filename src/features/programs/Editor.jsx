@@ -12,6 +12,16 @@ const primaryBtn = {
   padding: '7px 13px', cursor: 'pointer',
 };
 
+function Checkmark() {
+  return (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+      stroke="#8A7F73" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"
+      style={{ flexShrink: 0 }}>
+      <path d="M5 13l4 4L19 7" />
+    </svg>
+  );
+}
+
 function LibrarySearch({ q, setQ }) {
   return (
     <div style={{ position: 'relative', width: '100%' }}>
@@ -221,14 +231,20 @@ export function Editor({ draft, setDraft, onSave, onCancel, openFrom, isMobile }
                 </div>
               )}
               <div style={{ flex: 1, overflowY: 'auto', marginTop: 10, paddingRight: 6, display: 'flex', flexDirection: 'column', gap: 6 }}>
-                {pickerList.map(e => (
-                  <div key={e.id}
-                    onClick={() => { add(pickerBlock, e.id); setPickerBlock(null); }}
-                    style={{ background: C.card, border: `1px solid ${C.line}`, borderRadius: 8, padding: '9px 12px', cursor: 'pointer' }}>
-                    <span style={{ fontWeight: 600, fontSize: 13.5, color: C.ink }}>{e.name}</span>
-                    <span style={{ fontSize: 11.5, color: C.muted, marginLeft: 8 }}>{e.apparatus} · Block {e.block} · {e.level}</span>
-                  </div>
-                ))}
+                {pickerList.map(e => {
+                  const alreadyHere = (draft.blocks[pickerBlock] || []).includes(e.id);
+                  return (
+                    <div key={e.id}
+                      onClick={() => { add(pickerBlock, e.id); setPickerBlock(null); }}
+                      style={{ background: C.card, border: `1px solid ${C.line}`, borderRadius: 8, padding: '9px 12px', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: 8 }}>
+                      <div style={{ flex: 1, minWidth: 0 }}>
+                        <span style={{ fontWeight: 600, fontSize: 13.5, color: C.ink }}>{e.name}</span>
+                        <span style={{ fontSize: 11.5, color: C.muted, marginLeft: 8 }}>{e.apparatus} · Block {e.block} · {e.level}</span>
+                      </div>
+                      {alreadyHere && <Checkmark />}
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>
@@ -248,26 +264,30 @@ export function Editor({ draft, setDraft, onSave, onCancel, openFrom, isMobile }
           {!searchingLib && (
             <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', marginTop: 8 }}>
               <Select
-                values={libFilters.apparatus}
-                onChange={v => setLibFilters(f => ({ ...f, apparatus: v }))}
-                options={libApparatuses}
-                placeholder="Apparatus"
-              />
-              <Select
                 values={libFilters.block}
                 onChange={v => setLibFilters(f => ({ ...f, block: v }))}
                 options={blockOptions}
                 placeholder="Block"
               />
+              <Select
+                values={libFilters.apparatus}
+                onChange={v => setLibFilters(f => ({ ...f, apparatus: v }))}
+                options={libApparatuses}
+                placeholder="Apparatus"
+              />
             </div>
           )}
           <div style={{ flex: 1, overflowY: 'auto', marginTop: 10, paddingRight: 6, display: 'flex', flexDirection: 'column', gap: 6 }}>
-            {pickerList.map(e => (
+            {pickerList.map(e => {
+              const inProgram = Object.values(draft.blocks).some(ids => ids.includes(e.id));
+              return (
               <ExerciseCard key={e.id} exo={e} compact draggable
                 onDragStart={ev => { drag.current = { exId: e.id, fromBlock: null }; ev.dataTransfer.effectAllowed = 'copyMove'; }}
                 onOpen={() => openFrom(pickerList.map(x => x.id), e.id)}
+                indicator={inProgram ? <Checkmark /> : null}
               />
-            ))}
+              );
+            })}
           </div>
         </div>
 

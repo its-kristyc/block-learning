@@ -3,7 +3,7 @@ import { LevelPill } from './LevelPill.jsx';
 import { KindBadge } from './KindBadge.jsx';
 import { Heart } from './Heart.jsx';
 
-export function ExerciseCard({ exo, fav, onFav, onOpen, draggable, onDragStart, compact }) {
+export function ExerciseCard({ exo, fav, onFav, onOpen, draggable, onDragStart, compact, indicator }) {
   return (
     <div
       onClick={onOpen}
@@ -40,7 +40,7 @@ export function ExerciseCard({ exo, fav, onFav, onOpen, draggable, onDragStart, 
           <span>{exo.apparatus}</span>
         </div>
       </div>
-      {onFav && <Heart on={fav} onClick={onFav} />}
+      {indicator ?? (onFav && <Heart on={fav} onClick={onFav} />)}
     </div>
   );
 }
