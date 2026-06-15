@@ -11,6 +11,7 @@ export const BLOCKS = [
   'Full Body Integration II',
   'Lateral Flexion & Rotation',
   'Back Extension',
+  'Foundation',
 ];
 
 // Canonical apparatus display order. Any apparatus not listed sorts to the end.

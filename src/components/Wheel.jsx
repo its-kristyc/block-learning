@@ -40,7 +40,7 @@ export function Wheel({ selected, onSelect, size }) {
       width={size} height={size}
       style={{ display: 'block', flexShrink: 0, transition: 'width .35s ease, height .35s ease' }}
     >
-      {BLOCKS.map((name, i) => {
+      {BLOCKS.slice(0, 12).map((name, i) => {
         const n = i + 1;
         const center = n === 12 ? 0 : n * 30;
         const a1 = center - 13.6;
