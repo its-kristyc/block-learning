@@ -40,7 +40,7 @@ export const WARMUP_SERIES = [
   {
     id: 'wu-f2chair',
     name: 'F2 Chair',
-    apparatus: 'Wunda Chair',
+    apparatus: 'F2 Chair',
     exercises: [
       'Roll-up with Extension',
       'Mini Roll-Up',

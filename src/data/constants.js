@@ -17,11 +17,17 @@ export const BLOCKS = [
 // Canonical apparatus display order. Any apparatus not listed sorts to the end.
 export const APPARATUS_ORDER = [
   'Mat',
+  'Mat (Magic Circle)',
   'Reformer',
   'Cadillac',
+  'Pole',
+  'PED-a-PUL',
+  'F2 Chair',
   'Wunda Chair',
-  'Spine Corrector',
   'Ladder Barrel',
+  'Spine Corrector',
+  'F2 Spine Corrector',
+  'F2 Arm Chair',
 ];
 
 export const LEVELS = ['Fundamental', 'Intermediate', 'Advanced'];
