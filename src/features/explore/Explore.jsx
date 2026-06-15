@@ -8,6 +8,7 @@ import { ExerciseCard } from '../../components/ExerciseCard.jsx';
 import { Empty } from '../../components/Empty.jsx';
 import { SeriesGroupedList } from './SeriesGroupedList.jsx';
 import { ApparatusGroupedList } from './ApparatusGroupedList.jsx';
+import { WarmUpView } from './WarmUpView.jsx';
 
 const noFilters = { apparatus: '', level: '', muscle: '', collection: '' };
 
@@ -168,6 +169,8 @@ export function Explore({ user, toggleFav, openFrom, isMobile }) {
     );
   } else if (coll === 'favorites' && baseScope.length === 0) {
     panelBody = <Empty msg="No favorites yet. Tap the heart on any exercise to keep it here." />;
+  } else if (block === 1) {
+    panelBody = <WarmUpView user={user} toggleFav={toggleFav} openFrom={openFrom} />;
   } else {
     panelBody = (
       <SeriesGroupedList
@@ -196,7 +199,7 @@ export function Explore({ user, toggleFav, openFrom, isMobile }) {
           {BLOCKS[block - 1]}
         </h2>
         <span style={{ fontSize: 12, color: C.muted, whiteSpace: 'nowrap' }}>
-          {visible.length} {visible.length === 1 ? 'exercise' : 'exercises'}
+          {block === 1 ? '4 series' : `${visible.length} ${visible.length === 1 ? 'exercise' : 'exercises'}`}
         </span>
       </div>
     </div>
@@ -233,12 +236,14 @@ export function Explore({ user, toggleFav, openFrom, isMobile }) {
 
         <SearchBar query={query} setQuery={setQuery} />
 
-        <FilterRow
-          filters={filters}
-          setFilters={setFilters}
-          scope={block ? baseScope.filter(e => e.block === block) : baseScope}
-          hideApparatus={allView}
-        />
+        {block !== 1 && (
+          <FilterRow
+            filters={filters}
+            setFilters={setFilters}
+            scope={block ? baseScope.filter(e => e.block === block) : baseScope}
+            hideApparatus={allView}
+          />
+        )}
       </div>
 
       {/* Scrollable list area */}
