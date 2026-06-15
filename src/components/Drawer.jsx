@@ -114,20 +114,25 @@ export function Drawer({ ctx, setCtx, user, toggleFav, setNote, isMobile }) {
 
         {/* Scrollable body */}
         <div style={{ flex: 1, overflowY: 'auto', padding: '16px 18px 24px' }}>
-          {/* Image placeholder */}
-          <div style={{
-            width: '100%', aspectRatio: '16 / 5',
-            background: C.lineSoft, border: `1px dashed ${C.line}`,
-            borderRadius: 10, marginBottom: 16,
-            display: 'flex', alignItems: 'center', justifyContent: 'center',
-            color: '#B9AFA3', fontSize: 12, textAlign: 'center', padding: '0 16px',
-            boxSizing: 'border-box',
-          }}>
-            {exo.image
-              ? <img src={exo.image} alt={exo.name} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 10 }} />
-              : 'Exercise photo — one wide image showing the movement sequence'
-            }
-          </div>
+          {/* Images */}
+          {exo.image && exo.image.length > 0 ? (
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 6, marginBottom: 16 }}>
+              {exo.image.map((src, i) => (
+                <img key={i} src={src} alt={`${exo.name} ${i + 1}`}
+                  style={{ width: '100%', height: 'auto', borderRadius: 10, display: 'block' }} />
+              ))}
+            </div>
+          ) : (
+            <div style={{
+              width: '100%', height: 56,
+              background: C.paper, border: `1px dashed ${C.line}`,
+              borderRadius: 10, marginBottom: 16,
+              display: 'flex', alignItems: 'center', justifyContent: 'center',
+              color: '#B9AFA3', fontSize: 12,
+            }}>
+              No image yet
+            </div>
+          )}
 
           <Section label="Description">
             <p style={p}>{exo.setup}</p>
