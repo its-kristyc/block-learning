@@ -17,13 +17,12 @@ export const APPARATUSES = [...new Set(EXERCISES.map(e => e.apparatus))]
 
 export const MUSCLES = [...new Set(EXERCISES.flatMap(e => e.muscleFocus))].sort();
 
-export const noFilters = { apparatus: '', level: '', muscle: '', collection: '' };
+export const noFilters = { apparatus: [], level: [], collection: [] };
 
 export function applyFilters(list, f) {
   return list.filter(e =>
-    (!f.apparatus   || e.apparatus          === f.apparatus) &&
-    (!f.level       || e.level              === f.level) &&
-    (!f.muscle      || e.muscleFocus.includes(f.muscle)) &&
-    (!f.collection  || e.collection?.name   === f.collection)
+    (!f.apparatus?.length  || f.apparatus.includes(e.apparatus)) &&
+    (!f.level?.length      || f.level.includes(e.level)) &&
+    (!f.collection?.length || f.collection.includes(e.collection?.name))
   );
 }

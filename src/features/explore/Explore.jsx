@@ -10,7 +10,7 @@ import { SeriesGroupedList } from './SeriesGroupedList.jsx';
 import { ApparatusGroupedList } from './ApparatusGroupedList.jsx';
 import { WarmUpView } from './WarmUpView.jsx';
 
-const noFilters = { apparatus: '', level: '', muscle: '', collection: '' };
+const noFilters = { apparatus: [], level: [], collection: [] };
 
 function SearchBar({ query, setQuery }) {
   return (
