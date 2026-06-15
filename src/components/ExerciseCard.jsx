@@ -20,10 +20,10 @@ export function ExerciseCard({ exo, fav, onFav, onOpen, draggable, onDragStart, 
     >
       <div style={{ flex: 1, minWidth: 0 }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap' }}>
-          <LevelPill level={exo.level} small />
           <span style={{ fontFamily: 'var(--font-display)', fontWeight: 500, fontSize: compact ? 15 : 17, color: C.ink, lineHeight: 1.2 }}>
             {exo.name}
           </span>
+          <LevelPill level={exo.level} small />
         </div>
         <div style={{
           fontSize: 12, color: C.muted, marginTop: 5,
