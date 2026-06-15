@@ -134,15 +134,19 @@ export function SeriesGroupedList({ list, user, toggleFav, openFrom, groupByBloc
         return (
           <div key={n}>
             <div style={{
-              display: 'flex', alignItems: 'baseline', gap: 7,
+              display: 'flex', alignItems: 'baseline',
               paddingBottom: 8, borderBottom: `1px solid ${C.line}`,
               marginBottom: 12,
             }}>
-              <span style={{ fontSize: 11, fontWeight: 800, color: C.red, letterSpacing: 0.5 }}>
-                BLOCK {num}
-              </span>
-              <span style={{ fontSize: 14, fontWeight: 800, textTransform: 'uppercase', letterSpacing: 0.5, color: C.ink }}>
+              <span style={{ fontSize: 13, fontWeight: 700, color: C.ink, letterSpacing: 0.2 }}>
                 {name}
+              </span>
+              <span style={{
+                flex: 1, alignSelf: 'flex-end', marginBottom: 3,
+                borderBottom: `1px dotted ${C.line}`, margin: '0 10px 3px',
+              }} />
+              <span style={{ fontSize: 13, fontWeight: 700, color: C.red, letterSpacing: 0.2 }}>
+                Block {num}
               </span>
             </div>
             <CollectionSegments
