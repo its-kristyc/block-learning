@@ -172,8 +172,8 @@ export function Editor({ draft, setDraft, onSave, onCancel, openFrom, isMobile }
             return (
               <div key={n} style={{ background: C.card, border: `1px solid ${C.line}`, borderRadius: 12, padding: '10px 12px' }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: ids.length ? 8 : 0 }}>
-                  <span style={{ fontSize: 12.5, fontWeight: 800, color: C.red }}>{n}</span>
-                  <span style={{ fontSize: 13, fontWeight: 800, textTransform: 'uppercase', letterSpacing: 0.5, flex: 1, color: C.ink }}>{name}</span>
+                  <span style={{ fontSize: 12.5, fontWeight: 800, color: C.muted }}>{n}</span>
+                  <span style={{ fontSize: 13, fontWeight: 800, textTransform: 'uppercase', letterSpacing: 0.5, flex: 1, color: C.muted }}>{name}</span>
                   <button
                     onClick={() => { setPickerBlock(n); setPickQ(''); }}
                     style={{ fontSize: 11.5, fontWeight: 600, color: C.redDeep, background: 'none', border: `1px solid ${C.line}`, borderRadius: 8, padding: '4px 9px', cursor: 'pointer' }}
@@ -308,8 +308,8 @@ export function Editor({ draft, setDraft, onSave, onCancel, openFrom, isMobile }
                 }}
               >
                 <div style={{ display: 'flex', gap: 6, alignItems: 'baseline', marginBottom: 8 }}>
-                  <span style={{ fontSize: 12, fontWeight: 800, color: C.red }}>{n}</span>
-                  <span style={{ fontSize: 12, fontWeight: 800, textTransform: 'uppercase', letterSpacing: 0.4, lineHeight: 1.25, color: C.ink }}>{name}</span>
+                  <span style={{ fontSize: 12, fontWeight: 800, color: C.muted }}>{n}</span>
+                  <span style={{ fontSize: 12, fontWeight: 800, textTransform: 'uppercase', letterSpacing: 0.4, lineHeight: 1.25, color: C.muted }}>{name}</span>
                 </div>
                 <div style={{ flex: 1, overflowY: 'auto', paddingRight: 4, display: 'flex', flexDirection: 'column', gap: 0 }}>
                   {ids.length === 0 && hintHere === 0 && (
