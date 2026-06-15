@@ -3,7 +3,7 @@ import { C } from '../styles/tokens.js';
 import { Select } from './Select.jsx';
 import { LEVELS } from '../data/index.js';
 
-export function FilterRow({ filters, setFilters, scope, hideApparatus }) {
+export function FilterRow({ filters, setFilters, scope, hideApparatus, apparatusOptions }) {
   const colls = useMemo(() => {
     const pool = filters.apparatus
       ? scope.filter(e => e.apparatus === filters.apparatus)
@@ -18,8 +18,8 @@ export function FilterRow({ filters, setFilters, scope, hideApparatus }) {
   ), [scope]);
 
   const apparatuses = useMemo(() => (
-    [...new Set(scope.map(e => e.apparatus))].sort()
-  ), [scope]);
+    apparatusOptions ?? [...new Set(scope.map(e => e.apparatus))].sort()
+  ), [apparatusOptions, scope]);
 
   const active = (
     hideApparatus

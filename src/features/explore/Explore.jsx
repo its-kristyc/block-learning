@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { C } from '../../styles/tokens.js';
-import { EXERCISES, BLOCKS, APPARATUS_ORDER, applyFilters, apparatusRank } from '../../data/index.js';
+import { EXERCISES, BLOCKS, APPARATUS_ORDER, applyFilters } from '../../data/index.js';
 import { Wheel } from '../../components/Wheel.jsx';
 import { FilterRow } from '../../components/FilterRow.jsx';
 import { KindBadge } from '../../components/KindBadge.jsx';
@@ -54,18 +54,17 @@ function SearchBar({ query, setQuery }) {
 }
 
 export function Explore({ user, toggleFav, openFrom, isMobile }) {
-  const [block, setBlock]           = useState(null);
-  const [coll, setColl]             = useState('all');      // 'all' | 'favorites'
-  const [apparatusTab, setApparatusTab] = useState(null);
-  const [filters, setFilters]       = useState(noFilters);
-  const [searchTab, setSearchTab]   = useState('exercises');
-  const [query, setQuery]           = useState('');
+  const [block, setBlock]     = useState(null);
+  const [coll, setColl]       = useState('all');      // 'all' | 'favorites'
+  const [filters, setFilters] = useState(noFilters);
+  const [searchTab, setSearchTab] = useState('exercises');
+  const [query, setQuery]     = useState('');
 
   // Reset filters whenever the scope changes
   useEffect(() => { setFilters(noFilters); }, [block, coll]);
 
-  const q          = query.trim().toLowerCase();
-  const searching  = q.length > 0;
+  const q         = query.trim().toLowerCase();
+  const searching = q.length > 0;
 
   const baseScope  = coll === 'favorites'
     ? EXERCISES.filter(e => user.favorites.includes(e.id))
@@ -74,15 +73,7 @@ export function Explore({ user, toggleFav, openFrom, isMobile }) {
 
   const allView = !block && !searching;
 
-  // Apparatus tabs only apply in the All view (no block, not searching)
-  const activeAppTab = allView
-    ? (APPARATUS_ORDER.includes(apparatusTab) ? apparatusTab : APPARATUS_ORDER[0])
-    : null;
-
-  const tabScope  = allView && activeAppTab
-    ? blockScope.filter(e => e.apparatus === activeAppTab)
-    : blockScope;
-  const visible   = applyFilters(tabScope, allView ? { ...filters, apparatus: '' } : filters);
+  const visible = applyFilters(blockScope, filters);
 
   // ── Search results body ─────────────────────────────────────────────────
   let panelBody;
@@ -235,7 +226,7 @@ export function Explore({ user, toggleFav, openFrom, isMobile }) {
             filters={filters}
             setFilters={setFilters}
             scope={block ? baseScope.filter(e => e.block === block) : baseScope}
-            hideApparatus={allView}
+            apparatusOptions={allView ? APPARATUS_ORDER : undefined}
           />
         )}
       </div>
@@ -246,40 +237,6 @@ export function Explore({ user, toggleFav, openFrom, isMobile }) {
         overflowY: isMobile ? 'visible' : 'auto',
         borderTop: isMobile ? 'none' : `1px solid ${C.line}`,
       }}>
-        {/* Apparatus tab row — only in All view */}
-        {allView && (
-          <div style={{
-            display: 'flex', gap: 2,
-            overflowX: 'auto', overflowY: 'hidden',
-            whiteSpace: 'nowrap',
-            padding: isMobile ? '10px 0 0' : '0 18px',
-            position: isMobile ? 'static' : 'sticky',
-            top: 0, background: C.card, zIndex: 2,
-          }}>
-            {APPARATUS_ORDER.map(ap => {
-              const count = applyFilters(
-                baseScope.filter(e => e.apparatus === ap),
-                { ...filters, apparatus: '' }
-              ).length;
-              const on = ap === activeAppTab;
-              return (
-                <button key={ap} onClick={() => setApparatusTab(ap)}
-                  style={{
-                    fontSize: 12.5, fontWeight: 600,
-                    padding: '9px 9px', background: 'none', border: 'none',
-                    cursor: 'pointer', whiteSpace: 'nowrap', flexShrink: 0,
-                    color: on ? C.red : C.muted,
-                    borderBottom: on ? `2px solid ${C.red}` : '2px solid transparent',
-                    marginBottom: -1,
-                    opacity: count === 0 ? 0.4 : 1,
-                  }}>
-                  {ap} <span style={{ fontSize: 11, opacity: 0.7 }}>{count}</span>
-                </button>
-              );
-            })}
-          </div>
-        )}
-
         <div style={{ padding: isMobile ? '12px 0 0' : '12px 18px 24px' }}>
           {block && !searching && panelTitle && (
             <div style={{ marginBottom: 12 }}>{panelTitle}</div>
