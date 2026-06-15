@@ -49,7 +49,7 @@ export function FlowView({ board, back, onEdit, onDelete, user, openFrom, isMobi
         </div>
       </div>
 
-      <div style={{ maxWidth: 680, margin: '0 auto', width: '100%', boxSizing: 'border-box', padding: '8px 18px' }}>
+      <div style={{ maxWidth: 680, margin: '0 auto', width: '100%', boxSizing: 'border-box', padding: '24px 18px 8px' }}>
         {total === 0 && (
           <div style={{ textAlign: 'center', padding: '40px 16px' }}>
             <div style={{ color: C.muted, fontSize: 14, marginBottom: 14 }}>This program is empty.</div>
