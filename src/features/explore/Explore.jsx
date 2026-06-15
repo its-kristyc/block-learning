@@ -268,7 +268,7 @@ export function Explore({ user, toggleFav, openFrom, isMobile }) {
         />
         <div style={{ marginTop: 10, fontSize: 12.5, color: C.muted, height: 18 }}>
           {block
-            ? `Showing ${BLOCKS[block - 1]} — click center or ← All to clear`
+            ? `Showing ${BLOCKS[block - 1]} — click 'Clear' to reset`
             : 'Click a block to explore exercises'}
         </div>
       </div>

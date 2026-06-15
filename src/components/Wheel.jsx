@@ -96,13 +96,9 @@ export function Wheel({ selected, onSelect, size }) {
         <circle cx={cx} cy={cy} r="90" fill={C.paper} />
         {selected ? (
           <>
-            <text x={cx} y={cy - 4} textAnchor="middle" fill={C.redDeep}
+            <text x={cx} y={cy + 5} textAnchor="middle" fill={C.redDeep}
               fontWeight="800" fontSize="13" letterSpacing="1">
               CLEAR
-            </text>
-            <text x={cx} y={cy + 14} textAnchor="middle" fill={C.muted}
-              fontWeight="700" fontSize="11" letterSpacing="0.5">
-              show all
             </text>
           </>
         ) : (
