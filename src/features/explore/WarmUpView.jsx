@@ -57,17 +57,26 @@ export function WarmUpView({ user, toggleFav, openFrom }) {
               </span>
             </div>
 
-            <div style={{ padding: '10px 14px', display: 'flex', flexDirection: 'column', gap: 6 }}>
+            <div style={{ padding: '10px 14px', display: 'flex', flexDirection: 'column', gap: 10 }}>
               {resolved.map(({ name, ex }) =>
                 ex ? (
-                  <ExerciseCard
-                    key={ex.id}
-                    exo={ex}
-                    compact
-                    fav={user.favorites.includes(ex.id)}
-                    onFav={() => toggleFav(ex.id)}
-                    onOpen={() => openFrom(foundIds, ex.id)}
-                  />
+                  <div key={ex.id}>
+                    <ExerciseCard
+                      exo={ex}
+                      compact
+                      fav={user.favorites.includes(ex.id)}
+                      onFav={() => toggleFav(ex.id)}
+                      onOpen={() => openFrom(foundIds, ex.id)}
+                    />
+                    {ex.image && ex.image.length > 0 && (
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: 4, marginTop: 6 }}>
+                        {ex.image.map((src, i) => (
+                          <img key={i} src={src} alt={`${ex.name} ${i + 1}`}
+                            style={{ width: '100%', height: 'auto', borderRadius: 8, display: 'block' }} />
+                        ))}
+                      </div>
+                    )}
+                  </div>
                 ) : (
                   <PlaceholderRow key={name} name={name} />
                 )

@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { C } from '../styles/tokens.js';
-import { byId, BLOCKS } from '../data/index.js';
+import { byId, BLOCKS, blockLabel } from '../data/index.js';
 import { LevelPill } from './LevelPill.jsx';
 import { KindBadge } from './KindBadge.jsx';
 import { Heart } from './Heart.jsx';
@@ -101,7 +101,7 @@ export function Drawer({ ctx, setCtx, user, toggleFav, setNote, isMobile }) {
             </button>
           </div>
           <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', alignItems: 'center', marginTop: 10 }}>
-            <span style={chip}>Block {exo.block} · {BLOCKS[exo.block - 1]}</span>
+            <span style={chip}>Block {blockLabel(exo.block)} · {BLOCKS[exo.block - 1]}</span>
             {exo.collection && (
               <span style={{ ...chip, display: 'inline-flex', gap: 5, alignItems: 'center' }}>
                 {exo.collection.name} <KindBadge kind={exo.collection.kind} />

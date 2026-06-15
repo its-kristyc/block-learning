@@ -1,5 +1,5 @@
 import { C } from '../../styles/tokens.js';
-import { BLOCKS, APPARATUS_ORDER, LEVELS, BLOCK_DISPLAY_ORDER, apparatusRank } from '../../data/index.js';
+import { BLOCKS, APPARATUS_ORDER, LEVELS, BLOCK_DISPLAY_ORDER, apparatusRank, blockLabel } from '../../data/index.js';
 import { ExerciseCard } from '../../components/ExerciseCard.jsx';
 import { Empty } from '../../components/Empty.jsx';
 
@@ -139,7 +139,7 @@ export function SeriesGroupedList({ list, user, toggleFav, openFrom, groupByBloc
               marginBottom: 12,
             }}>
               <span style={{ fontSize: 13, fontWeight: 700, color: C.muted }}>
-                Block {num}
+                Block {blockLabel(num)}
               </span>
               <span style={{ fontSize: 13, fontWeight: 700, color: C.muted }}>
                 {name}

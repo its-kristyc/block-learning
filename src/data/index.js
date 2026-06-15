@@ -19,6 +19,10 @@ export const MUSCLES = [...new Set(EXERCISES.flatMap(e => e.muscleFocus))].sort(
 
 export const noFilters = { apparatus: [], level: [], collection: [] };
 
+export function blockLabel(n) {
+  return n === 13 ? '1.1' : String(n);
+}
+
 export function applyFilters(list, f) {
   return list.filter(e =>
     (!f.apparatus?.length  || f.apparatus.includes(e.apparatus)) &&

@@ -1,5 +1,5 @@
 import { C } from '../../styles/tokens.js';
-import { BLOCKS, byId } from '../../data/index.js';
+import { BLOCKS, byId, blockLabel } from '../../data/index.js';
 import { ExerciseCard } from '../../components/ExerciseCard.jsx';
 
 const PencilIcon = () => (
@@ -63,7 +63,7 @@ export function FlowView({ board, back, onEdit, onDelete, user, openFrom, isMobi
               display: 'flex', justifyContent: 'space-between', alignItems: 'baseline',
               paddingBottom: 8, borderBottom: `1px solid ${C.line}`, marginBottom: 10,
             }}>
-              <span style={{ fontSize: 13, fontWeight: 700, color: C.ink }}>Block {n}</span>
+              <span style={{ fontSize: 13, fontWeight: 700, color: C.ink }}>Block {blockLabel(n)}</span>
               <span style={{ fontSize: 13, fontWeight: 700, color: C.ink }}>{name}</span>
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 7 }}>
