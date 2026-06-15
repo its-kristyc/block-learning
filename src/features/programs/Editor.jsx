@@ -1,8 +1,9 @@
 import { useState, useRef, useMemo } from 'react';
 import { C } from '../../styles/tokens.js';
-import { EXERCISES, BLOCKS, byId, apparatusRank } from '../../data/index.js';
+import { EXERCISES, BLOCKS, byId, apparatusRank, BLOCK_DISPLAY_ORDER } from '../../data/index.js';
 import { ExerciseCard } from '../../components/ExerciseCard.jsx';
 import { KindBadge } from '../../components/KindBadge.jsx';
+import { Select } from '../../components/Select.jsx';
 import { MobileBlockRows } from './MobileBlockRows.jsx';
 
 const primaryBtn = {
@@ -77,7 +78,7 @@ function BoardRow({ e, onRemove, onOpen }) {
 
 export function Editor({ draft, setDraft, onSave, onCancel, openFrom, isMobile }) {
   const [pickQ, setPickQ]         = useState('');
-  const [libTab, setLibTab]       = useState(null);
+  const [libFilters, setLibFilters] = useState({ apparatus: [], block: [] });
   const [pickerBlock, setPickerBlock] = useState(null); // mobile only
   const drag      = useRef(null);
   const [dropHint, setDropHint]   = useState(null);
@@ -119,11 +120,14 @@ export function Editor({ draft, setDraft, onSave, onCancel, openFrom, isMobile }
   const libApparatuses = useMemo(() => (
     [...new Set(EXERCISES.map(e => e.apparatus))].sort((a, b) => apparatusRank(a) - apparatusRank(b))
   ), []);
-  const activeLibTab = libApparatuses.includes(libTab) ? libTab : libApparatuses[0];
+  const blockOptions = BLOCK_DISPLAY_ORDER.map(n => BLOCKS[n - 1]);
   const searchingLib = pickQ.trim().length > 0;
   const pickerList = searchingLib
     ? EXERCISES.filter(e => e.name.toLowerCase().includes(pickQ.toLowerCase()))
-    : EXERCISES.filter(e => e.apparatus === activeLibTab);
+    : EXERCISES.filter(e =>
+        (!libFilters.apparatus.length || libFilters.apparatus.includes(e.apparatus)) &&
+        (!libFilters.block.length || libFilters.block.includes(BLOCKS[e.block - 1]))
+      );
 
   const header = (
     <div style={{ padding: isMobile ? '12px 14px 8px' : '16px 18px 10px', flexShrink: 0 }}>
@@ -201,16 +205,19 @@ export function Editor({ draft, setDraft, onSave, onCancel, openFrom, isMobile }
               </div>
               <LibrarySearch q={pickQ} setQ={setPickQ} />
               {!searchingLib && (
-                <div style={{ display: 'flex', gap: 2, overflowX: 'auto', overflowY: 'hidden', whiteSpace: 'nowrap', marginTop: 8 }}>
-                  {libApparatuses.map(ap => {
-                    const on = ap === activeLibTab;
-                    return (
-                      <button key={ap} onClick={() => setLibTab(ap)}
-                        style={{ fontSize: 11.5, fontWeight: 600, padding: '6px 8px', background: 'none', border: 'none', cursor: 'pointer', whiteSpace: 'nowrap', flexShrink: 0, color: on ? C.red : C.muted, borderBottom: on ? `2px solid ${C.red}` : '2px solid transparent', marginBottom: -1 }}>
-                        {ap}
-                      </button>
-                    );
-                  })}
+                <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', marginTop: 8 }}>
+                  <Select
+                    values={libFilters.apparatus}
+                    onChange={v => setLibFilters(f => ({ ...f, apparatus: v }))}
+                    options={libApparatuses}
+                    placeholder="Apparatus"
+                  />
+                  <Select
+                    values={libFilters.block}
+                    onChange={v => setLibFilters(f => ({ ...f, block: v }))}
+                    options={blockOptions}
+                    placeholder="Block"
+                  />
                 </div>
               )}
               <div style={{ flex: 1, overflowY: 'auto', marginTop: 10, paddingRight: 6, display: 'flex', flexDirection: 'column', gap: 6 }}>
@@ -239,16 +246,19 @@ export function Editor({ draft, setDraft, onSave, onCancel, openFrom, isMobile }
         <div style={{ width: 270, borderRight: `1px solid ${C.line}`, display: 'flex', flexDirection: 'column', padding: '10px 12px', background: C.card }}>
           <LibrarySearch q={pickQ} setQ={setPickQ} />
           {!searchingLib && (
-            <div style={{ display: 'flex', gap: 2, overflowX: 'auto', overflowY: 'hidden', whiteSpace: 'nowrap', marginTop: 8 }}>
-              {libApparatuses.map(ap => {
-                const on = ap === activeLibTab;
-                return (
-                  <button key={ap} onClick={() => setLibTab(ap)}
-                    style={{ fontSize: 11.5, fontWeight: 600, padding: '6px 7px', background: 'none', border: 'none', cursor: 'pointer', whiteSpace: 'nowrap', flexShrink: 0, color: on ? C.red : C.muted, borderBottom: on ? `2px solid ${C.red}` : '2px solid transparent', marginBottom: -1 }}>
-                    {ap}
-                  </button>
-                );
-              })}
+            <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', marginTop: 8 }}>
+              <Select
+                values={libFilters.apparatus}
+                onChange={v => setLibFilters(f => ({ ...f, apparatus: v }))}
+                options={libApparatuses}
+                placeholder="Apparatus"
+              />
+              <Select
+                values={libFilters.block}
+                onChange={v => setLibFilters(f => ({ ...f, block: v }))}
+                options={blockOptions}
+                placeholder="Block"
+              />
             </div>
           )}
           <div style={{ flex: 1, overflowY: 'auto', marginTop: 10, paddingRight: 6, display: 'flex', flexDirection: 'column', gap: 6 }}>
