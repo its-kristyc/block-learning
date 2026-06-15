@@ -24,7 +24,7 @@ export function ExerciseCard({ exo, fav, onFav, onOpen, draggable, onDragStart, 
           <span style={{ fontFamily: 'var(--font-display)', fontWeight: 500, fontSize: compact ? 15 : 17, color: C.ink, lineHeight: 1.2 }}>
             {exo.name}
           </span>
-          {!compact && <LevelPill level={exo.level} small />}
+          <LevelPill level={exo.level} small />
         </div>
         <div style={{
           fontSize: 12, color: C.muted, marginTop: 6,
@@ -38,7 +38,6 @@ export function ExerciseCard({ exo, fav, onFav, onOpen, draggable, onDragStart, 
             </>
           )}
           <span>{exo.apparatus}</span>
-          {compact && <><span>·</span><span>{exo.level}</span></>}
         </div>
       </div>
       {onFav && <Heart on={fav} onClick={onFav} />}
