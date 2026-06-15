@@ -4,7 +4,7 @@
 export const WARMUP_SERIES = [
   {
     id: 'wu-foundation',
-    name: 'Foundation',
+    name: 'Mat Foundation',
     apparatus: 'Mat',
     exercises: [
       'Pelvic Curl',
@@ -15,7 +15,7 @@ export const WARMUP_SERIES = [
   },
   {
     id: 'wu-intermediate',
-    name: 'Intermediate',
+    name: 'Mat Intermediate',
     apparatus: 'Mat',
     exercises: [
       'Roll-Up',

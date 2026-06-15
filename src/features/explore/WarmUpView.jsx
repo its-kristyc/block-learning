@@ -3,18 +3,6 @@ import { EXERCISES } from '../../data/index.js';
 import { WARMUP_SERIES } from '../../data/warmupSeries.js';
 import { ExerciseCard } from '../../components/ExerciseCard.jsx';
 
-function ApparatusPill({ apparatus }) {
-  return (
-    <span style={{
-      fontSize: 11, fontWeight: 700, letterSpacing: 0.4,
-      padding: '2px 8px', borderRadius: 99,
-      background: C.lineSoft, color: C.muted,
-    }}>
-      {apparatus}
-    </span>
-  );
-}
-
 function PlaceholderRow({ name }) {
   return (
     <div style={{
@@ -63,7 +51,6 @@ export function WarmUpView({ user, toggleFav, openFrom }) {
               }}>
                 {series.name}
               </span>
-              <ApparatusPill apparatus={series.apparatus} />
               <span style={{ marginLeft: 'auto', fontSize: 12, color: C.muted }}>
                 {series.exercises.length} exercises
               </span>
