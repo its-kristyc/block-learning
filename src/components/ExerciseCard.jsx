@@ -1,6 +1,5 @@
 import { C } from '../styles/tokens.js';
 import { LevelPill } from './LevelPill.jsx';
-import { KindBadge } from './KindBadge.jsx';
 import { Heart } from './Heart.jsx';
 
 export function ExerciseCard({ exo, fav, onFav, onOpen, draggable, onDragStart, compact, indicator }) {
@@ -20,7 +19,8 @@ export function ExerciseCard({ exo, fav, onFav, onOpen, draggable, onDragStart, 
       }}
     >
       <div style={{ flex: 1, minWidth: 0 }}>
-        <div style={{ display: 'flex', alignItems: 'center' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+          <LevelPill level={exo.level} small />
           <span style={{ fontFamily: 'var(--font-display)', fontWeight: 500, fontSize: compact ? 15 : 17, color: C.ink, lineHeight: 1.2 }}>
             {exo.name}
           </span>
@@ -32,13 +32,10 @@ export function ExerciseCard({ exo, fav, onFav, onOpen, draggable, onDragStart, 
           {exo.collection && (
             <>
               <span>{exo.collection.name}</span>
-              <KindBadge kind={exo.collection.kind} />
               <span>·</span>
             </>
           )}
           <span>{exo.apparatus}</span>
-          <span>·</span>
-          <LevelPill level={exo.level} small />
         </div>
       </div>
       {indicator ?? (onFav && <Heart on={fav} onClick={onFav} />)}
