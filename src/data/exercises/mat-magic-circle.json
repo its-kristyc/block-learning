@@ -1,1 +1,353 @@
-[]
+[
+  {
+    "id": "mc-001",
+    "name": "Chest Lift",
+    "block": 3,
+    "apparatus": "Mat (Magic Circle)",
+    "collection": null,
+    "level": "Fundamental",
+    "image": null,
+    "setup": "Lying supine in neutral spine position, knees bent, legs parallel and hip width apart, feet flat on Mat, holding one Magic Circle between knees and another between hands, arms straight and perpendicular",
+    "resistance": null,
+    "exhale": "Lift head and chest, press legs and arms together",
+    "inhale": "Pause; lower head and chest, open legs and arms, return to start position",
+    "muscleFocus": ["Spinal flexors", "Hip adductors", "Shoulder horizontal adductors"],
+    "objectives": ["Spinal flexor strength", "Hip adductor strength", "Shoulder horizontal adductor strength"],
+    "cues": [
+      "Maintain pelvic lumbar stabilization",
+      "Keep head aligned with spine when lifting into spinal flexion",
+      "Maintain tension in both circles, increase tension when lifting"
+    ]
+  },
+  {
+    "id": "mc-002",
+    "name": "Arms Bent",
+    "block": 8,
+    "apparatus": "Mat (Magic Circle)",
+    "collection": {"name": "Arms Series", "kind": "series"},
+    "level": "Fundamental",
+    "image": null,
+    "setup": "Standing, sitting, or kneeling, hands holding Magic Circle in front of chest at shoulder height, arms bent",
+    "resistance": null,
+    "exhale": "Press arms together",
+    "inhale": "Open arms",
+    "muscleFocus": ["Shoulder horizontal adductors", "Scapular stabilizers"],
+    "objectives": ["Shoulder horizontal adductor strength", "Scapular stabilization"],
+    "cues": [
+      "Maintain upright trunk",
+      "Maintain scapular stabilization",
+      "Maintain tension in circle, increase tension when pressing arms together"
+    ]
+  },
+  {
+    "id": "mc-003",
+    "name": "Arms Straight",
+    "block": 8,
+    "apparatus": "Mat (Magic Circle)",
+    "collection": {"name": "Arms Series", "kind": "series"},
+    "level": "Fundamental",
+    "image": null,
+    "setup": "Starting in Arms Bent position, arms straight",
+    "resistance": null,
+    "exhale": "Press arms together",
+    "inhale": "Open arms",
+    "muscleFocus": ["Shoulder horizontal adductors", "Scapular stabilizers", "Elbow extensors"],
+    "objectives": ["Shoulder horizontal adductor strength", "Scapular stabilization", "Elbow extensor control"],
+    "cues": [
+      "Maintain upright trunk",
+      "Maintain scapular stabilization",
+      "Maintain tension in circle, increase tension when pressing arms together",
+      "Keep arms straight"
+    ]
+  },
+  {
+    "id": "mc-004",
+    "name": "Arms Overhead",
+    "block": 8,
+    "apparatus": "Mat (Magic Circle)",
+    "collection": {"name": "Arms Series", "kind": "series"},
+    "level": "Fundamental",
+    "image": null,
+    "setup": "Starting in Arms Bent position, arms straight and overhead",
+    "resistance": null,
+    "exhale": "Press arms together",
+    "inhale": "Open arms",
+    "muscleFocus": ["Shoulder flexors", "Shoulder abductors", "Scapular stabilizers", "Elbow extensors"],
+    "objectives": ["Shoulder flexor strength", "Shoulder abductor strength", "Scapular stabilization", "Elbow extensor control"],
+    "cues": [
+      "Maintain upright trunk",
+      "Maintain scapular stabilization",
+      "Maintain tension in circle",
+      "Lift arms as high as flexibility of shoulders allow",
+      "Keep arms straight"
+    ]
+  },
+  {
+    "id": "mc-005",
+    "name": "Single Arm Side Press",
+    "block": 8,
+    "apparatus": "Mat (Magic Circle)",
+    "collection": {"name": "Arms Series", "kind": "series"},
+    "level": "Fundamental",
+    "image": null,
+    "setup": "Standing or kneeling, holding Magic Circle in one hand, resting it against side of body",
+    "resistance": null,
+    "exhale": "Press arm",
+    "inhale": "Open arm; change arm after 5–10 repetitions",
+    "muscleFocus": ["Shoulder adductors", "Scapular stabilizers"],
+    "objectives": ["Shoulder adductor strength", "Scapular stabilization"],
+    "cues": [
+      "Maintain scapular stabilization",
+      "Keep elbow slightly bent and facing outward",
+      "Maintain tension in circle, increase tension when pressing arm",
+      "Maintain slight internal rotation of shoulder"
+    ]
+  },
+  {
+    "id": "mc-006",
+    "name": "Single Arm Bicep",
+    "block": 8,
+    "apparatus": "Mat (Magic Circle)",
+    "collection": {"name": "Arms Series", "kind": "series"},
+    "level": "Fundamental",
+    "image": null,
+    "setup": "Starting in Single Arm Side Press position, hand holding Magic Circle resting on shoulder",
+    "resistance": null,
+    "exhale": "Press arm down",
+    "inhale": "Lift arm; change arm after 5–10 repetitions",
+    "muscleFocus": ["Elbow flexors", "Scapular stabilizers"],
+    "objectives": ["Elbow flexor strength", "Scapular stabilization"],
+    "cues": [
+      "Press straight down, not at an angle",
+      "Press with palm of hand, not with fingers",
+      "Find comfortable position to rest Magic Circle on shoulder",
+      "Maintain tension in circle, increase tension when bending arm"
+    ]
+  },
+  {
+    "id": "mc-007",
+    "name": "Above Knees",
+    "block": 9,
+    "apparatus": "Mat (Magic Circle)",
+    "collection": {"name": "Sitting Series", "kind": "series"},
+    "level": "Fundamental",
+    "image": null,
+    "setup": "Sitting upright, legs bent, shins parallel, feet placed firmly on floor, Magic Circle above knees, perpendicular to floor",
+    "resistance": null,
+    "exhale": "Press legs together",
+    "inhale": "Open legs",
+    "muscleFocus": ["Hip adductors", "Spinal flexors", "Spinal extensors"],
+    "objectives": ["Hip adductor strength", "Trunk stabilization"],
+    "cues": [
+      "Maintain trunk stabilization",
+      "Maintain tension in circle, increase tension when pressing legs together"
+    ]
+  },
+  {
+    "id": "mc-008",
+    "name": "Below Knees",
+    "block": 9,
+    "apparatus": "Mat (Magic Circle)",
+    "collection": {"name": "Sitting Series", "kind": "series"},
+    "level": "Fundamental",
+    "image": null,
+    "setup": "Sitting upright, legs bent, shins parallel, feet placed firmly on floor, Magic Circle below knees, parallel to floor",
+    "resistance": null,
+    "exhale": "Press legs together",
+    "inhale": "Open legs",
+    "muscleFocus": ["Hip adductors", "Spinal flexors", "Spinal extensors"],
+    "objectives": ["Hip adductor strength", "Trunk stabilization"],
+    "cues": [
+      "Maintain trunk stabilization",
+      "Maintain tension in circle, increase tension when pressing legs together"
+    ]
+  },
+  {
+    "id": "mc-009",
+    "name": "Ankles",
+    "block": 9,
+    "apparatus": "Mat (Magic Circle)",
+    "collection": {"name": "Sitting Series", "kind": "series"},
+    "level": "Fundamental",
+    "image": null,
+    "setup": "Sitting upright, legs bent, shins parallel, feet placed firmly on floor, Magic Circle above ankles, parallel to floor",
+    "resistance": null,
+    "exhale": "Press legs together",
+    "inhale": "Open legs",
+    "muscleFocus": ["Hip adductors", "Spinal flexors", "Spinal extensors"],
+    "objectives": ["Hip adductor strength", "Trunk stabilization"],
+    "cues": [
+      "Maximize engagement of intrinsic muscles of foot",
+      "Maintain trunk stabilization",
+      "Maintain tension in circle, increase tension when pressing together",
+      "Keep shins parallel as legs press together"
+    ]
+  },
+  {
+    "id": "mc-010",
+    "name": "Adductor Squeeze",
+    "block": 9,
+    "apparatus": "Mat (Magic Circle)",
+    "collection": {"name": "Supine Series", "kind": "series"},
+    "level": "Fundamental",
+    "image": null,
+    "setup": "Lying supine in neutral spine position, feet together, knees bent and apart, Magic Circle between knees",
+    "resistance": null,
+    "exhale": "Press legs together",
+    "inhale": "Open legs",
+    "muscleFocus": ["Hip adductors", "Spinal flexors", "Spinal extensors"],
+    "objectives": ["Hip adductor strength", "Pelvic lumbar stabilization"],
+    "cues": [
+      "Maintain neutral pelvis",
+      "Keep shoulders and neck relaxed",
+      "Maintain tension in circle, increase tension when pressing legs together"
+    ]
+  },
+  {
+    "id": "mc-011",
+    "name": "Knees",
+    "block": 9,
+    "apparatus": "Mat (Magic Circle)",
+    "collection": {"name": "Supine Series", "kind": "series"},
+    "level": "Fundamental",
+    "image": null,
+    "setup": "Lying supine, legs in table top position, Magic Circle above knees, parallel to Mat",
+    "resistance": null,
+    "exhale": "Press legs together",
+    "inhale": "Open legs",
+    "muscleFocus": ["Hip adductors", "Spinal flexors", "Hip flexors"],
+    "objectives": ["Hip adductor strength", "Pelvic lumbar stabilization"],
+    "cues": [
+      "Keep shins parallel to each other and to Mat",
+      "Keep thighs perpendicular to Mat (as close as possible)",
+      "Maintain pelvic lumbar stabilization",
+      "Maintain tension in circle, increase tension when pressing legs together"
+    ]
+  },
+  {
+    "id": "mc-012",
+    "name": "Ankles",
+    "block": 9,
+    "apparatus": "Mat (Magic Circle)",
+    "collection": {"name": "Supine Series", "kind": "series"},
+    "level": "Fundamental",
+    "image": null,
+    "setup": "Starting in Knees position, legs straight on diagonal line, Magic Circle above ankles",
+    "resistance": null,
+    "exhale": "Press legs together",
+    "inhale": "Open legs",
+    "muscleFocus": ["Hip adductors", "Spinal flexors", "Hip flexors"],
+    "objectives": ["Hip adductor strength", "Pelvic lumbar stabilization"],
+    "cues": [
+      "Keep legs at consistent height",
+      "Maintain pelvic lumbar stabilization",
+      "Maintain tension in circle, increase tension when pressing legs together"
+    ]
+  },
+  {
+    "id": "mc-013",
+    "name": "Ankles Bent Knees",
+    "block": 9,
+    "apparatus": "Mat (Magic Circle)",
+    "collection": {"name": "Prone Series", "kind": "series"},
+    "level": "Fundamental",
+    "image": null,
+    "setup": "Lying prone, knees bent at 90 degrees, thighs lifted off Mat, feet plantarflexed, Magic Circle above ankles, head resting on back of hands",
+    "resistance": null,
+    "exhale": "Press legs together",
+    "inhale": "Open legs",
+    "muscleFocus": ["Hip adductors", "Hip extensors", "Spinal extensors", "Spinal flexors"],
+    "objectives": ["Hip adductor strength", "Hip extensor strength", "Spinal extensor control", "Pelvic lumbar stabilization"],
+    "cues": [
+      "Reach feet toward ceiling",
+      "Keep hips extended",
+      "Maintain abdominal support to avoid pressure on lower back",
+      "Maintain tension in circle, increase tension when pressing legs together"
+    ]
+  },
+  {
+    "id": "mc-014",
+    "name": "Ankles Straight Knees",
+    "block": 9,
+    "apparatus": "Mat (Magic Circle)",
+    "collection": {"name": "Prone Series", "kind": "series"},
+    "level": "Fundamental",
+    "image": null,
+    "setup": "Starting in Ankles Bent Knees position, legs straight, thighs lifted off Mat, Magic Circle above ankles",
+    "resistance": null,
+    "exhale": "Press legs together",
+    "inhale": "Open legs",
+    "muscleFocus": ["Hip adductors", "Hip extensors", "Spinal extensors", "Spinal flexors"],
+    "objectives": ["Hip adductor strength", "Hip extensor strength", "Pelvic lumbar stabilization"],
+    "cues": [
+      "Keep legs straight",
+      "Keep hips extended",
+      "Maintain abdominal support to avoid pressure on lower back",
+      "Maintain tension in circle, increase tension when pressing legs together"
+    ]
+  },
+  {
+    "id": "mc-015",
+    "name": "Hamstrings",
+    "block": 9,
+    "apparatus": "Mat (Magic Circle)",
+    "collection": {"name": "Prone Series", "kind": "series"},
+    "level": "Fundamental",
+    "image": null,
+    "setup": "Starting in Ankles Bent Knees position, one leg straight, other leg bent with thigh off Mat, Magic Circle below gluteals and under heel",
+    "resistance": null,
+    "exhale": "Bend leg",
+    "inhale": "Straighten leg; change leg after 5–10 repetitions",
+    "muscleFocus": ["Knee flexors", "Hip extensors", "Spinal extensors", "Spinal flexors"],
+    "objectives": ["Knee flexor strength", "Hip extensor strength", "Pelvic lumbar stabilization"],
+    "cues": [
+      "Keep legs together",
+      "Keep bent knee lifted throughout",
+      "Maintain abdominal support to avoid pressure on lower back",
+      "Maintain tension in circle, increase tension when bending leg"
+    ]
+  },
+  {
+    "id": "mc-016",
+    "name": "Swan 1",
+    "block": 12,
+    "apparatus": "Mat (Magic Circle)",
+    "collection": null,
+    "level": "Fundamental",
+    "image": null,
+    "setup": "Lying prone, arms straight overhead, Magic Circle between hands, parallel to Mat",
+    "resistance": null,
+    "exhale": "Lower trunk, return to start position",
+    "inhale": "Lift trunk",
+    "muscleFocus": ["Spinal extensors", "Shoulder flexors", "Spinal flexors"],
+    "objectives": ["Spinal extensor strength", "Shoulder flexor strength", "Spinal flexor control"],
+    "cues": [
+      "Keep legs together (as close as possible)",
+      "Move arms and trunk as one unit",
+      "Keep head between arms",
+      "Keep legs on Mat",
+      "Maintain tension in circle"
+    ]
+  },
+  {
+    "id": "mc-017",
+    "name": "Swan 2",
+    "block": 12,
+    "apparatus": "Mat (Magic Circle)",
+    "collection": null,
+    "level": "Intermediate",
+    "image": null,
+    "setup": "Starting in Swan 1 position, Magic Circle between hands, perpendicular to Mat",
+    "resistance": null,
+    "exhale": "Lower trunk, return to start position",
+    "inhale": "Lift trunk",
+    "muscleFocus": ["Spinal extensors", "Shoulder flexors", "Spinal flexors"],
+    "objectives": ["Spinal extensor strength", "Shoulder flexor strength"],
+    "cues": [
+      "Keep legs together (as close as possible)",
+      "Move arms and trunk as one unit",
+      "Keep legs on Mat",
+      "Maintain tension in circle"
+    ]
+  }
+]
