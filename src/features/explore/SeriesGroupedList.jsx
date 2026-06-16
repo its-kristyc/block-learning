@@ -122,7 +122,7 @@ export function SeriesGroupedList({ list, user, toggleFav, openFrom, groupByBloc
     );
   }
 
-  // All view — block headers, exercises sorted by apparatus within, no apparatus sub-header
+  // All view — block headers with apparatus sub-headers and counts
   const blockNums = [...new Set(sorted.map(e => e.block))]
     .sort((a, b) => blockRank(a) - blockRank(b));
 
@@ -131,6 +131,7 @@ export function SeriesGroupedList({ list, user, toggleFav, openFrom, groupByBloc
       {blockNums.map(n => {
         const { num, name } = blockName(n);
         const blockItems = sorted.filter(e => e.block === n);
+        const apGroups = groupByApparatus(blockItems);
         return (
           <div key={n}>
             <div style={{
@@ -145,10 +146,22 @@ export function SeriesGroupedList({ list, user, toggleFav, openFrom, groupByBloc
                 {name}
               </span>
             </div>
-            <CollectionSegments
-              segments={toCollectionSegments(blockItems)} allIds={allIds}
-              user={user} toggleFav={toggleFav} openFrom={openFrom}
-            />
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
+              {apGroups.map(({ apparatus, items }) => (
+                <div key={apparatus}>
+                  <div style={{
+                    fontSize: 11.5, fontWeight: 700, textTransform: 'uppercase',
+                    letterSpacing: 0.7, color: C.muted, marginBottom: 8,
+                  }}>
+                    {apparatus} <span style={{ fontWeight: 500, letterSpacing: 0 }}>({items.length})</span>
+                  </div>
+                  <CollectionSegments
+                    segments={toCollectionSegments(items)} allIds={allIds}
+                    user={user} toggleFav={toggleFav} openFrom={openFrom}
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         );
       })}
