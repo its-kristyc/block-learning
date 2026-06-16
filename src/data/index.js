@@ -1,10 +1,34 @@
-import rawExercises from './exercises.json';
+import matExercises from './exercises/mat.json';
+import matMagicCircleExercises from './exercises/mat-magic-circle.json';
+import reformerExercises from './exercises/reformer.json';
+import cadillacExercises from './exercises/cadillac.json';
+import poleExercises from './exercises/pole.json';
+import pedAPulExercises from './exercises/ped-a-pul.json';
+import f2ChairExercises from './exercises/f2-chair.json';
+import wundaChairExercises from './exercises/wunda-chair.json';
+import ladderBarrelExercises from './exercises/ladder-barrel.json';
+import spineCorrectorExercises from './exercises/spine-corrector.json';
+import f2SpineCorrectorExercises from './exercises/f2-spine-corrector.json';
+import f2ArmChairExercises from './exercises/f2-arm-chair.json';
 import { APPARATUS_ORDER, LEVELS } from './constants.js';
 
 export { APPARATUS_ORDER, LEVELS };
 export { BLOCKS, apparatusRank, BLOCK_DISPLAY_ORDER } from './constants.js';
 
-export const EXERCISES = rawExercises;
+export const EXERCISES = [
+  ...matExercises,
+  ...matMagicCircleExercises,
+  ...reformerExercises,
+  ...cadillacExercises,
+  ...poleExercises,
+  ...pedAPulExercises,
+  ...f2ChairExercises,
+  ...wundaChairExercises,
+  ...ladderBarrelExercises,
+  ...spineCorrectorExercises,
+  ...f2SpineCorrectorExercises,
+  ...f2ArmChairExercises,
+];
 
 export const byId = Object.fromEntries(EXERCISES.map(e => [e.id, e]));
 
