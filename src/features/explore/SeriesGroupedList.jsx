@@ -107,10 +107,10 @@ export function SeriesGroupedList({ list, user, toggleFav, openFrom, groupByBloc
         {groupByApparatus(sorted).map(({ apparatus, items }) => (
           <div key={apparatus}>
             <div style={{
-              fontSize: 12, fontWeight: 800, textTransform: 'uppercase',
-              letterSpacing: 0.8, color: C.muted, paddingBottom: 8,
+              fontSize: 11.5, fontWeight: 700, textTransform: 'uppercase',
+              letterSpacing: 0.7, color: C.muted, paddingBottom: 8,
             }}>
-              {apparatus}
+              {apparatus} <span style={{ fontWeight: 500, letterSpacing: 0 }}>({items.length})</span>
             </div>
             <CollectionSegments
               segments={toCollectionSegments(items)} allIds={allIds}
