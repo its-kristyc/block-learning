@@ -25,8 +25,7 @@ export function WarmUpView({ user, toggleFav, openFrom }) {
       {WARMUP_SERIES.map(series => {
         const resolved = series.exercises.map(ref => {
           const ex = EXERCISES.find(e => e.id === ref)
-            ?? EXERCISES.find(e => e.name === ref && e.apparatus === series.apparatus)
-            ?? EXERCISES.find(e => e.name === ref);
+            ?? EXERCISES.find(e => e.name === ref && e.apparatus === series.apparatus);
           return { name: ref, ex };
         });
 
