@@ -139,10 +139,10 @@ export function SeriesGroupedList({ list, user, toggleFav, openFrom, groupByBloc
               paddingBottom: 8, borderBottom: `1px solid ${C.line}`,
               marginBottom: 12,
             }}>
-              <span style={{ fontSize: 13, fontWeight: 700, color: C.muted }}>
+              <span style={{ fontSize: 15, fontWeight: 700, color: '#5E5A5A' }}>
                 Block {blockLabel(num)}
               </span>
-              <span style={{ fontSize: 13, fontWeight: 700, color: C.muted }}>
+              <span style={{ fontSize: 15, fontWeight: 700, color: '#5E5A5A' }}>
                 {name}
               </span>
             </div>
