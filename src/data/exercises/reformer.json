@@ -4,160 +4,330 @@
     "name": "Parallel Heels",
     "block": 2,
     "apparatus": "Reformer",
-    "collection": {"name": "Supine Series", "kind": "series"},
+    "collection": {
+      "name": "Supine Series",
+      "kind": "series"
+    },
     "level": "Fundamental",
     "image": null,
     "setup": "Lying supine in neutral spine position, legs parallel, heels placed on footbar, feet hip width apart",
     "resistance": "medium to heavy",
     "exhale": "Straighten legs",
     "inhale": "Bend legs, return to start position",
-    "muscleFocus": ["Hip extensors", "Knee extensors"],
-    "objectives": ["Hip extensor control", "Knee extensor strength", "Ankle and foot control", "Pelvic lumbar stabilization"],
-    "cues": ["Initiate movement with hip extensors", "Keep feet dorsiflexed and stable as if standing on floor", "Straighten legs completely, avoiding hyperextension", "Maintain pelvic lumbar stabilization"]
+    "muscleFocus": [
+      "Hip extensors",
+      "Knee extensors"
+    ],
+    "objectives": [
+      "Hip extensor control",
+      "Knee extensor strength",
+      "Ankle and foot control",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Initiate movement with hip extensors",
+      "Keep feet dorsiflexed and stable as if standing on floor",
+      "Straighten legs completely, avoiding hyperextension",
+      "Maintain pelvic lumbar stabilization"
+    ]
   },
   {
     "id": "ref-002",
     "name": "Parallel Toes",
     "block": 2,
     "apparatus": "Reformer",
-    "collection": {"name": "Supine Series", "kind": "series"},
+    "collection": {
+      "name": "Supine Series",
+      "kind": "series"
+    },
     "level": "Fundamental",
     "image": null,
     "setup": "Lying supine in neutral spine position, legs parallel, toes placed on footbar, feet hip width apart",
     "resistance": "medium to heavy",
     "exhale": "Straighten legs",
     "inhale": "Bend legs, return to start position",
-    "muscleFocus": ["Hip extensors", "Knee extensors"],
-    "objectives": ["Hip extensor control", "Knee extensor strength", "Ankle and foot control", "Pelvic lumbar stabilization"],
-    "cues": ["Initiate movement with hip extensors", "Establish plantarflexion when legs are straight", "Keep heels stable moving around ankle joint", "Straighten legs completely, avoiding hyperextension", "Maintain pelvic lumbar stabilization"]
+    "muscleFocus": [
+      "Hip extensors",
+      "Knee extensors"
+    ],
+    "objectives": [
+      "Hip extensor control",
+      "Knee extensor strength",
+      "Ankle and foot control",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Initiate movement with hip extensors",
+      "Establish plantarflexion when legs are straight",
+      "Keep heels stable moving around ankle joint",
+      "Straighten legs completely, avoiding hyperextension",
+      "Maintain pelvic lumbar stabilization"
+    ]
   },
   {
     "id": "ref-003",
     "name": "V-Position Toes",
     "block": 2,
     "apparatus": "Reformer",
-    "collection": {"name": "Supine Series", "kind": "series"},
+    "collection": {
+      "name": "Supine Series",
+      "kind": "series"
+    },
     "level": "Fundamental",
     "image": null,
     "setup": "Lying supine in neutral spine position, hips externally rotated, toes placed on footbar, heels together, small V position",
     "resistance": "medium to heavy",
     "exhale": "Straighten legs",
     "inhale": "Bend legs, return to start position",
-    "muscleFocus": ["Hip extensors", "Knee extensors"],
-    "objectives": ["Hip extensor control", "Knee extensor strength", "Ankle and foot control", "Pelvic lumbar stabilization"],
-    "cues": ["Initiate movement with hip extensors", "Engage hip adductors", "Establish plantarflexion when legs are straight", "Keep heels squeezing together and stable", "Straighten legs completely, avoiding hyperextension", "Maintain pelvic lumbar stabilization"]
+    "muscleFocus": [
+      "Hip extensors",
+      "Knee extensors"
+    ],
+    "objectives": [
+      "Hip extensor control",
+      "Knee extensor strength",
+      "Ankle and foot control",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Initiate movement with hip extensors",
+      "Engage hip adductors",
+      "Establish plantarflexion when legs are straight",
+      "Keep heels squeezing together and stable",
+      "Straighten legs completely, avoiding hyperextension",
+      "Maintain pelvic lumbar stabilization"
+    ]
   },
   {
     "id": "ref-004",
     "name": "Open V-Position Heels",
     "block": 2,
     "apparatus": "Reformer",
-    "collection": {"name": "Supine Series", "kind": "series"},
+    "collection": {
+      "name": "Supine Series",
+      "kind": "series"
+    },
     "level": "Fundamental",
     "image": null,
     "setup": "Lying supine in neutral spine position, hips externally rotated, heels placed on outside edge of footbar, wide V position",
     "resistance": "medium to heavy",
     "exhale": "Straighten legs",
     "inhale": "Bend legs, return to start position",
-    "muscleFocus": ["Hip extensors", "Knee extensors"],
-    "objectives": ["Hip extensor control", "Knee extensor strength", "Ankle and foot control", "Hip adductor control", "Pelvic lumbar stabilization"],
-    "cues": ["Initiate movement with hip extensors", "Engage hip adductors", "Keep feet dorsiflexed and stable as if standing on the floor", "Straighten legs completely, avoiding hyperextension", "Maintain pelvic lumbar stabilization"]
+    "muscleFocus": [
+      "Hip extensors",
+      "Knee extensors"
+    ],
+    "objectives": [
+      "Hip extensor control",
+      "Knee extensor strength",
+      "Ankle and foot control",
+      "Hip adductor control",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Initiate movement with hip extensors",
+      "Engage hip adductors",
+      "Keep feet dorsiflexed and stable as if standing on the floor",
+      "Straighten legs completely, avoiding hyperextension",
+      "Maintain pelvic lumbar stabilization"
+    ]
   },
   {
     "id": "ref-005",
     "name": "Open V-Position Toes",
     "block": 2,
     "apparatus": "Reformer",
-    "collection": {"name": "Supine Series", "kind": "series"},
+    "collection": {
+      "name": "Supine Series",
+      "kind": "series"
+    },
     "level": "Fundamental",
     "image": null,
     "setup": "Lying supine in neutral spine position, hips externally rotated, toes placed on outside edge of footbar, wide V position",
     "resistance": "medium to heavy",
     "exhale": "Straighten legs",
     "inhale": "Bend legs, return to start position",
-    "muscleFocus": ["Hip extensors", "Knee extensors"],
-    "objectives": ["Hip extensor control", "Knee extensor strength", "Ankle and foot control", "Hip adductor control", "Pelvic lumbar stabilization"],
-    "cues": ["Initiate movement with hip extensors", "Straighten legs completely, avoiding hyperextension", "Engage hip adductors", "Establish plantarflexion when legs are straight", "Keep heels stable moving around ankle joint", "Maintain pelvic lumbar stabilization"]
+    "muscleFocus": [
+      "Hip extensors",
+      "Knee extensors"
+    ],
+    "objectives": [
+      "Hip extensor control",
+      "Knee extensor strength",
+      "Ankle and foot control",
+      "Hip adductor control",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Initiate movement with hip extensors",
+      "Straighten legs completely, avoiding hyperextension",
+      "Engage hip adductors",
+      "Establish plantarflexion when legs are straight",
+      "Keep heels stable moving around ankle joint",
+      "Maintain pelvic lumbar stabilization"
+    ]
   },
   {
     "id": "ref-006",
     "name": "Calf Raises",
     "block": 2,
     "apparatus": "Reformer",
-    "collection": {"name": "Supine Series", "kind": "series"},
+    "collection": {
+      "name": "Supine Series",
+      "kind": "series"
+    },
     "level": "Fundamental",
     "image": null,
     "setup": "Lying supine in neutral spine position, legs straight and parallel, toes placed on footbar, feet hip width apart and plantarflexed",
     "resistance": "medium to heavy",
     "inhale": "Lower heels",
     "exhale": "Lift heels, return to start position",
-    "muscleFocus": ["Ankle-foot plantarflexors", "Ankle-foot dorsiflexors"],
-    "objectives": ["Ankle-foot plantarflexor strength", "Ankle-foot dorsiflexor control", "Pelvic lumbar stabilization"],
-    "cues": ["Lower heels with control", "Use full range of motion of ankle joint", "Maintain straight legs, avoiding hyperextension", "Maintain pelvic lumbar stabilization"]
+    "muscleFocus": [
+      "Ankle-foot plantarflexors",
+      "Ankle-foot dorsiflexors"
+    ],
+    "objectives": [
+      "Ankle-foot plantarflexor strength",
+      "Ankle-foot dorsiflexor control",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Lower heels with control",
+      "Use full range of motion of ankle joint",
+      "Maintain straight legs, avoiding hyperextension",
+      "Maintain pelvic lumbar stabilization"
+    ]
   },
   {
     "id": "ref-007",
     "name": "Prances",
     "block": 2,
     "apparatus": "Reformer",
-    "collection": {"name": "Supine Series", "kind": "series"},
+    "collection": {
+      "name": "Supine Series",
+      "kind": "series"
+    },
     "level": "Fundamental",
     "image": null,
     "setup": "Lying supine in neutral spine position, legs straight and parallel, toes placed on footbar, feet hip width apart and plantarflexed",
     "resistance": "medium to heavy",
     "inhale": "Lower one heel and lift other simultaneously, switch",
     "exhale": "Lower one heel and lift other simultaneously, switch; final exhale: lift both heels, return to start position",
-    "muscleFocus": ["Ankle-foot plantarflexors", "Ankle-foot dorsiflexors"],
-    "objectives": ["Ankle plantarflexor strength", "Ankle-foot dorsiflexor control", "Pelvic lumbar stabilization"],
-    "cues": ["Work both feet equally in full range of motion", "Straighten legs and plantarflex feet completely between each repetition", "Maintain pelvic lumbar stabilization"]
+    "muscleFocus": [
+      "Ankle-foot plantarflexors",
+      "Ankle-foot dorsiflexors"
+    ],
+    "objectives": [
+      "Ankle plantarflexor strength",
+      "Ankle-foot dorsiflexor control",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Work both feet equally in full range of motion",
+      "Straighten legs and plantarflex feet completely between each repetition",
+      "Maintain pelvic lumbar stabilization"
+    ]
   },
   {
     "id": "ref-008",
     "name": "Prehensile",
     "block": 2,
     "apparatus": "Reformer",
-    "collection": {"name": "Supine Series", "kind": "series"},
+    "collection": {
+      "name": "Supine Series",
+      "kind": "series"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Lying supine in neutral spine position, legs parallel, toes and balls of feet wrapped around footbar (Prehensile position), feet hip width apart, heels pressing down",
     "resistance": "medium to heavy",
     "exhale": "Straighten legs",
     "inhale": "Bend legs, return to start position",
-    "muscleFocus": ["Hip extensors", "Knee extensors"],
-    "objectives": ["Hip extensor control", "Knee extensor strength", "Ankle-foot dorsiflexor control", "Foot stretch", "Pelvic lumbar stabilization"],
-    "cues": ["Initiate movement with hip extensors", "Straighten legs completely", "Keep heels pressing down throughout movement", "Maintain wrapped position of toes and balls of feet", "Maintain pelvic lumbar stabilization"]
+    "muscleFocus": [
+      "Hip extensors",
+      "Knee extensors"
+    ],
+    "objectives": [
+      "Hip extensor control",
+      "Knee extensor strength",
+      "Ankle-foot dorsiflexor control",
+      "Foot stretch",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Initiate movement with hip extensors",
+      "Straighten legs completely",
+      "Keep heels pressing down throughout movement",
+      "Maintain wrapped position of toes and balls of feet",
+      "Maintain pelvic lumbar stabilization"
+    ]
   },
   {
     "id": "ref-009",
     "name": "Single Leg Heel",
     "block": 2,
     "apparatus": "Reformer",
-    "collection": {"name": "Supine Series", "kind": "series"},
+    "collection": {
+      "name": "Supine Series",
+      "kind": "series"
+    },
     "level": "Fundamental",
     "image": null,
     "setup": "Lying supine in neutral spine position, feet hip width apart, heel of one foot placed on footbar, other leg bent at 90 degree angle in hip and knee joints (tabletop position)",
     "resistance": "medium to heavy",
     "exhale": "Straighten working leg",
     "inhale": "Bend leg, return to start position",
-    "muscleFocus": ["Hip extensors", "Knee extensors"],
-    "objectives": ["Hip extensor control", "Knee extensor strength", "Ankle and foot control", "Pelvic lumbar stabilization"],
-    "cues": ["Initiate movement with hip extensors", "Straighten leg completely, avoiding hyperextension", "Keep bent leg stable", "Keep foot of working leg dorsiflexed and stable as if standing on floor", "Maintain pelvic lumbar stabilization"]
+    "muscleFocus": [
+      "Hip extensors",
+      "Knee extensors"
+    ],
+    "objectives": [
+      "Hip extensor control",
+      "Knee extensor strength",
+      "Ankle and foot control",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Initiate movement with hip extensors",
+      "Straighten leg completely, avoiding hyperextension",
+      "Keep bent leg stable",
+      "Keep foot of working leg dorsiflexed and stable as if standing on floor",
+      "Maintain pelvic lumbar stabilization"
+    ]
   },
   {
     "id": "ref-010",
     "name": "Single Leg Toes",
     "block": 2,
     "apparatus": "Reformer",
-    "collection": {"name": "Supine Series", "kind": "series"},
+    "collection": {
+      "name": "Supine Series",
+      "kind": "series"
+    },
     "level": "Fundamental",
     "image": null,
     "setup": "Lying supine in neutral spine position, feet hip width apart, toes of one foot placed on footbar, other leg bent at 90 degree angle in hip and knee joints (tabletop position)",
     "resistance": "medium to heavy",
     "exhale": "Straighten working leg",
     "inhale": "Bend leg, return to start position",
-    "muscleFocus": ["Hip extensors", "Knee extensors"],
-    "objectives": ["Hip extensor strength", "Knee extensor strength", "Ankle and foot control", "Pelvic lumbar stabilization"],
-    "cues": ["Initiate movement with hip extensors", "Straighten leg completely, avoiding hyperextension", "Keep bent leg stable", "Establish plantarflexion when leg is straight", "Keep heel stable", "Maintain pelvic lumbar stabilization"]
+    "muscleFocus": [
+      "Hip extensors",
+      "Knee extensors"
+    ],
+    "objectives": [
+      "Hip extensor strength",
+      "Knee extensor strength",
+      "Ankle and foot control",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Initiate movement with hip extensors",
+      "Straighten leg completely, avoiding hyperextension",
+      "Keep bent leg stable",
+      "Establish plantarflexion when leg is straight",
+      "Keep heel stable",
+      "Maintain pelvic lumbar stabilization"
+    ]
   },
   {
     "id": "ref-011",
@@ -171,9 +341,22 @@
     "resistance": "light to medium",
     "exhale": "Lift head and chest, reach arms down to sides of body, parallel to floor",
     "inhale": "Lift arms to 90 degrees in the shoulder joint, lower chest and head, return to start position",
-    "muscleFocus": ["Spinal flexors", "Hip flexors", "Shoulder extensors"],
-    "objectives": ["Spinal flexor strength", "Hip flexor control", "Shoulder extensor control"],
-    "cues": ["Move head together with upper girdle", "Maintain straight arms aligned with shoulders", "Keep eyeline directly forward when in trunk flexion", "Keep tension in straps throughout movement"]
+    "muscleFocus": [
+      "Spinal flexors",
+      "Hip flexors",
+      "Shoulder extensors"
+    ],
+    "objectives": [
+      "Spinal flexor strength",
+      "Hip flexor control",
+      "Shoulder extensor control"
+    ],
+    "cues": [
+      "Move head together with upper girdle",
+      "Maintain straight arms aligned with shoulders",
+      "Keep eyeline directly forward when in trunk flexion",
+      "Keep tension in straps throughout movement"
+    ]
   },
   {
     "id": "ref-012",
@@ -187,9 +370,21 @@
     "resistance": "light to medium",
     "exhale": "Lift head and chest, reach arms down to sides of body, parallel to floor, straighten legs forward; pump arms up and down for 5 counts",
     "inhale": "Pump arms up and down for 5 counts; final: return to start position",
-    "muscleFocus": ["Spinal flexors", "Hip flexors"],
-    "objectives": ["Spinal flexor strength", "Hip flexor control", "Shoulder extensor/flexor control", "Pelvic lumbar stabilization"],
-    "cues": ["Keep pumps of arms small", "Keep legs stable at safe height", "Maintain pelvic lumbar stabilization"]
+    "muscleFocus": [
+      "Spinal flexors",
+      "Hip flexors"
+    ],
+    "objectives": [
+      "Spinal flexor strength",
+      "Hip flexor control",
+      "Shoulder extensor/flexor control",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Keep pumps of arms small",
+      "Keep legs stable at safe height",
+      "Maintain pelvic lumbar stabilization"
+    ]
   },
   {
     "id": "ref-013",
@@ -203,201 +398,406 @@
     "resistance": "light to medium",
     "exhale": "Lift head and chest, reach arms down to sides of body, parallel to floor, straighten legs forward, open legs, close legs",
     "inhale": "Bend legs toward chest, lift arms to 90 degrees in the shoulder joint, lower chest and head, return to start position",
-    "muscleFocus": ["Spinal flexors", "Hip flexors", "Shoulder extensors"],
-    "objectives": ["Spinal flexor strength", "Hip flexor control", "Pelvic lumbar stabilization", "Shoulder extensor control"],
-    "cues": ["Keep feet opposite eye line when in trunk flexion", "Bend knees toward chest before lifting arms and lowering trunk", "Open legs no wider than footbar"]
+    "muscleFocus": [
+      "Spinal flexors",
+      "Hip flexors",
+      "Shoulder extensors"
+    ],
+    "objectives": [
+      "Spinal flexor strength",
+      "Hip flexor control",
+      "Pelvic lumbar stabilization",
+      "Shoulder extensor control"
+    ],
+    "cues": [
+      "Keep feet opposite eye line when in trunk flexion",
+      "Bend knees toward chest before lifting arms and lowering trunk",
+      "Open legs no wider than footbar"
+    ]
   },
   {
     "id": "ref-014",
     "name": "Round Back",
     "block": 3,
     "apparatus": "Reformer",
-    "collection": {"name": "Short Box Series", "kind": "series"},
+    "collection": {
+      "name": "Short Box Series",
+      "kind": "series"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Sitting upright at front of Short Box, knees bent, feet under foot strap, hip width apart, arms crossed and resting on chest",
     "resistance": "all springs attached to hold carriage in place",
     "exhale": "Round trunk into C curve, shoulders above hip joints, lift arms parallel to floor, lower trunk back; lift trunk to sitting C curve",
     "inhale": "Pause; straighten back and lower arms, return to start position",
-    "muscleFocus": ["Spinal flexors", "Spinal extensors", "Hip flexors"],
-    "objectives": ["Spinal flexor control", "Spinal extensor control", "Hip flexor control", "Trunk stabilization"],
-    "cues": ["Initiate with trunk flexion prior to lowering trunk back", "Maintain C curve position during lowering and lifting phases", "In final phase extend trunk when shoulders are above hip joints"]
+    "muscleFocus": [
+      "Spinal flexors",
+      "Spinal extensors",
+      "Hip flexors"
+    ],
+    "objectives": [
+      "Spinal flexor control",
+      "Spinal extensor control",
+      "Hip flexor control",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Initiate with trunk flexion prior to lowering trunk back",
+      "Maintain C curve position during lowering and lifting phases",
+      "In final phase extend trunk when shoulders are above hip joints"
+    ]
   },
   {
     "id": "ref-015",
     "name": "Flat Back",
     "block": 3,
     "apparatus": "Reformer",
-    "collection": {"name": "Short Box Series", "kind": "series"},
+    "collection": {
+      "name": "Short Box Series",
+      "kind": "series"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Starting in Round Back position, extend spine, hands lightly interlaced behind head",
     "resistance": "all springs attached to hold carriage in place",
     "inhale": "Hinge trunk back",
     "exhale": "Hinge trunk forward, return to start position",
-    "muscleFocus": ["Spinal flexors", "Spinal extensors", "Hip flexors"],
-    "objectives": ["Spinal flexor strength", "Spinal extensor control", "Hip flexor strength", "Trunk stabilization"],
-    "cues": ["Avoid thrusting ribs forward", "Keep head aligned with spine", "Touch fingers loosely behind head", "Maintain co-contraction of abdominals and back extensors", "Move around hip joints"]
+    "muscleFocus": [
+      "Spinal flexors",
+      "Spinal extensors",
+      "Hip flexors"
+    ],
+    "objectives": [
+      "Spinal flexor strength",
+      "Spinal extensor control",
+      "Hip flexor strength",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Avoid thrusting ribs forward",
+      "Keep head aligned with spine",
+      "Touch fingers loosely behind head",
+      "Maintain co-contraction of abdominals and back extensors",
+      "Move around hip joints"
+    ]
   },
   {
     "id": "ref-016",
     "name": "Tilt",
     "block": 3,
     "apparatus": "Reformer",
-    "collection": {"name": "Short Box Series", "kind": "series"},
+    "collection": {
+      "name": "Short Box Series",
+      "kind": "series"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Starting in Flat Back position",
     "resistance": "all springs attached to hold carriage in place",
     "inhale": "Arc trunk to one side",
     "exhale": "Lift back to center, return to start position; arc trunk to opposite side",
-    "muscleFocus": ["Spinal lateral flexors", "Spinal flexors", "Spinal extensors"],
-    "objectives": ["Spinal lateral flexor control and stretch", "Spinal flexor control", "Spinal extensor control"],
-    "cues": ["Maintain co-contraction of abdominals and back extensors", "Keep both sit bones in contact with box as trunk arcs over", "Keep elbows wide and head aligned with spine", "Touch fingers loosely behind head", "Keep pelvis stable"]
+    "muscleFocus": [
+      "Spinal lateral flexors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Spinal lateral flexor control and stretch",
+      "Spinal flexor control",
+      "Spinal extensor control"
+    ],
+    "cues": [
+      "Maintain co-contraction of abdominals and back extensors",
+      "Keep both sit bones in contact with box as trunk arcs over",
+      "Keep elbows wide and head aligned with spine",
+      "Touch fingers loosely behind head",
+      "Keep pelvis stable"
+    ]
   },
   {
     "id": "ref-017",
     "name": "Twist",
     "block": 3,
     "apparatus": "Reformer",
-    "collection": {"name": "Short Box Series", "kind": "series"},
+    "collection": {
+      "name": "Short Box Series",
+      "kind": "series"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Starting in Flat Back position",
     "resistance": "all springs attached to hold carriage in place",
     "inhale": "Rotate trunk, lower trunk diagonally back",
     "exhale": "Lift trunk to center, rotate to front, return to start position; rotate trunk to opposite side",
-    "muscleFocus": ["Spinal rotators", "Spinal flexors", "Spinal extensors", "Hip flexors"],
-    "objectives": ["Spinal rotator strength", "Trunk stabilization", "Hip flexor strength"],
-    "cues": ["Maintain co-contraction of abdominals and back extensors", "Keep both sit bones in contact with box", "Rotate on longitudinal axis prior to hinging diagonally back", "Return to longitudinal axis prior to facing front"]
+    "muscleFocus": [
+      "Spinal rotators",
+      "Spinal flexors",
+      "Spinal extensors",
+      "Hip flexors"
+    ],
+    "objectives": [
+      "Spinal rotator strength",
+      "Trunk stabilization",
+      "Hip flexor strength"
+    ],
+    "cues": [
+      "Maintain co-contraction of abdominals and back extensors",
+      "Keep both sit bones in contact with box",
+      "Rotate on longitudinal axis prior to hinging diagonally back",
+      "Return to longitudinal axis prior to facing front"
+    ]
   },
   {
     "id": "ref-018",
     "name": "Roundabout",
     "block": 3,
     "apparatus": "Reformer",
-    "collection": {"name": "Short Box Series", "kind": "series"},
+    "collection": {
+      "name": "Short Box Series",
+      "kind": "series"
+    },
     "level": "Advanced",
     "image": null,
     "setup": "Starting in Flat Back position",
     "resistance": "all springs attached to hold carriage in place",
     "inhale": "Rotate trunk, lower trunk diagonally back",
     "exhale": "Rotate to opposite side, lift trunk to center, rotate to front, return to start position",
-    "muscleFocus": ["Spinal rotators", "Spinal flexors", "Spinal extensors", "Hip flexors"],
-    "objectives": ["Spinal rotator strength", "Trunk stabilization", "Hip flexor strength"],
-    "cues": ["Maintain co-contraction of abdominals and back extensors", "Keep both sit bones in contact with box", "Rotate on longitudinal axis prior to hinging diagonally back", "Return to longitudinal axis prior to facing front"]
+    "muscleFocus": [
+      "Spinal rotators",
+      "Spinal flexors",
+      "Spinal extensors",
+      "Hip flexors"
+    ],
+    "objectives": [
+      "Spinal rotator strength",
+      "Trunk stabilization",
+      "Hip flexor strength"
+    ],
+    "cues": [
+      "Maintain co-contraction of abdominals and back extensors",
+      "Keep both sit bones in contact with box",
+      "Rotate on longitudinal axis prior to hinging diagonally back",
+      "Return to longitudinal axis prior to facing front"
+    ]
   },
   {
     "id": "ref-019",
     "name": "Climb-a-Tree",
     "block": 3,
     "apparatus": "Reformer",
-    "collection": {"name": "Short Box Series", "kind": "series"},
+    "collection": {
+      "name": "Short Box Series",
+      "kind": "series"
+    },
     "level": "Advanced",
     "image": null,
     "setup": "Sitting upright at front of Long Box, one foot under foot strap, other leg bent with thigh to chest, holding leg below knee, hands on shin",
     "resistance": "all springs attached to hold carriage in place",
     "exhale": "Pump knee to chest 3 times; round back, walk hands down leg 3 times beginning with outside hand, lifting leg to perpendicular to floor; walk hands up leg 3 times beginning with inside hand",
     "inhale": "Straighten leg holding above ankle; arch back over box, circle arms overhead and around, lift head and chest, hold onto leg; straighten spine, bend leg, return to start position",
-    "muscleFocus": ["Spinal flexors", "Spinal extensors"],
-    "objectives": ["Spinal flexor control", "Spinal extensor control", "Hamstring stretch"],
-    "cues": ["Keep leg perpendicular to floor as arms circle around", "Maintain pelvic lumbar stabilization as arms circle around"]
+    "muscleFocus": [
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Spinal flexor control",
+      "Spinal extensor control",
+      "Hamstring stretch"
+    ],
+    "cues": [
+      "Keep leg perpendicular to floor as arms circle around",
+      "Maintain pelvic lumbar stabilization as arms circle around"
+    ]
   },
   {
     "id": "ref-020",
     "name": "Frog",
     "block": 4,
     "apparatus": "Reformer",
-    "collection": {"name": "Hip Supine Series", "kind": "series"},
+    "collection": {
+      "name": "Hip Supine Series",
+      "kind": "series"
+    },
     "level": "Fundamental",
     "image": null,
     "setup": "Lying supine in neutral spine position, hips externally rotated, feet in straps, dorsiflexed, heels together, hips and knees at 90 degrees",
     "resistance": "light to medium",
     "exhale": "Straighten legs",
     "inhale": "Bend legs, return to start position",
-    "muscleFocus": ["Hip adductors", "Hip extensors", "Knee extensors"],
-    "objectives": ["Hip adductor control", "Hip extensor control", "Knee extensor control", "Pelvic lumbar stabilization"],
-    "cues": ["Keep squeezing heels together", "Avoid bending knees beyond 90 degrees", "Keep heels traveling along horizontal line", "Maintain pelvic lumbar stabilization"]
+    "muscleFocus": [
+      "Hip adductors",
+      "Hip extensors",
+      "Knee extensors"
+    ],
+    "objectives": [
+      "Hip adductor control",
+      "Hip extensor control",
+      "Knee extensor control",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Keep squeezing heels together",
+      "Avoid bending knees beyond 90 degrees",
+      "Keep heels traveling along horizontal line",
+      "Maintain pelvic lumbar stabilization"
+    ]
   },
   {
     "id": "ref-021",
     "name": "Circles Down",
     "block": 4,
     "apparatus": "Reformer",
-    "collection": {"name": "Hip Supine Series", "kind": "series"},
+    "collection": {
+      "name": "Hip Supine Series",
+      "kind": "series"
+    },
     "level": "Fundamental",
     "image": null,
     "setup": "Lying supine in neutral spine position, legs straight, perpendicular to floor, hips externally rotated, feet in straps, plantarflexed",
     "resistance": "light to medium",
     "exhale": "Lower legs",
     "inhale": "Open legs and circle around, lift legs, return to start position",
-    "muscleFocus": ["Hip adductors", "Hip extensors"],
-    "objectives": ["Hip adductor strength", "Hip extensor control", "Pelvic lumbar stabilization"],
-    "cues": ["Focus on hip disassociation", "Maintain pelvic lumbar stabilization", "Draw straight line down center, squeezing heels together", "Draw two semi-circles back to back as legs circle around", "Maintain consistent flow of movement"]
+    "muscleFocus": [
+      "Hip adductors",
+      "Hip extensors"
+    ],
+    "objectives": [
+      "Hip adductor strength",
+      "Hip extensor control",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Focus on hip disassociation",
+      "Maintain pelvic lumbar stabilization",
+      "Draw straight line down center, squeezing heels together",
+      "Draw two semi-circles back to back as legs circle around",
+      "Maintain consistent flow of movement"
+    ]
   },
   {
     "id": "ref-022",
     "name": "Circles Up",
     "block": 4,
     "apparatus": "Reformer",
-    "collection": {"name": "Hip Supine Series", "kind": "series"},
+    "collection": {
+      "name": "Hip Supine Series",
+      "kind": "series"
+    },
     "level": "Fundamental",
     "image": null,
     "setup": "Lying supine in neutral spine position, legs straight, perpendicular to floor, hips externally rotated, feet in straps, plantarflexed",
     "resistance": "light to medium",
     "exhale": "Open legs out to sides, circle legs around and together",
     "inhale": "Lift legs, return to start position",
-    "muscleFocus": ["Hip adductors", "Hip extensors"],
-    "objectives": ["Hip adductor strength", "Hip extensor control", "Pelvic lumbar stabilization"],
-    "cues": ["Focus on hip disassociation", "Maintain pelvic lumbar stabilization", "Draw straight line up center, squeezing heels together", "Draw two semi-circles back to back as legs circle around", "Maintain consistent flow of movement"]
+    "muscleFocus": [
+      "Hip adductors",
+      "Hip extensors"
+    ],
+    "objectives": [
+      "Hip adductor strength",
+      "Hip extensor control",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Focus on hip disassociation",
+      "Maintain pelvic lumbar stabilization",
+      "Draw straight line up center, squeezing heels together",
+      "Draw two semi-circles back to back as legs circle around",
+      "Maintain consistent flow of movement"
+    ]
   },
   {
     "id": "ref-023",
     "name": "Openings",
     "block": 4,
     "apparatus": "Reformer",
-    "collection": {"name": "Hip Supine Series", "kind": "series"},
+    "collection": {
+      "name": "Hip Supine Series",
+      "kind": "series"
+    },
     "level": "Fundamental",
     "image": null,
     "setup": "Lying supine in neutral spine position, legs straight on diagonal line (45 to 60 degrees), hips externally rotated, feet in straps, plantarflexed",
     "resistance": "light to medium",
     "inhale": "Open legs",
     "exhale": "Close legs, return to start position",
-    "muscleFocus": ["Hip adductors", "Spinal flexors", "Spinal extensors"],
-    "objectives": ["Hip adductor strength", "Hip adductor stretch", "Pelvic lumbar stabilization"],
-    "cues": ["Maintain pelvic lumbar stabilization", "Keep feet moving at consistent height from floor as legs open and close", "Move within the limits of pelvic lumbar control"]
+    "muscleFocus": [
+      "Hip adductors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Hip adductor strength",
+      "Hip adductor stretch",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Maintain pelvic lumbar stabilization",
+      "Keep feet moving at consistent height from floor as legs open and close",
+      "Move within the limits of pelvic lumbar control"
+    ]
   },
   {
     "id": "ref-024",
     "name": "Frog Extended",
     "block": 4,
     "apparatus": "Reformer",
-    "collection": {"name": "Hip Supine Series", "kind": "series"},
+    "collection": {
+      "name": "Hip Supine Series",
+      "kind": "series"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Lying supine in neutral spine position, hips externally rotated, feet in straps, dorsiflexed, heels together, hips and knees at 80 degrees",
     "resistance": "light to medium",
     "exhale": "Straighten legs; bend legs, bring heels together, return to start position",
     "inhale": "Open legs; pause",
-    "muscleFocus": ["Hip adductors", "Spinal flexors", "Spinal extensors"],
-    "objectives": ["Hip adductor strength", "Hip adductor stretch", "Pelvic lumbar stabilization"],
-    "cues": ["Keep heels squeezing together as legs straighten", "Keep carriage still as legs bend in from open position", "Maintain pelvic lumbar stabilization"]
+    "muscleFocus": [
+      "Hip adductors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Hip adductor strength",
+      "Hip adductor stretch",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Keep heels squeezing together as legs straighten",
+      "Keep carriage still as legs bend in from open position",
+      "Maintain pelvic lumbar stabilization"
+    ]
   },
   {
     "id": "ref-025",
     "name": "Frog Extended Reverse",
     "block": 4,
     "apparatus": "Reformer",
-    "collection": {"name": "Hip Supine Series", "kind": "series"},
+    "collection": {
+      "name": "Hip Supine Series",
+      "kind": "series"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Starting in Frog Extended position",
     "resistance": "light to medium",
     "exhale": "Straighten legs out to sides; close legs",
     "inhale": "Pause; bend legs, return to start position",
-    "muscleFocus": ["Hip adductors", "Spinal flexors", "Spinal extensors"],
-    "objectives": ["Hip adductor strength", "Hip adductor stretch", "Pelvic lumbar stabilization"],
-    "cues": ["Keep heels squeezing together as legs bend", "Keep carriage still as legs open out to sides", "Maintain pelvic lumbar stabilization"]
+    "muscleFocus": [
+      "Hip adductors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Hip adductor strength",
+      "Hip adductor stretch",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Keep heels squeezing together as legs bend",
+      "Keep carriage still as legs open out to sides",
+      "Maintain pelvic lumbar stabilization"
+    ]
   },
   {
     "id": "ref-026",
@@ -411,9 +811,20 @@
     "resistance": "medium",
     "exhale": "Roll spine up; roll spine down",
     "inhale": "Pause; pause",
-    "muscleFocus": ["Spinal flexors", "Hip extensors"],
-    "objectives": ["Spinal articulation", "Hip extensor control"],
-    "cues": ["Feet position is same as Parallel Toes in Footwork", "Keep heels still, adductors engaged and legs parallel", "Minimize movement of carriage when rolling spine up and down", "Articulate through each vertebra as spine rolls up and down"]
+    "muscleFocus": [
+      "Spinal flexors",
+      "Hip extensors"
+    ],
+    "objectives": [
+      "Spinal articulation",
+      "Hip extensor control"
+    ],
+    "cues": [
+      "Feet position is same as Parallel Toes in Footwork",
+      "Keep heels still, adductors engaged and legs parallel",
+      "Minimize movement of carriage when rolling spine up and down",
+      "Articulate through each vertebra as spine rolls up and down"
+    ]
   },
   {
     "id": "ref-027",
@@ -427,9 +838,22 @@
     "resistance": "medium",
     "exhale": "Roll spine up; straighten legs (not completely); roll spine down, return to start position",
     "inhale": "Pause; bend legs",
-    "muscleFocus": ["Spinal flexors", "Hip extensors", "Knee extensors"],
-    "objectives": ["Spinal articulation", "Hip extensor control", "Knee extensor control"],
-    "cues": ["Feet position is same as Parallel Toes in Footwork", "Keep heels still, adductors engaged and legs parallel", "Do not straighten knees completely", "Keep pelvis lifted during extensions"]
+    "muscleFocus": [
+      "Spinal flexors",
+      "Hip extensors",
+      "Knee extensors"
+    ],
+    "objectives": [
+      "Spinal articulation",
+      "Hip extensor control",
+      "Knee extensor control"
+    ],
+    "cues": [
+      "Feet position is same as Parallel Toes in Footwork",
+      "Keep heels still, adductors engaged and legs parallel",
+      "Do not straighten knees completely",
+      "Keep pelvis lifted during extensions"
+    ]
   },
   {
     "id": "ref-028",
@@ -443,9 +867,21 @@
     "resistance": "light to medium",
     "exhale": "Straighten legs, plantarflex feet; roll up onto shoulders; articulate spine down, keep feet over eyes",
     "inhale": "Bring legs overhead keeping pelvis stable; bend knees to Frog position; dorsiflex feet, roll sacrum down to mat, move legs forward, return to start position",
-    "muscleFocus": ["Spinal flexors", "Spinal extensors", "Hip extensors"],
-    "objectives": ["Spinal articulation", "Spinal extensor control", "Hip extensor stretch"],
-    "cues": ["Bring carriage all the way to stopper before rolling up", "Keep tension in straps when rolling up onto shoulders", "Keep thighs parallel to floor and back extensors engaged when in overhead Frog position"]
+    "muscleFocus": [
+      "Spinal flexors",
+      "Spinal extensors",
+      "Hip extensors"
+    ],
+    "objectives": [
+      "Spinal articulation",
+      "Spinal extensor control",
+      "Hip extensor stretch"
+    ],
+    "cues": [
+      "Bring carriage all the way to stopper before rolling up",
+      "Keep tension in straps when rolling up onto shoulders",
+      "Keep thighs parallel to floor and back extensors engaged when in overhead Frog position"
+    ]
   },
   {
     "id": "ref-029",
@@ -459,521 +895,1080 @@
     "resistance": "light to medium",
     "inhale": "Lift legs perpendicular to floor; open legs shoulder width apart",
     "exhale": "Roll up onto shoulder girdle; roll down to sacrum, lower and close legs, return to start position",
-    "muscleFocus": ["Spinal flexors", "Hip extensors", "Spinal extensors"],
-    "objectives": ["Spinal articulation", "Hip extensor control"],
-    "cues": ["Use hamstrings concentrically rolling up, eccentrically rolling down", "Anchor pelvis prior to roll up and following roll down", "Keep carriage still during roll up and roll down"]
+    "muscleFocus": [
+      "Spinal flexors",
+      "Hip extensors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Spinal articulation",
+      "Hip extensor control"
+    ],
+    "cues": [
+      "Use hamstrings concentrically rolling up, eccentrically rolling down",
+      "Anchor pelvis prior to roll up and following roll down",
+      "Keep carriage still during roll up and roll down"
+    ]
   },
   {
     "id": "ref-030",
     "name": "Lunge Standing",
     "block": 6,
     "apparatus": "Reformer",
-    "collection": {"name": "Hamstring Stretch Group", "kind": "series"},
+    "collection": {
+      "name": "Hamstring Stretch Group",
+      "kind": "group"
+    },
     "level": "Fundamental",
     "image": null,
     "setup": "Standing, front leg bent in line with footbar, knee over ankle, knee of other leg placed on carriage, foot against shoulder rest, arms straight, hands placed on footbar, inside hand in line with shoulder",
     "resistance": "light",
     "inhale": "Stretch hip flexors of leg on carriage (3-5 breaths); bend front leg, return to start position",
     "exhale": "Dorsiflex foot on floor, straighten leg and lower trunk forward (3-5 breaths)",
-    "muscleFocus": ["Hip flexors", "Hip extensors"],
-    "objectives": ["Hip flexor stretch", "Hip extensor stretch"],
-    "cues": ["Bias toward posterior tilt of pelvis during hip flexor stretch", "Bias toward anterior tilt of pelvis during hamstring stretch", "Move pelvis along horizontal line when straightening and bending front leg"]
+    "muscleFocus": [
+      "Hip flexors",
+      "Hip extensors"
+    ],
+    "objectives": [
+      "Hip flexor stretch",
+      "Hip extensor stretch"
+    ],
+    "cues": [
+      "Bias toward posterior tilt of pelvis during hip flexor stretch",
+      "Bias toward anterior tilt of pelvis during hamstring stretch",
+      "Move pelvis along horizontal line when straightening and bending front leg"
+    ]
   },
   {
     "id": "ref-031",
     "name": "Lunge Kneeling",
     "block": 6,
     "apparatus": "Reformer",
-    "collection": {"name": "Hamstring Stretch Group", "kind": "series"},
+    "collection": {
+      "name": "Hamstring Stretch Group",
+      "kind": "group"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Kneeling on carriage, one foot on footbar, knee over ankle, other foot against shoulder rest, knee on carriage, arms straight, hands placed on footbar, shoulder width apart",
     "resistance": "light",
     "inhale": "Stretch hip flexors of leg on carriage (3-5 breaths); bend leg, return to start position",
     "exhale": "Straighten front leg, lower trunk forward (3-5 breaths)",
-    "muscleFocus": ["Hip flexors", "Hip extensors"],
-    "objectives": ["Hip flexor stretch", "Hip extensor stretch"],
-    "cues": ["Bias toward posterior tilt of pelvis during hip flexor stretch", "Bias toward anterior tilt of pelvis during hamstring stretch", "Move pelvis along horizontal line when straightening and bending front leg", "Maintain spinal extensor engagement during hamstring stretch"]
+    "muscleFocus": [
+      "Hip flexors",
+      "Hip extensors"
+    ],
+    "objectives": [
+      "Hip flexor stretch",
+      "Hip extensor stretch"
+    ],
+    "cues": [
+      "Bias toward posterior tilt of pelvis during hip flexor stretch",
+      "Bias toward anterior tilt of pelvis during hamstring stretch",
+      "Move pelvis along horizontal line when straightening and bending front leg",
+      "Maintain spinal extensor engagement during hamstring stretch"
+    ]
   },
   {
     "id": "ref-032",
     "name": "Lunge Forward",
     "block": 6,
     "apparatus": "Reformer",
-    "collection": {"name": "Hamstring Stretch Group", "kind": "series"},
+    "collection": {
+      "name": "Hamstring Stretch Group",
+      "kind": "group"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Standing on carriage, place one foot against shoulder rest, kneel on carriage, place front foot on footbar, straighten back leg lifting knee off the carriage and pressing heel into shoulder rest, keep front knee over ankle",
     "resistance": "light",
     "inhale": "Stretch hip flexors of back leg (3-5 breaths); bend front leg, return to start position",
     "exhale": "Straighten front leg, lower trunk forward (3-5 breaths)",
-    "muscleFocus": ["Hip flexors", "Hip extensors"],
-    "objectives": ["Hip flexor stretch", "Hip extensor stretch"],
-    "cues": ["Bias toward posterior tilt of pelvis during hip flexor stretch", "Bias toward anterior tilt of pelvis during hamstring stretch", "Move pelvis along horizontal line when straightening and bending front leg", "Maintain spinal extensor engagement during hamstring stretch"]
+    "muscleFocus": [
+      "Hip flexors",
+      "Hip extensors"
+    ],
+    "objectives": [
+      "Hip flexor stretch",
+      "Hip extensor stretch"
+    ],
+    "cues": [
+      "Bias toward posterior tilt of pelvis during hip flexor stretch",
+      "Bias toward anterior tilt of pelvis during hamstring stretch",
+      "Move pelvis along horizontal line when straightening and bending front leg",
+      "Maintain spinal extensor engagement during hamstring stretch"
+    ]
   },
   {
     "id": "ref-033",
     "name": "Scooter Round Back",
     "block": 7,
     "apparatus": "Reformer",
-    "collection": {"name": "Knee Stretch Group", "kind": "series"},
+    "collection": {
+      "name": "Knee Stretch Group",
+      "kind": "group"
+    },
     "level": "Fundamental",
     "image": null,
     "setup": "Standing, one foot on floor, leg bent, other foot against shoulder rest, leg bent, heel of foot on floor lined up with other foot, arms straight, hands placed on footbar, inside hand in line with shoulder, trunk in C curve position",
     "resistance": "light to medium",
     "inhale": "Straighten leg against shoulder rest (not completely)",
     "exhale": "Bend leg, return to start position",
-    "muscleFocus": ["Spinal flexors", "Spinal extensors"],
-    "objectives": ["Pelvic lumbar stabilization", "Scapular stabilization", "Knee extensor control", "Hip extensor control"],
-    "cues": ["Maintain C curve position", "Focus on hip disassociation", "Keep standing leg bent and stable", "Keep pelvis at consistent height"]
+    "muscleFocus": [
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Pelvic lumbar stabilization",
+      "Scapular stabilization",
+      "Knee extensor control",
+      "Hip extensor control"
+    ],
+    "cues": [
+      "Maintain C curve position",
+      "Focus on hip disassociation",
+      "Keep standing leg bent and stable",
+      "Keep pelvis at consistent height"
+    ]
   },
   {
     "id": "ref-034",
     "name": "Scooter Flat Back",
     "block": 7,
     "apparatus": "Reformer",
-    "collection": {"name": "Knee Stretch Group", "kind": "series"},
+    "collection": {
+      "name": "Knee Stretch Group",
+      "kind": "group"
+    },
     "level": "Fundamental",
     "image": null,
     "setup": "Standing, one foot on floor, leg bent, other foot against shoulder rest, leg bent, heel of foot on floor lined up with other foot, arms straight, hands placed on footbar, inside hand in line with shoulder, trunk in neutral spine position",
     "resistance": "light to medium",
     "inhale": "Straighten leg against shoulder rest (not completely)",
     "exhale": "Bend leg, return to start position",
-    "muscleFocus": ["Spinal flexors", "Spinal extensors"],
-    "objectives": ["Pelvic lumbar stabilization", "Scapular stabilization", "Knee extensor control", "Hip extensor control"],
-    "cues": ["Maintain neutral spine position", "Focus on hip disassociation", "Keep standing leg bent and stable", "Keep pelvis at consistent height"]
+    "muscleFocus": [
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Pelvic lumbar stabilization",
+      "Scapular stabilization",
+      "Knee extensor control",
+      "Hip extensor control"
+    ],
+    "cues": [
+      "Maintain neutral spine position",
+      "Focus on hip disassociation",
+      "Keep standing leg bent and stable",
+      "Keep pelvis at consistent height"
+    ]
   },
   {
     "id": "ref-035",
     "name": "Knee Stretch Round Back",
     "block": 7,
     "apparatus": "Reformer",
-    "collection": {"name": "Knee Stretch Group", "kind": "series"},
+    "collection": {
+      "name": "Knee Stretch Group",
+      "kind": "group"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Kneeling on carriage with sit bones toward heels, feet against shoulder rests, arms straight, shoulder width apart, hands placed on footbar, round trunk into C curve position",
     "resistance": "light to medium",
     "inhale": "Move legs back",
     "exhale": "Move legs forward, return to start position",
-    "muscleFocus": ["Spinal flexors", "Spinal extensors"],
-    "objectives": ["Pelvic lumbar stabilization", "Scapular stabilization", "Knee extensor control", "Hip extensor control"],
-    "cues": ["Emphasize 'in' phase of movement", "Focus on hip disassociation", "Maintain pelvic lumbar stabilization", "Maintain C curve position", "Maintain scapular stabilization"]
+    "muscleFocus": [
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Pelvic lumbar stabilization",
+      "Scapular stabilization",
+      "Knee extensor control",
+      "Hip extensor control"
+    ],
+    "cues": [
+      "Emphasize 'in' phase of movement",
+      "Focus on hip disassociation",
+      "Maintain pelvic lumbar stabilization",
+      "Maintain C curve position",
+      "Maintain scapular stabilization"
+    ]
   },
   {
     "id": "ref-036",
     "name": "Knee Stretch Flat Back",
     "block": 7,
     "apparatus": "Reformer",
-    "collection": {"name": "Knee Stretch Group", "kind": "series"},
+    "collection": {
+      "name": "Knee Stretch Group",
+      "kind": "group"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Kneeling on carriage with sit bones toward heels, feet against shoulder rests, arms straight, shoulder width apart, hands placed on footbar, trunk in neutral spine position",
     "resistance": "light to medium",
     "inhale": "Move legs back",
     "exhale": "Move legs forward, return to start position",
-    "muscleFocus": ["Spinal flexors", "Spinal extensors"],
-    "objectives": ["Pelvic lumbar stabilization", "Scapular stabilization", "Knee extensor control", "Hip extensor control"],
-    "cues": ["Emphasize 'in' phase of movement", "Focus on hip disassociation", "Maintain pelvic lumbar stabilization", "Maintain neutral spine position", "Maintain scapular stabilization"]
+    "muscleFocus": [
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Pelvic lumbar stabilization",
+      "Scapular stabilization",
+      "Knee extensor control",
+      "Hip extensor control"
+    ],
+    "cues": [
+      "Emphasize 'in' phase of movement",
+      "Focus on hip disassociation",
+      "Maintain pelvic lumbar stabilization",
+      "Maintain neutral spine position",
+      "Maintain scapular stabilization"
+    ]
   },
   {
     "id": "ref-037",
     "name": "Up Stretch 1",
     "block": 7,
     "apparatus": "Reformer",
-    "collection": {"name": "Up Stretch Group", "kind": "series"},
+    "collection": {
+      "name": "Up Stretch Group",
+      "kind": "group"
+    },
     "level": "Fundamental",
     "image": null,
     "setup": "Standing on carriage, legs straight, heels against shoulder rests, arms straight, shoulder width apart, hands placed on footbar, head between arms, pelvis lifted toward ceiling, back flat",
     "resistance": "light to medium",
     "inhale": "Move legs back",
     "exhale": "Move legs forward, return to start position",
-    "muscleFocus": ["Spinal extensors", "Hip extensors", "Hip flexors", "Scapular stabilizers"],
-    "objectives": ["Pelvic lumbar stabilization", "Hip extensor control", "Hip flexor control", "Scapular stabilization"],
-    "cues": ["Keep tailbone reaching upwards", "Emphasize 'in' phase of movement", "Focus on hip disassociation", "Keep trunk and shoulders stable"]
+    "muscleFocus": [
+      "Spinal extensors",
+      "Hip extensors",
+      "Hip flexors",
+      "Scapular stabilizers"
+    ],
+    "objectives": [
+      "Pelvic lumbar stabilization",
+      "Hip extensor control",
+      "Hip flexor control",
+      "Scapular stabilization"
+    ],
+    "cues": [
+      "Keep tailbone reaching upwards",
+      "Emphasize 'in' phase of movement",
+      "Focus on hip disassociation",
+      "Keep trunk and shoulders stable"
+    ]
   },
   {
     "id": "ref-038",
     "name": "Elephant",
     "block": 7,
     "apparatus": "Reformer",
-    "collection": {"name": "Up Stretch Group", "kind": "series"},
+    "collection": {
+      "name": "Up Stretch Group",
+      "kind": "group"
+    },
     "level": "Fundamental",
     "image": null,
     "setup": "Starting in Up Stretch 1 position, feet flat on carriage, heels against shoulder rests",
     "resistance": "light to medium",
     "inhale": "Move legs back",
     "exhale": "Move legs forward, return to start position",
-    "muscleFocus": ["Spinal extensors", "Hip extensors", "Hip flexors", "Scapular stabilizers"],
-    "objectives": ["Pelvic lumbar stabilization", "Hip extensor control", "Hip flexor control", "Shoulder stabilization"],
-    "cues": ["Keep tailbone reaching upwards", "Emphasize 'in' phase of movement", "Focus on hip disassociation", "Keep trunk and shoulders stable", "Keep movement small"]
+    "muscleFocus": [
+      "Spinal extensors",
+      "Hip extensors",
+      "Hip flexors",
+      "Scapular stabilizers"
+    ],
+    "objectives": [
+      "Pelvic lumbar stabilization",
+      "Hip extensor control",
+      "Hip flexor control",
+      "Shoulder stabilization"
+    ],
+    "cues": [
+      "Keep tailbone reaching upwards",
+      "Emphasize 'in' phase of movement",
+      "Focus on hip disassociation",
+      "Keep trunk and shoulders stable",
+      "Keep movement small"
+    ]
   },
   {
     "id": "ref-039",
     "name": "Knee Stretch Reverse",
     "block": 7,
     "apparatus": "Reformer",
-    "collection": {"name": "Knee Stretch Group", "kind": "series"},
+    "collection": {
+      "name": "Knee Stretch Group",
+      "kind": "group"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Kneeling on carriage, quadruped position, knees slightly away from shoulder rests, arms straight, hands placed on F2 handles (or rails), shoulders slightly forward of hands, trunk in C curve position",
     "resistance": "light",
     "exhale": "Move legs forward",
     "inhale": "Move legs back, return to start position",
-    "muscleFocus": ["Spinal flexors", "Hip flexors", "Scapular stabilizers"],
-    "objectives": ["Spinal flexor strength", "Hip flexor strength", "Pelvic lumbar stabilization", "Scapular stabilization"],
-    "cues": ["Maintain C curve position", "Focus on hip disassociation", "Move knees toward chest", "Engage shoulder extensors as knees move forward"]
+    "muscleFocus": [
+      "Spinal flexors",
+      "Hip flexors",
+      "Scapular stabilizers"
+    ],
+    "objectives": [
+      "Spinal flexor strength",
+      "Hip flexor strength",
+      "Pelvic lumbar stabilization",
+      "Scapular stabilization"
+    ],
+    "cues": [
+      "Maintain C curve position",
+      "Focus on hip disassociation",
+      "Move knees toward chest",
+      "Engage shoulder extensors as knees move forward"
+    ]
   },
   {
     "id": "ref-040",
     "name": "Down Stretch",
     "block": 7,
     "apparatus": "Reformer",
-    "collection": {"name": "Down Stretch Group", "kind": "series"},
+    "collection": {
+      "name": "Down Stretch Group",
+      "kind": "group"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Kneeling on carriage, feet against shoulder rest, arms straight, shoulder width apart, hands placed on footbar, body in arc shape",
     "resistance": "light",
     "exhale": "Move body down and back",
     "inhale": "Move body up and forward, return to start position",
-    "muscleFocus": ["Spinal extensors", "Spinal flexors", "Shoulder extensors"],
-    "objectives": ["Trunk stabilization", "Shoulder extensor control"],
-    "cues": ["Keep abdominals engaged to avoid pressure on lumbar spine", "Keep heels pressing against shoulder rests", "Bias toward posterior tilt of pelvis", "Maintain consistent arc shape with body", "Begin and end movement with carriage against stopper"]
+    "muscleFocus": [
+      "Spinal extensors",
+      "Spinal flexors",
+      "Shoulder extensors"
+    ],
+    "objectives": [
+      "Trunk stabilization",
+      "Shoulder extensor control"
+    ],
+    "cues": [
+      "Keep abdominals engaged to avoid pressure on lumbar spine",
+      "Keep heels pressing against shoulder rests",
+      "Bias toward posterior tilt of pelvis",
+      "Maintain consistent arc shape with body",
+      "Begin and end movement with carriage against stopper"
+    ]
   },
   {
     "id": "ref-041",
     "name": "Stomach Massage Round Back",
     "block": 7,
     "apparatus": "Reformer",
-    "collection": {"name": "Stomach Massage Group", "kind": "series"},
+    "collection": {
+      "name": "Stomach Massage Group",
+      "kind": "group"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Sitting on carriage, legs bent, toes placed on footbar, feet in V position, hands placed on front edge of carriage, trunk in C curve position",
     "resistance": "medium",
     "exhale": "Straighten legs, dorsiflex feet, plantarflex feet",
     "inhale": "Bend legs, return to start position",
-    "muscleFocus": ["Spinal flexors", "Spinal extensors", "Knee extensors", "Ankle-foot plantarflexors"],
-    "objectives": ["Pelvic lumbar stabilization", "Knee extensor control", "Ankle-foot plantarflexor strength"],
-    "cues": ["Maintain C curve position", "Keep shoulders aligned over hips", "Press hands against front of carriage", "Straighten legs completely prior to dorsiflexion and plantarflexion"]
+    "muscleFocus": [
+      "Spinal flexors",
+      "Spinal extensors",
+      "Knee extensors",
+      "Ankle-foot plantarflexors"
+    ],
+    "objectives": [
+      "Pelvic lumbar stabilization",
+      "Knee extensor control",
+      "Ankle-foot plantarflexor strength"
+    ],
+    "cues": [
+      "Maintain C curve position",
+      "Keep shoulders aligned over hips",
+      "Press hands against front of carriage",
+      "Straighten legs completely prior to dorsiflexion and plantarflexion"
+    ]
   },
   {
     "id": "ref-042",
     "name": "Stomach Massage Flat Back",
     "block": 7,
     "apparatus": "Reformer",
-    "collection": {"name": "Stomach Massage Group", "kind": "series"},
+    "collection": {
+      "name": "Stomach Massage Group",
+      "kind": "group"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Starting in Stomach Massage Round Back position, arms bent, hands on shoulder rests, fingers facing away from body, back straight",
     "resistance": "medium",
     "exhale": "Straighten legs, dorsiflex feet, plantarflex feet",
     "inhale": "Bend legs, return to start position",
-    "muscleFocus": ["Spinal extensors", "Spinal flexors", "Knee extensors", "Ankle-foot plantarflexors"],
-    "objectives": ["Pelvic lumbar stabilization", "Knee extensor control", "Ankle-foot plantarflexor strength"],
-    "cues": ["Keep trunk upright and stable", "Keep elbows slightly bent and reaching back", "Maintain scapular stabilization (as close as possible)", "Straighten legs completely prior to dorsiflexion and plantarflexion"]
+    "muscleFocus": [
+      "Spinal extensors",
+      "Spinal flexors",
+      "Knee extensors",
+      "Ankle-foot plantarflexors"
+    ],
+    "objectives": [
+      "Pelvic lumbar stabilization",
+      "Knee extensor control",
+      "Ankle-foot plantarflexor strength"
+    ],
+    "cues": [
+      "Keep trunk upright and stable",
+      "Keep elbows slightly bent and reaching back",
+      "Maintain scapular stabilization (as close as possible)",
+      "Straighten legs completely prior to dorsiflexion and plantarflexion"
+    ]
   },
   {
     "id": "ref-043",
     "name": "Stomach Massage Reaching",
     "block": 7,
     "apparatus": "Reformer",
-    "collection": {"name": "Stomach Massage Group", "kind": "series"},
+    "collection": {
+      "name": "Stomach Massage Group",
+      "kind": "group"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Starting in Stomach Massage Flat Back position, back straight, arms straight, reaching up and forward, V position, palms facing down",
     "resistance": "medium",
     "exhale": "Straighten legs, dorsiflex feet, plantarflex feet",
     "inhale": "Bend legs, return to start position",
-    "muscleFocus": ["Spinal extensors", "Spinal flexors", "Knee extensors", "Ankle-foot plantarflexors"],
-    "objectives": ["Pelvic lumbar stabilization", "Knee extensor control", "Ankle-foot plantarflexor strength"],
-    "cues": ["Keep trunk upright and stable", "Keep arms on consistent diagonal line", "Maintain scapular stabilization", "Straighten legs completely prior to dorsiflexion and plantarflexion"]
+    "muscleFocus": [
+      "Spinal extensors",
+      "Spinal flexors",
+      "Knee extensors",
+      "Ankle-foot plantarflexors"
+    ],
+    "objectives": [
+      "Pelvic lumbar stabilization",
+      "Knee extensor control",
+      "Ankle-foot plantarflexor strength"
+    ],
+    "cues": [
+      "Keep trunk upright and stable",
+      "Keep arms on consistent diagonal line",
+      "Maintain scapular stabilization",
+      "Straighten legs completely prior to dorsiflexion and plantarflexion"
+    ]
   },
   {
     "id": "ref-044",
     "name": "Up Stretch 2",
     "block": 7,
     "apparatus": "Reformer",
-    "collection": {"name": "Up Stretch Group", "kind": "series"},
+    "collection": {
+      "name": "Up Stretch Group",
+      "kind": "group"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Starting in Up Stretch 1 position",
     "resistance": "light",
     "inhale": "Lower pelvis into Front Support position",
     "exhale": "Lift pelvis, return to start position",
-    "muscleFocus": ["Spinal flexors", "Spinal extensors", "Hip extensors", "Hip flexors", "Scapular stabilizers"],
-    "objectives": ["Pelvic lumbar stabilization", "Hip extensor control", "Hip flexor control", "Scapular stabilization"],
-    "cues": ["Maintain pelvic lumbar stabilization", "Keep head aligned with spine", "Pivot around hip joints and shoulder joints", "Emphasize hip and shoulder disassociation", "Maintain consistent angle of arms"]
+    "muscleFocus": [
+      "Spinal flexors",
+      "Spinal extensors",
+      "Hip extensors",
+      "Hip flexors",
+      "Scapular stabilizers"
+    ],
+    "objectives": [
+      "Pelvic lumbar stabilization",
+      "Hip extensor control",
+      "Hip flexor control",
+      "Scapular stabilization"
+    ],
+    "cues": [
+      "Maintain pelvic lumbar stabilization",
+      "Keep head aligned with spine",
+      "Pivot around hip joints and shoulder joints",
+      "Emphasize hip and shoulder disassociation",
+      "Maintain consistent angle of arms"
+    ]
   },
   {
     "id": "ref-045",
     "name": "Long Stretch",
     "block": 7,
     "apparatus": "Reformer",
-    "collection": {"name": "Up Stretch Group", "kind": "series"},
+    "collection": {
+      "name": "Up Stretch Group",
+      "kind": "group"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Starting in Front Support position, heels against shoulder rests",
     "resistance": "light",
     "inhale": "Move body forward",
     "exhale": "Move body back, return to start position",
-    "muscleFocus": ["Spinal flexors", "Spinal extensors", "Shoulder flexors", "Scapular stabilizers"],
-    "objectives": ["Trunk stabilization", "Shoulder flexor strength", "Scapular stabilization"],
-    "cues": ["Maintain trunk stabilization", "Maintain scapular stabilization", "Keep head aligned with spine", "Bias toward slight posterior tilt of pelvis", "Move carriage forward until shoulders are over footbar"]
+    "muscleFocus": [
+      "Spinal flexors",
+      "Spinal extensors",
+      "Shoulder flexors",
+      "Scapular stabilizers"
+    ],
+    "objectives": [
+      "Trunk stabilization",
+      "Shoulder flexor strength",
+      "Scapular stabilization"
+    ],
+    "cues": [
+      "Maintain trunk stabilization",
+      "Maintain scapular stabilization",
+      "Keep head aligned with spine",
+      "Bias toward slight posterior tilt of pelvis",
+      "Move carriage forward until shoulders are over footbar"
+    ]
   },
   {
     "id": "ref-046",
     "name": "Extension",
     "block": 8,
     "apparatus": "Reformer",
-    "collection": {"name": "Arms Supine Series", "kind": "series"},
+    "collection": {
+      "name": "Arms Supine Series",
+      "kind": "series"
+    },
     "level": "Fundamental",
     "image": null,
     "setup": "Lying supine in neutral spine position, legs in tabletop position, arms straight and perpendicular to floor, hands in straps, palms facing forward",
     "resistance": "light to medium",
     "exhale": "Lower arms to sides of body",
     "inhale": "Lift arms, return to start position",
-    "muscleFocus": ["Shoulder extensors", "Elbow extensors", "Scapular stabilizers", "Spinal flexors", "Hip flexors"],
-    "objectives": ["Shoulder extensor control", "Scapular stabilization", "Trunk stabilization"],
-    "cues": ["Maintain scapular stabilization", "Keep trunk and legs stable", "Keep arms straight", "Maintain tension in straps"]
+    "muscleFocus": [
+      "Shoulder extensors",
+      "Elbow extensors",
+      "Scapular stabilizers",
+      "Spinal flexors",
+      "Hip flexors"
+    ],
+    "objectives": [
+      "Shoulder extensor control",
+      "Scapular stabilization",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Maintain scapular stabilization",
+      "Keep trunk and legs stable",
+      "Keep arms straight",
+      "Maintain tension in straps"
+    ]
   },
   {
     "id": "ref-047",
     "name": "Adduction",
     "block": 8,
     "apparatus": "Reformer",
-    "collection": {"name": "Arms Supine Series", "kind": "series"},
+    "collection": {
+      "name": "Arms Supine Series",
+      "kind": "series"
+    },
     "level": "Fundamental",
     "image": null,
     "setup": "Starting in Extension position with arms out to sides in T position, hands in straps, palms facing body",
     "resistance": "light to medium",
     "exhale": "Move arms to sides of body",
     "inhale": "Move arms away from body, return to start position",
-    "muscleFocus": ["Shoulder adductors", "Scapular stabilizers", "Spinal flexors", "Hip flexors"],
-    "objectives": ["Shoulder adductor control", "Scapular stabilization", "Trunk stabilization"],
-    "cues": ["Maintain scapular stabilization", "Maintain micro-bend in elbows", "Keep trunk and legs stable", "Move arms along horizontal line, parallel to floor"]
+    "muscleFocus": [
+      "Shoulder adductors",
+      "Scapular stabilizers",
+      "Spinal flexors",
+      "Hip flexors"
+    ],
+    "objectives": [
+      "Shoulder adductor control",
+      "Scapular stabilization",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Maintain scapular stabilization",
+      "Maintain micro-bend in elbows",
+      "Keep trunk and legs stable",
+      "Move arms along horizontal line, parallel to floor"
+    ]
   },
   {
     "id": "ref-048",
     "name": "Circles Up",
     "block": 8,
     "apparatus": "Reformer",
-    "collection": {"name": "Arms Supine Series", "kind": "series"},
+    "collection": {
+      "name": "Arms Supine Series",
+      "kind": "series"
+    },
     "level": "Fundamental",
     "image": null,
     "setup": "Starting in Adduction position",
     "resistance": "light to medium",
     "exhale": "Move arms to sides of body, rotate arms, palms facing down",
     "inhale": "Lift arms perpendicular to floor, move arms out to sides, return to start position",
-    "muscleFocus": ["Shoulder adductors", "Scapular stabilizers", "Spinal flexors", "Hip flexors"],
-    "objectives": ["Shoulder adductor control", "Shoulder extensor control", "Scapular stabilization", "Trunk stabilization"],
-    "cues": ["Maintain scapular stabilization", "Keep trunk and legs stable", "Keep movement fluid", "Reach each point of the circle"]
+    "muscleFocus": [
+      "Shoulder adductors",
+      "Scapular stabilizers",
+      "Spinal flexors",
+      "Hip flexors"
+    ],
+    "objectives": [
+      "Shoulder adductor control",
+      "Shoulder extensor control",
+      "Scapular stabilization",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Maintain scapular stabilization",
+      "Keep trunk and legs stable",
+      "Keep movement fluid",
+      "Reach each point of the circle"
+    ]
   },
   {
     "id": "ref-049",
     "name": "Circles Down",
     "block": 8,
     "apparatus": "Reformer",
-    "collection": {"name": "Arms Supine Series", "kind": "series"},
+    "collection": {
+      "name": "Arms Supine Series",
+      "kind": "series"
+    },
     "level": "Fundamental",
     "image": null,
     "setup": "Starting in Extension position",
     "resistance": "light to medium",
     "exhale": "Lower arms to sides of body, rotate arms, palms face body",
     "inhale": "Open arms to T position, lift arms perpendicular to floor, return to start position",
-    "muscleFocus": ["Shoulder extensors", "Shoulder adductors", "Scapular stabilizers", "Spinal flexors", "Hip flexors"],
-    "objectives": ["Shoulder extensor control", "Shoulder adductor control", "Scapular stabilization", "Trunk stabilization"],
-    "cues": ["Maintain scapular stabilization", "Keep trunk and legs stable", "Keep movement fluid"]
+    "muscleFocus": [
+      "Shoulder extensors",
+      "Shoulder adductors",
+      "Scapular stabilizers",
+      "Spinal flexors",
+      "Hip flexors"
+    ],
+    "objectives": [
+      "Shoulder extensor control",
+      "Shoulder adductor control",
+      "Scapular stabilization",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Maintain scapular stabilization",
+      "Keep trunk and legs stable",
+      "Keep movement fluid"
+    ]
   },
   {
     "id": "ref-050",
     "name": "Triceps",
     "block": 8,
     "apparatus": "Reformer",
-    "collection": {"name": "Arms Supine Series", "kind": "series"},
+    "collection": {
+      "name": "Arms Supine Series",
+      "kind": "series"
+    },
     "level": "Fundamental",
     "image": null,
     "setup": "Starting in Extension position, hands in straps, arms straight by sides of body, palms facing carriage",
     "resistance": "light to medium",
     "inhale": "Bend arms",
     "exhale": "Straighten arms, return to start position",
-    "muscleFocus": ["Elbow extensors", "Scapular stabilizers", "Spinal flexors", "Hip flexors"],
-    "objectives": ["Elbow extensor strength", "Scapular stabilization", "Trunk stabilization"],
-    "cues": ["Maintain scapular stabilization", "Keep trunk and legs stable", "Keep elbows pressing against sides of body", "Keep wrists straight and stable", "Keep upper arms parallel to floor and in line with shoulders"]
+    "muscleFocus": [
+      "Elbow extensors",
+      "Scapular stabilizers",
+      "Spinal flexors",
+      "Hip flexors"
+    ],
+    "objectives": [
+      "Elbow extensor strength",
+      "Scapular stabilization",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Maintain scapular stabilization",
+      "Keep trunk and legs stable",
+      "Keep elbows pressing against sides of body",
+      "Keep wrists straight and stable",
+      "Keep upper arms parallel to floor and in line with shoulders"
+    ]
   },
   {
     "id": "ref-051",
     "name": "Chest Expansion",
     "block": 8,
     "apparatus": "Reformer",
-    "collection": {"name": "Arms Sitting Series", "kind": "series"},
+    "collection": {
+      "name": "Arms Sitting Series",
+      "kind": "series"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Sitting upright at front edge of carriage, facing risers, legs straight between shoulder rests, arms straight and forward of trunk, hands in straps, palms facing back",
     "resistance": "light to medium",
     "exhale": "Move arms back",
     "inhale": "Move arms forward, return to start position",
-    "muscleFocus": ["Shoulder extensors", "Elbow extensors", "Scapular stabilizers", "Spinal extensors"],
-    "objectives": ["Shoulder extensor strength", "Elbow extensor strength", "Scapular stabilization", "Trunk stabilization"],
-    "cues": ["Keep trunk upright and stable", "Keep arms straight", "Move arms 20 degrees forward and 20 degrees back of trunk"]
+    "muscleFocus": [
+      "Shoulder extensors",
+      "Elbow extensors",
+      "Scapular stabilizers",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Shoulder extensor strength",
+      "Elbow extensor strength",
+      "Scapular stabilization",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Keep trunk upright and stable",
+      "Keep arms straight",
+      "Move arms 20 degrees forward and 20 degrees back of trunk"
+    ]
   },
   {
     "id": "ref-052",
     "name": "Biceps",
     "block": 8,
     "apparatus": "Reformer",
-    "collection": {"name": "Arms Sitting Series", "kind": "series"},
+    "collection": {
+      "name": "Arms Sitting Series",
+      "kind": "series"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Starting in Chest Expansion position, arms straight and forward, shoulder height, palms facing up",
     "resistance": "light to medium",
     "exhale": "Bend arms",
     "inhale": "Straighten arms, return to start position",
-    "muscleFocus": ["Elbow flexors", "Shoulder flexors", "Scapular stabilizers", "Spinal extensors"],
-    "objectives": ["Elbow flexor strength", "Shoulder flexor control", "Scapular stabilization", "Trunk stabilization"],
-    "cues": ["Keep trunk upright and stable", "Keep upper arms at shoulder height, parallel to floor", "Straighten elbows completely following each repetition", "Maintain neutral position of wrists"]
+    "muscleFocus": [
+      "Elbow flexors",
+      "Shoulder flexors",
+      "Scapular stabilizers",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Elbow flexor strength",
+      "Shoulder flexor control",
+      "Scapular stabilization",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Keep trunk upright and stable",
+      "Keep upper arms at shoulder height, parallel to floor",
+      "Straighten elbows completely following each repetition",
+      "Maintain neutral position of wrists"
+    ]
   },
   {
     "id": "ref-053",
     "name": "Rhomboids 1",
     "block": 8,
     "apparatus": "Reformer",
-    "collection": {"name": "Arms Sitting Series", "kind": "series"},
+    "collection": {
+      "name": "Arms Sitting Series",
+      "kind": "series"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Starting in Biceps position, arms bent at 90 degrees and parallel to each other, shoulder height, forearms in straps, palms facing body",
     "resistance": "light to medium",
     "exhale": "Move arms out to sides",
     "inhale": "Move arms forward, return to start position",
-    "muscleFocus": ["Shoulder horizontal abductors", "Elbow flexors", "Shoulder flexors", "Scapular stabilizers", "Spinal extensors"],
-    "objectives": ["Shoulder horizontal abductor strength", "Shoulder flexor control", "Scapular stabilization", "Trunk stabilization"],
-    "cues": ["Move upper arms parallel to floor", "Bias shoulders toward external rotation", "Maintain consistent position of arms with palms facing body"]
+    "muscleFocus": [
+      "Shoulder horizontal abductors",
+      "Elbow flexors",
+      "Shoulder flexors",
+      "Scapular stabilizers",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Shoulder horizontal abductor strength",
+      "Shoulder flexor control",
+      "Scapular stabilization",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Move upper arms parallel to floor",
+      "Bias shoulders toward external rotation",
+      "Maintain consistent position of arms with palms facing body"
+    ]
   },
   {
     "id": "ref-054",
     "name": "Rhomboids 2",
     "block": 8,
     "apparatus": "Reformer",
-    "collection": {"name": "Arms Sitting Series", "kind": "series"},
+    "collection": {
+      "name": "Arms Sitting Series",
+      "kind": "series"
+    },
     "level": "Advanced",
     "image": null,
     "setup": "Starting in Rhomboids 1 position",
     "resistance": "light to medium",
     "exhale": "Move arms out to sides, glide scapulae together",
     "inhale": "Glide scapulae apart, move arms forward, return to start position",
-    "muscleFocus": ["Shoulder horizontal abductors", "Scapular adductors", "Elbow flexors", "Shoulder flexors", "Spinal extensors"],
-    "objectives": ["Shoulder horizontal abductor strength", "Scapular adductor strength", "Shoulder flexor control", "Trunk stabilization"],
-    "cues": ["Move upper arms parallel to floor", "Bias shoulders towards external rotation", "Maintain consistent position of arms with palms facing body", "Continue moving arms back as scapulae adduct"]
+    "muscleFocus": [
+      "Shoulder horizontal abductors",
+      "Scapular adductors",
+      "Elbow flexors",
+      "Shoulder flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Shoulder horizontal abductor strength",
+      "Scapular adductor strength",
+      "Shoulder flexor control",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Move upper arms parallel to floor",
+      "Bias shoulders towards external rotation",
+      "Maintain consistent position of arms with palms facing body",
+      "Continue moving arms back as scapulae adduct"
+    ]
   },
   {
     "id": "ref-055",
     "name": "Hug-a-Tree",
     "block": 8,
     "apparatus": "Reformer",
-    "collection": {"name": "Arms Sitting Series", "kind": "series"},
+    "collection": {
+      "name": "Arms Sitting Series",
+      "kind": "series"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Sitting upright facing footbar, legs straight and together, pelvis against shoulder rests, arms in T position, micro-bend in elbows, hands in straps, palms facing forward",
     "resistance": "light to medium",
     "exhale": "Move arms forward",
     "inhale": "Move arms back, return to start position",
-    "muscleFocus": ["Shoulder horizontal adductors", "Shoulder flexors", "Scapular stabilizers", "Spinal extensors"],
-    "objectives": ["Shoulder horizontal adductor strength", "Shoulder flexor control", "Scapular stabilization", "Trunk stabilization"],
-    "cues": ["Maintain scapular stabilization", "Move arms along horizontal line at shoulder height, parallel to floor", "Move arms forward until parallel with each other"]
+    "muscleFocus": [
+      "Shoulder horizontal adductors",
+      "Shoulder flexors",
+      "Scapular stabilizers",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Shoulder horizontal adductor strength",
+      "Shoulder flexor control",
+      "Scapular stabilization",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Maintain scapular stabilization",
+      "Move arms along horizontal line at shoulder height, parallel to floor",
+      "Move arms forward until parallel with each other"
+    ]
   },
   {
     "id": "ref-056",
     "name": "Salute",
     "block": 8,
     "apparatus": "Reformer",
-    "collection": {"name": "Arms Sitting Series", "kind": "series"},
+    "collection": {
+      "name": "Arms Sitting Series",
+      "kind": "series"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Starting in Hug-a-Tree position, arms bent, hands in straps in line with eyes, fingers facing forward",
     "resistance": "light to medium",
     "exhale": "Straighten arms forward and up on diagonal line",
     "inhale": "Bend arms, return to start position",
-    "muscleFocus": ["Elbow extensors", "Shoulder flexors", "Scapular stabilizers", "Spinal extensors"],
-    "objectives": ["Elbow extensor strength", "Shoulder flexor control", "Scapular stabilization", "Trunk stabilization"],
-    "cues": ["Maintain scapular stabilization", "Keep elbows lifted and reaching outward", "Keep fingers pointing in direction of movement"]
+    "muscleFocus": [
+      "Elbow extensors",
+      "Shoulder flexors",
+      "Scapular stabilizers",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Elbow extensor strength",
+      "Shoulder flexor control",
+      "Scapular stabilization",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Maintain scapular stabilization",
+      "Keep elbows lifted and reaching outward",
+      "Keep fingers pointing in direction of movement"
+    ]
   },
   {
     "id": "ref-057",
     "name": "Chest Expansion",
     "block": 8,
     "apparatus": "Reformer",
-    "collection": {"name": "Arms Kneeling Series", "kind": "series"},
+    "collection": {
+      "name": "Arms Kneeling Series",
+      "kind": "series"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Kneeling in upright position on carriage, knees against shoulder rests, arms straight and forward of trunk, hands holding folded straps, palms facing body",
     "resistance": "light",
     "exhale": "Move arms back",
     "inhale": "Move arms forward, return to start position",
-    "muscleFocus": ["Shoulder extensors", "Elbow extensors", "Scapular stabilizers", "Spinal extensors"],
-    "objectives": ["Shoulder extensor strength", "Elbow extensor strength", "Scapular stabilization", "Trunk stabilization"],
-    "cues": ["Keep trunk upright and stable", "Bias towards posterior tilt of pelvis", "Keep arms straight", "Move arms 20 degrees forward and 20 degrees back of trunk"]
+    "muscleFocus": [
+      "Shoulder extensors",
+      "Elbow extensors",
+      "Scapular stabilizers",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Shoulder extensor strength",
+      "Elbow extensor strength",
+      "Scapular stabilization",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Keep trunk upright and stable",
+      "Bias towards posterior tilt of pelvis",
+      "Keep arms straight",
+      "Move arms 20 degrees forward and 20 degrees back of trunk"
+    ]
   },
   {
     "id": "ref-058",
     "name": "Circles Up",
     "block": 8,
     "apparatus": "Reformer",
-    "collection": {"name": "Arms Kneeling Series", "kind": "series"},
+    "collection": {
+      "name": "Arms Kneeling Series",
+      "kind": "series"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Kneeling in upright position on carriage, facing footbar, feet against shoulder rests, arms straight by sides of body, hands in straps, palms facing forward",
     "resistance": "light",
     "exhale": "Lift arms forward and up, rotate arms, palms face forward",
     "inhale": "Circle arms out to T position, lower arms to sides of body, return to start position",
-    "muscleFocus": ["Shoulder flexors", "Shoulder abductors", "Spinal flexors", "Spinal extensors"],
-    "objectives": ["Shoulder flexor strength", "Shoulder abductor control", "Trunk stabilization"],
-    "cues": ["Keep movement fluid", "Maintain upright position of trunk", "Bias towards posterior tilt of pelvis", "Keep arms in peripheral vision when circling around", "Reach overhead position prior to rotating arms"]
+    "muscleFocus": [
+      "Shoulder flexors",
+      "Shoulder abductors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Shoulder flexor strength",
+      "Shoulder abductor control",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Keep movement fluid",
+      "Maintain upright position of trunk",
+      "Bias towards posterior tilt of pelvis",
+      "Keep arms in peripheral vision when circling around",
+      "Reach overhead position prior to rotating arms"
+    ]
   },
   {
     "id": "ref-059",
     "name": "Circles Down",
     "block": 8,
     "apparatus": "Reformer",
-    "collection": {"name": "Arms Kneeling Series", "kind": "series"},
+    "collection": {
+      "name": "Arms Kneeling Series",
+      "kind": "series"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Starting in Circles Up position",
     "resistance": "light",
     "exhale": "Lift arms out to sides and up, rotate arms, palms face up",
     "inhale": "Lower arms down in front of body, return to start position",
-    "muscleFocus": ["Shoulder abductors", "Shoulder flexors", "Spinal flexors", "Spinal extensors"],
-    "objectives": ["Shoulder abductor strength", "Shoulder flexor control", "Trunk stabilization"],
-    "cues": ["Keep movement fluid", "Maintain upright position of trunk", "Bias towards posterior tilt of pelvis", "Keep arms in peripheral vision when circling around", "Reach overhead position prior to rotating arms"]
+    "muscleFocus": [
+      "Shoulder abductors",
+      "Shoulder flexors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Shoulder abductor strength",
+      "Shoulder flexor control",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Keep movement fluid",
+      "Maintain upright position of trunk",
+      "Bias towards posterior tilt of pelvis",
+      "Keep arms in peripheral vision when circling around",
+      "Reach overhead position prior to rotating arms"
+    ]
   },
   {
     "id": "ref-060",
     "name": "Triceps",
     "block": 8,
     "apparatus": "Reformer",
-    "collection": {"name": "Arms Kneeling Series", "kind": "series"},
+    "collection": {
+      "name": "Arms Kneeling Series",
+      "kind": "series"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Starting in Circles Up position, arms bent, elbows facing outward, hands in straps, behind head, forming triangle with thumbs and index fingers",
     "resistance": "light",
     "exhale": "Straighten arms",
     "inhale": "Bend arms, return to start position",
-    "muscleFocus": ["Elbow extensors", "Shoulder abductors", "Spinal flexors", "Spinal extensors"],
-    "objectives": ["Elbow extensor strength", "Shoulder abductor control", "Trunk stabilization"],
-    "cues": ["Keep fingertips pointing toward ceiling", "Keep elbows reaching out to sides", "Maintain scapular stabilization", "Maintain trunk stabilization"]
+    "muscleFocus": [
+      "Elbow extensors",
+      "Shoulder abductors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Elbow extensor strength",
+      "Shoulder abductor control",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Keep fingertips pointing toward ceiling",
+      "Keep elbows reaching out to sides",
+      "Maintain scapular stabilization",
+      "Maintain trunk stabilization"
+    ]
   },
   {
     "id": "ref-061",
     "name": "Biceps",
     "block": 8,
     "apparatus": "Reformer",
-    "collection": {"name": "Arms Kneeling Series", "kind": "series"},
+    "collection": {
+      "name": "Arms Kneeling Series",
+      "kind": "series"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Starting in Circles Up position, arms straight and back of trunk, parallel to each other (as close as possible), hands holding straps",
     "resistance": "medium",
     "exhale": "Bend arms",
     "inhale": "Straighten arms, return to start position",
-    "muscleFocus": ["Elbow flexors", "Spinal flexors", "Spinal extensors"],
-    "objectives": ["Elbow flexor strength", "Shoulder flexor stretch", "Trunk stabilization"],
-    "cues": ["Maintain trunk stabilization, avoiding ribs flaring", "Keep upper arms and elbows stable", "Maintain neutral position of scapulae (as close as possible)", "Maintain neutral position of wrists"]
+    "muscleFocus": [
+      "Elbow flexors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Elbow flexor strength",
+      "Shoulder flexor stretch",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Maintain trunk stabilization, avoiding ribs flaring",
+      "Keep upper arms and elbows stable",
+      "Maintain neutral position of scapulae (as close as possible)",
+      "Maintain neutral position of wrists"
+    ]
   },
   {
     "id": "ref-062",
@@ -987,88 +1982,186 @@
     "resistance": "light",
     "inhale": "Push carriage out, lower body until arm is parallel with floor, simultaneously lift other arm to diagonal line; rotate trunk back to previous position",
     "exhale": "Rotate trunk, bring arm around to footbar; bring carriage in, return to start position",
-    "muscleFocus": ["Spinal lateral flexors", "Spinal rotators", "Spinal extensors", "Shoulder abductors"],
-    "objectives": ["Spinal lateral flexor and rotator control", "Spinal mobility", "Shoulder abductor control"],
-    "cues": ["Keep both arms straight", "Pivot around supporting shoulder during rotation"]
+    "muscleFocus": [
+      "Spinal lateral flexors",
+      "Spinal rotators",
+      "Spinal extensors",
+      "Shoulder abductors"
+    ],
+    "objectives": [
+      "Spinal lateral flexor and rotator control",
+      "Spinal mobility",
+      "Shoulder abductor control"
+    ],
+    "cues": [
+      "Keep both arms straight",
+      "Pivot around supporting shoulder during rotation"
+    ]
   },
   {
     "id": "ref-063",
     "name": "Breaststroke Prep 1",
     "block": 12,
     "apparatus": "Reformer",
-    "collection": {"name": "Long Box Group", "kind": "series"},
+    "collection": {
+      "name": "Long Box Group",
+      "kind": "group"
+    },
     "level": "Fundamental",
     "image": null,
     "setup": "Lying prone on Long Box, neutral spine position, legs straight and together, parallel to floor, feet plantarflexed, arms bent, elbows facing outward, hands on footbar",
     "resistance": "light",
     "inhale": "Straighten arms",
     "exhale": "Bend arms, return to start position",
-    "muscleFocus": ["Spinal extensors", "Hip extensors", "Elbow extensors", "Spinal flexors"],
-    "objectives": ["Spinal extensor control", "Hip extensor control", "Elbow extensor control", "Scapular stabilization"],
-    "cues": ["Maintain abdominal engagement", "Maintain back and hip extensor engagement", "Keep wrists firm and fingers wrapped around footbar", "Face elbows outward as if arms are on flat surface"]
+    "muscleFocus": [
+      "Spinal extensors",
+      "Hip extensors",
+      "Elbow extensors",
+      "Spinal flexors"
+    ],
+    "objectives": [
+      "Spinal extensor control",
+      "Hip extensor control",
+      "Elbow extensor control",
+      "Scapular stabilization"
+    ],
+    "cues": [
+      "Maintain abdominal engagement",
+      "Maintain back and hip extensor engagement",
+      "Keep wrists firm and fingers wrapped around footbar",
+      "Face elbows outward as if arms are on flat surface"
+    ]
   },
   {
     "id": "ref-064",
     "name": "Breaststroke Prep 2",
     "block": 12,
     "apparatus": "Reformer",
-    "collection": {"name": "Long Box Group", "kind": "series"},
+    "collection": {
+      "name": "Long Box Group",
+      "kind": "group"
+    },
     "level": "Fundamental",
     "image": null,
     "setup": "Starting in Breaststroke Prep 1 position",
     "resistance": "light",
     "inhale": "Straighten arms, simultaneously lifting trunk",
     "exhale": "Bend arms, lowering trunk, return to start position",
-    "muscleFocus": ["Spinal extensors", "Hip extensors", "Elbow extensors", "Spinal flexors"],
-    "objectives": ["Spinal extensor control", "Hip extensor control", "Elbow extensor control", "Scapular stabilization"],
-    "cues": ["Maintain abdominal engagement", "Keep wrists firm and fingers wrapped around footbar", "Articulate spine into extension starting from crown of head", "Face elbows outward as if arms are on flat surface"]
+    "muscleFocus": [
+      "Spinal extensors",
+      "Hip extensors",
+      "Elbow extensors",
+      "Spinal flexors"
+    ],
+    "objectives": [
+      "Spinal extensor control",
+      "Hip extensor control",
+      "Elbow extensor control",
+      "Scapular stabilization"
+    ],
+    "cues": [
+      "Maintain abdominal engagement",
+      "Keep wrists firm and fingers wrapped around footbar",
+      "Articulate spine into extension starting from crown of head",
+      "Face elbows outward as if arms are on flat surface"
+    ]
   },
   {
     "id": "ref-065",
     "name": "Breaststroke",
     "block": 12,
     "apparatus": "Reformer",
-    "collection": {"name": "Long Box Group", "kind": "series"},
+    "collection": {
+      "name": "Long Box Group",
+      "kind": "group"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Starting in Breaststroke Prep 1 position, elbows bent by sides of body, thumbs in straps, hands in line with shoulders",
     "resistance": "light",
     "inhale": "Lift trunk, straighten arms forward, circle arms around to sides of body",
     "exhale": "Bend arms, lower trunk, return to start position",
-    "muscleFocus": ["Spinal extensors", "Hip extensors", "Elbow extensors", "Shoulder abductors"],
-    "objectives": ["Spinal extensor strength", "Elbow extensor control", "Shoulder abductor control"],
-    "cues": ["Keep legs parallel to floor", "Initiate movement with back extensors", "Maintain external rotation of shoulders as body is lowered and elbows bend during final phase of movement"]
+    "muscleFocus": [
+      "Spinal extensors",
+      "Hip extensors",
+      "Elbow extensors",
+      "Shoulder abductors"
+    ],
+    "objectives": [
+      "Spinal extensor strength",
+      "Elbow extensor control",
+      "Shoulder abductor control"
+    ],
+    "cues": [
+      "Keep legs parallel to floor",
+      "Initiate movement with back extensors",
+      "Maintain external rotation of shoulders as body is lowered and elbows bend during final phase of movement"
+    ]
   },
   {
     "id": "ref-066",
     "name": "Pulling Straps 1",
     "block": 12,
     "apparatus": "Reformer",
-    "collection": {"name": "Long Box Group", "kind": "series"},
+    "collection": {
+      "name": "Long Box Group",
+      "kind": "group"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Lying prone on Long Box, neutral spine position, legs straight and together, parallel to floor, feet plantarflexed toward footbar, arms straight, forward of shoulders, hands holding folded straps, palms facing each other",
     "resistance": "light",
     "inhale": "Lift trunk, move arms back to sides of body",
     "exhale": "Lower trunk, move arms forward, return to start position",
-    "muscleFocus": ["Spinal extensors", "Hip extensors", "Shoulder extensors"],
-    "objectives": ["Spinal extensor strength", "Hip extensor control", "Shoulder extensor control"],
-    "cues": ["Keep palms facing each other", "Initiate movement with back extensors", "Articulate spine into extension starting from crown of head", "Bring arms forward of shoulder line no more than 20 degrees", "Keep legs parallel to floor"]
+    "muscleFocus": [
+      "Spinal extensors",
+      "Hip extensors",
+      "Shoulder extensors"
+    ],
+    "objectives": [
+      "Spinal extensor strength",
+      "Hip extensor control",
+      "Shoulder extensor control"
+    ],
+    "cues": [
+      "Keep palms facing each other",
+      "Initiate movement with back extensors",
+      "Articulate spine into extension starting from crown of head",
+      "Bring arms forward of shoulder line no more than 20 degrees",
+      "Keep legs parallel to floor"
+    ]
   },
   {
     "id": "ref-067",
     "name": "Pulling Straps 2",
     "block": 12,
     "apparatus": "Reformer",
-    "collection": {"name": "Long Box Group", "kind": "series"},
+    "collection": {
+      "name": "Long Box Group",
+      "kind": "group"
+    },
     "level": "Intermediate",
     "image": null,
     "setup": "Starting in Pulling Straps 1 position, arms in T position, parallel to floor, hands through the straps, palms facing down",
     "resistance": "light",
     "inhale": "Lift trunk, move arms to sides of body",
     "exhale": "Lower trunk, move arms to T position, return to start position",
-    "muscleFocus": ["Spinal extensors", "Hip extensors", "Shoulder adductors", "Shoulder horizontal abductors"],
-    "objectives": ["Spinal extensor strength", "Hip extensor control", "Shoulder adductor control"],
-    "cues": ["Move arms on horizontal line, parallel to floor", "Emphasize mid and upper back extensors", "Keep palms facing floor", "Keep legs parallel to floor"]
+    "muscleFocus": [
+      "Spinal extensors",
+      "Hip extensors",
+      "Shoulder adductors",
+      "Shoulder horizontal abductors"
+    ],
+    "objectives": [
+      "Spinal extensor strength",
+      "Hip extensor control",
+      "Shoulder adductor control"
+    ],
+    "cues": [
+      "Move arms on horizontal line, parallel to floor",
+      "Emphasize mid and upper back extensors",
+      "Keep palms facing floor",
+      "Keep legs parallel to floor"
+    ]
   }
 ]
