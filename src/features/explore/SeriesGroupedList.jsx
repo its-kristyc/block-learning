@@ -18,12 +18,32 @@ function blockName(n) {
   return { num: String(n), name: BLOCKS[n - 1] ?? `Block ${n}` };
 }
 
+function collectionKey(e) {
+  return e.collection ? `${e.collection.name}|${e.apparatus}` : null;
+}
+
 function sortList(list) {
+  // Build first-seen index for each collection key within each block+apparatus,
+  // so all members of a group/series stay contiguous rather than splitting by level.
+  const firstSeen = new Map();
+  [...list].sort((a, b) => {
+    const bd = blockRank(a.block) - blockRank(b.block);
+    if (bd !== 0) return bd;
+    return apparatusRank(a.apparatus) - apparatusRank(b.apparatus);
+  }).forEach((e, i) => {
+    const k = `${e.block}|${e.apparatus}|${collectionKey(e) ?? e.id}`;
+    if (!firstSeen.has(k)) firstSeen.set(k, i);
+  });
+
   return [...list].sort((a, b) => {
     const bd = blockRank(a.block) - blockRank(b.block);
     if (bd !== 0) return bd;
     const ad = apparatusRank(a.apparatus) - apparatusRank(b.apparatus);
     if (ad !== 0) return ad;
+    const ak = `${a.block}|${a.apparatus}|${collectionKey(a) ?? a.id}`;
+    const bk = `${b.block}|${b.apparatus}|${collectionKey(b) ?? b.id}`;
+    const cd = (firstSeen.get(ak) ?? 0) - (firstSeen.get(bk) ?? 0);
+    if (cd !== 0) return cd;
     return levelRank(a.level) - levelRank(b.level);
   });
 }
