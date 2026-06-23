@@ -143,14 +143,15 @@ export function Drawer({ ctx, setCtx, user, toggleFav, setNote, isMobile }) {
             )}
           </Section>
 
-          {(exo.exhale || exo.inhale) && (
+          {exo.movement && exo.movement.length > 0 && (
             <Section label="Movement">
-              {exo.exhale && (
-                <p style={p}><b style={{ color: C.redDeep }}>Exhale:</b> {exo.exhale}</p>
-              )}
-              {exo.inhale && (
-                <p style={p}><b style={{ color: C.redDeep }}>Inhale:</b> {exo.inhale}</p>
-              )}
+              {exo.movement.map((step, i) => (
+                <p key={i} style={p}>
+                  <b style={{ color: C.redDeep }}>
+                    {step.breath.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}:
+                  </b>{' '}{step.action}
+                </p>
+              ))}
             </Section>
           )}
 

@@ -9,8 +9,12 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153575/mat-001a.png"],
     "setup": "Lying supine in neutral spine position, legs parallel, knees bent, feet placed firmly on Mat, arms by sides",
     "resistance": null,
-    "exhale": "Roll pelvis and spine up",
-    "inhale": "Pause",
+    "movement": [
+      {"breath": "exhale", "action": "Roll pelvis and spine up"},
+      {"breath": "inhale", "action": "Pause"},
+      {"breath": "exhale", "action": "Roll spine and pelvis down, return to start position"},
+      {"breath": "inhale", "action": "Pause"}
+    ],
     "muscleFocus": ["Spinal flexors", "Hip extensors"],
     "objectives": ["Spinal articulation", "Hip extensor control", "Pelvic lumbar stabilization"],
     "cues": ["Draw abdominals in prior to movement", "Maximize lumbar flexion as pelvis and spine roll up and down", "Articulate through each vertebra as spine rolls up and down", "Return to neutral spine after each repetition"]
@@ -25,8 +29,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153787/mat-002a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153769/mat-002b.png"],
     "setup": "Lying supine, lower back imprinted, arms in T position, palms facing up, legs in tabletop position (hips and knees at 90 degrees)",
     "resistance": null,
-    "inhale": "Lower legs to one side",
-    "exhale": "Lift legs to center, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Lower legs to one side"},
+      {"breath": "exhale", "action": "Lift legs to center, return to start position"}
+    ],
     "muscleFocus": ["Spinal flexors", "Spinal rotators", "Hip flexors"],
     "objectives": ["Spinal flexor control", "Spinal rotator control and stretch", "Pelvic lumbar stabilization"],
     "cues": ["Keep shoulders relaxed and scapulae on Mat", "Move legs and pelvis as one unit", "Initiate rotation with abdominals"]
@@ -41,8 +47,12 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153735/mat-003a.png"],
     "setup": "Lying supine in neutral spine position, legs parallel, knees bent, feet hip width apart, fingers interlaced behind head",
     "resistance": null,
-    "exhale": "Lift head and chest",
-    "inhale": "Pause",
+    "movement": [
+      {"breath": "exhale", "action": "Lift head and chest"},
+      {"breath": "inhale", "action": "Pause"},
+      {"breath": "exhale", "action": "Lower chest and head, return to start position"},
+      {"breath": "inhale", "action": "Pause"}
+    ],
     "muscleFocus": ["Spinal flexors", "Hip adductors"],
     "objectives": ["Spinal flexor strength", "Pelvic lumbar stabilization"],
     "cues": ["Maintain pelvic stabilization", "Keep head aligned with spine when lifting into spinal flexion", "Allow head to rest in hands", "Engage hip adductors throughout"]
@@ -57,8 +67,12 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153697/mat-004a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153715/mat-004b.png"],
     "setup": "Starting in Chest Lift position",
     "resistance": null,
-    "exhale": "Rotate to one side",
-    "inhale": "Return to center",
+    "movement": [
+      {"breath": "exhale", "action": "Rotate to one side"},
+      {"breath": "inhale", "action": "Return to center"},
+      {"breath": "exhale", "action": "Rotate to other side"},
+      {"breath": "inhale", "action": "Return to center"}
+    ],
     "muscleFocus": ["Spinal flexors", "Spinal rotators"],
     "objectives": ["Spinal flexor strength", "Spinal rotator strength", "Pelvic lumbar stabilization"],
     "cues": ["Maintain pelvic stabilization", "Maximize rotation while avoiding lateral flexion", "Move head, shoulders and chest together as one unit", "Maintain trunk flexion at consistent height"]
@@ -73,8 +87,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153679/mat-005a.png"],
     "setup": "Lying supine in neutral spine position, knees bent, feet placed firmly on Mat, arms by sides",
     "resistance": null,
-    "exhale": "Lift one leg, plantarflex foot",
-    "inhale": "Lower leg, touch Mat with toes",
+    "movement": [
+      {"breath": "exhale", "action": "Lift one leg, plantarflex foot"},
+      {"breath": "inhale", "action": "Lower leg, touch Mat with toes"}
+    ],
     "muscleFocus": ["Hip flexors", "Spinal flexors", "Spinal extensors"],
     "objectives": ["Hip flexor control", "Hip disassociation", "Pelvic lumbar stabilization"],
     "cues": ["Maintain pelvic lumbar stabilization", "Keep shoulders relaxed", "Maintain consistent angle of knee joint (90 degrees)"]
@@ -89,8 +105,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153630/mat-006a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153643/mat-006b.png"],
     "setup": "Starting in Single Leg Lift position",
     "resistance": null,
-    "inhale": "Lift one leg, foot plantarflexed",
-    "exhale": "Switch legs",
+    "movement": [
+      {"breath": "inhale", "action": "Lift one leg, foot plantarflexed"},
+      {"breath": "exhale", "action": "Switch legs"}
+    ],
     "muscleFocus": ["Hip flexors", "Spinal flexors", "Spinal extensors"],
     "objectives": ["Hip flexor control", "Hip disassociation", "Pelvic lumbar stabilization"],
     "cues": ["Maintain pelvic lumbar stabilization", "Keep shoulders relaxed", "Maintain consistent angle of knee joint (90 degrees)"]
@@ -105,8 +123,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153618/mat-007a.png"],
     "setup": "Lying supine, legs in tabletop position, arms overhead, palms facing up",
     "resistance": null,
-    "exhale": "Lift arms, head and chest, bringing arms to sides",
-    "inhale": "Lift arms to 90 degrees, lower chest and head, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Lift arms, head and chest, bringing arms to sides"},
+      {"breath": "inhale", "action": "Lift arms to 90 degrees in the shoulder joint, lower chest and head, return to start position"}
+    ],
     "muscleFocus": ["Spinal flexors", "Hip flexors", "Shoulder extensors"],
     "objectives": ["Spinal flexor strength", "Pelvic stabilization", "Shoulder extensor control"],
     "cues": ["Move head and chest as one unit", "Maintain pelvic and lumbar stabilization", "Minimize neck tension", "Maintain tabletop position with legs"]
@@ -121,8 +141,12 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153716/mat-008a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153697/mat-008b.png"],
     "setup": "Lying supine in neutral spine position, arms overhead, palms facing each other, legs straight and together, feet plantarflexed",
     "resistance": null,
-    "inhale": "Lift arms up and forward, followed by head and chest; pause",
-    "exhale": "Roll up to eyes over knees; roll down, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Lift arms up and forward, followed by head and chest"},
+      {"breath": "exhale", "action": "Roll up to eyes over knees"},
+      {"breath": "inhale", "action": "Pause"},
+      {"breath": "exhale", "action": "Roll down, return to start position"}
+    ],
     "muscleFocus": ["Spinal flexors", "Spinal extensors", "Hip flexors"],
     "objectives": ["Spinal flexor strength", "Spinal mobility and stability", "Hip flexor control"],
     "cues": ["Pause briefly in Chest Lift position", "Maintain C curve when rolling up and rolling down", "Pause when shoulders are in front of hip joints and eyes are over knee joints", "Keep head aligned with spine"]
@@ -137,8 +161,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153658/mat-009a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153678/mat-009b.png"],
     "setup": "Lying supine, arms down by sides or in T position, one leg straight up to ceiling, foot dorsiflexed, other leg on Mat, foot plantarflexed",
     "resistance": null,
-    "inhale": "Bring leg across center line, circle down and around",
-    "exhale": "Complete circle, same direction",
+    "movement": [
+      {"breath": "inhale", "action": "Bring leg across center line, circle down and around"},
+      {"breath": "exhale", "action": "Complete circle, same direction"}
+    ],
     "muscleFocus": ["Spinal flexors", "Spinal extensors", "Hip flexors", "Hip adductors"],
     "objectives": ["Pelvic lumbar stabilization", "Hip disassociation"],
     "cues": ["Keep shoulders stable", "Maintain fluid movement", "Keep circles within range of pelvic lumbar control"]
@@ -153,8 +179,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153626/mat-010a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153638/mat-010b.png"],
     "setup": "Sitting in balanced position, body in ball shape, legs bent, hands on shins close to ankles, feet off Mat",
     "resistance": null,
-    "inhale": "Roll back",
-    "exhale": "Roll forward, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Roll back"},
+      {"breath": "exhale", "action": "Roll forward, return to start position"}
+    ],
     "muscleFocus": ["Spinal flexors", "Spinal extensors", "Elbow flexors"],
     "objectives": ["Trunk stabilization", "Shoulder stabilization", "Elbow flexor control"],
     "cues": ["Maintain fluid movement", "Keep ball shape consistent", "Keep head aligned with spine", "Keep pulling legs toward chest and heels toward sit bones"]
@@ -169,8 +197,12 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153623/mat-011a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153611/mat-011b.png"],
     "setup": "Sitting upright, legs straight, feet dorsiflexed, shoulder width apart, arms straight and reaching forward parallel to Mat, palms facing each other",
     "resistance": null,
-    "inhale": "Prepare; pause at bottom",
-    "exhale": "Roll down and forward through spine; roll up through spine, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Prepare"},
+      {"breath": "exhale", "action": "Roll down and forward through spine"},
+      {"breath": "inhale", "action": "Pause"},
+      {"breath": "exhale", "action": "Roll up through spine, return to start position"}
+    ],
     "muscleFocus": ["Hip extensors", "Spinal flexors", "Spinal extensors"],
     "objectives": ["Hip extensor stretch", "Spinal articulation", "Trunk stabilization"],
     "cues": ["Keep toes facing ceiling throughout", "Maintain scapular stabilization", "Articulate spine as if rolling down and up a wall", "Following roll down tip pelvis forward; prior to roll up return pelvis to upright position"]
@@ -185,8 +217,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153704/mat-012a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153723/mat-012b.png"],
     "setup": "Lying on side in neutral spine position, bottom arm straight and palm facing up, head resting on arm, pelvis perpendicular to Mat, legs together, top hand placed on Mat with elbow bent",
     "resistance": null,
-    "exhale": "Lift legs",
-    "inhale": "Lower legs, without touching Mat",
+    "movement": [
+      {"breath": "exhale", "action": "Lift legs"},
+      {"breath": "inhale", "action": "Lower legs, without touching Mat"}
+    ],
     "muscleFocus": ["Spinal lateral flexors", "Spinal flexors", "Spinal extensors", "Hip adductors"],
     "objectives": ["Spinal lateral flexor strength", "Trunk stabilization", "Hip adductor control"],
     "cues": ["Bias work toward abdominals (move legs slightly forward of center line if necessary)", "Keep neck and shoulders relaxed", "Move legs as one unit when tilting pelvis"]
@@ -201,8 +235,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153669/mat-013a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153650/mat-013b.png"],
     "setup": "Lying prone, head aligned with spine, arms straight and by sides pressing against legs",
     "resistance": null,
-    "inhale": "Lift upper trunk",
-    "exhale": "Lower upper trunk, without touching Mat",
+    "movement": [
+      {"breath": "inhale", "action": "Lift upper trunk"},
+      {"breath": "exhale", "action": "Lower upper trunk, without touching Mat"}
+    ],
     "muscleFocus": ["Spinal extensors", "Spinal flexors"],
     "objectives": ["Spinal extensor strength", "Pelvic lumbar stabilization"],
     "cues": ["Keep head aligned with spine", "Keep legs together", "Maintain abdominal support"]
@@ -217,8 +253,9 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153795/mat-014a.png"],
     "setup": "Kneeling with legs together, pelvis resting on heels, chest resting on thighs, arms reaching forward, neck relaxed",
     "resistance": null,
-    "exhale": "Breathe freely, relaxing back, neck and shoulders",
-    "inhale": null,
+    "movement": [
+      {"breath": "breathe freely", "action": "Breathe freely, relaxing back, neck and shoulders"}
+    ],
     "muscleFocus": ["Spinal extensors"],
     "objectives": ["Relaxation", "Stretch lumbar spine"],
     "cues": ["Allow pelvis to sink towards heels", "Visualize lumbar vertebra opening", "Breathe fully and relax deeper with each exhalation"]
@@ -233,8 +270,13 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153727/mat-015a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153747/mat-015b.png"],
     "setup": "Starting in Hundred Prep position",
     "resistance": null,
-    "exhale": "Lift arms, head and chest, bringing arms to sides of body parallel to Mat, simultaneously straighten legs forward; pump arms up and down for 5 counts; final exhale: lift arms to 90 degrees, lower body to start",
-    "inhale": "Pause; pump arms up and down for 5 counts (continue for 10 breath cycles)",
+    "movement": [
+      {"breath": "exhale", "action": "Lift arms, head and chest, bringing arms to sides of body parallel to Mat, simultaneously straighten legs forward"},
+      {"breath": "inhale", "action": "Pause"},
+      {"breath": "exhale", "action": "Pump arms up and down for 5 counts"},
+      {"breath": "inhale", "action": "Pump arms up and down for 5 counts (continue for 10 breath cycles)"},
+      {"breath": "final exhale", "action": "Lift arms to 90 degrees in the shoulder joint, lower body, return to start position"}
+    ],
     "muscleFocus": ["Spinal flexors", "Hip flexors", "Shoulder flexors", "Shoulder extensors"],
     "objectives": ["Spinal flexor strength", "Pelvic lumbar stabilization"],
     "cues": ["Keep pumps of arms small", "Keep legs stable at safe height", "Maintain pelvic lumbar stabilization"]
@@ -249,8 +291,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153594/mat-016a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153585/mat-016b.png"],
     "setup": "Lying supine, legs bent, hands on knees, shins parallel to Mat, trunk in Chest Lift position",
     "resistance": null,
-    "inhale": "Reach arms overhead, straighten legs forward",
-    "exhale": "Circle arms around, simultaneously bend legs toward chest, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Reach arms overhead, straighten legs forward"},
+      {"breath": "exhale", "action": "Circle arms around, simultaneously bend legs toward chest, return to start position"}
+    ],
     "muscleFocus": ["Spinal flexors", "Hip flexors"],
     "objectives": ["Spinal flexor strength", "Trunk stabilization", "Shoulder mobility"],
     "cues": ["Keep head aligned with spine", "Reach arms as far back as possible", "Avoid scapular elevation", "Maintain consistent height of trunk"]
@@ -265,8 +309,13 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153578/mat-017a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153584/mat-017b.png"],
     "setup": "Starting in Double Leg Stretch position",
     "resistance": null,
-    "exhale": "Straighten one leg, inside hand on bent knee, outside hand on top of other hand",
-    "inhale": "Switch legs and hands; final inhale: bend both legs, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Straighten one leg, inside hand on bent knee, outside hand on top"},
+      {"breath": "inhale", "action": "Switch legs and hands"},
+      {"breath": "exhale", "action": "Straighten other leg, inside hand on bent knee, outside hand on top"},
+      {"breath": "inhale", "action": "Switch legs and hands"},
+      {"breath": "final inhale", "action": "Bend both legs, return to start position"}
+    ],
     "muscleFocus": ["Spinal flexors", "Hip extensors", "Hip flexors", "Elbow flexors"],
     "objectives": ["Spinal flexor strength", "Trunk stabilization"],
     "cues": ["Maintain trunk flexion at consistent height", "Keep feet at same height", "Keep shin of bent leg parallel to Mat", "Use arms to support position"]
@@ -281,8 +330,13 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153776/mat-018a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153796/mat-018b.png"],
     "setup": "Starting in Double Leg Stretch position, place hands behind head, fingers interlaced",
     "resistance": null,
-    "exhale": "Straighten one leg, rotate toward bent knee",
-    "inhale": "Switch legs; final inhale: bend both legs, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Straighten one leg, rotate toward bent knee"},
+      {"breath": "inhale", "action": "Switch legs"},
+      {"breath": "exhale", "action": "Straighten other leg, rotate toward bent knee"},
+      {"breath": "inhale", "action": "Switch legs"},
+      {"breath": "final inhale", "action": "Bend both legs, return to start position"}
+    ],
     "muscleFocus": ["Spinal rotators", "Spinal flexors", "Hip extensors", "Hip flexors"],
     "objectives": ["Spinal rotator strength", "Spinal flexor strength", "Pelvic lumbar stabilization"],
     "cues": ["Maintain trunk flexion at consistent height", "Maximize engagement of abdominal obliques", "Maximize rotation while avoiding lateral flexion", "Keep elbows wide"]
@@ -297,8 +351,12 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153745/mat-019a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153726/mat-019b.png"],
     "setup": "Sitting upright, legs straight, feet dorsiflexed shoulder width apart, arms in T position, palms facing forward",
     "resistance": null,
-    "inhale": "Rotate trunk",
-    "exhale": "Reach forward as back arm internally rotates, front hand reaches past outside of foot; inhale return to upright in rotation; exhale rotate to center, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Rotate trunk"},
+      {"breath": "exhale", "action": "Reach forward as back arm internally rotates, front hand reaches past outside of foot"},
+      {"breath": "inhale", "action": "Return to upright position in rotation, back arm returns to shoulder line, front arm returns to T position"},
+      {"breath": "exhale", "action": "Rotate to center, return to start position"}
+    ],
     "muscleFocus": ["Hip extensors", "Spinal extensors", "Spinal rotators"],
     "objectives": ["Hip extensor stretch", "Spinal extensor control", "Spinal rotator control"],
     "cues": ["Rotate around longitudinal axis", "Maintain back extensor engagement", "Keep head aligned with spine, nose aligned with sternum"]
@@ -313,8 +371,12 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153589/mat-020a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153598/mat-020b.png"],
     "setup": "Sitting upright, legs straight and together, feet dorsiflexed, toes toward ceiling, arms in T position, palms facing up",
     "resistance": null,
-    "exhale": "Rotate trunk to one side (2 pulses)",
-    "inhale": "Rotate to center",
+    "movement": [
+      {"breath": "exhale", "action": "Rotate trunk to one side (2 pulses)"},
+      {"breath": "inhale", "action": "Rotate to center"},
+      {"breath": "exhale", "action": "Rotate trunk to other side (2 pulses)"},
+      {"breath": "inhale", "action": "Rotate to center"}
+    ],
     "muscleFocus": ["Spinal rotators", "Spinal extensors"],
     "objectives": ["Trunk mobility", "Spinal rotator control", "Spinal extensor control"],
     "cues": ["Keep pelvis and legs stable throughout", "Move head and arms together with trunk", "Initiate movement from trunk and not arms", "Maintain T position with arms", "Keep head aligned with spine, nose aligned with sternum"]
@@ -329,8 +391,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153581/mat-021a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153574/mat-021b.png"],
     "setup": "Lying supine, arms by sides, legs straight and together, perpendicular to Mat",
     "resistance": null,
-    "inhale": "Move legs to one side",
-    "exhale": "Circle legs down and around to opposite side, return to start position; alternate direction",
+    "movement": [
+      {"breath": "inhale", "action": "Move legs to one side"},
+      {"breath": "exhale", "action": "Circle legs down and around to opposite side, return to start position"}
+    ],
     "muscleFocus": ["Spinal flexors", "Spinal rotators", "Hip flexors"],
     "objectives": ["Spinal flexor control", "Spinal rotator control", "Hip flexor control"],
     "cues": ["Move pelvis and legs as one unit", "Keep legs together", "Initiate movement with spinal rotators", "Maintain pelvic lumbar stabilization (bend knees if necessary)"]
@@ -345,8 +409,11 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153768/mat-022a.png","https://res.cloudinary.com/dgauos4zk/image/upload/v1782153784/mat-022b.png"],
     "setup": "Lying prone, trunk lifted, arms bent, elbows under shoulders, fingers interlaced, legs straight and together, lifted off Mat",
     "resistance": null,
-    "exhale": "Bend leg (2 pulses), switch legs (2 pulses)",
-    "inhale": "Bend leg (2 pulses), switch legs (2 pulses); final inhale: straighten legs, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Bend leg (2 pulses), switch legs (2 pulses)"},
+      {"breath": "inhale", "action": "Bend leg (2 pulses), switch legs (2 pulses)"},
+      {"breath": "final inhale", "action": "Straighten legs, return to start position"}
+    ],
     "muscleFocus": ["Spinal extensors", "Hip extensors", "Knee flexors", "Spinal flexors"],
     "objectives": ["Spinal extensor control", "Hip extensor control", "Knee flexor control"],
     "cues": ["Maintain scapular stabilization", "Keep abdominals engaged", "Keep both legs lifted off Mat", "Press elbows into Mat to assist thoracic extension"]
@@ -361,8 +428,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153754/mat-023a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153738/mat-023b.png"],
     "setup": "Kneeling in quadruped position, neutral spine, wrists under shoulders, knees under hips",
     "resistance": null,
-    "exhale": "Round spine, return to start position",
-    "inhale": "Extend spine, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Round spine, return to start position"},
+      {"breath": "inhale", "action": "Extend spine, return to start position"}
+    ],
     "muscleFocus": ["Spinal flexors", "Spinal extensors"],
     "objectives": ["Spinal flexor control", "Spinal extensor control", "Lumbar spine stretch", "Pelvic lumbar stabilization"],
     "cues": ["Focus flexion in lumbar spine", "Focus extension in thoracic spine", "Keep pelvic lumbar region stable during thoracic extension", "Maintain scapular stabilization throughout"]
@@ -377,8 +446,12 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153713/mat-024a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153693/mat-024b.png"],
     "setup": "Starting in plank position, arms straight and parallel, wrists under shoulders, legs straight and parallel, feet hip width apart",
     "resistance": null,
-    "exhale": "Bend one leg toward chest",
-    "inhale": "Straighten leg back to start position; bend opposite leg toward chest; straighten leg back",
+    "movement": [
+      {"breath": "exhale", "action": "Bend one leg toward chest"},
+      {"breath": "inhale", "action": "Straighten leg back, return to start position"},
+      {"breath": "exhale", "action": "Bend opposite leg toward chest"},
+      {"breath": "inhale", "action": "Straighten leg back, return to start position"}
+    ],
     "muscleFocus": ["Spinal flexors", "Spinal extensors", "Hip flexors", "Scapular stabilizers"],
     "objectives": ["Spinal flexor control", "Trunk stabilization", "Hip flexor control", "Scapular stabilization"],
     "cues": ["Keep body in straight diagonal line", "Keep abdominals engaged to avoid sinking in lower back", "Focus on hip disassociation"]
@@ -393,8 +466,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153661/mat-025a.png"],
     "setup": "Sitting, arms straight and parallel, hands placed on Mat behind pelvis, fingers facing feet, legs straight and parallel, feet plantarflexed, hip width apart",
     "resistance": null,
-    "exhale": "Lift pelvis (Back Support position)",
-    "inhale": "Lower pelvis, without touching Mat",
+    "movement": [
+      {"breath": "exhale", "action": "Lift pelvis (Back Support position)"},
+      {"breath": "inhale", "action": "Lower pelvis, without touching Mat"}
+    ],
     "muscleFocus": ["Shoulder extensors", "Hip extensors", "Spinal extensors"],
     "objectives": ["Shoulder extensor strength", "Hip extensor strength", "Trunk stabilization"],
     "cues": ["Create straight diagonal line when pelvis is lifted", "Hinge at hip joint when lifting and lowering pelvis", "Move trunk as one unit", "If there is discomfort in wrists, face fingers out to sides or make fists"]
@@ -409,8 +484,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153646/mat-026a.png","https://res.cloudinary.com/dgauos4zk/image/upload/v1782153634/mat-026b.png"],
     "setup": "Sitting in balanced position with body in ball shape, legs bent, arms wrapped under legs, feet plantarflexed, palms on top of feet",
     "resistance": null,
-    "inhale": "Roll back, clap feet together three times",
-    "exhale": "Roll up, return to start position, clap feet together three times",
+    "movement": [
+      {"breath": "inhale", "action": "Roll back, clap feet together three times"},
+      {"breath": "exhale", "action": "Roll up, return to start position, clap feet together three times"}
+    ],
     "muscleFocus": ["Spinal flexors", "Spinal extensors", "Hip adductors"],
     "objectives": ["Trunk stabilization", "Hip joint flexibility"],
     "cues": ["Keep eyes forward", "Maintain scapular stabilization", "Maintain consistent curve of spine", "Roll onto shoulders, avoid rolling onto neck"]
@@ -425,8 +502,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153606/mat-027a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153615/mat-027b.png"],
     "setup": "Starting in Chest Lift position, legs together, perpendicular to Mat, hands behind calves",
     "resistance": null,
-    "exhale": "Lower one leg to Mat, lift other leg toward chest holding calf (2 pulses)",
-    "inhale": "Switch legs",
+    "movement": [
+      {"breath": "exhale", "action": "Lower one leg to Mat, lift other leg toward chest holding calf (2 pulses)"},
+      {"breath": "inhale", "action": "Switch legs"}
+    ],
     "muscleFocus": ["Spinal flexors", "Hip flexors", "Hip extensors"],
     "objectives": ["Spinal flexor strength", "Pelvic lumbar stabilization", "Hip flexor control and stretch", "Hip extensor control and stretch"],
     "cues": ["Pull gently on leg during pulses", "Maintain stability of trunk and pelvis as legs change", "Anchor bottom leg on Mat and keep stable (no pulses)", "Maintain consistent height of trunk"]
@@ -441,8 +520,12 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153692/mat-028a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153711/mat-028b.png"],
     "setup": "Lying supine, arms by sides of body, legs straight and together, on diagonal line (approximately 60 degrees), feet plantarflexed",
     "resistance": null,
-    "inhale": "Lift legs perpendicular to Mat; dorsiflex feet, separate legs shoulder width apart, lower feet toward Mat",
-    "exhale": "Roll over, legs parallel to Mat; roll down to pelvis, plantarflex feet, lower legs to diagonal line, bring together, return to start",
+    "movement": [
+      {"breath": "inhale", "action": "Lift legs, perpendicular to Mat"},
+      {"breath": "exhale", "action": "Roll over, legs parallel to Mat"},
+      {"breath": "inhale", "action": "Dorsiflex feet, separate legs shoulder width apart, lower feet toward Mat"},
+      {"breath": "exhale", "action": "Roll down to pelvis, plantarflex feet, lower legs to diagonal line, bringing them together, return to start position"}
+    ],
     "muscleFocus": ["Spinal flexors", "Hip flexors", "Hip extensors"],
     "objectives": ["Spinal articulation", "Hip extensor stretch"],
     "cues": ["Use spinal flexion for roll over", "Maintain 90 degree angle in hip joint during roll over", "Keep thighs close to chest when rolling back down", "Plantarflex feet when legs are perpendicular to Mat following roll down"]
@@ -457,8 +540,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153682/mat-029a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153662/mat-029b.png"],
     "setup": "Sitting in balanced position, back flat, one hand holding each leg close to ankles, legs shoulder width apart, arms straight, feet plantarflexed",
     "resistance": null,
-    "inhale": "Round back, roll back",
-    "exhale": "Roll up, straighten back, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Round back, roll back"},
+      {"breath": "exhale", "action": "Roll up, straighten back, return to start position"}
+    ],
     "muscleFocus": ["Spinal flexors", "Spinal extensors"],
     "objectives": ["Trunk stabilization", "Spinal extensor control", "Spinal articulation"],
     "cues": ["Keep arms straight", "Initiate roll back with flexion of lumbar spine", "Utilize spinal flexors to initiate movement", "Utilize spinal extensors to complete movement", "Maintain scapular stabilization"]
@@ -473,8 +558,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153647/mat-030a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153634/mat-030b.png"],
     "setup": "Starting in up phase of Pelvic Curl",
     "resistance": null,
-    "exhale": "Lift one leg toward chest, plantarflex foot",
-    "inhale": "Lower leg, touching Mat with toes",
+    "movement": [
+      {"breath": "exhale", "action": "Lift one leg toward chest, plantarflex foot"},
+      {"breath": "inhale", "action": "Lower leg, touching Mat with toes"}
+    ],
     "muscleFocus": ["Spinal flexors", "Spinal extensors", "Hip extensors", "Hip flexors"],
     "objectives": ["Pelvic lumbar stabilization", "Hip extensor strength", "Hip flexor control", "Hip disassociation"],
     "cues": ["Keep hip adductors engaged", "Maintain 90 degree angle in knee of moving leg", "Maintain hip extension with supporting leg", "Keep pelvis lifted, level, and stable", "Keep arms pressing into Mat"]
@@ -489,8 +576,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153604/mat-031a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153614/mat-031b.png"],
     "setup": "Lying on side, leaning on elbow, fingers touching sides of head, trunk lifted, legs straight and aligned with body, top leg at hip height, feet plantarflexed",
     "resistance": null,
-    "exhale": "Swing top leg forward, dorsiflex foot (2 pulses)",
-    "inhale": "Swing top leg back, plantarflex foot (2 pulses)",
+    "movement": [
+      {"breath": "exhale", "action": "Swing top leg forward, dorsiflex foot (2 pulses)"},
+      {"breath": "inhale", "action": "Swing top leg back, plantarflex foot (2 pulses)"}
+    ],
     "muscleFocus": ["Spinal lateral flexors", "Spinal flexors", "Spinal extensors", "Hip flexors", "Hip extensors"],
     "objectives": ["Trunk stabilization", "Hip flexor control and stretch", "Hip extensor control and stretch"],
     "cues": ["Maintain neutral pelvis (as close as possible)", "Maintain stable trunk", "Avoid sinking into supporting shoulder and rib cage", "Keep head aligned with spine"]
@@ -505,8 +594,12 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153708/mat-032a.png","https://res.cloudinary.com/dgauos4zk/image/upload/v1782153690/mat-032b.png"],
     "setup": "Lying prone, legs straight and together, lifted off Mat, fingers interlaced behind back, arms relaxed, head to side, cheek resting on Mat",
     "resistance": null,
-    "exhale": "Bend both legs (3 pulses); lower trunk, bend arms and legs, turn head to opposite side (3 pulses)",
-    "inhale": "Extend back, turn head to center, straighten legs and arms",
+    "movement": [
+      {"breath": "exhale", "action": "Bend both legs (3 pulses)"},
+      {"breath": "inhale", "action": "Extend back, turn head to center, straighten legs and arms"},
+      {"breath": "exhale", "action": "Lower trunk, bend arms and legs, turn head to opposite side (3 pulses)"},
+      {"breath": "inhale", "action": "Extend back, turn head to center, straighten legs and arms"}
+    ],
     "muscleFocus": ["Spinal extensors", "Hip extensors", "Knee flexors"],
     "objectives": ["Spinal extensor strength", "Hip extensor control", "Shoulder and thoracic stretch"],
     "cues": ["Maintain scapular stabilization", "Reach elbows to Mat when hands are resting on back", "Keep legs lifted off Mat"]
@@ -521,8 +614,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153664/mat-033a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153682/mat-033b.png"],
     "setup": "Lying prone, arms straight and reaching forward, legs straight and reaching back, chest, arms and legs lifted off Mat, head between arms",
     "resistance": null,
-    "inhale": "Lift right arm and left leg, left arm and right leg continue alternating (5 counts)",
-    "exhale": "Continue alternating movement pattern (5 counts)",
+    "movement": [
+      {"breath": "inhale", "action": "Lift right arm and left leg, left arm and right leg continue alternating (5 counts)"},
+      {"breath": "exhale", "action": "Continue movement pattern (5 counts)"}
+    ],
     "muscleFocus": ["Spinal extensors", "Hip extensors", "Shoulder flexors"],
     "objectives": ["Trunk stabilization", "Hip extensor control", "Shoulder flexor control"],
     "cues": ["Maintain scapular stabilization", "Maintain trunk stabilization", "Focus on cross-pattern coordination of arms and legs", "Keep head aligned with spine"]
@@ -537,8 +632,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153765/mat-034a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153783/mat-034b.png"],
     "setup": "Lying prone, knees bent, arms straight and reaching back, feet plantarflexed, hands holding feet",
     "resistance": null,
-    "inhale": "Lift trunk and legs toward ceiling",
-    "exhale": "Lower trunk and legs to Mat, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Lift trunk and legs toward ceiling"},
+      {"breath": "exhale", "action": "Lower trunk and legs to Mat, return to start position"}
+    ],
     "muscleFocus": ["Spinal extensors", "Hip extensors", "Knee extensors"],
     "objectives": ["Spinal extensor strength", "Hip extensor control", "Knee extensor control", "Chest stretch"],
     "cues": ["Reach toes toward ceiling", "Keep head aligned with spine", "Extend hips, knees and back simultaneously", "Maintain scapular stabilization"]
@@ -553,8 +650,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153757/mat-035a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153739/mat-035b.png"],
     "setup": "Starting in Front Support position, one leg lifted slightly off Mat, foot plantarflexed",
     "resistance": null,
-    "exhale": "Lift leg",
-    "inhale": "Lower leg",
+    "movement": [
+      {"breath": "exhale", "action": "Lift leg"},
+      {"breath": "inhale", "action": "Lower leg"}
+    ],
     "muscleFocus": ["Spinal flexors", "Spinal extensors", "Hip extensors", "Scapular stabilizers"],
     "objectives": ["Pelvic lumbar stabilization", "Hip extensor control", "Scapular stabilization", "Trunk stabilization"],
     "cues": ["Keep body in straight diagonal line", "Keep pelvis in neutral position or slight posterior tilt", "Maintain scapular stabilization", "Focus on hip disassociation when lifting and lowering leg"]
@@ -569,8 +668,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153591/mat-036a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153599/mat-036b.png"],
     "setup": "Starting in Back Support position",
     "resistance": null,
-    "exhale": "Lift leg",
-    "inhale": "Lower leg",
+    "movement": [
+      {"breath": "exhale", "action": "Lift leg"},
+      {"breath": "inhale", "action": "Lower leg"}
+    ],
     "muscleFocus": ["Hip extensors", "Hip flexors", "Shoulder extensors", "Spinal extensors"],
     "objectives": ["Hip extensor strength", "Hip flexor control", "Shoulder extensor strength", "Trunk stabilization"],
     "cues": ["Keep spinal extensors engaged", "Keep head aligned with spine", "Focus on hip disassociation when lifting and lowering leg", "Keep body in straight diagonal line"]
@@ -585,8 +686,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153579/mat-037a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153574/mat-037b.png"],
     "setup": "Sitting in balanced position, back flat, arms straight and reaching forward parallel to Mat, legs lifted, knees bent, shins parallel to Mat",
     "resistance": null,
-    "exhale": "Roll down",
-    "inhale": "Roll up, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Roll down"},
+      {"breath": "inhale", "action": "Roll up, return to start position"}
+    ],
     "muscleFocus": ["Spinal flexors", "Spinal extensors", "Hip flexors"],
     "objectives": ["Spinal flexor strength", "Spinal extensor control", "Hip flexor control", "Preparation for Teaser 1, 2, 3"],
     "cues": ["Engage spinal extensors to complete movement", "Articulate through spine when rolling down and up", "Initiate roll down and roll up with lumbar flexion", "Keep arms parallel to Mat"]
@@ -601,8 +704,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153780/mat-038a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153764/mat-038b.png"],
     "setup": "Starting in Hamstring Pull 1 position, fingers interlaced behind head",
     "resistance": null,
-    "exhale": "Lower one leg to Mat, lift other leg toward chest (2 pulses)",
-    "inhale": "Switch legs",
+    "movement": [
+      {"breath": "exhale", "action": "Lower one leg to Mat, lift other leg toward chest (2 pulses)"},
+      {"breath": "inhale", "action": "Switch legs"}
+    ],
     "muscleFocus": ["Spinal flexors", "Hip flexors", "Hip extensors"],
     "objectives": ["Spinal flexor strength", "Pelvic lumbar stabilization", "Hip flexor control and stretch", "Hip extensor control and stretch"],
     "cues": ["Support head with hands", "Maintain stability of trunk and pelvis as legs change", "Anchor bottom leg on Mat and keep stable (no pulses)", "Maintain consistent height of trunk"]
@@ -617,8 +722,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153741/mat-039a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153758/mat-039b.png"],
     "setup": "Starting in Hamstring Pull 2 position",
     "resistance": null,
-    "exhale": "Lower one leg to Mat, lift other leg toward chest, rotate trunk toward lifted leg (2 pulses)",
-    "inhale": "Switch",
+    "movement": [
+      {"breath": "exhale", "action": "Lower one leg to Mat, lift other leg toward chest, rotate trunk toward lifted leg (2 pulses)"},
+      {"breath": "inhale", "action": "Switch"}
+    ],
     "muscleFocus": ["Spinal flexors", "Spinal rotators", "Hip flexors", "Hip extensors"],
     "objectives": ["Spinal flexor strength", "Spinal rotator strength", "Pelvic lumbar stabilization", "Hip flexor control and stretch", "Hip extensor control and stretch"],
     "cues": ["Maximize rotation while avoiding lateral flexion", "Maintain stability of trunk and pelvis as legs change", "Anchor bottom leg on Mat and keep stable (no pulses)", "Maintain consistent height of trunk"]
@@ -633,8 +740,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153577/mat-040a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153583/mat-040b.png"],
     "setup": "Starting in up phase of Pelvic Curl, one leg straight, foot plantarflexed, reaching toward ceiling",
     "resistance": null,
-    "exhale": "Lower leg",
-    "inhale": "Lift leg, dorsiflex foot",
+    "movement": [
+      {"breath": "exhale", "action": "Lower leg"},
+      {"breath": "inhale", "action": "Lift leg, dorsiflex foot"}
+    ],
     "muscleFocus": ["Spinal flexors", "Spinal extensors", "Hip flexors", "Hip extensors"],
     "objectives": ["Pelvic lumbar stabilization", "Hip flexor control and stretch", "Hip extensor control and stretch"],
     "cues": ["Stretch front of straight leg during lowering phase", "Stretch back of straight leg during lifting phase", "Maintain consistent height of pelvis", "Bias toward posterior tilt of pelvis", "Keep pelvis level"]
@@ -649,8 +758,12 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153595/mat-041a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153587/mat-041b.png"],
     "setup": "Starting in Roll Over position, feet dorsiflexed and anchored on Mat, arms straight and overhead, hands holding feet (or calves)",
     "resistance": null,
-    "exhale": "Lift one leg toward ceiling (2 pulses)",
-    "inhale": "Switch legs",
+    "movement": [
+      {"breath": "exhale", "action": "Lift one leg toward ceiling (2 pulses)"},
+      {"breath": "inhale", "action": "Switch legs"},
+      {"breath": "exhale", "action": "Lift opposite leg toward ceiling (2 pulses)"},
+      {"breath": "inhale", "action": "Switch legs"}
+    ],
     "muscleFocus": ["Hip extensors", "Spinal extensors"],
     "objectives": ["Hip extensor control", "Trunk stabilization"],
     "cues": ["Keep weight on shoulder girdle", "Minimize weight on cervical spine", "Switch legs simultaneously", "Maintain pelvic stabilization as legs change"]
@@ -665,8 +778,12 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153730/mat-042a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153749/mat-042b.png"],
     "setup": "Starting in Roll Over position",
     "resistance": null,
-    "inhale": "Lift legs perpendicular to Mat; lower legs, lift legs toward ceiling",
-    "exhale": "Roll over; roll down, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Lift legs, perpendicular to Mat"},
+      {"breath": "exhale", "action": "Roll over"},
+      {"breath": "inhale", "action": "Lower legs, lift legs toward ceiling"},
+      {"breath": "exhale", "action": "Roll down, return to start position"}
+    ],
     "muscleFocus": ["Spinal flexors", "Hip extensors", "Spinal extensors", "Shoulder extensors"],
     "objectives": ["Spinal articulation", "Hip extensor control", "Spinal extensor control", "Shoulder extensor control"],
     "cues": ["Touch feet to Mat (as close as possible) prior to lifting", "Create vertical line with body when legs lift to ceiling", "Utilize hip, back and shoulder extensors to achieve vertical line", "Roll down with feet opposite face"]
@@ -681,8 +798,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153792/mat-043a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153775/mat-043b.png"],
     "setup": "Sitting in V position, arms straight and parallel, hands placed on Mat behind pelvis, fingers facing away from body, legs straight and together on diagonal line, feet plantarflexed",
     "resistance": null,
-    "inhale": "Move legs to one side",
-    "exhale": "Circle legs down and around to opposite side, return to start position; change direction after 5 repetitions",
+    "movement": [
+      {"breath": "inhale", "action": "Move legs to one side"},
+      {"breath": "exhale", "action": "Circle legs down and around to opposite side, return to start position"}
+    ],
     "muscleFocus": ["Spinal flexors", "Spinal rotators", "Hip flexors"],
     "objectives": ["Spinal flexor control", "Spinal rotator control", "Hip flexor control"],
     "cues": ["Move pelvis and legs as one unit", "Keep legs together", "Initiate movement with spinal rotators", "Maintain pelvic lumbar stabilization (bend knees if necessary)"]
@@ -697,8 +816,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153673/mat-044a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153655/mat-044b.png"],
     "setup": "Kneeling on one knee, shoulder over wrist, fingers facing away from body, top leg lifted to hip height (or higher), fingers touching behind head",
     "resistance": null,
-    "exhale": "Swing top leg forward, dorsiflex foot (2 pulses)",
-    "inhale": "Swing top leg back, plantarflex foot (2 pulses)",
+    "movement": [
+      {"breath": "exhale", "action": "Swing top leg forward, dorsiflex foot (2 pulses)"},
+      {"breath": "inhale", "action": "Swing top leg back, plantarflex foot (2 pulses)"}
+    ],
     "muscleFocus": ["Hip abductors", "Hip flexors", "Hip extensors"],
     "objectives": ["Trunk stabilization", "Hip flexor control and stretch", "Hip extensor control and stretch"],
     "cues": ["Maintain neutral pelvis (as close as possible)", "Maintain stable trunk", "Avoid sinking into supporting shoulder and rib cage", "Keep head aligned with spine"]
@@ -713,8 +834,12 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153702/mat-045a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153719/mat-045b.png"],
     "setup": "Sitting sideways, weight on one side of pelvis and supporting arm, legs bent, top leg in front of bottom leg, other arm down by side",
     "resistance": null,
-    "inhale": "Lift pelvis, straighten legs, raise top arm to shoulder height, body on diagonal line; return to diagonal line",
-    "exhale": "Lift pelvis higher toward ceiling, transfer top arm overhead; lower body, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Lift pelvis, straighten legs, raise top arm to shoulder height, body on diagonal line"},
+      {"breath": "exhale", "action": "Lift pelvis higher toward ceiling, transferring top arm overhead"},
+      {"breath": "inhale", "action": "Return to diagonal line"},
+      {"breath": "exhale", "action": "Lower body, return to start position"}
+    ],
     "muscleFocus": ["Spinal lateral flexors", "Scapular stabilizers", "Shoulder abductors"],
     "objectives": ["Spinal lateral flexor strength", "Scapular stabilization", "Shoulder strength"],
     "cues": ["Keep legs together and weight on foot of top leg", "Keep bottom foot plantarflexed and resting on Mat", "Maximize use of lateral flexors and minimize use of legs"]
@@ -729,8 +854,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153622/mat-046a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153610/mat-046b.png"],
     "setup": "Lying prone, elbows close to sides of body, forearms pressing into Mat",
     "resistance": null,
-    "inhale": "Lift trunk, straighten arms",
-    "exhale": "Lower trunk, bend arms, simultaneously lift legs off Mat",
+    "movement": [
+      {"breath": "inhale", "action": "Lift trunk, straighten arms"},
+      {"breath": "exhale", "action": "Lower trunk, bend arms, simultaneously lift legs off Mat"}
+    ],
     "muscleFocus": ["Spinal extensors", "Hip extensors", "Spinal flexors"],
     "objectives": ["Spinal extensor strength", "Hip extensor control", "Spinal flexor control"],
     "cues": ["Maintain abdominal engagement throughout", "Lift trunk as high as possible prior to lifting forearms and straightening arms", "Keep elbows close to sides of body", "Maintain scapular stabilization"]
@@ -745,8 +872,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153627/mat-047a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153639/mat-047b.png"],
     "setup": "Balance in V position, legs straight and together on diagonal line, back flat, arms straight and overhead, shoulder width apart",
     "resistance": null,
-    "exhale": "Roll down, lift arms overhead",
-    "inhale": "Roll up, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Roll down, lift arms overhead"},
+      {"breath": "inhale", "action": "Roll up, return to start position"}
+    ],
     "muscleFocus": ["Spinal flexors", "Spinal extensors", "Hip flexors"],
     "objectives": ["Spinal flexor strength", "Spinal extensor strength", "Hip flexor strength"],
     "cues": ["Keep legs at consistent angle", "Articulate through spine when rolling down and up", "Keep arms at shoulder height prior to reaching overhead following roll down and roll up"]
@@ -761,8 +890,12 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153653/mat-048a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153672/mat-048b.png"],
     "setup": "Lying supine, hands interlaced behind head, legs straight and together, feet plantarflexed",
     "resistance": null,
-    "inhale": "Lift head and chest; articulate spine to upright position, hinge back",
-    "exhale": "Roll up, bring trunk over thighs; roll down, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Lift head and chest"},
+      {"breath": "exhale", "action": "Roll up, bring trunk over thighs"},
+      {"breath": "inhale", "action": "Articulate spine to upright position, hinge back"},
+      {"breath": "exhale", "action": "Roll down, return to start position"}
+    ],
     "muscleFocus": ["Spinal flexors", "Spinal extensors", "Hip flexors", "Hip extensors"],
     "objectives": ["Spinal flexor strength", "Spinal extensor control", "Hip flexor control", "Hip extensor stretch"],
     "cues": ["Keep elbows wide", "Avoid pulling on neck when rolling up", "Hinge trunk back to diagonal line prior to rolling down"]
@@ -777,8 +910,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153722/mat-049a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153702/mat-049b.png"],
     "setup": "Resting on shoulder girdle and upper arms, arms bent and parallel, hands holding pelvis, back arched, legs straight and together, feet plantarflexed, reaching toward ceiling",
     "resistance": null,
-    "exhale": "Open legs to Scissors position (2 pulses)",
-    "inhale": "Switch",
+    "movement": [
+      {"breath": "exhale", "action": "Open legs to Scissors position (2 pulses)"},
+      {"breath": "inhale", "action": "Switch"}
+    ],
     "muscleFocus": ["Hip flexors", "Hip extensors", "Spinal flexors"],
     "objectives": ["Hip flexor control and stretch", "Hip extensor control and stretch", "Pelvic lumbar stabilization"],
     "cues": ["Maintain pelvic lumbar stabilization", "Pass through the perpendicular position following each repetition", "Create even V when legs are in Scissors position"]
@@ -793,8 +928,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153619/mat-050a.png","https://res.cloudinary.com/dgauos4zk/image/upload/v1782153607/mat-050b.png"],
     "setup": "Starting in Scissors position, bend back knee toward Mat",
     "resistance": null,
-    "exhale": "Bicycle legs: lower one leg, bend knee to 90 degrees bringing toward chest, straighten to V; simultaneously repeat with other leg (3 cycles each direction)",
-    "inhale": "Continue alternating bicycle pattern",
+    "movement": [
+      {"breath": "exhale", "action": "Lower right leg toward Mat, bend right knee to 90 degrees and flex hip bringing leg toward chest, straighten leg to form V position. Simultaneously lower left leg toward Mat, create V position, bend left knee to 90 degrees and flex hip bringing leg toward chest, straighten to Scissors position"},
+      {"breath": "inhale", "action": "Simultaneously lower right leg toward Mat, continue with this exact movement pattern of right and left leg while inhaling"}
+    ],
     "muscleFocus": ["Hip flexors", "Hip extensors", "Spinal flexors"],
     "objectives": ["Hip flexor control and stretch", "Hip extensor control and stretch", "Pelvic lumbar stabilization"],
     "cues": ["Maintain pelvic lumbar stabilization", "Create even V when legs are in Scissors position", "Avoid externally rotating hip when bending back knee", "Touch Mat with foot of bent leg in both directions (as close as possible)"]
@@ -809,8 +946,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153629/mat-051a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153642/mat-051b.png"],
     "setup": "Starting in Roll Over position, legs overhead",
     "resistance": null,
-    "inhale": "Rotate spine, move legs to one side",
-    "exhale": "Roll down side of trunk, circle legs around, rotate spine, roll up opposite side of trunk, move legs to center, return to start position; alternate sides",
+    "movement": [
+      {"breath": "inhale", "action": "Rotate spine, move legs to one side"},
+      {"breath": "exhale", "action": "Roll down side of trunk, circle legs around, rotate spine, roll up opposite side of trunk, move legs to center, return to start position"}
+    ],
     "muscleFocus": ["Spinal rotators", "Spinal flexors", "Hip flexors"],
     "objectives": ["Spinal rotator control", "Spinal flexor control", "Hip flexor control"],
     "cues": ["Move pelvis and legs as one unit", "Initiate movement with spinal rotators", "Keep shoulders stable", "Maintain pelvic lumbar stabilization", "Imagine drawing a large circle with feet around body"]
@@ -825,8 +964,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153676/mat-052a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153656/mat-052b.png"],
     "setup": "Starting in lifted position of Rocking Prep",
     "resistance": null,
-    "exhale": "Rock forward, lift feet toward ceiling",
-    "inhale": "Rock back, lift top of head toward ceiling",
+    "movement": [
+      {"breath": "exhale", "action": "Rock forward, lift feet toward ceiling"},
+      {"breath": "inhale", "action": "Rock back, lift top of head toward ceiling"}
+    ],
     "muscleFocus": ["Spinal extensors", "Hip extensors", "Spinal flexors"],
     "objectives": ["Spinal extensor strength", "Hip extensor control", "Chest and shoulder stretch"],
     "cues": ["Initiate rock forward with hip extensor activation", "Keep head aligned with spine", "Keep scapulae open and chest wide", "Maintain consistent shape of body throughout"]
@@ -841,8 +982,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153698/mat-053a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153718/mat-053b.png"],
     "setup": "Starting in Teaser 1 position",
     "resistance": null,
-    "inhale": "Lower legs",
-    "exhale": "Lift legs",
+    "movement": [
+      {"breath": "inhale", "action": "Lower legs"},
+      {"breath": "exhale", "action": "Lift legs"}
+    ],
     "muscleFocus": ["Spinal flexors", "Spinal extensors", "Hip flexors"],
     "objectives": ["Spinal flexor strength", "Spinal extensor strength", "Hip flexor strength"],
     "cues": ["Maintain stable trunk throughout", "Keep shoulders relaxed", "Keep movement of legs controlled"]
@@ -857,8 +1000,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153734/mat-054a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153753/mat-054b.png"],
     "setup": "Starting in Teaser 1 position",
     "resistance": null,
-    "exhale": "Lower trunk and legs simultaneously, reach arms overhead",
-    "inhale": "Lift arms, trunk and legs, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Lower trunk and legs simultaneously, reach arms overhead"},
+      {"breath": "inhale", "action": "Lift arms, trunk and legs, return to start position"}
+    ],
     "muscleFocus": ["Spinal flexors", "Spinal extensors", "Hip flexors"],
     "objectives": ["Spinal flexor strength", "Spinal extensor strength", "Hip flexor strength"],
     "cues": ["Lower legs to slightly above Mat", "Articulate through spine when rolling down and rolling up", "Keep arms at shoulder height prior to reaching overhead following roll down and roll up"]
@@ -873,8 +1018,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153788/mat-055a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153772/mat-055b.png"],
     "setup": "Balancing in V position, legs straight and together on diagonal line, back flat, arms straight and reaching forward, shoulder width apart",
     "resistance": null,
-    "inhale": "Rotate upper trunk, arms, and head in one direction, pelvis and legs in opposite direction",
-    "exhale": "Circle legs down and around to opposite side and arms up and around to opposite side simultaneously, return to start position; change direction after 5 repetitions",
+    "movement": [
+      {"breath": "inhale", "action": "Rotate upper trunk, arms, and head in one direction, pelvis and legs in opposite direction"},
+      {"breath": "exhale", "action": "Circle legs down and around to opposite side and arms up and around to opposite side simultaneously, return to start position"}
+    ],
     "muscleFocus": ["Spinal rotators", "Spinal flexors", "Spinal extensors", "Hip flexors"],
     "objectives": ["Spinal rotator strength", "Hip flexor strength"],
     "cues": ["Maintain pelvic lumbar stabilization", "Move legs and pelvis as one unit", "Move arms, trunk and head as one unit"]
@@ -889,8 +1036,12 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153576/mat-056a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153582/mat-056b.png"],
     "setup": "Starting in Side Bend position",
     "resistance": null,
-    "inhale": "Lift pelvis, straighten legs, raise top arm to shoulder height, body on diagonal line; return to diagonal line",
-    "exhale": "Lift pelvis toward ceiling, rotate trunk, reach arm under and back; lower body, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Lift pelvis, straighten legs, raise top arm to shoulder height, body on diagonal line"},
+      {"breath": "exhale", "action": "Lift pelvis toward ceiling, rotate trunk, reach arm under and back"},
+      {"breath": "inhale", "action": "Return to diagonal line"},
+      {"breath": "exhale", "action": "Lower body, return to start position"}
+    ],
     "muscleFocus": ["Spinal lateral flexors", "Spinal rotators", "Scapular stabilizers", "Shoulder abductors"],
     "objectives": ["Spinal rotator control", "Scapular stabilization", "Shoulder strength"],
     "cues": ["Keep legs together and weight on foot of top leg", "Create pyramid shape when lifting pelvis toward ceiling", "Maximize use of lateral flexors and minimize use of legs", "Reach arm back maximizing spinal rotation"]
@@ -905,8 +1056,12 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153597/mat-057a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153588/mat-057b.png"],
     "setup": "Starting in Front Support position",
     "resistance": null,
-    "inhale": "Bend arms; pause",
-    "exhale": "Straighten arms; lift pelvis, walk hands toward feet, roll up; roll down, walk hands forward, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Bend arms"},
+      {"breath": "exhale", "action": "Straighten arms (repeat), lift pelvis upward, walk hands toward feet, arms straight, transfer weight to feet, roll up"},
+      {"breath": "inhale", "action": "Pause"},
+      {"breath": "exhale", "action": "Roll down, walk hands forward, arms straight, return to start position"}
+    ],
     "muscleFocus": ["Elbow extensors", "Scapular stabilizers", "Spinal flexors"],
     "objectives": ["Elbow extensor strength", "Scapular stabilization", "Trunk stabilization"],
     "cues": ["Keep elbows close to sides of body when bending", "Maintain scapular stabilization", "Maintain pelvic lumbar stabilization, bias toward posterior tilt of pelvis"]
@@ -921,8 +1076,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153750/mat-058a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153731/mat-058b.png"],
     "setup": "Starting in lifted position of Swan Dive Prep",
     "resistance": null,
-    "exhale": "Drop trunk forward, place hands under forehead, lift legs toward ceiling",
-    "inhale": "Lift trunk, lower legs, place hands on Mat, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Drop trunk forward, place hands under forehead, lift legs toward ceiling"},
+      {"breath": "inhale", "action": "Lift trunk, lower legs, place hands on Mat, return to start position"}
+    ],
     "muscleFocus": ["Spinal extensors", "Hip extensors", "Spinal flexors"],
     "objectives": ["Spinal extensor strength", "Hip extensor strength", "Trunk stabilization"],
     "cues": ["Maintain consistent arc shape", "Engage abdominals throughout", "Maximize fluidity of movement"]
@@ -937,8 +1094,12 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153772/mat-059a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153791/mat-059b.png"],
     "setup": "Starting in lifted position of Swan Dive Prep",
     "resistance": null,
-    "exhale": "Drop trunk forward, place hands under forehead, lift legs toward ceiling; drop trunk forward, reach arms overhead in line with shoulders, lift legs toward ceiling",
-    "inhale": "Lift trunk, lower legs, reach arms overhead toward ceiling; final inhale: lift trunk, lower legs, place hands on Mat, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Drop trunk forward, place hands under forehead, lift legs toward ceiling"},
+      {"breath": "inhale", "action": "Lift trunk, lower legs, reach arms overhead toward ceiling"},
+      {"breath": "exhale", "action": "Drop trunk forward, reach arms overhead in line with shoulders, lift legs toward ceiling"},
+      {"breath": "final inhale", "action": "Lift trunk, lower legs, place hands on Mat, arms straight, return to start position"}
+    ],
     "muscleFocus": ["Spinal extensors", "Hip extensors", "Spinal flexors"],
     "objectives": ["Spinal extensor strength", "Hip extensor strength", "Spinal flexor control"],
     "cues": ["Maintain consistent arc shape", "Engage abdominals throughout", "Maximize fluidity of movement"]
@@ -953,8 +1114,14 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153579/mat-060a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153573/mat-060b.png"],
     "setup": "Sitting with legs straight and crossed, trunk over legs, arms straight and reaching forward",
     "resistance": null,
-    "inhale": "Roll down, lift legs; switch legs; circle arms around, interlace fingers behind back",
-    "exhale": "Roll over; roll up into Teaser 1 position, legs crossed; lower legs, reach trunk over legs, circle arms forward, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Roll down, lift legs"},
+      {"breath": "exhale", "action": "Roll over"},
+      {"breath": "inhale", "action": "Switch legs"},
+      {"breath": "exhale", "action": "Roll up into Teaser 1 position, legs crossed"},
+      {"breath": "inhale", "action": "Circle arms around, interlace fingers behind back"},
+      {"breath": "exhale", "action": "Lower legs, reach trunk over legs, circle arms around and forward, return to start position"}
+    ],
     "muscleFocus": ["Spinal flexors", "Spinal extensors", "Hip flexors"],
     "objectives": ["Spinal flexor strength", "Spinal extensor strength", "Hip flexor strength"],
     "cues": ["Keep movement fluid", "Maximize stretch for shoulders and chest", "Create Boomerang position (BASI Rock) in Chest Lift position, legs lifted"]
@@ -969,8 +1136,12 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153592/mat-061a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153602/mat-061b.png"],
     "setup": "Sitting in balanced position, trunk in C curve position, legs bent ankles crossed, feet plantarflexed, arms reaching around legs, hands holding feet, thumbs underfoot, fingers on top",
     "resistance": null,
-    "exhale": "Roll back; roll forward over legs, place head on Mat, transfer weight toward head",
-    "inhale": "Straighten legs, switch legs, bend knees; sit back on sit bones, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Roll back"},
+      {"breath": "inhale", "action": "Straighten legs, switch legs, bend knees"},
+      {"breath": "exhale", "action": "Roll forward over legs, place head on Mat, transfer weight toward head"},
+      {"breath": "inhale", "action": "Sit back on sit bones, return to start position"}
+    ],
     "muscleFocus": ["Spinal flexors", "Spinal extensors", "Elbow extensors"],
     "objectives": ["Trunk stabilization", "Lower back stretch", "Neck stretch"],
     "cues": ["Maximize spinal flexion in lumbar spine", "Maintain consistent C curve position", "Push hands into Mat when rolling over legs", "Transfer weight cautiously onto head"]
@@ -985,8 +1156,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153760/mat-062a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153743/mat-062b.png"],
     "setup": "Lying on side in neutral spine position, bottom arm straight and palm facing up, head resting on arm, pelvis perpendicular to Mat, top hand placed on Mat with elbow bent, top leg straight at hip height in line with trunk, hip internally rotated",
     "resistance": "light to medium",
-    "exhale": "Lift leg",
-    "inhale": "Lower leg, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Lift leg"},
+      {"breath": "inhale", "action": "Lower leg, return to start position"}
+    ],
     "muscleFocus": ["Hip abductors", "Spinal flexors", "Spinal extensors"],
     "objectives": ["Hip abductor strength", "Pelvic lumbar stabilization"],
     "cues": ["Keep knee slightly bent", "Keep pelvis stable as leg moves up and down", "Keep leg and foot relaxed, toes directed toward Mat"]
@@ -1001,8 +1174,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153761/mat-063a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153779/mat-063b.png"],
     "setup": "Starting in Side Leg Lifts position",
     "resistance": "light to medium",
-    "exhale": "Move leg forward to 90 degree hip flexion, lift leg, lower leg",
-    "inhale": "Move leg back, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Move leg forward to 90 degree hip flexion, lift leg, lower leg"},
+      {"breath": "inhale", "action": "Move leg back, return to start position"}
+    ],
     "muscleFocus": ["Hip abductors", "Spinal flexors", "Spinal extensors"],
     "objectives": ["Hip abductor strength", "Pelvic lumbar stabilization"],
     "cues": ["Keep pelvis stable as leg moves forward and back, up and down", "Keep knee slightly bent", "Keep leg and foot relaxed, toes directed toward Mat", "Keep movement hip height and higher"]
@@ -1017,8 +1192,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153666/mat-064a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153685/mat-064b.png"],
     "setup": "Starting in Side Leg Lifts position, leg brought forward to 90 degrees hip flexion",
     "resistance": "light to medium",
-    "exhale": "Lower leg, lift leg (5 pulses)",
-    "inhale": "Lower leg, lift leg (5 pulses)",
+    "movement": [
+      {"breath": "exhale", "action": "Lower leg, lift leg (5 pulses)"},
+      {"breath": "inhale", "action": "Lower leg, lift leg (5 pulses)"}
+    ],
     "muscleFocus": ["Hip abductors", "Spinal flexors", "Spinal extensors"],
     "objectives": ["Hip abductor strength", "Pelvic lumbar stabilization"],
     "cues": ["Keep pelvis stable as leg moves down and up", "Keep knee slightly bent", "Make movement small", "Keep leg and foot relaxed, toes directed toward Mat", "Keep movement hip height and lower"]
@@ -1033,8 +1210,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153707/mat-065a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153689/mat-065b.png"],
     "setup": "Starting in Side Leg Lifts position, top leg in front of bottom leg, hip externally rotated, bottom leg straight and parallel, foot plantarflexed",
     "resistance": "light to medium",
-    "exhale": "Lift leg",
-    "inhale": "Lower leg",
+    "movement": [
+      {"breath": "exhale", "action": "Lift leg"},
+      {"breath": "inhale", "action": "Lower leg"}
+    ],
     "muscleFocus": ["Hip adductors", "Spinal flexors", "Spinal extensors"],
     "objectives": ["Hip adductor strength", "Pelvic lumbar stabilization"],
     "cues": ["Keep pelvis perpendicular to Mat", "Maintain neutral spine position throughout", "Keep bent leg stable, knee reaching toward ceiling", "Avoid resting leg on Mat between repetitions"]
@@ -1049,8 +1228,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153603/mat-066a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153613/mat-066b.png"],
     "setup": "Kneeling in quadruped position, neutral spine, wrists under shoulders, knees under hips",
     "resistance": "light to medium",
-    "exhale": "Lift leg",
-    "inhale": "Lower leg, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Lift leg"},
+      {"breath": "inhale", "action": "Lower leg, return to start position"}
+    ],
     "muscleFocus": ["Hip extensors", "Spinal flexors", "Spinal extensors"],
     "objectives": ["Hip extensor strength", "Pelvic lumbar stabilization"],
     "cues": ["Focus on hip disassociation", "Maintain pelvic stabilization with emphasis on avoiding anterior tilt and rotation of pelvis", "Reach toes to ceiling", "Maintain consistent 90 degree angle in knee of moving leg"]
@@ -1065,8 +1246,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153649/mat-067a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153635/mat-067b.png"],
     "setup": "Starting in Hip Extension Bent Knee position",
     "resistance": "light to medium",
-    "exhale": "Lift leg to side",
-    "inhale": "Lower leg, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Lift leg to side"},
+      {"breath": "inhale", "action": "Lower leg, return to start position"}
+    ],
     "muscleFocus": ["Hip abductors", "Spinal flexors", "Spinal extensors"],
     "objectives": ["Hip abductor strength", "Pelvic lumbar stabilization"],
     "cues": ["Focus on hip disassociation", "Maintain pelvic stabilization with emphasis on avoiding lateral tilt and rotation of pelvis", "Minimize shifting of weight", "Keep shoulders aligned over wrists", "Maintain consistent 90 degree angle in knee of moving leg"]
@@ -1081,8 +1264,10 @@
     "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782153686/mat-068a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782153668/mat-068b.png"],
     "setup": "Starting in Hip Extension Bent Knee position, one leg straight back, foot plantarflexed",
     "resistance": "light to medium",
-    "exhale": "Lift leg",
-    "inhale": "Lower leg, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Lift leg"},
+      {"breath": "inhale", "action": "Lower leg, return to start position"}
+    ],
     "muscleFocus": ["Hip extensors", "Spinal flexors", "Spinal extensors"],
     "objectives": ["Hip extensor strength", "Pelvic lumbar stabilization"],
     "cues": ["Focus on hip disassociation", "Maintain pelvic stabilization with emphasis on avoiding anterior tilt and rotation of pelvis", "Keep leg elongated"]

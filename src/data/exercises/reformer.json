@@ -12,8 +12,10 @@
     "image": null,
     "setup": "Lying supine in neutral spine position, legs parallel, heels placed on footbar, feet hip width apart",
     "resistance": "medium to heavy",
-    "exhale": "Straighten legs",
-    "inhale": "Bend legs, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Straighten legs"},
+      {"breath": "inhale", "action": "Bend legs, return to start position"}
+    ],
     "muscleFocus": [
       "Hip extensors",
       "Knee extensors"
@@ -44,8 +46,10 @@
     "image": null,
     "setup": "Lying supine in neutral spine position, legs parallel, toes placed on footbar, feet hip width apart",
     "resistance": "medium to heavy",
-    "exhale": "Straighten legs",
-    "inhale": "Bend legs, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Straighten legs"},
+      {"breath": "inhale", "action": "Bend legs, return to start position"}
+    ],
     "muscleFocus": [
       "Hip extensors",
       "Knee extensors"
@@ -77,8 +81,10 @@
     "image": null,
     "setup": "Lying supine in neutral spine position, hips externally rotated, toes placed on footbar, heels together, small V position",
     "resistance": "medium to heavy",
-    "exhale": "Straighten legs",
-    "inhale": "Bend legs, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Straighten legs"},
+      {"breath": "inhale", "action": "Bend legs, return to start position"}
+    ],
     "muscleFocus": [
       "Hip extensors",
       "Knee extensors"
@@ -111,8 +117,10 @@
     "image": null,
     "setup": "Lying supine in neutral spine position, hips externally rotated, heels placed on outside edge of footbar, wide V position",
     "resistance": "medium to heavy",
-    "exhale": "Straighten legs",
-    "inhale": "Bend legs, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Straighten legs"},
+      {"breath": "inhale", "action": "Bend legs, return to start position"}
+    ],
     "muscleFocus": [
       "Hip extensors",
       "Knee extensors"
@@ -145,8 +153,10 @@
     "image": null,
     "setup": "Lying supine in neutral spine position, hips externally rotated, toes placed on outside edge of footbar, wide V position",
     "resistance": "medium to heavy",
-    "exhale": "Straighten legs",
-    "inhale": "Bend legs, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Straighten legs"},
+      {"breath": "inhale", "action": "Bend legs, return to start position"}
+    ],
     "muscleFocus": [
       "Hip extensors",
       "Knee extensors"
@@ -180,8 +190,10 @@
     "image": null,
     "setup": "Lying supine in neutral spine position, legs straight and parallel, toes placed on footbar, feet hip width apart and plantarflexed",
     "resistance": "medium to heavy",
-    "inhale": "Lower heels",
-    "exhale": "Lift heels, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Lower heels"},
+      {"breath": "exhale", "action": "Lift heels, return to start position"}
+    ],
     "muscleFocus": [
       "Ankle-foot plantarflexors",
       "Ankle-foot dorsiflexors"
@@ -211,8 +223,10 @@
     "image": null,
     "setup": "Lying supine in neutral spine position, legs straight and parallel, toes placed on footbar, feet hip width apart and plantarflexed",
     "resistance": "medium to heavy",
-    "inhale": "Lower one heel and lift other simultaneously, switch",
-    "exhale": "Lower one heel and lift other simultaneously, switch; final exhale: lift both heels, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Lower one heel and lift other simultaneously, switch"},
+      {"breath": "exhale", "action": "Lower one heel and lift other simultaneously, switch; final exhale: lift both heels, return to start position"}
+    ],
     "muscleFocus": [
       "Ankle-foot plantarflexors",
       "Ankle-foot dorsiflexors"
@@ -241,8 +255,10 @@
     "image": null,
     "setup": "Lying supine in neutral spine position, legs parallel, toes and balls of feet wrapped around footbar (Prehensile position), feet hip width apart, heels pressing down",
     "resistance": "medium to heavy",
-    "exhale": "Straighten legs",
-    "inhale": "Bend legs, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Straighten legs"},
+      {"breath": "inhale", "action": "Bend legs, return to start position"}
+    ],
     "muscleFocus": [
       "Hip extensors",
       "Knee extensors"
@@ -275,8 +291,10 @@
     "image": null,
     "setup": "Lying supine in neutral spine position, feet hip width apart, heel of one foot placed on footbar, other leg bent at 90 degree angle in hip and knee joints (tabletop position)",
     "resistance": "medium to heavy",
-    "exhale": "Straighten working leg",
-    "inhale": "Bend leg, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Straighten working leg"},
+      {"breath": "inhale", "action": "Bend leg, return to start position"}
+    ],
     "muscleFocus": [
       "Hip extensors",
       "Knee extensors"
@@ -308,8 +326,10 @@
     "image": null,
     "setup": "Lying supine in neutral spine position, feet hip width apart, toes of one foot placed on footbar, other leg bent at 90 degree angle in hip and knee joints (tabletop position)",
     "resistance": "medium to heavy",
-    "exhale": "Straighten working leg",
-    "inhale": "Bend leg, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Straighten working leg"},
+      {"breath": "inhale", "action": "Bend leg, return to start position"}
+    ],
     "muscleFocus": [
       "Hip extensors",
       "Knee extensors"
@@ -339,8 +359,10 @@
     "image": null,
     "setup": "Lying supine in neutral spine position, legs in tabletop position, arms straight and perpendicular to floor, hands in straps, palms facing forward",
     "resistance": "light to medium",
-    "exhale": "Lift head and chest, reach arms down to sides of body, parallel to floor",
-    "inhale": "Lift arms to 90 degrees in the shoulder joint, lower chest and head, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Lift head and chest, reach arms down to sides of body, parallel to floor"},
+      {"breath": "inhale", "action": "Lift arms to 90 degrees in the shoulder joint, lower chest and head, return to start position"}
+    ],
     "muscleFocus": [
       "Spinal flexors",
       "Hip flexors",
@@ -368,8 +390,10 @@
     "image": null,
     "setup": "Starting in Hundred Prep position",
     "resistance": "light to medium",
-    "exhale": "Lift head and chest, reach arms down to sides of body, parallel to floor, straighten legs forward; pump arms up and down for 5 counts",
-    "inhale": "Pump arms up and down for 5 counts; final: return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Lift head and chest, reach arms down to sides of body, parallel to floor, straighten legs forward; pump arms up and down for 5 counts"},
+      {"breath": "inhale", "action": "Pump arms up and down for 5 counts; final: return to start position"}
+    ],
     "muscleFocus": [
       "Spinal flexors",
       "Hip flexors"
@@ -396,8 +420,10 @@
     "image": null,
     "setup": "Starting in Hundred Prep position",
     "resistance": "light to medium",
-    "exhale": "Lift head and chest, reach arms down to sides of body, parallel to floor, straighten legs forward, open legs, close legs",
-    "inhale": "Bend legs toward chest, lift arms to 90 degrees in the shoulder joint, lower chest and head, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Lift head and chest, reach arms down to sides of body, parallel to floor, straighten legs forward, open legs, close legs"},
+      {"breath": "inhale", "action": "Bend legs toward chest, lift arms to 90 degrees in the shoulder joint, lower chest and head, return to start position"}
+    ],
     "muscleFocus": [
       "Spinal flexors",
       "Hip flexors",
@@ -428,8 +454,10 @@
     "image": null,
     "setup": "Sitting upright at front of Short Box, knees bent, feet under foot strap, hip width apart, arms crossed and resting on chest",
     "resistance": "all springs attached to hold carriage in place",
-    "exhale": "Round trunk into C curve, shoulders above hip joints, lift arms parallel to floor, lower trunk back; lift trunk to sitting C curve",
-    "inhale": "Pause; straighten back and lower arms, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Round trunk into C curve, shoulders above hip joints, lift arms parallel to floor, lower trunk back; lift trunk to sitting C curve"},
+      {"breath": "inhale", "action": "Pause; straighten back and lower arms, return to start position"}
+    ],
     "muscleFocus": [
       "Spinal flexors",
       "Spinal extensors",
@@ -460,8 +488,10 @@
     "image": null,
     "setup": "Starting in Round Back position, extend spine, hands lightly interlaced behind head",
     "resistance": "all springs attached to hold carriage in place",
-    "inhale": "Hinge trunk back",
-    "exhale": "Hinge trunk forward, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Hinge trunk back"},
+      {"breath": "exhale", "action": "Hinge trunk forward, return to start position"}
+    ],
     "muscleFocus": [
       "Spinal flexors",
       "Spinal extensors",
@@ -494,8 +524,10 @@
     "image": null,
     "setup": "Starting in Flat Back position",
     "resistance": "all springs attached to hold carriage in place",
-    "inhale": "Arc trunk to one side",
-    "exhale": "Lift back to center, return to start position; arc trunk to opposite side",
+    "movement": [
+      {"breath": "inhale", "action": "Arc trunk to one side"},
+      {"breath": "exhale", "action": "Lift back to center, return to start position; arc trunk to opposite side"}
+    ],
     "muscleFocus": [
       "Spinal lateral flexors",
       "Spinal flexors",
@@ -527,8 +559,10 @@
     "image": null,
     "setup": "Starting in Flat Back position",
     "resistance": "all springs attached to hold carriage in place",
-    "inhale": "Rotate trunk, lower trunk diagonally back",
-    "exhale": "Lift trunk to center, rotate to front, return to start position; rotate trunk to opposite side",
+    "movement": [
+      {"breath": "inhale", "action": "Rotate trunk, lower trunk diagonally back"},
+      {"breath": "exhale", "action": "Lift trunk to center, rotate to front, return to start position; rotate trunk to opposite side"}
+    ],
     "muscleFocus": [
       "Spinal rotators",
       "Spinal flexors",
@@ -560,8 +594,10 @@
     "image": null,
     "setup": "Starting in Flat Back position",
     "resistance": "all springs attached to hold carriage in place",
-    "inhale": "Rotate trunk, lower trunk diagonally back",
-    "exhale": "Rotate to opposite side, lift trunk to center, rotate to front, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Rotate trunk, lower trunk diagonally back"},
+      {"breath": "exhale", "action": "Rotate to opposite side, lift trunk to center, rotate to front, return to start position"}
+    ],
     "muscleFocus": [
       "Spinal rotators",
       "Spinal flexors",
@@ -593,8 +629,10 @@
     "image": null,
     "setup": "Sitting upright at front of Long Box, one foot under foot strap, other leg bent with thigh to chest, holding leg below knee, hands on shin",
     "resistance": "all springs attached to hold carriage in place",
-    "exhale": "Pump knee to chest 3 times; round back, walk hands down leg 3 times beginning with outside hand, lifting leg to perpendicular to floor; walk hands up leg 3 times beginning with inside hand",
-    "inhale": "Straighten leg holding above ankle; arch back over box, circle arms overhead and around, lift head and chest, hold onto leg; straighten spine, bend leg, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Pump knee to chest 3 times; round back, walk hands down leg 3 times beginning with outside hand, lifting leg to perpendicular to floor; walk hands up leg 3 times beginning with inside hand"},
+      {"breath": "inhale", "action": "Straighten leg holding above ankle; arch back over box, circle arms overhead and around, lift head and chest, hold onto leg; straighten spine, bend leg, return to start position"}
+    ],
     "muscleFocus": [
       "Spinal flexors",
       "Spinal extensors"
@@ -622,8 +660,10 @@
     "image": null,
     "setup": "Lying supine in neutral spine position, hips externally rotated, feet in straps, dorsiflexed, heels together, hips and knees at 90 degrees",
     "resistance": "light to medium",
-    "exhale": "Straighten legs",
-    "inhale": "Bend legs, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Straighten legs"},
+      {"breath": "inhale", "action": "Bend legs, return to start position"}
+    ],
     "muscleFocus": [
       "Hip adductors",
       "Hip extensors",
@@ -655,8 +695,10 @@
     "image": null,
     "setup": "Lying supine in neutral spine position, legs straight, perpendicular to floor, hips externally rotated, feet in straps, plantarflexed",
     "resistance": "light to medium",
-    "exhale": "Lower legs",
-    "inhale": "Open legs and circle around, lift legs, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Lower legs"},
+      {"breath": "inhale", "action": "Open legs and circle around, lift legs, return to start position"}
+    ],
     "muscleFocus": [
       "Hip adductors",
       "Hip extensors"
@@ -687,8 +729,10 @@
     "image": null,
     "setup": "Lying supine in neutral spine position, legs straight, perpendicular to floor, hips externally rotated, feet in straps, plantarflexed",
     "resistance": "light to medium",
-    "exhale": "Open legs out to sides, circle legs around and together",
-    "inhale": "Lift legs, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Open legs out to sides, circle legs around and together"},
+      {"breath": "inhale", "action": "Lift legs, return to start position"}
+    ],
     "muscleFocus": [
       "Hip adductors",
       "Hip extensors"
@@ -719,8 +763,10 @@
     "image": null,
     "setup": "Lying supine in neutral spine position, legs straight on diagonal line (45 to 60 degrees), hips externally rotated, feet in straps, plantarflexed",
     "resistance": "light to medium",
-    "inhale": "Open legs",
-    "exhale": "Close legs, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Open legs"},
+      {"breath": "exhale", "action": "Close legs, return to start position"}
+    ],
     "muscleFocus": [
       "Hip adductors",
       "Spinal flexors",
@@ -750,8 +796,10 @@
     "image": null,
     "setup": "Lying supine in neutral spine position, hips externally rotated, feet in straps, dorsiflexed, heels together, hips and knees at 80 degrees",
     "resistance": "light to medium",
-    "exhale": "Straighten legs; bend legs, bring heels together, return to start position",
-    "inhale": "Open legs; pause",
+    "movement": [
+      {"breath": "exhale", "action": "Straighten legs; bend legs, bring heels together, return to start position"},
+      {"breath": "inhale", "action": "Open legs; pause"}
+    ],
     "muscleFocus": [
       "Hip adductors",
       "Spinal flexors",
@@ -781,8 +829,10 @@
     "image": null,
     "setup": "Starting in Frog Extended position",
     "resistance": "light to medium",
-    "exhale": "Straighten legs out to sides; close legs",
-    "inhale": "Pause; bend legs, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Straighten legs out to sides; close legs"},
+      {"breath": "inhale", "action": "Pause; bend legs, return to start position"}
+    ],
     "muscleFocus": [
       "Hip adductors",
       "Spinal flexors",
@@ -809,8 +859,10 @@
     "image": null,
     "setup": "Lying supine in neutral spine position, legs parallel, feet hip width apart, toes placed on footbar, knees bent, arms by sides, headrest down",
     "resistance": "medium",
-    "exhale": "Roll spine up; roll spine down",
-    "inhale": "Pause; pause",
+    "movement": [
+      {"breath": "exhale", "action": "Roll spine up; roll spine down"},
+      {"breath": "inhale", "action": "Pause; pause"}
+    ],
     "muscleFocus": [
       "Spinal flexors",
       "Hip extensors"
@@ -836,8 +888,10 @@
     "image": null,
     "setup": "Starting in Bottom Lift position",
     "resistance": "medium",
-    "exhale": "Roll spine up; straighten legs (not completely); roll spine down, return to start position",
-    "inhale": "Pause; bend legs",
+    "movement": [
+      {"breath": "exhale", "action": "Roll spine up; straighten legs (not completely); roll spine down, return to start position"},
+      {"breath": "inhale", "action": "Pause; bend legs"}
+    ],
     "muscleFocus": [
       "Spinal flexors",
       "Hip extensors",
@@ -865,8 +919,10 @@
     "image": null,
     "setup": "Starting in Frog Extended position, headrest down",
     "resistance": "light to medium",
-    "exhale": "Straighten legs, plantarflex feet; roll up onto shoulders; articulate spine down, keep feet over eyes",
-    "inhale": "Bring legs overhead keeping pelvis stable; bend knees to Frog position; dorsiflex feet, roll sacrum down to mat, move legs forward, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Straighten legs, plantarflex feet; roll up onto shoulders; articulate spine down, keep feet over eyes"},
+      {"breath": "inhale", "action": "Bring legs overhead keeping pelvis stable; bend knees to Frog position; dorsiflex feet, roll sacrum down to mat, move legs forward, return to start position"}
+    ],
     "muscleFocus": [
       "Spinal flexors",
       "Spinal extensors",
@@ -893,8 +949,10 @@
     "image": null,
     "setup": "Lying supine in neutral spine position, hips externally rotated, legs straight on diagonal line (45 to 60 degrees), feet in straps, plantarflexed, headrest down",
     "resistance": "light to medium",
-    "inhale": "Lift legs perpendicular to floor; open legs shoulder width apart",
-    "exhale": "Roll up onto shoulder girdle; roll down to sacrum, lower and close legs, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Lift legs perpendicular to floor; open legs shoulder width apart"},
+      {"breath": "exhale", "action": "Roll up onto shoulder girdle; roll down to sacrum, lower and close legs, return to start position"}
+    ],
     "muscleFocus": [
       "Spinal flexors",
       "Hip extensors",
@@ -923,8 +981,10 @@
     "image": null,
     "setup": "Standing, front leg bent in line with footbar, knee over ankle, knee of other leg placed on carriage, foot against shoulder rest, arms straight, hands placed on footbar, inside hand in line with shoulder",
     "resistance": "light",
-    "inhale": "Stretch hip flexors of leg on carriage (3-5 breaths); bend front leg, return to start position",
-    "exhale": "Dorsiflex foot on floor, straighten leg and lower trunk forward (3-5 breaths)",
+    "movement": [
+      {"breath": "inhale", "action": "Stretch hip flexors of leg on carriage (3-5 breaths); bend front leg, return to start position"},
+      {"breath": "exhale", "action": "Dorsiflex foot on floor, straighten leg and lower trunk forward (3-5 breaths)"}
+    ],
     "muscleFocus": [
       "Hip flexors",
       "Hip extensors"
@@ -952,8 +1012,10 @@
     "image": null,
     "setup": "Kneeling on carriage, one foot on footbar, knee over ankle, other foot against shoulder rest, knee on carriage, arms straight, hands placed on footbar, shoulder width apart",
     "resistance": "light",
-    "inhale": "Stretch hip flexors of leg on carriage (3-5 breaths); bend leg, return to start position",
-    "exhale": "Straighten front leg, lower trunk forward (3-5 breaths)",
+    "movement": [
+      {"breath": "inhale", "action": "Stretch hip flexors of leg on carriage (3-5 breaths); bend leg, return to start position"},
+      {"breath": "exhale", "action": "Straighten front leg, lower trunk forward (3-5 breaths)"}
+    ],
     "muscleFocus": [
       "Hip flexors",
       "Hip extensors"
@@ -982,8 +1044,10 @@
     "image": null,
     "setup": "Standing on carriage, place one foot against shoulder rest, kneel on carriage, place front foot on footbar, straighten back leg lifting knee off the carriage and pressing heel into shoulder rest, keep front knee over ankle",
     "resistance": "light",
-    "inhale": "Stretch hip flexors of back leg (3-5 breaths); bend front leg, return to start position",
-    "exhale": "Straighten front leg, lower trunk forward (3-5 breaths)",
+    "movement": [
+      {"breath": "inhale", "action": "Stretch hip flexors of back leg (3-5 breaths); bend front leg, return to start position"},
+      {"breath": "exhale", "action": "Straighten front leg, lower trunk forward (3-5 breaths)"}
+    ],
     "muscleFocus": [
       "Hip flexors",
       "Hip extensors"
@@ -1012,8 +1076,10 @@
     "image": null,
     "setup": "Standing, one foot on floor, leg bent, other foot against shoulder rest, leg bent, heel of foot on floor lined up with other foot, arms straight, hands placed on footbar, inside hand in line with shoulder, trunk in C curve position",
     "resistance": "light to medium",
-    "inhale": "Straighten leg against shoulder rest (not completely)",
-    "exhale": "Bend leg, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Straighten leg against shoulder rest (not completely)"},
+      {"breath": "exhale", "action": "Bend leg, return to start position"}
+    ],
     "muscleFocus": [
       "Spinal flexors",
       "Spinal extensors"
@@ -1044,8 +1110,10 @@
     "image": null,
     "setup": "Standing, one foot on floor, leg bent, other foot against shoulder rest, leg bent, heel of foot on floor lined up with other foot, arms straight, hands placed on footbar, inside hand in line with shoulder, trunk in neutral spine position",
     "resistance": "light to medium",
-    "inhale": "Straighten leg against shoulder rest (not completely)",
-    "exhale": "Bend leg, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Straighten leg against shoulder rest (not completely)"},
+      {"breath": "exhale", "action": "Bend leg, return to start position"}
+    ],
     "muscleFocus": [
       "Spinal flexors",
       "Spinal extensors"
@@ -1076,8 +1144,10 @@
     "image": null,
     "setup": "Kneeling on carriage with sit bones toward heels, feet against shoulder rests, arms straight, shoulder width apart, hands placed on footbar, round trunk into C curve position",
     "resistance": "light to medium",
-    "inhale": "Move legs back",
-    "exhale": "Move legs forward, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Move legs back"},
+      {"breath": "exhale", "action": "Move legs forward, return to start position"}
+    ],
     "muscleFocus": [
       "Spinal flexors",
       "Spinal extensors"
@@ -1109,8 +1179,10 @@
     "image": null,
     "setup": "Kneeling on carriage with sit bones toward heels, feet against shoulder rests, arms straight, shoulder width apart, hands placed on footbar, trunk in neutral spine position",
     "resistance": "light to medium",
-    "inhale": "Move legs back",
-    "exhale": "Move legs forward, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Move legs back"},
+      {"breath": "exhale", "action": "Move legs forward, return to start position"}
+    ],
     "muscleFocus": [
       "Spinal flexors",
       "Spinal extensors"
@@ -1142,8 +1214,10 @@
     "image": null,
     "setup": "Standing on carriage, legs straight, heels against shoulder rests, arms straight, shoulder width apart, hands placed on footbar, head between arms, pelvis lifted toward ceiling, back flat",
     "resistance": "light to medium",
-    "inhale": "Move legs back",
-    "exhale": "Move legs forward, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Move legs back"},
+      {"breath": "exhale", "action": "Move legs forward, return to start position"}
+    ],
     "muscleFocus": [
       "Spinal extensors",
       "Hip extensors",
@@ -1176,8 +1250,10 @@
     "image": null,
     "setup": "Starting in Up Stretch 1 position, feet flat on carriage, heels against shoulder rests",
     "resistance": "light to medium",
-    "inhale": "Move legs back",
-    "exhale": "Move legs forward, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Move legs back"},
+      {"breath": "exhale", "action": "Move legs forward, return to start position"}
+    ],
     "muscleFocus": [
       "Spinal extensors",
       "Hip extensors",
@@ -1211,8 +1287,10 @@
     "image": null,
     "setup": "Kneeling on carriage, quadruped position, knees slightly away from shoulder rests, arms straight, hands placed on F2 handles (or rails), shoulders slightly forward of hands, trunk in C curve position",
     "resistance": "light",
-    "exhale": "Move legs forward",
-    "inhale": "Move legs back, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Move legs forward"},
+      {"breath": "inhale", "action": "Move legs back, return to start position"}
+    ],
     "muscleFocus": [
       "Spinal flexors",
       "Hip flexors",
@@ -1244,8 +1322,10 @@
     "image": null,
     "setup": "Kneeling on carriage, feet against shoulder rest, arms straight, shoulder width apart, hands placed on footbar, body in arc shape",
     "resistance": "light",
-    "exhale": "Move body down and back",
-    "inhale": "Move body up and forward, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Move body down and back"},
+      {"breath": "inhale", "action": "Move body up and forward, return to start position"}
+    ],
     "muscleFocus": [
       "Spinal extensors",
       "Spinal flexors",
@@ -1276,8 +1356,10 @@
     "image": null,
     "setup": "Sitting on carriage, legs bent, toes placed on footbar, feet in V position, hands placed on front edge of carriage, trunk in C curve position",
     "resistance": "medium",
-    "exhale": "Straighten legs, dorsiflex feet, plantarflex feet",
-    "inhale": "Bend legs, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Straighten legs, dorsiflex feet, plantarflex feet"},
+      {"breath": "inhale", "action": "Bend legs, return to start position"}
+    ],
     "muscleFocus": [
       "Spinal flexors",
       "Spinal extensors",
@@ -1309,8 +1391,10 @@
     "image": null,
     "setup": "Starting in Stomach Massage Round Back position, arms bent, hands on shoulder rests, fingers facing away from body, back straight",
     "resistance": "medium",
-    "exhale": "Straighten legs, dorsiflex feet, plantarflex feet",
-    "inhale": "Bend legs, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Straighten legs, dorsiflex feet, plantarflex feet"},
+      {"breath": "inhale", "action": "Bend legs, return to start position"}
+    ],
     "muscleFocus": [
       "Spinal extensors",
       "Spinal flexors",
@@ -1342,8 +1426,10 @@
     "image": null,
     "setup": "Starting in Stomach Massage Flat Back position, back straight, arms straight, reaching up and forward, V position, palms facing down",
     "resistance": "medium",
-    "exhale": "Straighten legs, dorsiflex feet, plantarflex feet",
-    "inhale": "Bend legs, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Straighten legs, dorsiflex feet, plantarflex feet"},
+      {"breath": "inhale", "action": "Bend legs, return to start position"}
+    ],
     "muscleFocus": [
       "Spinal extensors",
       "Spinal flexors",
@@ -1375,8 +1461,10 @@
     "image": null,
     "setup": "Starting in Up Stretch 1 position",
     "resistance": "light",
-    "inhale": "Lower pelvis into Front Support position",
-    "exhale": "Lift pelvis, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Lower pelvis into Front Support position"},
+      {"breath": "exhale", "action": "Lift pelvis, return to start position"}
+    ],
     "muscleFocus": [
       "Spinal flexors",
       "Spinal extensors",
@@ -1411,8 +1499,10 @@
     "image": null,
     "setup": "Starting in Front Support position, heels against shoulder rests",
     "resistance": "light",
-    "inhale": "Move body forward",
-    "exhale": "Move body back, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Move body forward"},
+      {"breath": "exhale", "action": "Move body back, return to start position"}
+    ],
     "muscleFocus": [
       "Spinal flexors",
       "Spinal extensors",
@@ -1445,8 +1535,10 @@
     "image": null,
     "setup": "Lying supine in neutral spine position, legs in tabletop position, arms straight and perpendicular to floor, hands in straps, palms facing forward",
     "resistance": "light to medium",
-    "exhale": "Lower arms to sides of body",
-    "inhale": "Lift arms, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Lower arms to sides of body"},
+      {"breath": "inhale", "action": "Lift arms, return to start position"}
+    ],
     "muscleFocus": [
       "Shoulder extensors",
       "Elbow extensors",
@@ -1479,8 +1571,10 @@
     "image": null,
     "setup": "Starting in Extension position with arms out to sides in T position, hands in straps, palms facing body",
     "resistance": "light to medium",
-    "exhale": "Move arms to sides of body",
-    "inhale": "Move arms away from body, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Move arms to sides of body"},
+      {"breath": "inhale", "action": "Move arms away from body, return to start position"}
+    ],
     "muscleFocus": [
       "Shoulder adductors",
       "Scapular stabilizers",
@@ -1512,8 +1606,10 @@
     "image": null,
     "setup": "Starting in Adduction position",
     "resistance": "light to medium",
-    "exhale": "Move arms to sides of body, rotate arms, palms facing down",
-    "inhale": "Lift arms perpendicular to floor, move arms out to sides, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Move arms to sides of body, rotate arms, palms facing down"},
+      {"breath": "inhale", "action": "Lift arms perpendicular to floor, move arms out to sides, return to start position"}
+    ],
     "muscleFocus": [
       "Shoulder adductors",
       "Scapular stabilizers",
@@ -1546,8 +1642,10 @@
     "image": null,
     "setup": "Starting in Extension position",
     "resistance": "light to medium",
-    "exhale": "Lower arms to sides of body, rotate arms, palms face body",
-    "inhale": "Open arms to T position, lift arms perpendicular to floor, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Lower arms to sides of body, rotate arms, palms face body"},
+      {"breath": "inhale", "action": "Open arms to T position, lift arms perpendicular to floor, return to start position"}
+    ],
     "muscleFocus": [
       "Shoulder extensors",
       "Shoulder adductors",
@@ -1580,8 +1678,10 @@
     "image": null,
     "setup": "Starting in Extension position, hands in straps, arms straight by sides of body, palms facing carriage",
     "resistance": "light to medium",
-    "inhale": "Bend arms",
-    "exhale": "Straighten arms, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Bend arms"},
+      {"breath": "exhale", "action": "Straighten arms, return to start position"}
+    ],
     "muscleFocus": [
       "Elbow extensors",
       "Scapular stabilizers",
@@ -1614,8 +1714,10 @@
     "image": null,
     "setup": "Sitting upright at front edge of carriage, facing risers, legs straight between shoulder rests, arms straight and forward of trunk, hands in straps, palms facing back",
     "resistance": "light to medium",
-    "exhale": "Move arms back",
-    "inhale": "Move arms forward, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Move arms back"},
+      {"breath": "inhale", "action": "Move arms forward, return to start position"}
+    ],
     "muscleFocus": [
       "Shoulder extensors",
       "Elbow extensors",
@@ -1647,8 +1749,10 @@
     "image": null,
     "setup": "Starting in Chest Expansion position, arms straight and forward, shoulder height, palms facing up",
     "resistance": "light to medium",
-    "exhale": "Bend arms",
-    "inhale": "Straighten arms, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Bend arms"},
+      {"breath": "inhale", "action": "Straighten arms, return to start position"}
+    ],
     "muscleFocus": [
       "Elbow flexors",
       "Shoulder flexors",
@@ -1681,8 +1785,10 @@
     "image": null,
     "setup": "Starting in Biceps position, arms bent at 90 degrees and parallel to each other, shoulder height, forearms in straps, palms facing body",
     "resistance": "light to medium",
-    "exhale": "Move arms out to sides",
-    "inhale": "Move arms forward, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Move arms out to sides"},
+      {"breath": "inhale", "action": "Move arms forward, return to start position"}
+    ],
     "muscleFocus": [
       "Shoulder horizontal abductors",
       "Elbow flexors",
@@ -1715,8 +1821,10 @@
     "image": null,
     "setup": "Starting in Rhomboids 1 position",
     "resistance": "light to medium",
-    "exhale": "Move arms out to sides, glide scapulae together",
-    "inhale": "Glide scapulae apart, move arms forward, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Move arms out to sides, glide scapulae together"},
+      {"breath": "inhale", "action": "Glide scapulae apart, move arms forward, return to start position"}
+    ],
     "muscleFocus": [
       "Shoulder horizontal abductors",
       "Scapular adductors",
@@ -1750,8 +1858,10 @@
     "image": null,
     "setup": "Sitting upright facing footbar, legs straight and together, pelvis against shoulder rests, arms in T position, micro-bend in elbows, hands in straps, palms facing forward",
     "resistance": "light to medium",
-    "exhale": "Move arms forward",
-    "inhale": "Move arms back, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Move arms forward"},
+      {"breath": "inhale", "action": "Move arms back, return to start position"}
+    ],
     "muscleFocus": [
       "Shoulder horizontal adductors",
       "Shoulder flexors",
@@ -1783,8 +1893,10 @@
     "image": null,
     "setup": "Starting in Hug-a-Tree position, arms bent, hands in straps in line with eyes, fingers facing forward",
     "resistance": "light to medium",
-    "exhale": "Straighten arms forward and up on diagonal line",
-    "inhale": "Bend arms, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Straighten arms forward and up on diagonal line"},
+      {"breath": "inhale", "action": "Bend arms, return to start position"}
+    ],
     "muscleFocus": [
       "Elbow extensors",
       "Shoulder flexors",
@@ -1816,8 +1928,10 @@
     "image": null,
     "setup": "Kneeling in upright position on carriage, knees against shoulder rests, arms straight and forward of trunk, hands holding folded straps, palms facing body",
     "resistance": "light",
-    "exhale": "Move arms back",
-    "inhale": "Move arms forward, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Move arms back"},
+      {"breath": "inhale", "action": "Move arms forward, return to start position"}
+    ],
     "muscleFocus": [
       "Shoulder extensors",
       "Elbow extensors",
@@ -1850,8 +1964,10 @@
     "image": null,
     "setup": "Kneeling in upright position on carriage, facing footbar, feet against shoulder rests, arms straight by sides of body, hands in straps, palms facing forward",
     "resistance": "light",
-    "exhale": "Lift arms forward and up, rotate arms, palms face forward",
-    "inhale": "Circle arms out to T position, lower arms to sides of body, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Lift arms forward and up, rotate arms, palms face forward"},
+      {"breath": "inhale", "action": "Circle arms out to T position, lower arms to sides of body, return to start position"}
+    ],
     "muscleFocus": [
       "Shoulder flexors",
       "Shoulder abductors",
@@ -1884,8 +2000,10 @@
     "image": null,
     "setup": "Starting in Circles Up position",
     "resistance": "light",
-    "exhale": "Lift arms out to sides and up, rotate arms, palms face up",
-    "inhale": "Lower arms down in front of body, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Lift arms out to sides and up, rotate arms, palms face up"},
+      {"breath": "inhale", "action": "Lower arms down in front of body, return to start position"}
+    ],
     "muscleFocus": [
       "Shoulder abductors",
       "Shoulder flexors",
@@ -1918,8 +2036,10 @@
     "image": null,
     "setup": "Starting in Circles Up position, arms bent, elbows facing outward, hands in straps, behind head, forming triangle with thumbs and index fingers",
     "resistance": "light",
-    "exhale": "Straighten arms",
-    "inhale": "Bend arms, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Straighten arms"},
+      {"breath": "inhale", "action": "Bend arms, return to start position"}
+    ],
     "muscleFocus": [
       "Elbow extensors",
       "Shoulder abductors",
@@ -1951,8 +2071,10 @@
     "image": null,
     "setup": "Starting in Circles Up position, arms straight and back of trunk, parallel to each other (as close as possible), hands holding straps",
     "resistance": "medium",
-    "exhale": "Bend arms",
-    "inhale": "Straighten arms, return to start position",
+    "movement": [
+      {"breath": "exhale", "action": "Bend arms"},
+      {"breath": "inhale", "action": "Straighten arms, return to start position"}
+    ],
     "muscleFocus": [
       "Elbow flexors",
       "Spinal flexors",
@@ -1980,8 +2102,10 @@
     "image": null,
     "setup": "Sitting sideways on carriage, one leg bent against shoulder rests, other leg bent in front of body, arms straight, one hand placed on footbar in line with shoulder, other arm down by side",
     "resistance": "light",
-    "inhale": "Push carriage out, lower body until arm is parallel with floor, simultaneously lift other arm to diagonal line; rotate trunk back to previous position",
-    "exhale": "Rotate trunk, bring arm around to footbar; bring carriage in, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Push carriage out, lower body until arm is parallel with floor, simultaneously lift other arm to diagonal line; rotate trunk back to previous position"},
+      {"breath": "exhale", "action": "Rotate trunk, bring arm around to footbar; bring carriage in, return to start position"}
+    ],
     "muscleFocus": [
       "Spinal lateral flexors",
       "Spinal rotators",
@@ -2011,8 +2135,10 @@
     "image": null,
     "setup": "Lying prone on Long Box, neutral spine position, legs straight and together, parallel to floor, feet plantarflexed, arms bent, elbows facing outward, hands on footbar",
     "resistance": "light",
-    "inhale": "Straighten arms",
-    "exhale": "Bend arms, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Straighten arms"},
+      {"breath": "exhale", "action": "Bend arms, return to start position"}
+    ],
     "muscleFocus": [
       "Spinal extensors",
       "Hip extensors",
@@ -2045,8 +2171,10 @@
     "image": null,
     "setup": "Starting in Breaststroke Prep 1 position",
     "resistance": "light",
-    "inhale": "Straighten arms, simultaneously lifting trunk",
-    "exhale": "Bend arms, lowering trunk, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Straighten arms, simultaneously lifting trunk"},
+      {"breath": "exhale", "action": "Bend arms, lowering trunk, return to start position"}
+    ],
     "muscleFocus": [
       "Spinal extensors",
       "Hip extensors",
@@ -2079,8 +2207,10 @@
     "image": null,
     "setup": "Starting in Breaststroke Prep 1 position, elbows bent by sides of body, thumbs in straps, hands in line with shoulders",
     "resistance": "light",
-    "inhale": "Lift trunk, straighten arms forward, circle arms around to sides of body",
-    "exhale": "Bend arms, lower trunk, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Lift trunk, straighten arms forward, circle arms around to sides of body"},
+      {"breath": "exhale", "action": "Bend arms, lower trunk, return to start position"}
+    ],
     "muscleFocus": [
       "Spinal extensors",
       "Hip extensors",
@@ -2111,8 +2241,10 @@
     "image": null,
     "setup": "Lying prone on Long Box, neutral spine position, legs straight and together, parallel to floor, feet plantarflexed toward footbar, arms straight, forward of shoulders, hands holding folded straps, palms facing each other",
     "resistance": "light",
-    "inhale": "Lift trunk, move arms back to sides of body",
-    "exhale": "Lower trunk, move arms forward, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Lift trunk, move arms back to sides of body"},
+      {"breath": "exhale", "action": "Lower trunk, move arms forward, return to start position"}
+    ],
     "muscleFocus": [
       "Spinal extensors",
       "Hip extensors",
@@ -2144,8 +2276,10 @@
     "image": null,
     "setup": "Starting in Pulling Straps 1 position, arms in T position, parallel to floor, hands through the straps, palms facing down",
     "resistance": "light",
-    "inhale": "Lift trunk, move arms to sides of body",
-    "exhale": "Lower trunk, move arms to T position, return to start position",
+    "movement": [
+      {"breath": "inhale", "action": "Lift trunk, move arms to sides of body"},
+      {"breath": "exhale", "action": "Lower trunk, move arms to T position, return to start position"}
+    ],
     "muscleFocus": [
       "Spinal extensors",
       "Hip extensors",
