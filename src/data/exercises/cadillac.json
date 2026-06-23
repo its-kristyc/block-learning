@@ -9,7 +9,7 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246090/cadillac-001a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246091/cadillac-001b.png"],
     "setup": "Lying supine, heels placed on PTBar, hip width apart, legs bent",
     "resistance": "medium to heavy",
     "movement": [
@@ -45,7 +45,7 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246090/cadillac-002a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246088/cadillac-002b.png"],
     "setup": "Lying supine, toes placed on PTBar, feet hip width apart, legs bent",
     "resistance": "medium to heavy",
     "movement": [
@@ -81,7 +81,7 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246092/cadillac-003a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246089/cadillac-003b.png"],
     "setup": "Lying supine, toes placed on PTBar, heels together, feet in small V position, legs bent",
     "resistance": "medium to heavy",
     "movement": [
@@ -118,7 +118,7 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246087/cadillac-004a.png","https://res.cloudinary.com/dgauos4zk/image/upload/v1782246087/cadillac-004b.png"],
     "setup": "Lying supine, hips externally rotated, heels placed on outer edge of PTBar, toes under sides of PTBar, wide V position, legs bent",
     "resistance": "medium to heavy",
     "movement": [
@@ -154,7 +154,7 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246088/cadillac-005a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246087/cadillac-005b.png"],
     "setup": "Lying supine, legs externally rotated, toes placed on outer edge of PTBar, wide V position, legs bent",
     "resistance": "medium to heavy",
     "movement": [
@@ -191,7 +191,7 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246091/cadillac-006a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246091/cadillac-006b.png"],
     "setup": "Lying supine, toes placed on PTBar, feet hip width apart and plantarflexed, legs straight and parallel",
     "resistance": "medium to heavy",
     "movement": [
@@ -225,7 +225,7 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246092/cadillac-007a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246092/cadillac-007b.png"],
     "setup": "Lying supine, toes placed on PTBar, feet hip width apart and plantarflexed, legs straight and parallel",
     "resistance": "medium to heavy",
     "movement": [
@@ -259,7 +259,7 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246088/cadillac-008a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246088/cadillac-008b.png"],
     "setup": "Lying supine, heel of one foot placed on PTBar, leg bent, other leg placed on mat, leg straight, foot plantarflexed",
     "resistance": "medium",
     "movement": [
@@ -294,7 +294,7 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246087/cadillac-009a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246087/cadillac-009b.png"],
     "setup": "Lying supine, toes of one foot placed on PTBar, leg bent, other leg placed on mat, leg straight, foot plantarflexed",
     "resistance": "medium",
     "movement": [
@@ -330,7 +330,7 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246091/cadillac-010a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246091/cadillac-010b.png"],
     "setup": "Sitting upright, crossbar at eye level, legs straight and together, feet plantarflexed, hands holding RUBar, arms straight and shoulder width apart, round trunk into C Curve",
     "resistance": "light to medium",
     "movement": [

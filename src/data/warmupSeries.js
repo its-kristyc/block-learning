@@ -13,7 +13,7 @@ export const WARMUP_SERIES = [
     name: 'Mat Intermediate',
     apparatus: 'Mat',
     exercises: [
-      'Roll-Up',
+      'Roll Up',
       'Spine Twist Supine',
       'Double Leg Stretch',
       'Single Leg Stretch',
