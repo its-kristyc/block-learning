@@ -1,1 +1,215 @@
-[]
+[
+  {
+    "id": "pap-001",
+    "name": "Extension",
+    "block": 8,
+    "apparatus": "Ped-a-Pul",
+    "collection": {
+      "name": "Arms Sitting/Standing Series",
+      "kind": "series"
+    },
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/ped-a-pul-001a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/ped-a-pul-001b.png"
+    ],
+    "setup": "Standing or sitting, trunk in neutral spine position, leaning against pole, legs bent, feet on floor (platform), hip width apart, arms straight and parallel, shoulder height, hands holding handles, palms facing down",
+    "resistance": "light to medium",
+    "movement": [
+      {
+        "breath": "exhale",
+        "action": "Lower arms to sides of body"
+      },
+      {
+        "breath": "inhale",
+        "action": "Lift arms, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Shoulder extensors",
+      "Elbow extensors",
+      "Scapular stabilizers"
+    ],
+    "objectives": [
+      "Shoulder extensor strength",
+      "Elbow extensor strength",
+      "Scapular stabilization"
+    ],
+    "cues": [
+      "Keep arms straight",
+      "Maintain scapular stabilization",
+      "Maintain trunk stabilization"
+    ]
+  },
+  {
+    "id": "pap-002",
+    "name": "Adduction",
+    "block": 8,
+    "apparatus": "Ped-a-Pul",
+    "collection": {
+      "name": "Arms Sitting/Standing Series",
+      "kind": "series"
+    },
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/ped-a-pul-002a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/ped-a-pul-002b.png"
+    ],
+    "setup": "Starting in Extension position, arms in T position, palms facing down",
+    "resistance": "light to medium",
+    "movement": [
+      {
+        "breath": "exhale",
+        "action": "Lower arms to sides of body"
+      },
+      {
+        "breath": "inhale",
+        "action": "Lift arms, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Shoulder adductors",
+      "Elbow extensors",
+      "Scapular stabilizers"
+    ],
+    "objectives": [
+      "Shoulder adductor control",
+      "Elbow extensor control",
+      "Scapular stabilization"
+    ],
+    "cues": [
+      "Maintain micro-bend in elbows",
+      "Maintain scapular stabilization",
+      "Maintain trunk stabilization"
+    ]
+  },
+  {
+    "id": "pap-003",
+    "name": "Circles Up",
+    "block": 8,
+    "apparatus": "Ped-a-Pul",
+    "collection": {
+      "name": "Arms Sitting/Standing Series",
+      "kind": "series"
+    },
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/ped-a-pul-003a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/ped-a-pul-003b.png"
+    ],
+    "setup": "Starting in Extension position, arms in T position, palms facing down",
+    "resistance": "light to medium",
+    "movement": [
+      {
+        "breath": "exhale",
+        "action": "Lower arms to sides of body, rotate arms, palms face back"
+      },
+      {
+        "breath": "inhale",
+        "action": "Lift arms to shoulder height, move arms out to T position, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Shoulder adductors",
+      "Shoulder extensors",
+      "Elbow extensors",
+      "Scapular stabilizers"
+    ],
+    "objectives": [
+      "Shoulder adductor control",
+      "Shoulder extensor control",
+      "Elbow extensor control",
+      "Shoulder joint mobility"
+    ],
+    "cues": [
+      "Maintain scapular stabilization",
+      "Maintain trunk stabilization",
+      "Keep movement shoulder height and below"
+    ]
+  },
+  {
+    "id": "pap-004",
+    "name": "Circles Down",
+    "block": 8,
+    "apparatus": "Ped-a-Pul",
+    "collection": {
+      "name": "Arms Sitting/Standing Series",
+      "kind": "series"
+    },
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/ped-a-pul-004a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/ped-a-pul-004b.png"
+    ],
+    "setup": "Starting in Extension position",
+    "resistance": "light to medium",
+    "movement": [
+      {
+        "breath": "exhale",
+        "action": "Lower arms to sides of body, rotate arms, palms face body"
+      },
+      {
+        "breath": "inhale",
+        "action": "Lift arms to T position, move arms forward, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Shoulder adductors",
+      "Shoulder extensors",
+      "Elbow extensors",
+      "Scapular stabilizers"
+    ],
+    "objectives": [
+      "Shoulder adductor control",
+      "Shoulder extensor control",
+      "Elbow extensor control",
+      "Shoulder joint mobility"
+    ],
+    "cues": [
+      "Maintain scapular stabilization",
+      "Maintain trunk stabilization",
+      "Keep movement shoulder height and below"
+    ]
+  },
+  {
+    "id": "pap-005",
+    "name": "Triceps",
+    "block": 8,
+    "apparatus": "Ped-a-Pul",
+    "collection": {
+      "name": "Arms Sitting/Standing Series",
+      "kind": "series"
+    },
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/ped-a-pul-005a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/ped-a-pul-005b.png"
+    ],
+    "setup": "Starting in Extension position, arms by sides",
+    "resistance": "light to medium",
+    "movement": [
+      {
+        "breath": "inhale",
+        "action": "Bend arms"
+      },
+      {
+        "breath": "exhale",
+        "action": "Straighten arms"
+      }
+    ],
+    "muscleFocus": [
+      "Elbow extensors",
+      "Scapular stabilizers"
+    ],
+    "objectives": [
+      "Elbow extensor strength",
+      "Scapular stabilization",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Maintain scapular stabilization",
+      "Keep wrists straight and stable",
+      "Keep elbows pressing against sides of body"
+    ]
+  }
+]
