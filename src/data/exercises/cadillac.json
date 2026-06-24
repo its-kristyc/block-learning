@@ -365,7 +365,7 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246092/cadillac-011a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246092/cadillac-011b.png"],
     "setup": "Lying supine, lumbar spine imprinted in mat, shoulders under PTBar, arms straight in line with shoulders, hands holding PTBar, legs in tabletop position",
     "resistance": "light to medium",
     "movement": [
@@ -399,7 +399,7 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246087/cadillac-012a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246087/cadillac-012b.png"],
     "setup": "Lying supine in neutral spine position, legs bent and parallel, feet hip width apart, arms straight and shoulder width apart, hands holding PTBar, lift to Chest Lift position, shoulders under PTBar",
     "resistance": "light to medium",
     "movement": [
@@ -432,7 +432,7 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246089/cadillac-013a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246089/cadillac-013b.png"],
     "setup": "Start in Mini Roll-Up position, one hand holding PTBar palm facing up aligned with shoulder, other hand behind head, lift to Chest Lift position, rotate trunk to Chest Lift with Rotation position",
     "resistance": "light to medium",
     "movement": [
@@ -467,7 +467,7 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246089/cadillac-014a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246088/cadillac-014b.png"],
     "setup": "Lying supine in neutral spine position, arms straight and shoulder width apart, hands holding PTBar, legs straight and together, feet plantarflexed",
     "resistance": "light to medium",
     "movement": [
@@ -504,7 +504,7 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246093/cadillac-015a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246089/cadillac-015b.png"],
     "setup": "Lying supine in neutral spine position, hips externally rotated, feet in straps, dorsiflexed, heels together, hips and knees at 90 degrees, hands holding F2 handles arms bent at 90 degrees in elbow and shoulder joints or arms straight overhead, holding poles thumbs wrapped around",
     "resistance": "light to medium",
     "movement": [
@@ -539,7 +539,7 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246090/cadillac-016a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246090/cadillac-016b.png"],
     "setup": "Lying supine in neutral spine position, legs straight perpendicular to floor, hips externally rotated, feet in straps, plantarflexed, hands holding F2 handles arms bent at 90 degrees in elbow and shoulder joints or arms straight overhead, holding poles thumbs wrapped around",
     "resistance": "light to medium",
     "movement": [
@@ -573,7 +573,7 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246090/cadillac-017a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246091/cadillac-017b.png"],
     "setup": "Starting in Circles Down position",
     "resistance": "light to medium",
     "movement": [
@@ -607,7 +607,7 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246088/cadillac-018a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246089/cadillac-018b.png"],
     "setup": "Starting in Circles Down position, legs parallel",
     "resistance": "light to medium",
     "movement": [
@@ -640,7 +640,7 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246089/cadillac-019a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246093/cadillac-019b.png"],
     "setup": "Starting in Walking position",
     "resistance": "light to medium",
     "movement": [
@@ -672,7 +672,7 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246090/cadillac-020a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246090/cadillac-020b.png"],
     "setup": "Lying supine in neutral spine position, legs parallel, one foot in strap, dorsiflexed, hip and knee at 90 degrees, other leg placed on mat, leg straight, foot plantarflexed, hands holding F2 handles arms bent at 90 degrees in elbow and shoulder joints or arms straight overhead, holding poles thumbs wrapped around",
     "resistance": "light to medium",
     "movement": [
@@ -707,7 +707,7 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246091/cadillac-021a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246090/cadillac-021b.png"],
     "setup": "Starting in Frog position, leg perpendicular to mat, foot plantarflexed",
     "resistance": "light to medium",
     "movement": [
@@ -743,7 +743,7 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246088/cadillac-022a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246092/cadillac-022b.png"],
     "setup": "Starting in Circles Down position",
     "resistance": "light to medium",
     "movement": [
@@ -779,7 +779,7 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246089/cadillac-023a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246092/cadillac-023b.png"],
     "setup": "Starting in Circles Down position",
     "resistance": "light to medium",
     "movement": [
@@ -811,7 +811,7 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246087/cadillac-024a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246093/cadillac-024b.png"],
     "setup": "Starting in Circles Down position",
     "resistance": "light to medium",
     "movement": [
@@ -844,7 +844,7 @@
     "apparatus": "Cadillac",
     "collection": null,
     "level": "Intermediate",
-    "image": null,
+    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246087/cadillac-025a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246089/cadillac-025b.png"],
     "setup": "Lying supine, arms straight and shoulder width apart, hands holding PTBar, legs bent, toes placed on PTBar, feet hip width apart and plantarflexed",
     "resistance": "medium",
     "movement": [
@@ -877,7 +877,7 @@
     "apparatus": "Cadillac",
     "collection": null,
     "level": "Intermediate",
-    "image": null,
+    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246091/cadillac-026a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246091/cadillac-026a.png"],
     "setup": "Lying supine, arms straight and overhead, hands holding poles (close to mat), legs straight and hip width apart, toes placed on PTBar and plantarflexed",
     "resistance": "medium",
     "movement": [
@@ -912,7 +912,7 @@
       "kind": "group"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246092/cadillac-027a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246092/cadillac-027b.png"],
     "setup": "Sitting upright, facing PT Bar, feet pressing against poles, arms straight, shoulder width apart, hands holding PTBar",
     "resistance": "medium",
     "movement": [
@@ -947,7 +947,7 @@
       "kind": "group"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246087/cadillac-028a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246088/cadillac-028b.png"],
     "setup": "Starting in Sitting Forward position",
     "resistance": "medium",
     "movement": [
