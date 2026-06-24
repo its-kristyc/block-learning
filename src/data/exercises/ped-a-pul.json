@@ -3,7 +3,7 @@
     "id": "pap-001",
     "name": "Extension",
     "block": 8,
-    "apparatus": "Ped-a-Pul",
+    "apparatus": "PED-a-PUL",
     "collection": {
       "name": "Arms Sitting/Standing Series",
       "kind": "series"
@@ -45,7 +45,7 @@
     "id": "pap-002",
     "name": "Adduction",
     "block": 8,
-    "apparatus": "Ped-a-Pul",
+    "apparatus": "PED-a-PUL",
     "collection": {
       "name": "Arms Sitting/Standing Series",
       "kind": "series"
@@ -87,7 +87,7 @@
     "id": "pap-003",
     "name": "Circles Up",
     "block": 8,
-    "apparatus": "Ped-a-Pul",
+    "apparatus": "PED-a-PUL",
     "collection": {
       "name": "Arms Sitting/Standing Series",
       "kind": "series"
@@ -131,7 +131,7 @@
     "id": "pap-004",
     "name": "Circles Down",
     "block": 8,
-    "apparatus": "Ped-a-Pul",
+    "apparatus": "PED-a-PUL",
     "collection": {
       "name": "Arms Sitting/Standing Series",
       "kind": "series"
@@ -175,7 +175,7 @@
     "id": "pap-005",
     "name": "Triceps",
     "block": 8,
-    "apparatus": "Ped-a-Pul",
+    "apparatus": "PED-a-PUL",
     "collection": {
       "name": "Arms Sitting/Standing Series",
       "kind": "series"
