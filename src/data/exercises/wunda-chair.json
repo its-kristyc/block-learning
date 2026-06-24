@@ -1,1 +1,584 @@
-[]
+[
+  {
+    "id": "wc-001",
+    "name": "Parallel Heels",
+    "block": 2,
+    "apparatus": "Wunda Chair",
+    "collection": {
+      "name": "Sitting Series",
+      "kind": "series"
+    },
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/wunda-chair-001a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/wunda-chair-001b.png"
+    ],
+    "setup": "Sitting upright, legs parallel, heels placed on pedal, hip width apart, fingers placed toward back of Chair, arms bent, elbows facing back",
+    "resistance": "medium to heavy",
+    "movement": [
+      {
+        "breath": "exhale",
+        "action": "Straighten legs (as far as possible)"
+      },
+      {
+        "breath": "inhale",
+        "action": "Bend legs, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Knee extensors",
+      "Hip extensors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Knee extensor strength",
+      "Hip extensor control",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Bend legs approximately 90 degrees in knee joint",
+      "Push down through heels",
+      "Keep feet dorsiflexed and stable as if standing on floor",
+      "Maintain trunk stabilization"
+    ]
+  },
+  {
+    "id": "wc-002",
+    "name": "Parallel Toes",
+    "block": 2,
+    "apparatus": "Wunda Chair",
+    "collection": {
+      "name": "Sitting Series",
+      "kind": "series"
+    },
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/wunda-chair-002a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/wunda-chair-002b.png"
+    ],
+    "setup": "Sitting upright, legs parallel, toes placed on pedal, hip width apart, fingers placed toward back of Chair, arms bent, elbows facing back",
+    "resistance": "medium to heavy",
+    "movement": [
+      {
+        "breath": "exhale",
+        "action": "Straighten legs (as far as possible)"
+      },
+      {
+        "breath": "inhale",
+        "action": "Bend legs, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Knee extensors",
+      "Hip extensors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Knee extensor strength",
+      "Ankle-foot plantarflexor control",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Bend legs approximately 90 degrees in knee joint",
+      "Push pedal down through toes",
+      "Keep heels stable throughout moving around ankle joint",
+      "Maintain trunk stabilization"
+    ]
+  },
+  {
+    "id": "wc-003",
+    "name": "V-Position Toes",
+    "block": 2,
+    "apparatus": "Wunda Chair",
+    "collection": {
+      "name": "Sitting Series",
+      "kind": "series"
+    },
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/wunda-chair-003a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/wunda-chair-003b.png"
+    ],
+    "setup": "Sitting upright, legs externally rotated, toes placed on pedal, heels together in small V position, fingers placed toward back of Chair, arms bent, elbows facing back",
+    "resistance": "medium to heavy",
+    "movement": [
+      {
+        "breath": "exhale",
+        "action": "Straighten legs (as far as possible)"
+      },
+      {
+        "breath": "inhale",
+        "action": "Bend legs, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Knee extensors",
+      "Hip extensors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Knee extensor strength",
+      "Ankle-foot plantarflexor control",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Bend legs approximately 90 degrees in knee joint",
+      "Keep knees aligned over toes",
+      "Keep heels squeezing together and stable",
+      "Maintain hip adductor engagement",
+      "Maintain trunk stabilization"
+    ]
+  },
+  {
+    "id": "wc-004",
+    "name": "Open V-Position Heels",
+    "block": 2,
+    "apparatus": "Wunda Chair",
+    "collection": {
+      "name": "Sitting Series",
+      "kind": "series"
+    },
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/wunda-chair-004a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/wunda-chair-004b.png"
+    ],
+    "setup": "Sitting upright, legs externally rotated, heels placed on pedal in wide V position, fingers placed toward back of Chair, arms bent, elbows facing back",
+    "resistance": "medium to heavy",
+    "movement": [
+      {
+        "breath": "exhale",
+        "action": "Straighten legs (as far as possible)"
+      },
+      {
+        "breath": "inhale",
+        "action": "Bend legs, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Knee extensors",
+      "Hip extensors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Knee extensor strength",
+      "Hip extensor control",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Bend legs approximately 90 degrees in knee joint",
+      "Push down through heels",
+      "Keep feet dorsiflexed and stable as if standing on the floor",
+      "Maintain hip adductor engagement",
+      "Maintain trunk stabilization"
+    ]
+  },
+  {
+    "id": "wc-005",
+    "name": "Open V-Position Toes",
+    "block": 2,
+    "apparatus": "Wunda Chair",
+    "collection": {
+      "name": "Sitting Series",
+      "kind": "series"
+    },
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/wunda-chair-005a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/wunda-chair-005b.png"
+    ],
+    "setup": "Sitting upright, legs externally rotated, toes placed on pedal in wide V position, feet plantarflexed, fingers placed toward back of Chair, arms bent, elbows facing back",
+    "resistance": "medium to heavy",
+    "movement": [
+      {
+        "breath": "exhale",
+        "action": "Straighten legs (as far as possible)"
+      },
+      {
+        "breath": "inhale",
+        "action": "Bend legs, return to starting position"
+      }
+    ],
+    "muscleFocus": [
+      "Knee extensors",
+      "Hip extensors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Knee extensor strength",
+      "Ankle-foot plantarflexor control",
+      "Ankle and foot control",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Keep knees aligned over toes",
+      "Push down through toes",
+      "Maintain adductor engagement",
+      "Keep heels stable throughout moving around ankle joint",
+      "Maintain trunk stabilization"
+    ]
+  },
+  {
+    "id": "wc-006",
+    "name": "Calf Raises",
+    "block": 2,
+    "apparatus": "Wunda Chair",
+    "collection": {
+      "name": "Sitting Series",
+      "kind": "series"
+    },
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/wunda-chair-006a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/wunda-chair-006b.png"
+    ],
+    "setup": "Standing in front of Wunda Chair, toes of one foot placed on pedal, knee (just below) anchored on front of Chair, back leg straight, heel reaching toward floor, hands on sides of Chair, body on diagonal line",
+    "resistance": "medium to heavy",
+    "movement": [
+      {
+        "breath": "exhale",
+        "action": "Plantarflex foot, pressing pedal down"
+      },
+      {
+        "breath": "inhale",
+        "action": "Dorsiflex foot, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Ankle-foot plantarflexors",
+      "Ankle-foot dorsiflexors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Ankle plantarflexor strength",
+      "Ankle-foot dorsiflexor control",
+      "Ankle-foot dorsiflexor stretch (standing leg)",
+      "Hip flexor stretch (standing leg)",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Maintain neutral pelvis",
+      "Maximize range of motion of ankle joint",
+      "Keep legs parallel with back heel pressing toward floor"
+    ]
+  },
+  {
+    "id": "wc-007",
+    "name": "Single Leg Heel",
+    "block": 2,
+    "apparatus": "Wunda Chair",
+    "collection": {
+      "name": "Sitting Series",
+      "kind": "series"
+    },
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/wunda-chair-007a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/wunda-chair-007b.png"
+    ],
+    "setup": "Sitting upright, legs parallel, one heel placed on pedal, other leg straight and horizontal to floor, foot plantarflexed, fingers placed toward back of Chair, arms bent, elbows facing back",
+    "resistance": "medium",
+    "movement": [
+      {
+        "breath": "exhale",
+        "action": "Straighten leg (as far as possible)"
+      },
+      {
+        "breath": "inhale",
+        "action": "Bend leg, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Knee extensors",
+      "Hip extensors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Knee extensor strength",
+      "Hip extensor control",
+      "Ankle and foot control",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Maintain equal weight on sit bones",
+      "Avoid trunk rotation",
+      "Keep working foot dorsiflexed and stable as if standing on floor",
+      "Keep supporting leg stable"
+    ]
+  },
+  {
+    "id": "wc-008",
+    "name": "Single Leg Toes",
+    "block": 2,
+    "apparatus": "Wunda Chair",
+    "collection": {
+      "name": "Sitting Series",
+      "kind": "series"
+    },
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/wunda-chair-008a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/wunda-chair-008b.png"
+    ],
+    "setup": "Sitting upright, legs parallel, toes placed on pedal, other leg straight and horizontal to floor, foot plantarflexed, fingers placed toward back of Chair, arms bent, elbows facing back",
+    "resistance": "medium",
+    "movement": [
+      {
+        "breath": "exhale",
+        "action": "Straighten leg (as far as possible)"
+      },
+      {
+        "breath": "inhale",
+        "action": "Bend leg, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Knee extensors",
+      "Hip extensors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Knee extensor strength",
+      "Hip extensor control",
+      "Ankle-foot plantarflexor control",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Push down through toes",
+      "Maintain equal weight on sit bones",
+      "Avoid trunk rotation",
+      "Keep supporting leg stable"
+    ]
+  },
+  {
+    "id": "wc-009",
+    "name": "Pike Standing",
+    "block": 3,
+    "apparatus": "Wunda Chair",
+    "collection": null,
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/wunda-chair-009a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/wunda-chair-009b.png"
+    ],
+    "setup": "Standing in front of Wunda Chair, legs straight and parallel, roll down placing hands on pedal, shoulders over wrists, lower pedal to base of Chair",
+    "resistance": "light to medium",
+    "movement": [
+      {
+        "breath": "exhale",
+        "action": "Lift trunk, shoulders in line with hip joints"
+      },
+      {
+        "breath": "inhale",
+        "action": "Lower trunk"
+      },
+      {
+        "breath": "exhale",
+        "action": "Lift trunk, shoulders in line with hip joints"
+      },
+      {
+        "breath": "inhale",
+        "action": "Lower trunk"
+      },
+      {
+        "breath": "final exhale",
+        "action": "Roll up to standing position, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Spinal flexors",
+      "Scapular stabilizers"
+    ],
+    "objectives": [
+      "Spinal flexor control",
+      "Scapular stabilization",
+      "Lower back stretch"
+    ],
+    "cues": [
+      "Maximize spinal flexion",
+      "Maintain scapular stabilization",
+      "Maintain perpendicular alignment of legs",
+      "Keep head aligned with spine, eyes directed toward legs"
+    ]
+  },
+  {
+    "id": "wc-010",
+    "name": "Pike Standing Reverse",
+    "block": 3,
+    "apparatus": "Wunda Chair",
+    "collection": null,
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/wunda-chair-010a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/wunda-chair-010b.png"
+    ],
+    "setup": "Standing in back of Wunda Chair, legs straight and parallel, roll down placing hands on pedal in line with shoulders, flatten trunk into neutral spine position",
+    "resistance": "light to medium",
+    "movement": [
+      {
+        "breath": "exhale",
+        "action": "Round trunk"
+      },
+      {
+        "breath": "inhale",
+        "action": "Flatten trunk into neutral spine position"
+      },
+      {
+        "breath": "exhale",
+        "action": "Round trunk"
+      },
+      {
+        "breath": "inhale",
+        "action": "Flatten trunk into neutral spine position"
+      },
+      {
+        "breath": "final exhale",
+        "action": "Roll up to standing position, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Spinal flexors",
+      "Spinal extensors",
+      "Scapular stabilizers"
+    ],
+    "objectives": [
+      "Spinal flexor control",
+      "Spinal extensor control",
+      "Scapular stabilization"
+    ],
+    "cues": [
+      "Maximize spinal flexion when lifting pedal, shoulders are slightly above hips",
+      "Maintain perpendicular alignment of legs, equal weight on feet",
+      "Keep head aligned with spine"
+    ]
+  },
+  {
+    "id": "wc-011",
+    "name": "Leg Press Standing",
+    "block": 9,
+    "apparatus": "Wunda Chair",
+    "collection": null,
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/wunda-chair-011a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/wunda-chair-011b.png"
+    ],
+    "setup": "Standing in front of Wunda Chair, one foot placed on pedal, plantarflexed, leg straight, other leg and trunk perpendicular to floor, arms in T position, palms facing down",
+    "resistance": "light",
+    "movement": [
+      {
+        "breath": "exhale",
+        "action": "Bend leg and straighten down"
+      },
+      {
+        "breath": "inhale",
+        "action": "Bend leg and straighten forward, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Hip extensors",
+      "Knee flexors",
+      "Ankle-foot plantarflexors"
+    ],
+    "objectives": [
+      "Hip extensor control",
+      "Knee flexor control",
+      "Ankle-foot plantarflexor control",
+      "Balance"
+    ],
+    "cues": [
+      "Maintain perpendicular alignment of standing leg and trunk",
+      "Initiate movement with hamstrings",
+      "Maintain plantarflexion of foot on pedal",
+      "Straighten leg fully at bottom and top of movement"
+    ]
+  },
+  {
+    "id": "wc-012",
+    "name": "Side Over",
+    "block": 11,
+    "apparatus": "Wunda Chair",
+    "collection": null,
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/wunda-chair-012a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/wunda-chair-012b.png"
+    ],
+    "setup": "Sitting sideways on Wunda Chair, one leg straight, foot plantarflexed, touching floor, other leg bent in front of Chair, heel hooked around back of Chair, one hand placed on pedal, shoulder over wrist, other hand reaching overhead, palm facing ceiling, shoulder internally rotated, body on diagonal line",
+    "resistance": "light",
+    "movement": [
+      {
+        "breath": "inhale",
+        "action": "Arc trunk sideways, lowering pedal"
+      },
+      {
+        "breath": "exhale",
+        "action": "Straighten and lift trunk, raising pedal, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Spinal lateral flexors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Spinal lateral flexor control and stretch",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Maintain co-contraction of abdominals and back extensors",
+      "Keep straight leg in contact with floor",
+      "Begin and end movement with trunk and leg on diagonal line",
+      "Imagine moving between two panes of glass"
+    ]
+  },
+  {
+    "id": "wc-013",
+    "name": "Swan",
+    "block": 12,
+    "apparatus": "Wunda Chair",
+    "collection": null,
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/wunda-chair-013a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/wunda-chair-013b.png"
+    ],
+    "setup": "Lying prone on Wunda Chair, hands placed on pedal, shoulders over wrists (as close as possible), legs straight and together, body parallel to floor",
+    "resistance": "light",
+    "movement": [
+      {
+        "breath": "inhale",
+        "action": "Raise trunk, lifting pedal"
+      },
+      {
+        "breath": "exhale",
+        "action": "Lower trunk, pressing pedal down, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Spinal extensors",
+      "Spinal flexors",
+      "Hip extensors"
+    ],
+    "objectives": [
+      "Spinal extensor strength",
+      "Spinal flexor control",
+      "Hip extensor control",
+      "Scapular stabilization"
+    ],
+    "cues": [
+      "Maximize spinal articulation in both directions",
+      "Keep legs stable",
+      "Maintain abdominal engagement",
+      "Press hands into pedal when lifting using shoulder extensors"
+    ]
+  }
+]
