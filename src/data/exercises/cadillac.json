@@ -9,12 +9,21 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246090/cadillac-001a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246091/cadillac-001b.png"],
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246090/cadillac-001a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246091/cadillac-001b.png"
+    ],
     "setup": "Lying supine, heels placed on PTBar, hip width apart, legs bent",
     "resistance": "medium to heavy",
     "movement": [
-      {"breath": "exhale", "action": "Straighten legs"},
-      {"breath": "inhale", "action": "Bend legs, return to start position"}
+      {
+        "breath": "exhale",
+        "action": "Straighten legs"
+      },
+      {
+        "breath": "inhale",
+        "action": "Bend legs, return to start position"
+      }
     ],
     "muscleFocus": [
       "Hip extensors",
@@ -45,12 +54,21 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246090/cadillac-002a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246088/cadillac-002b.png"],
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246090/cadillac-002a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246088/cadillac-002b.png"
+    ],
     "setup": "Lying supine, toes placed on PTBar, feet hip width apart, legs bent",
     "resistance": "medium to heavy",
     "movement": [
-      {"breath": "exhale", "action": "Straighten legs"},
-      {"breath": "inhale", "action": "Bend legs, return to start position"}
+      {
+        "breath": "exhale",
+        "action": "Straighten legs"
+      },
+      {
+        "breath": "inhale",
+        "action": "Bend legs, return to start position"
+      }
     ],
     "muscleFocus": [
       "Hip extensors",
@@ -81,12 +99,21 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246092/cadillac-003a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246089/cadillac-003b.png"],
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246092/cadillac-003a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246089/cadillac-003b.png"
+    ],
     "setup": "Lying supine, toes placed on PTBar, heels together, feet in small V position, legs bent",
     "resistance": "medium to heavy",
     "movement": [
-      {"breath": "exhale", "action": "Straighten legs"},
-      {"breath": "inhale", "action": "Bend legs, return to start position"}
+      {
+        "breath": "exhale",
+        "action": "Straighten legs"
+      },
+      {
+        "breath": "inhale",
+        "action": "Bend legs, return to start position"
+      }
     ],
     "muscleFocus": [
       "Hip extensors",
@@ -118,12 +145,21 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246087/cadillac-004a.png","https://res.cloudinary.com/dgauos4zk/image/upload/v1782246087/cadillac-004b.png"],
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246087/cadillac-004a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246087/cadillac-004b.png"
+    ],
     "setup": "Lying supine, hips externally rotated, heels placed on outer edge of PTBar, toes under sides of PTBar, wide V position, legs bent",
     "resistance": "medium to heavy",
     "movement": [
-      {"breath": "exhale", "action": "Straighten legs"},
-      {"breath": "inhale", "action": "Bend legs, return to start position"}
+      {
+        "breath": "exhale",
+        "action": "Straighten legs"
+      },
+      {
+        "breath": "inhale",
+        "action": "Bend legs, return to start position"
+      }
     ],
     "muscleFocus": [
       "Hip extensors",
@@ -154,12 +190,21 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246088/cadillac-005a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246087/cadillac-005b.png"],
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246088/cadillac-005a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246087/cadillac-005b.png"
+    ],
     "setup": "Lying supine, legs externally rotated, toes placed on outer edge of PTBar, wide V position, legs bent",
     "resistance": "medium to heavy",
     "movement": [
-      {"breath": "exhale", "action": "Straighten legs"},
-      {"breath": "inhale", "action": "Bend legs, return to start position"}
+      {
+        "breath": "exhale",
+        "action": "Straighten legs"
+      },
+      {
+        "breath": "inhale",
+        "action": "Bend legs, return to start position"
+      }
     ],
     "muscleFocus": [
       "Hip extensors",
@@ -191,12 +236,21 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246091/cadillac-006a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246091/cadillac-006b.png"],
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246091/cadillac-006a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246091/cadillac-006b.png"
+    ],
     "setup": "Lying supine, toes placed on PTBar, feet hip width apart and plantarflexed, legs straight and parallel",
     "resistance": "medium to heavy",
     "movement": [
-      {"breath": "inhale", "action": "Dorsiflex feet"},
-      {"breath": "exhale", "action": "Plantarflex feet, return to start position"}
+      {
+        "breath": "inhale",
+        "action": "Dorsiflex feet"
+      },
+      {
+        "breath": "exhale",
+        "action": "Plantarflex feet, return to start position"
+      }
     ],
     "muscleFocus": [
       "Ankle-foot plantarflexors",
@@ -225,12 +279,21 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246092/cadillac-007a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246092/cadillac-007b.png"],
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246092/cadillac-007a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246092/cadillac-007b.png"
+    ],
     "setup": "Lying supine, toes placed on PTBar, feet hip width apart and plantarflexed, legs straight and parallel",
     "resistance": "medium to heavy",
     "movement": [
-      {"breath": "inhale", "action": "Dorsiflex one foot and plantarflex other simultaneously, repeat"},
-      {"breath": "exhale", "action": "Dorsiflex one foot and plantarflex other simultaneously, repeat"}
+      {
+        "breath": "inhale",
+        "action": "Dorsiflex one foot and plantarflex other simultaneously, repeat"
+      },
+      {
+        "breath": "exhale",
+        "action": "Dorsiflex one foot and plantarflex other simultaneously, repeat"
+      }
     ],
     "muscleFocus": [
       "Ankle-foot plantarflexors",
@@ -259,12 +322,21 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246088/cadillac-008a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246088/cadillac-008b.png"],
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246088/cadillac-008a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246088/cadillac-008b.png"
+    ],
     "setup": "Lying supine, heel of one foot placed on PTBar, leg bent, other leg placed on mat, leg straight, foot plantarflexed",
     "resistance": "medium",
     "movement": [
-      {"breath": "exhale", "action": "Straighten leg"},
-      {"breath": "inhale", "action": "Bend leg, return to start position"}
+      {
+        "breath": "exhale",
+        "action": "Straighten leg"
+      },
+      {
+        "breath": "inhale",
+        "action": "Bend leg, return to start position"
+      }
     ],
     "muscleFocus": [
       "Hip extensors",
@@ -294,12 +366,21 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246087/cadillac-009a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246087/cadillac-009b.png"],
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246087/cadillac-009a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246087/cadillac-009b.png"
+    ],
     "setup": "Lying supine, toes of one foot placed on PTBar, leg bent, other leg placed on mat, leg straight, foot plantarflexed",
     "resistance": "medium",
     "movement": [
-      {"breath": "exhale", "action": "Straighten leg"},
-      {"breath": "inhale", "action": "Bend leg, return to start position"}
+      {
+        "breath": "exhale",
+        "action": "Straighten leg"
+      },
+      {
+        "breath": "inhale",
+        "action": "Bend leg, return to start position"
+      }
     ],
     "muscleFocus": [
       "Hip extensors",
@@ -330,14 +411,29 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246091/cadillac-010a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246091/cadillac-010b.png"],
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246091/cadillac-010a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246091/cadillac-010b.png"
+    ],
     "setup": "Sitting upright, crossbar at eye level, legs straight and together, feet plantarflexed, hands holding RUBar, arms straight and shoulder width apart, round trunk into C Curve",
     "resistance": "light to medium",
     "movement": [
-      {"breath": "exhale", "action": "Roll down to neutral spine position"},
-      {"breath": "inhale", "action": "Lift head and chest"},
-      {"breath": "exhale", "action": "Roll up, return to start position"},
-      {"breath": "inhale", "action": "Pause"}
+      {
+        "breath": "exhale",
+        "action": "Roll down to neutral spine position"
+      },
+      {
+        "breath": "inhale",
+        "action": "Lift head and chest"
+      },
+      {
+        "breath": "exhale",
+        "action": "Roll up, return to start position"
+      },
+      {
+        "breath": "inhale",
+        "action": "Pause"
+      }
     ],
     "muscleFocus": [
       "Spinal flexors",
@@ -365,12 +461,21 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246092/cadillac-011a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246092/cadillac-011b.png"],
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246092/cadillac-011a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246092/cadillac-011b.png"
+    ],
     "setup": "Lying supine, lumbar spine imprinted in mat, shoulders under PTBar, arms straight in line with shoulders, hands holding PTBar, legs in tabletop position",
     "resistance": "light to medium",
     "movement": [
-      {"breath": "inhale", "action": "Lower legs to one side"},
-      {"breath": "exhale", "action": "Lift legs to center, return to start position"}
+      {
+        "breath": "inhale",
+        "action": "Lower legs to one side"
+      },
+      {
+        "breath": "exhale",
+        "action": "Lift legs to center, return to start position"
+      }
     ],
     "muscleFocus": [
       "Spinal flexors",
@@ -399,13 +504,25 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246087/cadillac-012a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246087/cadillac-012b.png"],
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246087/cadillac-012a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246087/cadillac-012b.png"
+    ],
     "setup": "Lying supine in neutral spine position, legs bent and parallel, feet hip width apart, arms straight and shoulder width apart, hands holding PTBar, lift to Chest Lift position, shoulders under PTBar",
     "resistance": "light to medium",
     "movement": [
-      {"breath": "exhale", "action": "Lift trunk"},
-      {"breath": "inhale", "action": "Lower trunk, return to start position"},
-      {"breath": "exhale", "action": "Lower trunk to supine position"}
+      {
+        "breath": "exhale",
+        "action": "Lift trunk"
+      },
+      {
+        "breath": "inhale",
+        "action": "Lower trunk, return to start position"
+      },
+      {
+        "breath": "exhale",
+        "action": "Lower trunk to supine position"
+      }
     ],
     "muscleFocus": [
       "Spinal flexors",
@@ -432,13 +549,25 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246089/cadillac-013a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246089/cadillac-013b.png"],
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246089/cadillac-013a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246089/cadillac-013b.png"
+    ],
     "setup": "Start in Mini Roll-Up position, one hand holding PTBar palm facing up aligned with shoulder, other hand behind head, lift to Chest Lift position, rotate trunk to Chest Lift with Rotation position",
     "resistance": "light to medium",
     "movement": [
-      {"breath": "exhale", "action": "Lift trunk"},
-      {"breath": "inhale", "action": "Lower trunk, return to start position"},
-      {"breath": "inhale", "action": "Return to center, lower trunk to supine position"}
+      {
+        "breath": "exhale",
+        "action": "Lift trunk"
+      },
+      {
+        "breath": "inhale",
+        "action": "Lower trunk, return to start position"
+      },
+      {
+        "breath": "inhale",
+        "action": "Return to center, lower trunk to supine position"
+      }
     ],
     "muscleFocus": [
       "Spinal rotators",
@@ -467,14 +596,29 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246089/cadillac-014a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246088/cadillac-014b.png"],
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246089/cadillac-014a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246088/cadillac-014b.png"
+    ],
     "setup": "Lying supine in neutral spine position, arms straight and shoulder width apart, hands holding PTBar, legs straight and together, feet plantarflexed",
     "resistance": "light to medium",
     "movement": [
-      {"breath": "inhale", "action": "Lift head and chest"},
-      {"breath": "exhale", "action": "Roll up to upright sitting position, arms overhead"},
-      {"breath": "inhale", "action": "Bend arms, straighten arms"},
-      {"breath": "exhale", "action": "Roll down, return to start position"}
+      {
+        "breath": "inhale",
+        "action": "Lift head and chest"
+      },
+      {
+        "breath": "exhale",
+        "action": "Roll up to upright sitting position, arms overhead"
+      },
+      {
+        "breath": "inhale",
+        "action": "Bend arms, straighten arms"
+      },
+      {
+        "breath": "exhale",
+        "action": "Roll down, return to start position"
+      }
     ],
     "muscleFocus": [
       "Spinal flexors",
@@ -504,12 +648,21 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246093/cadillac-015a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246089/cadillac-015b.png"],
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246093/cadillac-015a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246089/cadillac-015b.png"
+    ],
     "setup": "Lying supine in neutral spine position, hips externally rotated, feet in straps, dorsiflexed, heels together, hips and knees at 90 degrees, hands holding F2 handles arms bent at 90 degrees in elbow and shoulder joints or arms straight overhead, holding poles thumbs wrapped around",
     "resistance": "light to medium",
     "movement": [
-      {"breath": "exhale", "action": "Straighten legs"},
-      {"breath": "inhale", "action": "Bend legs, return to start position"}
+      {
+        "breath": "exhale",
+        "action": "Straighten legs"
+      },
+      {
+        "breath": "inhale",
+        "action": "Bend legs, return to start position"
+      }
     ],
     "muscleFocus": [
       "Hip adductors",
@@ -539,12 +692,21 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246090/cadillac-016a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246090/cadillac-016b.png"],
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246090/cadillac-016a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246090/cadillac-016b.png"
+    ],
     "setup": "Lying supine in neutral spine position, legs straight perpendicular to floor, hips externally rotated, feet in straps, plantarflexed, hands holding F2 handles arms bent at 90 degrees in elbow and shoulder joints or arms straight overhead, holding poles thumbs wrapped around",
     "resistance": "light to medium",
     "movement": [
-      {"breath": "exhale", "action": "Lower legs"},
-      {"breath": "inhale", "action": "Open legs and circle around, lift legs, return to start position"}
+      {
+        "breath": "exhale",
+        "action": "Lower legs"
+      },
+      {
+        "breath": "inhale",
+        "action": "Open legs and circle around, lift legs, return to start position"
+      }
     ],
     "muscleFocus": [
       "Hip adductors",
@@ -573,12 +735,21 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246090/cadillac-017a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246091/cadillac-017b.png"],
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246090/cadillac-017a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246091/cadillac-017b.png"
+    ],
     "setup": "Starting in Circles Down position",
     "resistance": "light to medium",
     "movement": [
-      {"breath": "exhale", "action": "Open legs out to sides, circle legs around and together"},
-      {"breath": "inhale", "action": "Lift legs, return to start position"}
+      {
+        "breath": "exhale",
+        "action": "Open legs out to sides, circle legs around and together"
+      },
+      {
+        "breath": "inhale",
+        "action": "Lift legs, return to start position"
+      }
     ],
     "muscleFocus": [
       "Hip adductors",
@@ -607,12 +778,21 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246088/cadillac-018a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246089/cadillac-018b.png"],
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246088/cadillac-018a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246089/cadillac-018b.png"
+    ],
     "setup": "Starting in Circles Down position, legs parallel",
     "resistance": "light to medium",
     "movement": [
-      {"breath": "exhale", "action": "Lower legs with flutter kick motion"},
-      {"breath": "inhale", "action": "Lift legs with flutter kick motion, return to start position"}
+      {
+        "breath": "exhale",
+        "action": "Lower legs with flutter kick motion"
+      },
+      {
+        "breath": "inhale",
+        "action": "Lift legs with flutter kick motion, return to start position"
+      }
     ],
     "muscleFocus": [
       "Hip extensors",
@@ -640,12 +820,21 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246089/cadillac-019a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246093/cadillac-019b.png"],
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246089/cadillac-019a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246093/cadillac-019b.png"
+    ],
     "setup": "Starting in Walking position",
     "resistance": "light to medium",
     "movement": [
-      {"breath": "exhale", "action": "Lower one leg to mat into L shape, bend knee to 90 degrees and flex hip bringing leg toward chest, straighten leg to ceiling; simultaneously repeat with other leg"},
-      {"breath": "inhale", "action": "Continue alternating bicycle pattern with both legs"}
+      {
+        "breath": "exhale",
+        "action": "Lower one leg to mat into L shape, bend knee to 90 degrees and flex hip bringing leg toward chest, straighten leg to ceiling; simultaneously repeat with other leg"
+      },
+      {
+        "breath": "inhale",
+        "action": "Continue alternating bicycle pattern with both legs"
+      }
     ],
     "muscleFocus": [
       "Hip extensors",
@@ -672,12 +861,21 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246090/cadillac-020a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246090/cadillac-020b.png"],
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246090/cadillac-020a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246090/cadillac-020b.png"
+    ],
     "setup": "Lying supine in neutral spine position, legs parallel, one foot in strap, dorsiflexed, hip and knee at 90 degrees, other leg placed on mat, leg straight, foot plantarflexed, hands holding F2 handles arms bent at 90 degrees in elbow and shoulder joints or arms straight overhead, holding poles thumbs wrapped around",
     "resistance": "light to medium",
     "movement": [
-      {"breath": "exhale", "action": "Straighten leg"},
-      {"breath": "inhale", "action": "Bend leg, return to start position"}
+      {
+        "breath": "exhale",
+        "action": "Straighten leg"
+      },
+      {
+        "breath": "inhale",
+        "action": "Bend leg, return to start position"
+      }
     ],
     "muscleFocus": [
       "Hip extensors",
@@ -707,12 +905,21 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246091/cadillac-021a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246090/cadillac-021b.png"],
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246091/cadillac-021a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246090/cadillac-021b.png"
+    ],
     "setup": "Starting in Frog position, leg perpendicular to mat, foot plantarflexed",
     "resistance": "light to medium",
     "movement": [
-      {"breath": "exhale", "action": "Lower leg"},
-      {"breath": "inhale", "action": "Open leg and circle around, lift leg, return to start position"}
+      {
+        "breath": "exhale",
+        "action": "Lower leg"
+      },
+      {
+        "breath": "inhale",
+        "action": "Open leg and circle around, lift leg, return to start position"
+      }
     ],
     "muscleFocus": [
       "Hip extensors",
@@ -743,12 +950,21 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246088/cadillac-022a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246092/cadillac-022b.png"],
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246088/cadillac-022a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246092/cadillac-022b.png"
+    ],
     "setup": "Starting in Circles Down position",
     "resistance": "light to medium",
     "movement": [
-      {"breath": "exhale", "action": "Open leg out to side, circle leg around and together"},
-      {"breath": "inhale", "action": "Lift leg, return to start position"}
+      {
+        "breath": "exhale",
+        "action": "Open leg out to side, circle leg around and together"
+      },
+      {
+        "breath": "inhale",
+        "action": "Lift leg, return to start position"
+      }
     ],
     "muscleFocus": [
       "Hip extensors",
@@ -779,12 +995,21 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246089/cadillac-023a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246092/cadillac-023b.png"],
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246089/cadillac-023a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246092/cadillac-023b.png"
+    ],
     "setup": "Starting in Circles Down position",
     "resistance": "light to medium",
     "movement": [
-      {"breath": "exhale", "action": "Lower leg"},
-      {"breath": "inhale", "action": "Lift leg, return to start position"}
+      {
+        "breath": "exhale",
+        "action": "Lower leg"
+      },
+      {
+        "breath": "inhale",
+        "action": "Lift leg, return to start position"
+      }
     ],
     "muscleFocus": [
       "Hip extensors",
@@ -811,12 +1036,21 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246087/cadillac-024a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246093/cadillac-024b.png"],
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246087/cadillac-024a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246093/cadillac-024b.png"
+    ],
     "setup": "Starting in Circles Down position",
     "resistance": "light to medium",
     "movement": [
-      {"breath": "exhale", "action": "Lower leg"},
-      {"breath": "inhale", "action": "Bend knee, flex hip bringing leg toward chest, straighten leg toward ceiling, return to start position"}
+      {
+        "breath": "exhale",
+        "action": "Lower leg"
+      },
+      {
+        "breath": "inhale",
+        "action": "Bend knee, flex hip bringing leg toward chest, straighten leg toward ceiling, return to start position"
+      }
     ],
     "muscleFocus": [
       "Hip extensors",
@@ -844,13 +1078,25 @@
     "apparatus": "Cadillac",
     "collection": null,
     "level": "Intermediate",
-    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246087/cadillac-025a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246089/cadillac-025b.png"],
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246087/cadillac-025a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246089/cadillac-025b.png"
+    ],
     "setup": "Lying supine, arms straight and shoulder width apart, hands holding PTBar, legs bent, toes placed on PTBar, feet hip width apart and plantarflexed",
     "resistance": "medium",
     "movement": [
-      {"breath": "exhale", "action": "Roll up, simultaneously straighten legs"},
-      {"breath": "inhale", "action": "Dorsiflex and plantarflex feet"},
-      {"breath": "exhale", "action": "Roll down, simultaneously bend legs, return to start position"}
+      {
+        "breath": "exhale",
+        "action": "Roll up, simultaneously straighten legs"
+      },
+      {
+        "breath": "inhale",
+        "action": "Dorsiflex and plantarflex feet"
+      },
+      {
+        "breath": "exhale",
+        "action": "Roll down, simultaneously bend legs, return to start position"
+      }
     ],
     "muscleFocus": [
       "Spinal flexors",
@@ -877,14 +1123,29 @@
     "apparatus": "Cadillac",
     "collection": null,
     "level": "Intermediate",
-    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246091/cadillac-026a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246091/cadillac-026a.png"],
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246091/cadillac-026a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246091/cadillac-026b.png"
+    ],
     "setup": "Lying supine, arms straight and overhead, hands holding poles (close to mat), legs straight and hip width apart, toes placed on PTBar and plantarflexed",
     "resistance": "medium",
     "movement": [
-      {"breath": "exhale", "action": "Roll up onto shoulder girdle, simultaneously bend legs and extend hips"},
-      {"breath": "inhale", "action": "Pause"},
-      {"breath": "exhale", "action": "Roll down, simultaneously straighten legs"},
-      {"breath": "inhale", "action": "Dorsiflex and plantarflex feet"}
+      {
+        "breath": "exhale",
+        "action": "Roll up onto shoulder girdle, simultaneously bend legs and extend hips"
+      },
+      {
+        "breath": "inhale",
+        "action": "Pause"
+      },
+      {
+        "breath": "exhale",
+        "action": "Roll down, simultaneously straighten legs"
+      },
+      {
+        "breath": "inhale",
+        "action": "Dorsiflex and plantarflex feet"
+      }
     ],
     "muscleFocus": [
       "Spinal flexors",
@@ -912,14 +1173,29 @@
       "kind": "group"
     },
     "level": "Intermediate",
-    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246092/cadillac-027a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246092/cadillac-027b.png"],
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246092/cadillac-027a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246092/cadillac-027b.png"
+    ],
     "setup": "Sitting upright, facing PT Bar, feet pressing against poles, arms straight, shoulder width apart, hands holding PTBar",
     "resistance": "medium",
     "movement": [
-      {"breath": "exhale", "action": "Round trunk into C curve position leaning back, press bar down, transfer trunk forward"},
-      {"breath": "inhale", "action": "Straighten trunk keeping PTBar still"},
-      {"breath": "exhale", "action": "Round trunk, return to C curve position leaning back, lift arms"},
-      {"breath": "inhale", "action": "Straighten trunk, sit upright, return to start position"}
+      {
+        "breath": "exhale",
+        "action": "Round trunk into C curve position leaning back, press bar down, transfer trunk forward"
+      },
+      {
+        "breath": "inhale",
+        "action": "Straighten trunk keeping PTBar still"
+      },
+      {
+        "breath": "exhale",
+        "action": "Round trunk, return to C curve position leaning back, lift arms"
+      },
+      {
+        "breath": "inhale",
+        "action": "Straighten trunk, sit upright, return to start position"
+      }
     ],
     "muscleFocus": [
       "Spinal flexors",
@@ -947,14 +1223,29 @@
       "kind": "group"
     },
     "level": "Intermediate",
-    "image": ["https://res.cloudinary.com/dgauos4zk/image/upload/v1782246087/cadillac-028a.png", "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246088/cadillac-028b.png"],
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246087/cadillac-028a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782246088/cadillac-028b.png"
+    ],
     "setup": "Starting in Sitting Forward position",
     "resistance": "medium",
     "movement": [
-      {"breath": "exhale", "action": "Round trunk into C curve position leaning back"},
-      {"breath": "inhale", "action": "Release one hand, reach back, palm facing up"},
-      {"breath": "exhale", "action": "Return hand to PTBar"},
-      {"breath": "inhale", "action": "Straighten trunk, sit upright, return to start position"}
+      {
+        "breath": "exhale",
+        "action": "Round trunk into C curve position leaning back"
+      },
+      {
+        "breath": "inhale",
+        "action": "Release one hand, reach back, palm facing up"
+      },
+      {
+        "breath": "exhale",
+        "action": "Return hand to PTBar"
+      },
+      {
+        "breath": "inhale",
+        "action": "Straighten trunk, sit upright, return to start position"
+      }
     ],
     "muscleFocus": [
       "Spinal flexors",
@@ -969,6 +1260,817 @@
       "Keep reaching arm parallel to mat",
       "Maintain pelvic lumbar stabilization",
       "Allow neck to relax when looking back toward hand"
+    ]
+  },
+  {
+    "id": "cad-029",
+    "name": "Hip Opener",
+    "block": 2,
+    "apparatus": "Cadillac",
+    "collection": null,
+    "level": "Intermediate",
+    "image": null,
+    "setup": "Lying on side in neutral spine position (as close as possible), bottom arm straight, head resting on arm, pelvis perpendicular to mat, top arm holding pole, hips externally rotated, feet plantarflexed, bottom leg straight, aligned with trunk, top leg bent, toes placed on PTBar",
+    "resistance": "light to medium",
+    "movement": [
+      {
+        "breath": "exhale",
+        "action": "Straighten leg"
+      },
+      {
+        "breath": "inhale",
+        "action": "Bend leg, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Hip external rotators",
+      "Hip adductors",
+      "Hip extensors",
+      "Spinal lateral flexors"
+    ],
+    "objectives": [
+      "Hip external rotator control",
+      "Adductor control and stretch",
+      "Hip extensor control and stretch"
+    ],
+    "cues": [
+      "Keep bottom leg straight and active",
+      "Direct top knee toward or behind upper shoulder as it bends",
+      "Maintain pelvic lumbar stabilization"
+    ]
+  },
+  {
+    "id": "cad-030",
+    "name": "Roll-Up Bottom Loaded",
+    "block": 3,
+    "apparatus": "Cadillac",
+    "collection": null,
+    "level": "Intermediate",
+    "image": null,
+    "setup": "Lying supine in neutral spine position, arms straight, hands holding width of PTBar, legs straight and together, feet plantarflexed",
+    "resistance": "light to medium",
+    "movement": [
+      {
+        "breath": "inhale",
+        "action": "Lift head and chest"
+      },
+      {
+        "breath": "exhale",
+        "action": "Roll up to upright position, arms overhead"
+      },
+      {
+        "breath": "inhale",
+        "action": "Bend arms, straighten arms"
+      },
+      {
+        "breath": "exhale",
+        "action": "Roll down, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Spinal flexors",
+      "Spinal extensors",
+      "Shoulder flexors and abductors",
+      "Elbow extensors"
+    ],
+    "objectives": [
+      "Spinal flexor and extensor control",
+      "Shoulder flexor and abductor strength",
+      "Scapular stabilization"
+    ],
+    "cues": [
+      "Bend arms until PTBar is in line with top of head",
+      "Maintain slight shoulder external rotation when bending arms",
+      "Co-contract abdominals and back extensors to stabilize trunk"
+    ]
+  },
+  {
+    "id": "cad-031",
+    "name": "Bottom Lift with RUBar",
+    "block": 3,
+    "apparatus": "Cadillac",
+    "collection": null,
+    "level": "Intermediate",
+    "image": null,
+    "setup": "Lying supine in neutral spine position, arms straight and shoulder width apart, hands holding RUBar, hips externally rotated, legs straight and together, feet dorsiflexed and placed on trapeze strap",
+    "resistance": "medium",
+    "movement": [
+      {
+        "breath": "exhale",
+        "action": "Roll pelvis and spine up, simultaneously move RUBar toward thighs"
+      },
+      {
+        "breath": "inhale",
+        "action": "Pause"
+      },
+      {
+        "breath": "exhale",
+        "action": "Roll spine and pelvis down, simultaneously move RUBar up, return to start position"
+      },
+      {
+        "breath": "inhale",
+        "action": "Pause"
+      }
+    ],
+    "muscleFocus": [
+      "Spinal flexors",
+      "Shoulder flexors",
+      "Hip extensors"
+    ],
+    "objectives": [
+      "Spinal articulation",
+      "Shoulder flexor control",
+      "Hip extensor control"
+    ],
+    "cues": [
+      "Maximize spinal articulation",
+      "Establish straight diagonal line in top position",
+      "Maintain tension in RUBar springs"
+    ]
+  },
+  {
+    "id": "cad-032",
+    "name": "Breathing with PTBar",
+    "block": 3,
+    "apparatus": "Cadillac",
+    "collection": null,
+    "level": "Intermediate",
+    "image": null,
+    "setup": "Lying supine in neutral spine position, arms straight and shoulder width apart, hands holding PTBar, hips externally rotated, legs straight and together, feet dorsiflexed and placed on trapeze strap",
+    "resistance": "medium",
+    "movement": [
+      {
+        "breath": "inhale",
+        "action": "Move PTBar down and overhead"
+      },
+      {
+        "breath": "exhale",
+        "action": "Move PTBar up, return to start position"
+      },
+      {
+        "breath": "inhale",
+        "action": "Roll pelvis and spine up"
+      },
+      {
+        "breath": "exhale",
+        "action": "Roll spine and pelvis down, return to start position"
+      },
+      {
+        "breath": "inhale",
+        "action": "Roll up to Teaser 1 position"
+      },
+      {
+        "breath": "exhale",
+        "action": "Roll down, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Spinal flexors",
+      "Spinal extensors",
+      "Shoulder flexors",
+      "Hip extensors"
+    ],
+    "objectives": [
+      "Spinal flexor control",
+      "Spinal extensor control",
+      "Spinal articulation",
+      "Hip extensor control"
+    ],
+    "cues": [
+      "Define three distinct phases in each repetition",
+      "Keep elbows wide when moving PTBar down and overhead, and back to start position",
+      "Maximize spinal articulation throughout",
+      "Use shoulder flexors to assist in establishing V position"
+    ]
+  },
+  {
+    "id": "cad-033",
+    "name": "Changes",
+    "block": 4,
+    "apparatus": "Cadillac",
+    "collection": {
+      "name": "Lying Side Single Leg Series",
+      "kind": "series"
+    },
+    "level": "Advanced",
+    "image": null,
+    "setup": "Lying on side in neutral spine position, bottom arm straight, head resting on arm, pelvis perpendicular to mat, top arm holding pole, legs straight, aligned with trunk, hips externally rotated, feet plantarflexed, top foot in strap",
+    "resistance": "medium",
+    "movement": [
+      {
+        "breath": "inhale",
+        "action": "Lift top leg"
+      },
+      {
+        "breath": "exhale",
+        "action": "Lower top leg in front of bottom leg"
+      },
+      {
+        "breath": "inhale",
+        "action": "Lift top leg"
+      },
+      {
+        "breath": "exhale",
+        "action": "Lower top leg down behind bottom leg"
+      },
+      {
+        "breath": "exhale",
+        "action": "Lower top leg to bottom leg, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Hip adductors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Hip adductor control",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Maintain pelvic lumbar stabilization",
+      "Keep tension in springs, avoid lifting leg above 45 degrees",
+      "Keep movement of leg brisk",
+      "Try to touch foot to mat as close as possible"
+    ]
+  },
+  {
+    "id": "cad-034",
+    "name": "Scissors",
+    "block": 4,
+    "apparatus": "Cadillac",
+    "collection": {
+      "name": "Lying Side Single Leg Series",
+      "kind": "series"
+    },
+    "level": "Advanced",
+    "image": null,
+    "setup": "Lying on side in neutral spine position, bottom arm straight, head resting on arm, pelvis perpendicular to mat, top arm holding pole, legs straight, aligned with trunk, hips externally rotated, feet plantarflexed, top foot in strap",
+    "resistance": "medium",
+    "movement": [
+      {
+        "breath": "exhale",
+        "action": "Open legs to Scissors position (2 pulses)"
+      },
+      {
+        "breath": "inhale",
+        "action": "Switch"
+      },
+      {
+        "breath": "exhale",
+        "action": "Open legs to Scissors position (2 pulses)"
+      },
+      {
+        "breath": "inhale",
+        "action": "Switch"
+      }
+    ],
+    "muscleFocus": [
+      "Hip flexors",
+      "Hip extensors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Hip extensor control and stretch",
+      "Hip flexor control and stretch",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Maintain pelvic lumbar stabilization",
+      "Create even V position when legs are open"
+    ]
+  },
+  {
+    "id": "cad-035",
+    "name": "Circles Forward",
+    "block": 4,
+    "apparatus": "Cadillac",
+    "collection": {
+      "name": "Lying Side Single Leg Series",
+      "kind": "series"
+    },
+    "level": "Advanced",
+    "image": null,
+    "setup": "Lying on side in neutral spine position, bottom arm straight, head resting on arm, pelvis perpendicular to mat, top arm holding pole, legs straight, aligned with trunk, hips externally rotated, feet plantarflexed, top foot in strap",
+    "resistance": "medium",
+    "movement": [
+      {
+        "breath": "inhale",
+        "action": "Move top leg forward"
+      },
+      {
+        "breath": "exhale",
+        "action": "Circle leg up, around and back, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Hip flexors",
+      "Hip adductors",
+      "Hip extensors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Hip control",
+      "Hip mobility",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Maintain pelvic lumbar stabilization",
+      "Maintain spring tension",
+      "Maximize hip external rotation and hip disassociation"
+    ]
+  },
+  {
+    "id": "cad-036",
+    "name": "Circles Back",
+    "block": 4,
+    "apparatus": "Cadillac",
+    "collection": {
+      "name": "Lying Side Single Leg Series",
+      "kind": "series"
+    },
+    "level": "Advanced",
+    "image": null,
+    "setup": "Lying on side in neutral spine position, bottom arm straight, head resting on arm, pelvis perpendicular to mat, top arm holding pole, legs straight, aligned with trunk, hips externally rotated, feet plantarflexed, top foot in strap",
+    "resistance": "medium",
+    "movement": [
+      {
+        "breath": "inhale",
+        "action": "Move top leg back"
+      },
+      {
+        "breath": "exhale",
+        "action": "Circle leg up, around and forward, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Hip flexors",
+      "Hip adductors",
+      "Hip extensors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Hip control",
+      "Hip mobility",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Maintain pelvic lumbar stabilization",
+      "Maintain spring tension",
+      "Maximize hip external rotation and hip disassociation"
+    ]
+  },
+  {
+    "id": "cad-037",
+    "name": "Tower",
+    "block": 5,
+    "apparatus": "Cadillac",
+    "collection": null,
+    "level": "Advanced",
+    "image": null,
+    "setup": "Lying supine, arms straight and overhead, hands holding poles (close to mat), legs straight and hip width apart, toes placed on PTBar and plantarflexed",
+    "resistance": "medium",
+    "movement": [
+      {
+        "breath": "exhale",
+        "action": "Roll up onto shoulder girdle"
+      },
+      {
+        "breath": "inhale",
+        "action": "Bend and straighten legs"
+      },
+      {
+        "breath": "exhale",
+        "action": "Roll down, return to start position"
+      },
+      {
+        "breath": "inhale",
+        "action": "Dorsiflex feet, plantarflex feet"
+      }
+    ],
+    "muscleFocus": [
+      "Spinal flexors",
+      "Spinal extensors",
+      "Hip extensors"
+    ],
+    "objectives": [
+      "Spinal articulation",
+      "Hip extensor control and stretch",
+      "Ankle-foot plantarflexor control and stretch"
+    ],
+    "cues": [
+      "Keep arms straight and maintain scapular stabilization",
+      "Initiate movement with abdominals",
+      "Anchor sacrum on mat (as close as possible) in start position"
+    ]
+  },
+  {
+    "id": "cad-038",
+    "name": "Shoulder Stretch Prone",
+    "block": 6,
+    "apparatus": "Cadillac",
+    "collection": null,
+    "level": "Intermediate",
+    "image": null,
+    "setup": "Lying prone, legs straight and together, forehead resting on one hand, other hand holding PTBar, palm facing back (away from head), shoulder internally rotated",
+    "resistance": "medium",
+    "movement": [
+      {
+        "breath": "inhale",
+        "action": "Externally rotate shoulder, lifting PTBar"
+      },
+      {
+        "breath": "exhale",
+        "action": "Internally rotate shoulder, lowering PTBar"
+      }
+    ],
+    "muscleFocus": [
+      "Shoulder internal rotators",
+      "Shoulder external rotators"
+    ],
+    "objectives": [
+      "Shoulder internal rotator control and stretch",
+      "Shoulder external rotator control and stretch",
+      "Shoulder mobility"
+    ],
+    "cues": [
+      "Maximize rotational movement of glenohumeral joint",
+      "Move slowly through full range of motion",
+      "Breathe continuously throughout movement",
+      "Minimize rotation of trunk"
+    ]
+  },
+  {
+    "id": "cad-039",
+    "name": "Cat Stretch Kneeling",
+    "block": 7,
+    "apparatus": "Cadillac",
+    "collection": null,
+    "level": "Intermediate",
+    "image": null,
+    "setup": "Kneeling in upright position, legs hip width apart, arms bent, hands placed on PTBar, shoulder width apart, elbows out to sides, PTBar at shoulder height",
+    "resistance": "medium",
+    "movement": [
+      {
+        "breath": "inhale",
+        "action": "Straighten arms, lowering PTBar down"
+      },
+      {
+        "breath": "exhale",
+        "action": "Roll down, extend spine into neutral position"
+      },
+      {
+        "breath": "inhale",
+        "action": "Pause"
+      },
+      {
+        "breath": "exhale",
+        "action": "Roll up, bend arms, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Spinal flexors",
+      "Spinal extensors",
+      "Shoulder extensors",
+      "Elbow extensors"
+    ],
+    "objectives": [
+      "Spinal articulation",
+      "Trunk stabilization",
+      "Shoulder extensor control"
+    ],
+    "cues": [
+      "Engage shoulder extensors to help maintain position",
+      "Keep arms straight and trunk parallel to mat"
+    ]
+  },
+  {
+    "id": "cad-040",
+    "name": "Teaser 1",
+    "block": 7,
+    "apparatus": "Cadillac",
+    "collection": null,
+    "level": "Intermediate",
+    "image": null,
+    "setup": "Starting in Teaser 1 position, arms straight and shoulder width apart, hands holding PTBar",
+    "resistance": "light to medium",
+    "movement": [
+      {
+        "breath": "exhale",
+        "action": "Roll down"
+      },
+      {
+        "breath": "inhale",
+        "action": "Roll up, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Spinal flexors",
+      "Spinal extensors",
+      "Hip flexors",
+      "Shoulder flexors"
+    ],
+    "objectives": [
+      "Spinal flexor strength",
+      "Spinal extensor strength",
+      "Hip flexor strength",
+      "Shoulder flexor control"
+    ],
+    "cues": [
+      "Keep legs at consistent angle",
+      "Articulate through spine when rolling down and up",
+      "Use shoulder flexors to assist in establishing V position",
+      "Keep arms straight"
+    ]
+  },
+  {
+    "id": "cad-041",
+    "name": "Chest Expansion",
+    "block": 8,
+    "apparatus": "Cadillac",
+    "collection": {
+      "name": "Arms Standing Series",
+      "kind": "series"
+    },
+    "level": "Intermediate",
+    "image": null,
+    "setup": "Standing upright, facing Cadillac, arms straight and shoulder width apart, hands holding handles (fist or open hand), palms facing back, crossbar at eye level",
+    "resistance": "medium",
+    "movement": [
+      {
+        "breath": "exhale",
+        "action": "Move arms back"
+      },
+      {
+        "breath": "inhale",
+        "action": "Move arms forward, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Shoulder extensors",
+      "Elbow extensors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Shoulder extensor strength",
+      "Elbow extensor strength",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Maintain scapular stabilization",
+      "Maintain trunk stabilization",
+      "Keep arms straight",
+      "Move arms 20 degrees forward and 20 degrees back of trunk"
+    ]
+  },
+  {
+    "id": "cad-042",
+    "name": "Hug-a-Tree",
+    "block": 8,
+    "apparatus": "Cadillac",
+    "collection": {
+      "name": "Arms Standing Series",
+      "kind": "series"
+    },
+    "level": "Intermediate",
+    "image": null,
+    "setup": "Standing leaning forward, facing away from Cadillac, arms in T position, hands holding handles (fist or open hand), micro-bend in elbows, palms facing forward",
+    "resistance": "medium",
+    "movement": [
+      {
+        "breath": "exhale",
+        "action": "Move arms forward"
+      },
+      {
+        "breath": "inhale",
+        "action": "Move arms back, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Shoulder horizontal adductors",
+      "Shoulder flexors",
+      "Scapular stabilizers",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Shoulder horizontal adductor strength and stretch",
+      "Shoulder flexor control",
+      "Scapular stabilization",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Keep leaning into springs, maintaining consistent diagonal line",
+      "Move arms forward until parallel with each other",
+      "Move arms back within range of scapular stabilization"
+    ]
+  },
+  {
+    "id": "cad-043",
+    "name": "Circles Up",
+    "block": 8,
+    "apparatus": "Cadillac",
+    "collection": {
+      "name": "Arms Standing Series",
+      "kind": "series"
+    },
+    "level": "Intermediate",
+    "image": null,
+    "setup": "Starting in Hug-a-Tree position, facing away from Cadillac, arms in T position, hands holding handles, micro-bend in elbows, palms facing forward",
+    "resistance": "medium",
+    "movement": [
+      {
+        "breath": "exhale",
+        "action": "Move arms forward until parallel with each other"
+      },
+      {
+        "breath": "inhale",
+        "action": "Rotate arms, palms facing down, lift arms overhead, circle out to sides, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Shoulder horizontal adductors",
+      "Shoulder extensors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Shoulder horizontal adductor strength",
+      "Shoulder extensor control",
+      "Scapular stabilization",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Keep leaning into springs, maintaining consistent diagonal line",
+      "Move arms forward until parallel with each other",
+      "Move arms back within range of scapular stabilization",
+      "Lift arms directly overhead while maintaining trunk stabilization"
+    ]
+  },
+  {
+    "id": "cad-044",
+    "name": "Circles Down",
+    "block": 8,
+    "apparatus": "Cadillac",
+    "collection": {
+      "name": "Arms Standing Series",
+      "kind": "series"
+    },
+    "level": "Intermediate",
+    "image": null,
+    "setup": "Starting in Hug-a-Tree position, facing away from Cadillac, arms in T position, hands holding handles, micro-bend in elbows, palms facing forward",
+    "resistance": "medium",
+    "movement": [
+      {
+        "breath": "inhale",
+        "action": "Lift arms overhead"
+      },
+      {
+        "breath": "exhale",
+        "action": "Lower arms forward, rotate arms, palms facing each other, move arms out to sides, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Shoulder horizontal adductors",
+      "Shoulder extensors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Shoulder horizontal adductor strength",
+      "Shoulder extensor control",
+      "Scapular stabilization",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Keep leaning into springs, maintaining consistent diagonal line",
+      "Move arms forward until parallel with each other",
+      "Move arms back within range of scapular stabilization",
+      "Lift arms directly overhead while maintaining trunk stabilization"
+    ]
+  },
+  {
+    "id": "cad-045",
+    "name": "Punches",
+    "block": 8,
+    "apparatus": "Cadillac",
+    "collection": {
+      "name": "Arms Standing Series",
+      "kind": "series"
+    },
+    "level": "Intermediate",
+    "image": null,
+    "setup": "Starting in Hug-a-Tree position, hands holding handles (fist or open hand) at eye level, palms facing down, arms bent, elbows out to sides",
+    "resistance": "medium",
+    "movement": [
+      {
+        "breath": "exhale",
+        "action": "Straighten one arm forward, switch arm simultaneously"
+      },
+      {
+        "breath": "inhale",
+        "action": "Repeat movement pattern"
+      }
+    ],
+    "muscleFocus": [
+      "Elbow extensors",
+      "Shoulder horizontal adductors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Elbow extensor strength",
+      "Shoulder horizontal adductor strength",
+      "Scapular stabilization",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Arms move in straight line directly opposite eyes",
+      "Maintain scapular stabilization",
+      "Maintain trunk stabilization",
+      "Keep movement focused in arms"
+    ]
+  },
+  {
+    "id": "cad-046",
+    "name": "Biceps",
+    "block": 8,
+    "apparatus": "Cadillac",
+    "collection": {
+      "name": "Arms Standing Series",
+      "kind": "series"
+    },
+    "level": "Intermediate",
+    "image": null,
+    "setup": "Starting in Hug-a-Tree position, arms straight and reaching back, parallel to each other (as close as possible), hands holding handles",
+    "resistance": "medium",
+    "movement": [
+      {
+        "breath": "exhale",
+        "action": "Bend arms"
+      },
+      {
+        "breath": "inhale",
+        "action": "Straighten arms, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Elbow flexors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Elbow flexor strength",
+      "Shoulder flexor stretch",
+      "Scapular stabilization",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Maintain shoulder extension",
+      "Keep upper arms stable",
+      "Maintain scapular stabilization",
+      "Keep scapulae open and shoulders forward",
+      "Maintain trunk stabilization"
+    ]
+  },
+  {
+    "id": "cad-047",
+    "name": "Shoulder Adduction Single Arm",
+    "block": 8,
+    "apparatus": "Cadillac",
+    "collection": null,
+    "level": "Intermediate",
+    "image": null,
+    "setup": "Sitting upright, facing sideways, arms straight, one hand holding PTBar, palm facing up, other hand reaching out to side, fingertips touching mat",
+    "resistance": "medium",
+    "movement": [
+      {
+        "breath": "exhale",
+        "action": "Bend arm"
+      },
+      {
+        "breath": "inhale",
+        "action": "Straighten arm, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Shoulder adductors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Shoulder adductor control",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Initiate movement with latissimus dorsi",
+      "Minimize use of biceps",
+      "Maintain slight external rotation of shoulder",
+      "Maintain trunk stabilization"
     ]
   }
 ]
