@@ -1,1 +1,196 @@
-[]
+[
+  {
+    "id": "pol-001",
+    "name": "Shoulder Stretch",
+    "block": 6,
+    "apparatus": "Pole",
+    "collection": {
+      "name": "Pole Series",
+      "kind": "series"
+    },
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/pole-001a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/pole-001b.png"
+    ],
+    "setup": "Standing, legs straight, hip width apart, arms straight down in front of body, hands holding Pole, wider than shoulder width apart",
+    "resistance": "none",
+    "movement": [
+      {
+        "breath": "inhale",
+        "action": "Lift arms overhead"
+      },
+      {
+        "breath": "exhale",
+        "action": "Bend arms to 90 degrees in elbows"
+      },
+      {
+        "breath": "inhale",
+        "action": "Straighten arms overhead"
+      },
+      {
+        "breath": "exhale",
+        "action": "Lower arms, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Shoulder flexors",
+      "Elbow flexors",
+      "Elbow extensors",
+      "Scapular stabilizers"
+    ],
+    "objectives": [
+      "Shoulder stretch",
+      "Scapular stabilization"
+    ],
+    "cues": [
+      "Maintain trunk stabilization",
+      "Keep head aligned with spine",
+      "Maintain slight external rotation of shoulders when bending arms",
+      "Straighten arms completely before lowering"
+    ]
+  },
+  {
+    "id": "pol-002",
+    "name": "Overhead Stretch",
+    "block": 6,
+    "apparatus": "Pole",
+    "collection": {
+      "name": "Pole Series",
+      "kind": "series"
+    },
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/pole-002a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/pole-002b.png"
+    ],
+    "setup": "Starting in Shoulder Stretch position, hands holding Pole wider than Shoulder Stretch",
+    "resistance": "none",
+    "movement": [
+      {
+        "breath": "inhale",
+        "action": "Lift arms overhead"
+      },
+      {
+        "breath": "exhale",
+        "action": "Lower arms behind body"
+      },
+      {
+        "breath": "inhale",
+        "action": "Lift arms overhead"
+      },
+      {
+        "breath": "exhale",
+        "action": "Lower arms, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Shoulder flexors",
+      "Shoulder horizontal adductors"
+    ],
+    "objectives": [
+      "Shoulder stretch",
+      "Chest stretch"
+    ],
+    "cues": [
+      "Maintain trunk stabilization",
+      "Avoid thrusting ribs and head forward",
+      "Keep shoulders moving evenly as Pole is taken overhead",
+      "Maintain scapular stabilization (minimize movement of scapulae)"
+    ]
+  },
+  {
+    "id": "pol-003",
+    "name": "Side Stretch",
+    "block": 6,
+    "apparatus": "Pole",
+    "collection": {
+      "name": "Pole Series",
+      "kind": "series"
+    },
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/pole-003a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/pole-003b.png"
+    ],
+    "setup": "Starting in Shoulder Stretch position, Pole resting on shoulders, arms straight on Pole in T position",
+    "resistance": "none",
+    "movement": [
+      {
+        "breath": "inhale",
+        "action": "Arc trunk sideways"
+      },
+      {
+        "breath": "exhale",
+        "action": "Straighten and lift trunk to center, return to start position; alternate sides"
+      }
+    ],
+    "muscleFocus": [
+      "Spinal lateral flexors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Spinal lateral flexor control and stretch",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Initiate movement from trunk and not arms",
+      "Move in coronal plane",
+      "Avoid thrusting ribs forward",
+      "Maintain trunk stabilization",
+      "Keep pelvis stable",
+      "Maintain equal weight on both feet"
+    ]
+  },
+  {
+    "id": "pol-004",
+    "name": "Spine Twist",
+    "block": 6,
+    "apparatus": "Pole",
+    "collection": {
+      "name": "Pole Series",
+      "kind": "series"
+    },
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/pole-004a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/pole-004b.png"
+    ],
+    "setup": "Starting in Side Stretch position",
+    "resistance": "none",
+    "movement": [
+      {
+        "breath": "exhale",
+        "action": "Rotate trunk to one side (2 pulses)"
+      },
+      {
+        "breath": "inhale",
+        "action": "Rotate back to center"
+      },
+      {
+        "breath": "exhale",
+        "action": "Rotate trunk to other side (2 pulses)"
+      },
+      {
+        "breath": "inhale",
+        "action": "Rotate back to center; alternate sides"
+      }
+    ],
+    "muscleFocus": [
+      "Spinal rotators",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Spinal rotator control",
+      "Spinal extensor control"
+    ],
+    "cues": [
+      "Initiate movement from trunk and not arms",
+      "Keep pelvis stable",
+      "Maintain equal weight on both feet",
+      "Keep nose aligned over sternum"
+    ]
+  }
+]
