@@ -1,1 +1,428 @@
-[]
+[
+  {
+    "id": "lad-001",
+    "name": "Shoulder Stretch Flexion",
+    "block": 6,
+    "apparatus": "Ladder Barrel",
+    "collection": null,
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/lad-001a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/lad-001b.png"
+    ],
+    "setup": "Standing facing Ladder Barrel, hands placed on ladder, arms straight, shoulder width apart, body on diagonal line",
+    "resistance": null,
+    "movement": [
+      {
+        "breath": "inhale",
+        "action": "Bend legs, flex hips and shoulders, lowering trunk forward until parallel (as close as possible) to floor"
+      },
+      {
+        "breath": "exhale",
+        "action": "Hold position for 3-5 breaths, straighten legs, lift trunk, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Shoulder extensors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Shoulder extensor stretch",
+      "Trunk stabilization",
+      "Scapular stabilization"
+    ],
+    "cues": [
+      "Keep arms straight",
+      "Maintain trunk stabilization, particularly during stretch",
+      "Engage abdominals to avoid ribs flaring and lumbar hyperextension"
+    ]
+  },
+  {
+    "id": "lad-002",
+    "name": "Shoulder Stretch Extension",
+    "block": 6,
+    "apparatus": "Ladder Barrel",
+    "collection": null,
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/lad-002a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/lad-002b.png"
+    ],
+    "setup": "Standing facing back to Ladder Barrel, arms straight, shoulder width apart (as close as possible), hands placed on ladder, body on diagonal line",
+    "resistance": null,
+    "movement": [
+      {
+        "breath": "inhale",
+        "action": "Bend legs, flex hips, extend shoulders, lowering trunk until parallel to ladder"
+      },
+      {
+        "breath": "exhale",
+        "action": "Hold position for 3-5 breaths, straighten legs, lift trunk, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Shoulder flexors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Shoulder flexor stretch",
+      "Trunk stabilization",
+      "Scapular stabilization"
+    ],
+    "cues": [
+      "Keep arms straight",
+      "Maintain trunk stabilization",
+      "Engage back extensors to avoid tucking pelvis"
+    ]
+  },
+  {
+    "id": "lad-003",
+    "name": "Gluteals",
+    "block": 6,
+    "apparatus": "Ladder Barrel",
+    "collection": {
+      "name": "Ladder Barrel Stretch Series",
+      "kind": "series"
+    },
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/lad-003a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/lad-003b.png"
+    ],
+    "setup": "Standing facing Ladder Barrel, one leg straight and against ladder, other leg on barrel, hip externally rotated, foot aligned with opposite hip, hands placed on top of ladder, palms facing down, fingers facing back, elbows facing back and parallel (as close as possible)",
+    "resistance": null,
+    "movement": [
+      {
+        "breath": "inhale",
+        "action": "Lower trunk forward over bent leg"
+      },
+      {
+        "breath": "exhale",
+        "action": "Hold position for 3-5 breaths, lift trunk, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Hip extensors",
+      "Hip abductors",
+      "Hip external rotators",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Hip extensor and abductor stretch",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Keep elbows facing back",
+      "Hinge from hips when leaning forward",
+      "Maintain back extensor engagement"
+    ]
+  },
+  {
+    "id": "lad-004",
+    "name": "Hamstrings",
+    "block": 6,
+    "apparatus": "Ladder Barrel",
+    "collection": {
+      "name": "Ladder Barrel Stretch Series",
+      "kind": "series"
+    },
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/lad-004a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/lad-004b.png"
+    ],
+    "setup": "Starting in Gluteal Stretch position (page 42), leg straight on barrel in line with hip, foot dorsiflexed",
+    "resistance": null,
+    "movement": [
+      {
+        "breath": "inhale",
+        "action": "Lower trunk forward over bent leg"
+      },
+      {
+        "breath": "exhale",
+        "action": "Hold position for 3-5 breaths, lift trunk, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Hip extensors",
+      "Knee flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Hip extensor and knee flexor stretch",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Keep elbows facing back",
+      "Hinge from hips when leaning forward",
+      "Maintain back extensor engagement"
+    ]
+  },
+  {
+    "id": "lad-005",
+    "name": "Adductors",
+    "block": 6,
+    "apparatus": "Ladder Barrel",
+    "collection": {
+      "name": "Ladder Barrel Stretch Series",
+      "kind": "series"
+    },
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/lad-005a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/lad-005b.png"
+    ],
+    "setup": "Standing sideways to Ladder Barrel, one leg straight and against ladder, other leg straight and on barrel, hip externally rotated, inside arm reaching across trunk, hand holding ladder, palm facing up, other arm overhead, palm facing down",
+    "resistance": null,
+    "movement": [
+      {
+        "breath": "inhale",
+        "action": "Arc trunk sideways over leg"
+      },
+      {
+        "breath": "exhale",
+        "action": "Hold position for 3-5 breaths, straighten and lift trunk, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Hip adductors",
+      "Hip extensors",
+      "Spinal lateral flexors"
+    ],
+    "objectives": [
+      "Hip adductor stretch",
+      "Hip extensor stretch",
+      "Spinal lateral flexor stretch"
+    ],
+    "cues": [
+      "Maintain pelvic stabilization",
+      "Create large arc when reaching over, hinging at hip joint"
+    ]
+  },
+  {
+    "id": "lad-006",
+    "name": "Hip Flexors",
+    "block": 6,
+    "apparatus": "Ladder Barrel",
+    "collection": {
+      "name": "Ladder Barrel Stretch Series",
+      "kind": "series"
+    },
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/lad-006a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/lad-006b.png"
+    ],
+    "setup": "Standing facing back to Ladder Barrel, one leg straight, other leg bent, foot on barrel, knee facing down, hands placed on top of ladder",
+    "resistance": null,
+    "movement": [
+      {
+        "breath": "inhale",
+        "action": "Bend standing leg, moving pelvis forward and down, pelvis back toward barrel"
+      },
+      {
+        "breath": "exhale",
+        "action": "Hold position for 3-5 breaths, lift trunk, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Hip flexors",
+      "Knee extensors",
+      "Spinal flexors"
+    ],
+    "objectives": [
+      "Hip flexor stretch",
+      "Knee extensor stretch",
+      "Pelvic stabilization"
+    ],
+    "cues": [
+      "Maintain pelvic stabilization",
+      "Bias toward posterior tilt of pelvis",
+      "Keep abdominals engaged to avoid lumbar hyperlordosis"
+    ]
+  },
+  {
+    "id": "lad-007",
+    "name": "Side Over Prep",
+    "block": 11,
+    "apparatus": "Ladder Barrel",
+    "collection": null,
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/lad-007a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/lad-007b.png"
+    ],
+    "setup": "Standing sideways to Ladder Barrel, pelvis against barrel, feet braced against bottom of ladder, inside leg in front, body on diagonal line, hands placed behind head, fingers loosely interlaced",
+    "resistance": null,
+    "movement": [
+      {
+        "breath": "inhale",
+        "action": "Arc trunk sideways over barrel"
+      },
+      {
+        "breath": "exhale",
+        "action": "Straighten and lift trunk, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Spinal lateral flexors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Spinal lateral flexor strength",
+      "Spinal lateral flexor stretch"
+    ],
+    "cues": [
+      "Start and end with trunk and leg on diagonal line",
+      "Maintain pelvic stabilization",
+      "Maintain co-contraction of abdominals and back extensors",
+      "Imagine moving between two panes of glass"
+    ]
+  },
+  {
+    "id": "lad-008",
+    "name": "Side Over",
+    "block": 11,
+    "apparatus": "Ladder Barrel",
+    "collection": null,
+    "level": "Intermediate",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/lad-008a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/lad-008b.png"
+    ],
+    "setup": "Lying sideways to Ladder Barrel, pelvis resting on barrel, trunk on diagonal line, bottom leg straight, foot placed on lower rung of ladder, top hip externally rotated, top leg bent, foot dorsiflexed, heel placed on second rung from top, foot under top rung, hands behind head",
+    "resistance": null,
+    "movement": [
+      {
+        "breath": "inhale",
+        "action": "Arc trunk sideways, lowering trunk"
+      },
+      {
+        "breath": "exhale",
+        "action": "Straighten and lift trunk, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Spinal lateral flexors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Spinal lateral flexor strength",
+      "Spinal lateral flexor stretch"
+    ],
+    "cues": [
+      "Start and end with trunk and leg on diagonal line",
+      "Maintain pressure on heel and avoid pulling with top foot under ladder",
+      "Touch fingers loosely behind head",
+      "Maintain co-contraction of abdominals and back extensors",
+      "Imagine moving between two panes of glass"
+    ]
+  },
+  {
+    "id": "lad-009",
+    "name": "Swan Prep",
+    "block": 12,
+    "apparatus": "Ladder Barrel",
+    "collection": null,
+    "level": "Intermediate",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/lad-009a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/lad-009b.png"
+    ],
+    "setup": "Lying prone on Ladder Barrel, pelvis resting on barrel, legs straight and together, hips externally rotated, feet dorsiflexed, heels together in V position under second rung from bottom, toes placed on bottom rung, hands behind head",
+    "resistance": null,
+    "movement": [
+      {
+        "breath": "inhale",
+        "action": "Lift trunk to diagonal line"
+      },
+      {
+        "breath": "exhale",
+        "action": "Straighten arms overhead"
+      },
+      {
+        "breath": "inhale",
+        "action": "Bend arms, placing hands behind head"
+      },
+      {
+        "breath": "exhale",
+        "action": "Lower trunk, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Spinal extensors",
+      "Spinal flexors",
+      "Shoulder flexors"
+    ],
+    "objectives": [
+      "Spinal extensor strength",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Keep head aligned with spine",
+      "Touch fingers loosely behind head",
+      "Maximize spinal articulation in both directions",
+      "Create V position with arms when reaching overhead"
+    ]
+  },
+  {
+    "id": "lad-010",
+    "name": "Swan",
+    "block": 12,
+    "apparatus": "Ladder Barrel",
+    "collection": null,
+    "level": "Advanced",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/lad-010a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/lad-010b.png"
+    ],
+    "setup": "Starting in Swan Prep position (page 48)",
+    "resistance": null,
+    "movement": [
+      {
+        "breath": "inhale",
+        "action": "Lift trunk to diagonal line"
+      },
+      {
+        "breath": "exhale",
+        "action": "Straighten arms overhead"
+      },
+      {
+        "breath": "inhale",
+        "action": "Lift trunk up and over, simultaneously extending hips and bending legs"
+      },
+      {
+        "breath": "exhale",
+        "action": "Return to diagonal line, straightening legs"
+      },
+      {
+        "breath": "inhale",
+        "action": "Bend arms, placing hands behind head"
+      },
+      {
+        "breath": "exhale",
+        "action": "Lower trunk, return to start position"
+      }
+    ],
+    "muscleFocus": [
+      "Spinal extensors",
+      "Hip extensors",
+      "Shoulder flexors"
+    ],
+    "objectives": [
+      "Spinal extensor strength",
+      "Hip extensor control",
+      "Knee extensor control",
+      "Shoulder flexor control"
+    ],
+    "cues": [
+      "Press thighs into barrel as knees bend, and hips and back extend",
+      "Distribute extension through each vertebral joint",
+      "Complete movement with shoulder flexion, head between arms"
+    ]
+  }
+]
