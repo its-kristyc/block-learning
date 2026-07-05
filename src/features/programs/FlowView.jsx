@@ -1,17 +1,10 @@
+import { Pencil, Trash2 } from 'lucide-react';
 import { C } from '../../styles/tokens.js';
 import { BLOCKS, byId, blockLabel } from '../../data/index.js';
 import { ExerciseCard } from '../../components/ExerciseCard.jsx';
 
-const PencilIcon = () => (
-  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-    <path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z" />
-  </svg>
-);
-const TrashIcon = () => (
-  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-    <path d="M3 6h18M8 6V4h8v2M6 6l1 14h10l1-14M10 11v6M14 11v6" />
-  </svg>
-);
+const PencilIcon = () => <Pencil size={15} strokeWidth={2} />;
+const TrashIcon = () => <Trash2 size={15} strokeWidth={2} />;
 
 const primaryBtn = {
   fontSize: 12.5, fontWeight: 700, color: '#fff',

@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Search, X } from 'lucide-react';
 import { C } from '../../styles/tokens.js';
 import { EXERCISES, BLOCKS, APPARATUS_ORDER, applyFilters, noFilters } from '../../data/index.js';
 import { Wheel } from '../../components/Wheel.jsx';
@@ -26,11 +27,8 @@ function SearchBar({ query, setQuery }) {
           background: '#fff', width: '100%', boxSizing: 'border-box',
         }}
       />
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
-        stroke={C.muted} strokeWidth="2" strokeLinecap="round"
-        style={{ position: 'absolute', left: 11, top: '50%', transform: 'translateY(-50%)', pointerEvents: 'none' }}>
-        <circle cx="11" cy="11" r="7" /><path d="M21 21l-4.3-4.3" />
-      </svg>
+      <Search size={16} color={C.muted} strokeWidth={2}
+        style={{ position: 'absolute', left: 11, top: '50%', transform: 'translateY(-50%)', pointerEvents: 'none' }} />
       {query && (
         <button
           onClick={() => setQuery('')}
@@ -42,10 +40,7 @@ function SearchBar({ query, setQuery }) {
             display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
           }}
         >
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-            stroke="currentColor" strokeWidth="2.4" strokeLinecap="round">
-            <path d="M6 6l12 12M18 6L6 18" />
-          </svg>
+          <X size={14} strokeWidth={2.4} />
         </button>
       )}
     </div>

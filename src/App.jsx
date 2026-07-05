@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
+import { Compass, BarChart3, Layers, Info } from 'lucide-react';
 import { C } from './styles/tokens.js';
 import { useViewport } from './hooks/useViewport.js';
 import { storage, emptyUser } from './lib/storage.js';
@@ -9,34 +10,10 @@ import { Practice } from './features/practice/Practice.jsx';
 
 // ── Nav config ────────────────────────────────────────────────────────────
 const TABS = [
-  {
-    key: 'explore',
-    label: 'Explore',
-    // Compass icon
-    icon: 'M12 2a10 10 0 1 0 0 20a10 10 0 0 0 0-20ZM16 8l-2.5 6.5L8 16l2.5-6.5L16 8Z',
-  },
-  {
-    key: 'programs',
-    label: 'Programs',
-    // Bar chart icon
-    icon: 'M4 4h5v16H4zM10 4h5v10h-5zM16 4h5v7h-5z',
-  },
-  {
-    key: 'practice',
-    label: 'Practice',
-    // Cards / file icon
-    icon: 'M6 3h9l3 3v15H6zM6 8h12',
-  },
+  { key: 'explore',  label: 'Explore',  Icon: Compass },
+  { key: 'programs', label: 'Programs', Icon: BarChart3 },
+  { key: 'practice', label: 'Practice', Icon: Layers },
 ];
-
-function NavIcon({ d }) {
-  return (
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-      stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round">
-      <path d={d} />
-    </svg>
-  );
-}
 
 // ── App ───────────────────────────────────────────────────────────────────
 export default function App() {
@@ -80,7 +57,7 @@ export default function App() {
   const openFrom = (list, id) => setDrawer({ list, index: list.indexOf(id) });
 
   // ── Nav items ─────────────────────────────────────────────────────────
-  const navItems = TABS.map(({ key, label, icon }) => {
+  const navItems = TABS.map(({ key, label, Icon }) => {
     const on = tab === key;
     return (
       <button
@@ -95,7 +72,7 @@ export default function App() {
           width: isMobile ? 'auto' : 64,
         }}
       >
-        <NavIcon d={icon} />
+        <Icon size={20} strokeWidth={1.8} />
         <span style={{ fontSize: 10.5, fontWeight: 700 }}>{label}</span>
       </button>
     );
@@ -144,11 +121,7 @@ export default function App() {
             tabIndex={0}
             aria-label="How your data is saved"
           >
-            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <circle cx="12" cy="12" r="9" />
-              <path d="M12 11v5" strokeLinecap="round" />
-              <circle cx="12" cy="7.5" r="0.6" fill="currentColor" stroke="none" />
-            </svg>
+            <Info size={17} strokeWidth={2} />
             <span className="saveTip" style={{
               position: 'absolute', top: 28, left: 0,
               width: 230, background: C.ink, color: '#fff',

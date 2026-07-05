@@ -1,4 +1,5 @@
 import { useState, useRef, useMemo } from 'react';
+import { Check, Search, X, GripVertical } from 'lucide-react';
 import { C } from '../../styles/tokens.js';
 import { EXERCISES, BLOCKS, byId, apparatusRank, BLOCK_DISPLAY_ORDER } from '../../data/index.js';
 import { ExerciseCard } from '../../components/ExerciseCard.jsx';
@@ -14,11 +15,7 @@ const primaryBtn = {
 
 function Checkmark() {
   return (
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-      stroke="#8A7F73" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"
-      style={{ flexShrink: 0 }}>
-      <path d="M5 13l4 4L19 7" />
-    </svg>
+    <Check size={14} color="#8A7F73" strokeWidth={2.5} style={{ flexShrink: 0 }} />
   );
 }
 
@@ -36,16 +33,12 @@ function LibrarySearch({ q, setQ }) {
           width: '100%', boxSizing: 'border-box',
         }}
       />
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke={C.muted} strokeWidth="2" strokeLinecap="round"
-        style={{ position: 'absolute', left: 9, top: '50%', transform: 'translateY(-50%)', pointerEvents: 'none' }}>
-        <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/>
-      </svg>
+      <Search size={14} color={C.muted} strokeWidth={2}
+        style={{ position: 'absolute', left: 9, top: '50%', transform: 'translateY(-50%)', pointerEvents: 'none' }} />
       {q && (
         <button onClick={() => setQ('')} aria-label="Clear search"
           style={{ position: 'absolute', right: 7, top: '50%', transform: 'translateY(-50%)', background: 'none', border: 'none', color: C.muted, cursor: 'pointer', lineHeight: 1, display: 'inline-flex' }}>
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round">
-            <path d="M6 6l12 12M18 6L6 18"/>
-          </svg>
+          <X size={13} strokeWidth={2.4} />
         </button>
       )}
     </div>
@@ -57,19 +50,13 @@ function BoardRow({ e, onRemove, onOpen }) {
   return (
     <div style={{ background: C.card, border: `1px solid ${C.line}`, borderRadius: 8, padding: '7px 8px', cursor: 'grab' }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
-        <svg width="11" height="11" viewBox="0 0 24 24" fill={C.muted} style={{ flexShrink: 0, opacity: 0.55 }}>
-          <circle cx="9" cy="6" r="1.6"/><circle cx="15" cy="6" r="1.6"/>
-          <circle cx="9" cy="12" r="1.6"/><circle cx="15" cy="12" r="1.6"/>
-          <circle cx="9" cy="18" r="1.6"/><circle cx="15" cy="18" r="1.6"/>
-        </svg>
+        <GripVertical size={11} color={C.muted} style={{ flexShrink: 0, opacity: 0.55 }} />
         <div onClick={onOpen} style={{ fontWeight: 600, fontSize: 12.5, cursor: 'pointer', flex: 1, lineHeight: 1.3, color: C.ink }}>
           {e.name}
         </div>
         <button onClick={onRemove} aria-label="Remove"
           style={{ border: 'none', background: 'none', color: C.redDeep, cursor: 'pointer', padding: '2px 4px', flexShrink: 0, lineHeight: 0 }}>
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round">
-            <path d="M6 6l12 12M18 6L6 18"/>
-          </svg>
+          <X size={12} strokeWidth={2.4} />
         </button>
       </div>
       <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginTop: 3, marginLeft: 16, flexWrap: 'wrap' }}>
@@ -209,9 +196,7 @@ export function Editor({ draft, setDraft, onSave, onCancel, openFrom, isMobile }
                 </span>
                 <div style={{ flex: 1 }} />
                 <button onClick={() => setPickerBlock(null)} style={{ width: 30, height: 30, borderRadius: 8, border: `1px solid ${C.line}`, background: C.card, color: C.ink, fontSize: 16, cursor: 'pointer', lineHeight: 1, display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round">
-                    <path d="M6 6l12 12M18 6L6 18"/>
-                  </svg>
+                  <X size={14} strokeWidth={2.4} />
                 </button>
               </div>
               <LibrarySearch q={pickQ} setQ={setPickQ} />

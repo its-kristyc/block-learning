@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { X, ChevronDown, Check } from 'lucide-react';
 import { C } from '../styles/tokens.js';
 
 // Multi-select dropdown. values: string[], onChange: (string[]) => void
@@ -50,17 +51,10 @@ export function Select({ values, onChange, options, placeholder }) {
               aria-label={`Clear ${placeholder} filter`}
               style={{ display: 'inline-flex', color: C.redDeep, cursor: 'pointer' }}
             >
-              <svg width="13" height="13" viewBox="0 0 24 24" fill="none"
-                stroke="currentColor" strokeWidth="2.4" strokeLinecap="round">
-                <path d="M6 6l12 12M18 6L6 18" />
-              </svg>
+              <X size={13} strokeWidth={2.4} />
             </span>
           ) : (
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"
-              style={{ opacity: 0.55 }}>
-              <path d="M6 9l6 6 6-6" />
-            </svg>
+            <ChevronDown size={13} strokeWidth={2.4} style={{ opacity: 0.55 }} />
           )}
       </button>
 
@@ -105,10 +99,7 @@ export function Select({ values, onChange, options, placeholder }) {
                     display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
                   }}>
                     {selected && (
-                      <svg width="9" height="9" viewBox="0 0 12 12" fill="none"
-                        stroke="#fff" strokeWidth="2.2" strokeLinecap="round">
-                        <path d="M2 6l3 3 5-5" />
-                      </svg>
+                      <Check size={9} strokeWidth={3} color="#fff" />
                     )}
                   </span>
                   {o}

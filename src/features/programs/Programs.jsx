@@ -5,12 +5,9 @@ import { ConfirmDialog } from '../../components/ConfirmDialog.jsx';
 import { Empty } from '../../components/Empty.jsx';
 import { FlowView } from './FlowView.jsx';
 import { Editor } from './Editor.jsx';
+import { MoreHorizontal } from 'lucide-react';
 
-const DotsIcon = () => (
-  <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
-    <circle cx="5" cy="12" r="1.8"/><circle cx="12" cy="12" r="1.8"/><circle cx="19" cy="12" r="1.8"/>
-  </svg>
-);
+const DotsIcon = () => <MoreHorizontal size={15} />;
 
 const primaryBtn = {
   fontSize: 12.5, fontWeight: 700, color: '#fff',

@@ -1,4 +1,5 @@
 import { useState, useRef } from 'react';
+import { GripVertical, X } from 'lucide-react';
 import { C } from '../../styles/tokens.js';
 import { byId } from '../../data/index.js';
 import { KindBadge } from '../../components/KindBadge.jsx';
@@ -96,11 +97,7 @@ export function MobileBlockRows({ ids, blockN, onReorder, onRemove, onOpen }) {
               }}
             >
               {/* Drag handle dots */}
-              <svg width="13" height="13" viewBox="0 0 24 24" fill={C.muted} style={{ flexShrink: 0, opacity: 0.5 }}>
-                <circle cx="9"  cy="6"  r="1.6"/><circle cx="15" cy="6"  r="1.6"/>
-                <circle cx="9"  cy="12" r="1.6"/><circle cx="15" cy="12" r="1.6"/>
-                <circle cx="9"  cy="18" r="1.6"/><circle cx="15" cy="18" r="1.6"/>
-              </svg>
+              <GripVertical size={13} color={C.muted} style={{ flexShrink: 0, opacity: 0.5 }} />
               <div style={{ flex: 1, minWidth: 0 }}>
                 <div style={{ fontWeight: 600, fontSize: 13.5, lineHeight: 1.3 }}>{e.name}</div>
                 <div style={{ fontSize: 11, color: C.muted, marginTop: 2, display: 'flex', gap: 5, alignItems: 'center', flexWrap: 'wrap' }}>
@@ -116,9 +113,7 @@ export function MobileBlockRows({ ids, blockN, onReorder, onRemove, onOpen }) {
                 aria-label="Remove"
                 style={{ border: 'none', background: 'none', color: C.redDeep, fontSize: 16, padding: '4px 6px', flexShrink: 0, cursor: 'pointer' }}
               >
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round">
-                  <path d="M6 6l12 12M18 6L6 18" />
-                </svg>
+                <X size={14} strokeWidth={2.4} />
               </button>
             </div>
             {showLineAfter && <div style={{ height: 2, background: C.red, borderRadius: 2, marginTop: 5 }} />}
