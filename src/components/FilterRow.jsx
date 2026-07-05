@@ -43,7 +43,7 @@ export function FilterRow({ filters, setFilters, scope, hideApparatus, apparatus
         values={filters.collection}
         onChange={v => setFilters({ ...filters, collection: v })}
         options={colls}
-        placeholder="Series / group"
+        placeholder="Series/Group"
       />
       {active && (
         <button
