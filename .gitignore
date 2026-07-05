@@ -35,3 +35,8 @@ Thumbs.db
 # Optional: Claude Code local notes you may not want to share
 # (remove this line if you DO want CLAUDE.md tracked — usually you do)
 test-results/
+
+# Local image source folders — images are served from Cloudinary, not the repo.
+# Keep the folder present via .gitkeep but ignore all working files.
+public/images/*
+!public/images/.gitkeep
