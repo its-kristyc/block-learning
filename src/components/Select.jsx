@@ -32,7 +32,9 @@ export function Select({ values, onChange, options, placeholder }) {
           background: active ? C.redSoft : '#fff',
           border: `1px solid ${active ? C.red : C.line}`,
           borderRadius: 99,
-          padding: '5px 10px',
+          // Right padding is trimmed ~3px vs left to offset the trailing icon's
+          // built-in SVG whitespace, so the pill reads as visually symmetric.
+          padding: '5px 7px 5px 10px',
           maxWidth: 180,
           cursor: 'pointer',
           outline: 'none',
