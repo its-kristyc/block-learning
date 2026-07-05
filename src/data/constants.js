@@ -26,7 +26,6 @@ export const APPARATUS_ORDER = [
   'Wunda Chair',
   'Ladder Barrel',
   'Spine Corrector',
-  'F2 Arm Chair',
 ];
 
 export const LEVELS = ['Fundamental', 'Intermediate', 'Advanced'];

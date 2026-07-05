@@ -8,7 +8,6 @@ import f2ChairExercises from './exercises/f2-chair.json';
 import wundaChairExercises from './exercises/wunda-chair.json';
 import ladderBarrelExercises from './exercises/ladder-barrel.json';
 import spineCorrectorExercises from './exercises/spine-corrector.json';
-import f2ArmChairExercises from './exercises/f2-arm-chair.json';
 import { APPARATUS_ORDER, LEVELS } from './constants.js';
 
 export { APPARATUS_ORDER, LEVELS };
@@ -25,7 +24,6 @@ export const EXERCISES = [
   ...wundaChairExercises,
   ...ladderBarrelExercises,
   ...spineCorrectorExercises,
-  ...f2ArmChairExercises,
 ];
 
 export const byId = Object.fromEntries(EXERCISES.map(e => [e.id, e]));
