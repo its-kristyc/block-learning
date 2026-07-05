@@ -137,7 +137,7 @@ export function Drawer({ ctx, setCtx, user, toggleFav, setNote, isMobile }) {
           <Section label="Description">
             <p style={p}>{exo.setup}</p>
             {exo.resistance && (
-              <p style={{ ...p, fontStyle: 'italic', color: C.muted }}>
+              <p style={{ ...p, fontStyle: 'italic', color: C.muted, whiteSpace: 'pre-line' }}>
                 Resistance: {exo.resistance}
               </p>
             )}

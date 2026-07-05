@@ -382,7 +382,7 @@
       "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-012b.png"
     ],
     "setup": "Lying supine with head toward chair, neutral spine position, feet dorsiflexed in straps, knees bent in Frog position, hands holding levers, elbows and shoulders 90 degrees angle",
-    "resistance": "Socket T, Lever Orientation 0, Lever Length 1, Lever Direction 1, Connector O, Spring Y/S; Socket B, Lever Orientation 0, Lever Length 1, Lever Direction 8, Connector O, Spring N/A",
+    "resistance": "Socket T, Lever Orientation 0, Lever Length 1, Lever Direction 1, Connector O, Spring Y/S\nResistance: Socket B, Lever Orientation 0, Lever Length 1, Lever Direction 8, Connector O, Spring N/A",
     "movement": [
       { "breath": "exhale", "action": "Straighten legs" },
       { "breath": "inhale", "action": "Bend legs, return to start position" }
@@ -415,7 +415,7 @@
       "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-013b.png"
     ],
     "setup": "Lying supine with head toward chair, neutral spine position, legs straight, perpendicular to floor, hips externally rotated, feet in straps plantarflexed, hands holding levers, elbows and shoulders 90 degrees angle",
-    "resistance": "Socket T, Lever Orientation 0, Lever Length 1, Lever Direction 1, Connector O, Spring Y/S; Socket B, Lever Orientation 0, Lever Length 1, Lever Direction 8, Connector O, Spring N/A",
+    "resistance": "Socket T, Lever Orientation 0, Lever Length 1, Lever Direction 1, Connector O, Spring Y/S\nResistance: Socket B, Lever Orientation 0, Lever Length 1, Lever Direction 8, Connector O, Spring N/A",
     "movement": [
       { "breath": "exhale", "action": "Lower legs" },
       { "breath": "inhale", "action": "Open legs and circle around, lift legs, return to start position" }
@@ -449,7 +449,7 @@
       "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-014b.png"
     ],
     "setup": "Lying supine with head toward chair, neutral spine position, legs straight, perpendicular to floor, hips externally rotated, feet in straps plantarflexed, hands holding levers, elbows and shoulders 90 degrees angle",
-    "resistance": "Socket T, Lever Orientation 0, Lever Length 1, Lever Direction 1, Connector O, Spring Y/S; Socket B, Lever Orientation 0, Lever Length 1, Lever Direction 8, Connector O, Spring N/A",
+    "resistance": "Socket T, Lever Orientation 0, Lever Length 1, Lever Direction 1, Connector O, Spring Y/S\nResistance: Socket B, Lever Orientation 0, Lever Length 1, Lever Direction 8, Connector O, Spring N/A",
     "movement": [
       { "breath": "exhale", "action": "Open legs out to sides, circle legs around and together" },
       { "breath": "inhale", "action": "Lift legs, return to start position" }
@@ -483,7 +483,7 @@
       "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-015b.png"
     ],
     "setup": "Lying supine with head toward chair, neutral spine position, legs straight on a diagonal line (45 to 60 degrees), hips externally rotated, feet in straps, plantarflexed, hands holding levers, elbows and shoulders 90 degrees",
-    "resistance": "Socket T, Lever Orientation 0, Lever Length 1, Lever Direction 1, Connector O, Spring Y/S; Socket B, Lever Orientation 0, Lever Length 1, Lever Direction 8, Connector O, Spring N/A",
+    "resistance": "Socket T, Lever Orientation 0, Lever Length 1, Lever Direction 1, Connector O, Spring Y/S\nResistance: Socket B, Lever Orientation 0, Lever Length 1, Lever Direction 8, Connector O, Spring N/A",
     "movement": [
       { "breath": "exhale", "action": "Open legs" },
       { "breath": "inhale", "action": "Close legs, return to start position" }
