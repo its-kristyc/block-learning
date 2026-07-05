@@ -26,7 +26,6 @@ export const APPARATUS_ORDER = [
   'Wunda Chair',
   'Ladder Barrel',
   'Spine Corrector',
-  'F2 Spine Corrector',
   'F2 Arm Chair',
 ];
 
