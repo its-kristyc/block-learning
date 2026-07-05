@@ -1,6 +1,6 @@
 // Warm-up series definitions. Each series is an ordered sequence of exercises
-// taught as the Warm Up block (block 1). Mat Foundation uses real IDs;
-// others use name-based lookup until their exercises are extracted.
+// taught as the Warm Up block (block 1). Extracted series use real IDs;
+// F2 Chair uses name-based lookup until its exercises are extracted.
 export const WARMUP_SERIES = [
   {
     id: 'wu-foundation',
@@ -12,25 +12,13 @@ export const WARMUP_SERIES = [
     id: 'wu-intermediate',
     name: 'Mat Intermediate',
     apparatus: 'Mat',
-    exercises: [
-      'Roll Up',
-      'Spine Twist Supine',
-      'Double Leg Stretch',
-      'Single Leg Stretch',
-      'Criss Cross',
-    ],
+    exercises: ['mat-008', 'mat-002', 'mat-016', 'mat-017', 'mat-018'],
   },
   {
     id: 'wu-cadillac',
     name: 'Cadillac',
     apparatus: 'Cadillac',
-    exercises: [
-      'Roll-Up with RUBar',
-      'Spine Twist Supine with PTBar',
-      'Mini Roll-Up',
-      'Mini Roll-Up Oblique',
-      'Roll-Up with PTBar',
-    ],
+    exercises: ['cad-010', 'cad-011', 'cad-012', 'cad-013', 'cad-014'],
   },
   {
     id: 'wu-f2chair',
