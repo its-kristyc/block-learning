@@ -9,7 +9,10 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-001a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-001b.png"
+    ],
     "setup": "Lying supine in neutral spine position, legs parallel, heels placed on footbar, feet hip width apart",
     "resistance": "medium to heavy",
     "movement": [
@@ -49,7 +52,10 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-002a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-002b.png"
+    ],
     "setup": "Lying supine in neutral spine position, legs parallel, toes placed on footbar, feet hip width apart",
     "resistance": "medium to heavy",
     "movement": [
@@ -90,7 +96,10 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-003a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-003b.png"
+    ],
     "setup": "Lying supine in neutral spine position, hips externally rotated, toes placed on footbar, heels together, small V position",
     "resistance": "medium to heavy",
     "movement": [
@@ -132,7 +141,10 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-004a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-004b.png"
+    ],
     "setup": "Lying supine in neutral spine position, hips externally rotated, heels placed on outside edge of footbar, wide V position",
     "resistance": "medium to heavy",
     "movement": [
@@ -174,7 +186,10 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-005a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-005b.png"
+    ],
     "setup": "Lying supine in neutral spine position, hips externally rotated, toes placed on outside edge of footbar, wide V position",
     "resistance": "medium to heavy",
     "movement": [
@@ -217,7 +232,10 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-006a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-006b.png"
+    ],
     "setup": "Lying supine in neutral spine position, legs straight and parallel, toes placed on footbar, feet hip width apart and plantarflexed",
     "resistance": "medium to heavy",
     "movement": [
@@ -256,7 +274,10 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-007a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-007b.png"
+    ],
     "setup": "Lying supine in neutral spine position, legs straight and parallel, toes placed on footbar, feet hip width apart and plantarflexed",
     "resistance": "medium to heavy",
     "movement": [
@@ -294,7 +315,10 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-008a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-008b.png"
+    ],
     "setup": "Lying supine in neutral spine position, legs parallel, toes and balls of feet wrapped around footbar (Prehensile position), feet hip width apart, heels pressing down",
     "resistance": "medium to heavy",
     "movement": [
@@ -336,7 +360,10 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-009a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-009b.png"
+    ],
     "setup": "Lying supine in neutral spine position, feet hip width apart, heel of one foot placed on footbar, other leg bent at 90 degree angle in hip and knee joints (tabletop position)",
     "resistance": "medium to heavy",
     "movement": [
@@ -377,7 +404,10 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-010a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-010b.png"
+    ],
     "setup": "Lying supine in neutral spine position, feet hip width apart, toes of one foot placed on footbar, other leg bent at 90 degree angle in hip and knee joints (tabletop position)",
     "resistance": "medium to heavy",
     "movement": [
@@ -416,7 +446,10 @@
     "apparatus": "Reformer",
     "collection": null,
     "level": "Fundamental",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-011a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-011b.png"
+    ],
     "setup": "Lying supine in neutral spine position, legs in tabletop position, arms straight and perpendicular to floor, hands in straps, palms facing forward",
     "resistance": "light to medium",
     "movement": [
@@ -453,7 +486,10 @@
     "apparatus": "Reformer",
     "collection": null,
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-012a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-012b.png"
+    ],
     "setup": "Starting in Hundred Prep position",
     "resistance": "light to medium",
     "movement": [
@@ -489,7 +525,10 @@
     "apparatus": "Reformer",
     "collection": null,
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-013a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-013b.png"
+    ],
     "setup": "Starting in Hundred Prep position",
     "resistance": "light to medium",
     "movement": [
@@ -529,7 +568,10 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-014a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-014b.png"
+    ],
     "setup": "Sitting upright at front of Short Box, knees bent, feet under foot strap, hip width apart, arms crossed and resting on chest",
     "resistance": "all springs attached to hold carriage in place",
     "movement": [
@@ -569,7 +611,10 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-015a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-015b.png"
+    ],
     "setup": "Starting in Round Back position, extend spine, hands lightly interlaced behind head",
     "resistance": "all springs attached to hold carriage in place",
     "movement": [
@@ -611,7 +656,10 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-016a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-016b.png"
+    ],
     "setup": "Starting in Flat Back position",
     "resistance": "all springs attached to hold carriage in place",
     "movement": [
@@ -652,7 +700,10 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-017a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-017b.png"
+    ],
     "setup": "Starting in Flat Back position",
     "resistance": "all springs attached to hold carriage in place",
     "movement": [
@@ -693,7 +744,10 @@
       "kind": "series"
     },
     "level": "Advanced",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-018a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-018b.png"
+    ],
     "setup": "Starting in Flat Back position",
     "resistance": "all springs attached to hold carriage in place",
     "movement": [
@@ -734,7 +788,10 @@
       "kind": "series"
     },
     "level": "Advanced",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-019a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-019b.png"
+    ],
     "setup": "Sitting upright at front of Long Box, one foot under foot strap, other leg bent with thigh to chest, holding leg below knee, hands on shin",
     "resistance": "all springs attached to hold carriage in place",
     "movement": [
@@ -771,7 +828,10 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-020a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-020b.png"
+    ],
     "setup": "Lying supine in neutral spine position, hips externally rotated, feet in straps, dorsiflexed, heels together, hips and knees at 90 degrees",
     "resistance": "light to medium",
     "movement": [
@@ -812,7 +872,10 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-021a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-021b.png"
+    ],
     "setup": "Lying supine in neutral spine position, legs straight, perpendicular to floor, hips externally rotated, feet in straps, plantarflexed",
     "resistance": "light to medium",
     "movement": [
@@ -852,7 +915,10 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-022a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-022b.png"
+    ],
     "setup": "Lying supine in neutral spine position, legs straight, perpendicular to floor, hips externally rotated, feet in straps, plantarflexed",
     "resistance": "light to medium",
     "movement": [
@@ -892,7 +958,10 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-023a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-023b.png"
+    ],
     "setup": "Lying supine in neutral spine position, legs straight on diagonal line (45 to 60 degrees), hips externally rotated, feet in straps, plantarflexed",
     "resistance": "light to medium",
     "movement": [
@@ -931,7 +1000,10 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-024a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-024b.png"
+    ],
     "setup": "Lying supine in neutral spine position, hips externally rotated, feet in straps, dorsiflexed, heels together, hips and knees at 80 degrees",
     "resistance": "light to medium",
     "movement": [
@@ -970,7 +1042,10 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-025a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-025b.png"
+    ],
     "setup": "Starting in Frog Extended position",
     "resistance": "light to medium",
     "movement": [
@@ -1006,7 +1081,10 @@
     "apparatus": "Reformer",
     "collection": null,
     "level": "Fundamental",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-026a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-026b.png"
+    ],
     "setup": "Lying supine in neutral spine position, legs parallel, feet hip width apart, toes placed on footbar, knees bent, arms by sides, headrest down",
     "resistance": "medium",
     "movement": [
@@ -1041,7 +1119,10 @@
     "apparatus": "Reformer",
     "collection": null,
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-027a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-027b.png"
+    ],
     "setup": "Starting in Bottom Lift position",
     "resistance": "medium",
     "movement": [
@@ -1078,7 +1159,10 @@
     "apparatus": "Reformer",
     "collection": null,
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-028a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-028b.png"
+    ],
     "setup": "Starting in Frog Extended position, headrest down",
     "resistance": "light to medium",
     "movement": [
@@ -1114,7 +1198,10 @@
     "apparatus": "Reformer",
     "collection": null,
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-029a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-029b.png"
+    ],
     "setup": "Lying supine in neutral spine position, hips externally rotated, legs straight on diagonal line (45 to 60 degrees), feet in straps, plantarflexed, headrest down",
     "resistance": "light to medium",
     "movement": [
@@ -1152,7 +1239,10 @@
       "kind": "group"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-030a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-030b.png"
+    ],
     "setup": "Standing, front leg bent in line with footbar, knee over ankle, knee of other leg placed on carriage, foot against shoulder rest, arms straight, hands placed on footbar, inside hand in line with shoulder",
     "resistance": "light",
     "movement": [
@@ -1189,7 +1279,10 @@
       "kind": "group"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-031a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-031b.png"
+    ],
     "setup": "Kneeling on carriage, one foot on footbar, knee over ankle, other foot against shoulder rest, knee on carriage, arms straight, hands placed on footbar, shoulder width apart",
     "resistance": "light",
     "movement": [
@@ -1227,7 +1320,10 @@
       "kind": "group"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-032a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-032b.png"
+    ],
     "setup": "Standing on carriage, place one foot against shoulder rest, kneel on carriage, place front foot on footbar, straighten back leg lifting knee off the carriage and pressing heel into shoulder rest, keep front knee over ankle",
     "resistance": "light",
     "movement": [
@@ -1265,7 +1361,10 @@
       "kind": "group"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-033a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-033b.png"
+    ],
     "setup": "Standing, one foot on floor, leg bent, other foot against shoulder rest, leg bent, heel of foot on floor lined up with other foot, arms straight, hands placed on footbar, inside hand in line with shoulder, trunk in C curve position",
     "resistance": "light to medium",
     "movement": [
@@ -1305,7 +1404,10 @@
       "kind": "group"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-034a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-034b.png"
+    ],
     "setup": "Standing, one foot on floor, leg bent, other foot against shoulder rest, leg bent, heel of foot on floor lined up with other foot, arms straight, hands placed on footbar, inside hand in line with shoulder, trunk in neutral spine position",
     "resistance": "light to medium",
     "movement": [
@@ -1345,7 +1447,10 @@
       "kind": "group"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-035a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-035b.png"
+    ],
     "setup": "Kneeling on carriage with sit bones toward heels, feet against shoulder rests, arms straight, shoulder width apart, hands placed on footbar, round trunk into C curve position",
     "resistance": "light to medium",
     "movement": [
@@ -1386,7 +1491,10 @@
       "kind": "group"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-036a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-036b.png"
+    ],
     "setup": "Kneeling on carriage with sit bones toward heels, feet against shoulder rests, arms straight, shoulder width apart, hands placed on footbar, trunk in neutral spine position",
     "resistance": "light to medium",
     "movement": [
@@ -1427,7 +1535,10 @@
       "kind": "group"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-037a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-037b.png"
+    ],
     "setup": "Standing on carriage, legs straight, heels against shoulder rests, arms straight, shoulder width apart, hands placed on footbar, head between arms, pelvis lifted toward ceiling, back flat",
     "resistance": "light to medium",
     "movement": [
@@ -1469,7 +1580,10 @@
       "kind": "group"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-038a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-038b.png"
+    ],
     "setup": "Starting in Up Stretch 1 position, feet flat on carriage, heels against shoulder rests",
     "resistance": "light to medium",
     "movement": [
@@ -1512,7 +1626,10 @@
       "kind": "group"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-039a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-039b.png"
+    ],
     "setup": "Kneeling on carriage, quadruped position, knees slightly away from shoulder rests, arms straight, hands placed on F2 handles (or rails), shoulders slightly forward of hands, trunk in C curve position",
     "resistance": "light",
     "movement": [
@@ -1553,7 +1670,10 @@
       "kind": "group"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-040a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-040b.png"
+    ],
     "setup": "Kneeling on carriage, feet against shoulder rest, arms straight, shoulder width apart, hands placed on footbar, body in arc shape",
     "resistance": "light",
     "movement": [
@@ -1593,7 +1713,10 @@
       "kind": "group"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-041a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-041b.png"
+    ],
     "setup": "Sitting on carriage, legs bent, toes placed on footbar, feet in V position, hands placed on front edge of carriage, trunk in C curve position",
     "resistance": "medium",
     "movement": [
@@ -1634,7 +1757,10 @@
       "kind": "group"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-042a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-042b.png"
+    ],
     "setup": "Starting in Stomach Massage Round Back position, arms bent, hands on shoulder rests, fingers facing away from body, back straight",
     "resistance": "medium",
     "movement": [
@@ -1675,7 +1801,10 @@
       "kind": "group"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-043a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-043b.png"
+    ],
     "setup": "Starting in Stomach Massage Flat Back position, back straight, arms straight, reaching up and forward, V position, palms facing down",
     "resistance": "medium",
     "movement": [
@@ -1716,7 +1845,10 @@
       "kind": "group"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-044a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-044b.png"
+    ],
     "setup": "Starting in Up Stretch 1 position",
     "resistance": "light",
     "movement": [
@@ -1760,7 +1892,10 @@
       "kind": "group"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-045a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-045b.png"
+    ],
     "setup": "Starting in Front Support position, heels against shoulder rests",
     "resistance": "light",
     "movement": [
@@ -1802,7 +1937,10 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-046a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-046b.png"
+    ],
     "setup": "Lying supine in neutral spine position, legs in tabletop position, arms straight and perpendicular to floor, hands in straps, palms facing forward",
     "resistance": "light to medium",
     "movement": [
@@ -1844,7 +1982,10 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-047a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-047b.png"
+    ],
     "setup": "Starting in Extension position with arms out to sides in T position, hands in straps, palms facing body",
     "resistance": "light to medium",
     "movement": [
@@ -1885,7 +2026,10 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-048a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-048b.png"
+    ],
     "setup": "Starting in Adduction position",
     "resistance": "light to medium",
     "movement": [
@@ -1927,7 +2071,10 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-049a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-049b.png"
+    ],
     "setup": "Starting in Extension position",
     "resistance": "light to medium",
     "movement": [
@@ -1969,7 +2116,10 @@
       "kind": "series"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-050a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-050b.png"
+    ],
     "setup": "Starting in Extension position, hands in straps, arms straight by sides of body, palms facing carriage",
     "resistance": "light to medium",
     "movement": [
@@ -2011,7 +2161,10 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-051a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-051b.png"
+    ],
     "setup": "Sitting upright at front edge of carriage, facing risers, legs straight between shoulder rests, arms straight and forward of trunk, hands in straps, palms facing back",
     "resistance": "light to medium",
     "movement": [
@@ -2052,7 +2205,10 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-052a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-052b.png"
+    ],
     "setup": "Starting in Chest Expansion position, arms straight and forward, shoulder height, palms facing up",
     "resistance": "light to medium",
     "movement": [
@@ -2094,7 +2250,10 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-053a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-053b.png"
+    ],
     "setup": "Starting in Biceps position, arms bent at 90 degrees and parallel to each other, shoulder height, forearms in straps, palms facing body",
     "resistance": "light to medium",
     "movement": [
@@ -2136,7 +2295,10 @@
       "kind": "series"
     },
     "level": "Advanced",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-054a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-054b.png"
+    ],
     "setup": "Starting in Rhomboids 1 position",
     "resistance": "light to medium",
     "movement": [
@@ -2179,7 +2341,10 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-055a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-055b.png"
+    ],
     "setup": "Sitting upright facing footbar, legs straight and together, pelvis against shoulder rests, arms in T position, micro-bend in elbows, hands in straps, palms facing forward",
     "resistance": "light to medium",
     "movement": [
@@ -2220,7 +2385,10 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-056a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-056b.png"
+    ],
     "setup": "Starting in Hug-a-Tree position, arms bent, hands in straps in line with eyes, fingers facing forward",
     "resistance": "light to medium",
     "movement": [
@@ -2261,7 +2429,10 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-057a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-057b.png"
+    ],
     "setup": "Kneeling in upright position on carriage, knees against shoulder rests, arms straight and forward of trunk, hands holding folded straps, palms facing body",
     "resistance": "light",
     "movement": [
@@ -2303,7 +2474,10 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-058a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-058b.png"
+    ],
     "setup": "Kneeling in upright position on carriage, facing footbar, feet against shoulder rests, arms straight by sides of body, hands in straps, palms facing forward",
     "resistance": "light",
     "movement": [
@@ -2345,7 +2519,10 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-059a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-059b.png"
+    ],
     "setup": "Starting in Circles Up position",
     "resistance": "light",
     "movement": [
@@ -2387,7 +2564,10 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-060a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-060b.png"
+    ],
     "setup": "Starting in Circles Up position, arms bent, elbows facing outward, hands in straps, behind head, forming triangle with thumbs and index fingers",
     "resistance": "light",
     "movement": [
@@ -2428,7 +2608,10 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-061a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-061b.png"
+    ],
     "setup": "Starting in Circles Up position, arms straight and back of trunk, parallel to each other (as close as possible), hands holding straps",
     "resistance": "medium",
     "movement": [
@@ -2465,7 +2648,10 @@
     "apparatus": "Reformer",
     "collection": null,
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-062a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-062b.png"
+    ],
     "setup": "Sitting sideways on carriage, one leg bent against shoulder rests, other leg bent in front of body, arms straight, one hand placed on footbar in line with shoulder, other arm down by side",
     "resistance": "light",
     "movement": [
@@ -2504,7 +2690,10 @@
       "kind": "group"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-063a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-063b.png"
+    ],
     "setup": "Lying prone on Long Box, neutral spine position, legs straight and together, parallel to floor, feet plantarflexed, arms bent, elbows facing outward, hands on footbar",
     "resistance": "light",
     "movement": [
@@ -2546,7 +2735,10 @@
       "kind": "group"
     },
     "level": "Fundamental",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-064a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-064b.png"
+    ],
     "setup": "Starting in Breaststroke Prep 1 position",
     "resistance": "light",
     "movement": [
@@ -2588,7 +2780,10 @@
       "kind": "group"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-065a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-065b.png"
+    ],
     "setup": "Starting in Breaststroke Prep 1 position, elbows bent by sides of body, thumbs in straps, hands in line with shoulders",
     "resistance": "light",
     "movement": [
@@ -2628,7 +2823,10 @@
       "kind": "group"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-066a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-066b.png"
+    ],
     "setup": "Lying prone on Long Box, neutral spine position, legs straight and together, parallel to floor, feet plantarflexed toward footbar, arms straight, forward of shoulders, hands holding folded straps, palms facing each other",
     "resistance": "light",
     "movement": [
@@ -2669,7 +2867,10 @@
       "kind": "group"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-067a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-067b.png"
+    ],
     "setup": "Starting in Pulling Straps 1 position, arms in T position, parallel to floor, hands through the straps, palms facing down",
     "resistance": "light",
     "movement": [
@@ -2710,7 +2911,10 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-068a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-068b.png"
+    ],
     "setup": "Lying supine, pelvis in front of shoulder rests (approximately 1/4 way down carriage from shoulder rests), lift legs together into tabletop position, straps around thighs above knees, chest lifted, fingers interlaced behind head, footbar down",
     "resistance": "light to medium",
     "movement": [
@@ -2749,7 +2953,10 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-069a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-069b.png"
+    ],
     "setup": "Starting in Double Leg position",
     "resistance": "light to medium",
     "movement": [
@@ -2798,7 +3005,10 @@
       "kind": "group"
     },
     "level": "Advanced",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-070a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-070b.png"
+    ],
     "setup": "Lying supine on Long Box, shoulders over back edge, chest lifted, legs in tabletop position, arms bent, elbows wide, hands in straps, fingers touching (palms facing up), hands opposite forehead and above sternum, eyes focused forward, footbar up",
     "resistance": "light",
     "movement": [
@@ -2833,7 +3043,10 @@
     "apparatus": "Reformer",
     "collection": null,
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-071a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-071b.png"
+    ],
     "setup": "Resting on shoulder girdle, arms overhead, hands placed against shoulder rests, toes placed on footbar, feet in V position, pelvis lifted",
     "resistance": "light to medium",
     "movement": [
@@ -2878,7 +3091,10 @@
     "apparatus": "Reformer",
     "collection": null,
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-072a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-072b.png"
+    ],
     "setup": "Starting in Semi-Circle position",
     "resistance": "light to medium",
     "movement": [
@@ -2926,7 +3142,10 @@
       "kind": "group"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-073a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-073b.png"
+    ],
     "setup": "Lying supine on Long Box, shoulders over back edge, legs in tabletop position, arms straight and overhead, hands placed in straps, footbar up",
     "resistance": "light",
     "movement": [
@@ -2963,7 +3182,10 @@
     "apparatus": "Reformer",
     "collection": null,
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-074a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-074b.png"
+    ],
     "setup": "Kneeling at front edge of carriage, sitting on heels, arms straight, hands placed on footbar in line with shoulders, trunk on diagonal line, neutral spine position, lower trunk to thighs, pushing carriage out",
     "resistance": "light to medium",
     "movement": [
@@ -3005,7 +3227,10 @@
     "apparatus": "Reformer",
     "collection": null,
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-075a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-075b.png"
+    ],
     "setup": "Starting in Shoulder Push position, one hand placed on footbar in line with shoulder, arm straight, other hand placed on front edge of carriage, trunk on diagonal line, neutral spine position, lower trunk to thighs, pushing carriage out",
     "resistance": "light",
     "movement": [
@@ -3048,7 +3273,10 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-076a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-076b.png"
+    ],
     "setup": "Sitting upright on carriage facing risers, approximately 8 inches (20 cm) from front edge, legs straight between shoulder rests (crossed if necessary), footbar down, arms straight and shoulder height, hands holding straps, fist position, palms facing each other",
     "resistance": "light",
     "movement": [
@@ -3109,7 +3337,10 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-077a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-077b.png"
+    ],
     "setup": "Starting in Rowing Back 1 position, palms facing up",
     "resistance": "light",
     "movement": [
@@ -3157,7 +3388,10 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-078a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-078b.png"
+    ],
     "setup": "Sitting upright facing footbar, legs straight and together, pelvis against shoulder rests, thumbs in straps, fingers facing forward, elbows by sides, rope between sides of trunk and arms",
     "resistance": "light",
     "movement": [
@@ -3208,7 +3442,10 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-079a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-079b.png"
+    ],
     "setup": "Starting in Rowing Front 1 position",
     "resistance": "light",
     "movement": [
@@ -3261,7 +3498,10 @@
       "kind": "series"
     },
     "level": "Advanced",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-080a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-080b.png"
+    ],
     "setup": "Kneeling sideways on carriage, legs shoulder width apart and parallel, one leg against shoulder rests, trunk upright, hand closest to shoulder rests in strap, palm facing ear, arm bent, elbow out to side",
     "resistance": "extra light",
     "movement": [
@@ -3303,7 +3543,10 @@
       "kind": "series"
     },
     "level": "Advanced",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-081a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-081b.png"
+    ],
     "setup": "Starting in Deltoid Reach position, opposite hand in strap, palm facing body",
     "resistance": "extra light",
     "movement": [
@@ -3346,7 +3589,10 @@
       "kind": "series"
     },
     "level": "Advanced",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-082a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-082b.png"
+    ],
     "setup": "Kneeling sideways on carriage, eyes looking toward hand on shoulder rest, legs shoulder width apart and parallel, one leg aligned with front edge of carriage, trunk in lateral flexion, bottom arm straight, hand on shoulder rest, top arm bent, elbow reaching to ceiling, hand in strap, palm facing up",
     "resistance": "extra light",
     "movement": [
@@ -3385,7 +3631,10 @@
       "kind": "series"
     },
     "level": "Advanced",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-083a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-083b.png"
+    ],
     "setup": "Starting in Triceps position, arms in T position, palms facing up",
     "resistance": "extra light",
     "movement": [
@@ -3426,7 +3675,10 @@
       "kind": "group"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-084a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-084b.png"
+    ],
     "setup": "Lying prone on Long Box, facing footbar, arms hugging front of box, trunk lifted, legs straight and together, thighs lifted off box, feet in straps, ropes shortened, footbar up",
     "resistance": "light",
     "movement": [
@@ -3464,7 +3716,10 @@
     "apparatus": "Reformer",
     "collection": null,
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-085a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-085b.png"
+    ],
     "setup": "Standing upright, one foot on Foot Platform, other foot on front edge of carriage, hands loosely interlaced behind head, legs bent, weight on leg on Foot Platform",
     "resistance": "light to medium",
     "movement": [
@@ -3505,7 +3760,10 @@
       "kind": "group"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-086a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-086b.png"
+    ],
     "setup": "Standing upright, feet aligned with each other, one foot on front of Foot Platform, other foot against shoulder rest, arms in T position, palms facing down",
     "resistance": "light",
     "movement": [
@@ -3544,7 +3802,10 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-087a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-087b.png"
+    ],
     "setup": "Lying supine in neutral spine position, legs bent and parallel, feet placed on Jump Board hip width apart, heels pressing down",
     "resistance": "light to medium",
     "movement": [
@@ -3584,7 +3845,10 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-088a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-088b.png"
+    ],
     "setup": "Lying supine in neutral spine position, hips externally rotated, feet placed on Jump Board in small V position, heels pressing down",
     "resistance": "light to medium",
     "movement": [
@@ -3626,7 +3890,10 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-089a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-089b.png"
+    ],
     "setup": "Lying supine in neutral spine position, legs parallel, one foot on Jump Board, heel pressing down, other leg in tabletop position",
     "resistance": "light to medium",
     "movement": [
@@ -3667,7 +3934,10 @@
       "kind": "series"
     },
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-090a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-090b.png"
+    ],
     "setup": "Lying supine in neutral spine position, legs parallel, one foot on Jump Board, heel pressing down, other leg in tabletop position",
     "resistance": "light to medium",
     "movement": [
@@ -3707,7 +3977,10 @@
       "kind": "group"
     },
     "level": "Advanced",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-091a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-091b.png"
+    ],
     "setup": "Starting in Teaser 1 position, arms straight, in line with shoulders, parallel to floor, palms facing up",
     "resistance": "light",
     "movement": [
@@ -3749,7 +4022,10 @@
       "kind": "group"
     },
     "level": "Advanced",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-092a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-092b.png"
+    ],
     "setup": "Starting in Up Stretch 1 position",
     "resistance": "light",
     "movement": [
@@ -3790,7 +4066,10 @@
       "kind": "group"
     },
     "level": "Advanced",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-093a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-093b.png"
+    ],
     "setup": "Starting in Up Stretch 1 position",
     "resistance": "light",
     "movement": [
@@ -3827,7 +4106,10 @@
     "apparatus": "Reformer",
     "collection": null,
     "level": "Advanced",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-094a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-094b.png"
+    ],
     "setup": "Facing risers, hands placed on footbar shoulder width apart, fingers facing feet, arms straight, feet dorsiflexed against shoulder rests, trunk upright in neutral spine position",
     "resistance": "light",
     "movement": [
@@ -3867,7 +4149,10 @@
     "apparatus": "Reformer",
     "collection": null,
     "level": "Advanced",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-095a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-095b.png"
+    ],
     "setup": "Facing risers, hands placed on footbar shoulder width apart, fingers facing feet, arms straight, feet dorsiflexed placed on front edge of carriage, trunk rounded",
     "resistance": "light to medium",
     "movement": [
@@ -3905,7 +4190,10 @@
     "apparatus": "Reformer",
     "collection": null,
     "level": "Advanced",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-096a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-096b.png"
+    ],
     "setup": "Standing on carriage facing risers, hands placed on shoulder rests, shoulders over wrists, place one foot on footbar plantarflexed, straighten leg, place other foot plantarflexed on footbar, straighten leg into Front Support position",
     "resistance": "light",
     "movement": [
@@ -3941,7 +4229,10 @@
     "apparatus": "Reformer",
     "collection": null,
     "level": "Advanced",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-097a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-097b.png"
+    ],
     "setup": "Sitting on carriage facing footbar, arms bent, hands placed on shoulder rests, fingers facing forward, trunk upright, legs straight, feet placed on footbar hip width apart, straighten arms, lifting body",
     "resistance": "light",
     "movement": [
@@ -3978,7 +4269,10 @@
     "apparatus": "Reformer",
     "collection": null,
     "level": "Advanced",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-098a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-098b.png"
+    ],
     "setup": "Starting in Balance Control Back Prep position",
     "resistance": "light",
     "movement": [
@@ -4014,7 +4308,10 @@
     "apparatus": "Reformer",
     "collection": null,
     "level": "Intermediate",
-    "image": null,
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-99a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/ref-99b.png"
+    ],
     "setup": "Sitting sideways on Short Box, one leg straight, foot dorsiflexed and under foot strap, other leg bent on top of box, hands behind head, body on straight diagonal line",
     "resistance": "all springs attached",
     "movement": [
