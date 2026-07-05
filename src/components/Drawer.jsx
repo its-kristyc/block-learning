@@ -192,6 +192,7 @@ export function Drawer({ ctx, setCtx, user, toggleFav, setNote, isMobile }) {
 
           <Section label="My notes">
             <textarea
+              className="noteField"
               value={user.notes[exo.id] || ''}
               onChange={e => setNote(exo.id, e.target.value)}
               placeholder="Spring settings, corrections from class, what to feel…"

@@ -9,6 +9,7 @@ export const C = {
   card:     '#FFFFFF',
   ink:      '#403A3A',
   muted:    '#8A7F73',
+  faint:    '#C4B9AB',
   line:     '#E7DFD3',
   lineSoft: '#F2ECE3',
   gold:     '#B98A2F',
