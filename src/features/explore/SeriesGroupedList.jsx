@@ -23,16 +23,21 @@ function collectionKey(e) {
 }
 
 function sortList(list) {
-  // Build first-seen index for each collection key within each block+apparatus,
-  // so all members of a group/series stay contiguous rather than splitting by level.
-  const firstSeen = new Map();
+  // Within each block+apparatus, order primarily by level. Collection/series
+  // members stay contiguous: each group is placed at its lowest member level,
+  // with data order breaking ties between same-level groups.
+  const keyOf = e => `${e.block}|${e.apparatus}|${collectionKey(e) ?? e.id}`;
+  const firstSeen = new Map(); // group key -> first-seen data-order index (tie-break)
+  const groupLevel = new Map(); // group key -> representative (lowest) level rank
   [...list].sort((a, b) => {
     const bd = blockRank(a.block) - blockRank(b.block);
     if (bd !== 0) return bd;
     return apparatusRank(a.apparatus) - apparatusRank(b.apparatus);
   }).forEach((e, i) => {
-    const k = `${e.block}|${e.apparatus}|${collectionKey(e) ?? e.id}`;
+    const k = keyOf(e);
     if (!firstSeen.has(k)) firstSeen.set(k, i);
+    const lr = levelRank(e.level);
+    if (!groupLevel.has(k) || lr < groupLevel.get(k)) groupLevel.set(k, lr);
   });
 
   return [...list].sort((a, b) => {
@@ -40,10 +45,15 @@ function sortList(list) {
     if (bd !== 0) return bd;
     const ad = apparatusRank(a.apparatus) - apparatusRank(b.apparatus);
     if (ad !== 0) return ad;
-    const ak = `${a.block}|${a.apparatus}|${collectionKey(a) ?? a.id}`;
-    const bk = `${b.block}|${b.apparatus}|${collectionKey(b) ?? b.id}`;
+    const ak = keyOf(a);
+    const bk = keyOf(b);
+    // Primary: the group's representative level (keeps groups whole, ordered by level).
+    const ld = (groupLevel.get(ak) ?? 999) - (groupLevel.get(bk) ?? 999);
+    if (ld !== 0) return ld;
+    // Same level: keep each group's members contiguous, ordered by first appearance.
     const cd = (firstSeen.get(ak) ?? 0) - (firstSeen.get(bk) ?? 0);
     if (cd !== 0) return cd;
+    // Within a group, order by level.
     return levelRank(a.level) - levelRank(b.level);
   });
 }
