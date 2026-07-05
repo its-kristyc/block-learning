@@ -1,1 +1,641 @@
-[]
+[
+  {
+    "id": "f2-001",
+    "name": "Roll-Up with Extension",
+    "block": 3,
+    "apparatus": "F2 Chair",
+    "collection": { "name": "Warm-up Series", "kind": "series" },
+    "level": "Intermediate",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-001a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-001b.png"
+    ],
+    "setup": "Sitting upright, legs straight and together, feet dorsiflexed, toes pressing into Chair, hands holding handles, palms facing each other, trunk into C curve position",
+    "resistance": "Socket T, Lever Orientation 0, Lever Length 1, Lever Direction 7, Connector C, Spring Y/S",
+    "movement": [
+      { "breath": "exhale", "action": "Roll down, extend thoracic spine over Box" },
+      { "breath": "inhale", "action": "Lift head and chest" },
+      { "breath": "exhale", "action": "Roll up, return to start position" },
+      { "breath": "inhale", "action": "Pause" }
+    ],
+    "muscleFocus": [
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Spinal flexor control",
+      "Trunk stabilization",
+      "Thoracic stretch"
+    ],
+    "cues": [
+      "Keep head aligned with spine",
+      "Maintain abdominal support",
+      "Place the Box at appropriate distance from Chair to maximize thoracic extension"
+    ]
+  },
+  {
+    "id": "f2-002",
+    "name": "Mini Roll-Up",
+    "block": 3,
+    "apparatus": "F2 Chair",
+    "collection": { "name": "Warm-up Series", "kind": "series" },
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-002a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-002b.png"
+    ],
+    "setup": "Lying supine on Box, facing Chair, head and shoulders lifted in Chest Lift position (Mat page 17), legs bent, feet in prehensile position, pressing into front of Chair, hands holding handles, palms facing each other",
+    "resistance": "Socket T, Lever Orientation 0, Lever Length 1, Lever Direction 7, Connector C, Spring Y/S",
+    "movement": [
+      { "breath": "exhale", "action": "Lift trunk" },
+      { "breath": "inhale", "action": "Lower trunk, return to start position" }
+    ],
+    "muscleFocus": [
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Spinal flexor control",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Maintain scapular stabilization",
+      "Maintain C curve",
+      "Focus on flexion of lumbar spine",
+      "Return to Chest Lift position after each repetition"
+    ]
+  },
+  {
+    "id": "f2-003",
+    "name": "Mini Roll-Up Oblique",
+    "block": 3,
+    "apparatus": "F2 Chair",
+    "collection": { "name": "Warm-up Series", "kind": "series" },
+    "level": "Intermediate",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-003a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-003b.png"
+    ],
+    "setup": "Starting in Mini Roll Up position (page 30), rotate trunk to right, Chest Lift with Rotation position (Mat page 18), left hand holding handle, right hand wrapped around left",
+    "resistance": "Socket T, Lever Orientation 0, Lever Length 1, Lever Direction 7, Connector C, Spring Y/S",
+    "movement": [
+      { "breath": "exhale", "action": "Lift trunk" },
+      { "breath": "inhale", "action": "Lower trunk" }
+    ],
+    "muscleFocus": [
+      "Spinal rotators",
+      "Spinal flexors"
+    ],
+    "objectives": [
+      "Spinal rotator strength",
+      "Pelvic stabilization"
+    ],
+    "cues": [
+      "Keep weight evenly distributed on both feet",
+      "Keep pelvis stable",
+      "Maximize rotation while avoiding lateral flexion",
+      "Move head, shoulders and chest together as one unit",
+      "Keep nose aligned over sternum"
+    ]
+  },
+  {
+    "id": "f2-004",
+    "name": "Chest Expansion",
+    "block": 8,
+    "apparatus": "F2 Chair",
+    "collection": { "name": "Arm Sitting Series", "kind": "series" },
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-004a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-004b.png"
+    ],
+    "setup": "Sitting upright on Box, facing Chair, legs hip width apart, feet on floor between Chair and Box, arms straight and forward of trunk, hands holding handles, palms facing back",
+    "resistance": "Socket T, Lever Orientation 0, Lever Length 1, Lever Direction 3, Connector C, Spring Y/S",
+    "movement": [
+      { "breath": "exhale", "action": "Move arms back" },
+      { "breath": "inhale", "action": "Move arms forward, return to start position" }
+    ],
+    "muscleFocus": [
+      "Shoulder extensors",
+      "Elbow extensors",
+      "Scapular stabilizers",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Shoulder extensor strength",
+      "Elbow extensor strength",
+      "Scapular stabilization",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Maintain trunk stabilization keeping body upright",
+      "Maintain straight arms",
+      "Move arms 20 degrees forward and 20 degrees back of trunk"
+    ]
+  },
+  {
+    "id": "f2-005",
+    "name": "Biceps",
+    "block": 8,
+    "apparatus": "F2 Chair",
+    "collection": { "name": "Arm Sitting Series", "kind": "series" },
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-005a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-005b.png"
+    ],
+    "setup": "Starting in Chest Expansion position (page 32), arms straight and forward, in line with springs, palms facing up",
+    "resistance": "Socket T, Lever Orientation 0, Lever Length 1, Lever Direction 7, Connector C, Spring Y/S",
+    "movement": [
+      { "breath": "exhale", "action": "Bend arms" },
+      { "breath": "inhale", "action": "Straighten arms, return to start position" }
+    ],
+    "muscleFocus": [
+      "Elbow flexors",
+      "Shoulder flexors",
+      "Scapular stabilizers",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Elbow flexor strength",
+      "Shoulder flexor control",
+      "Scapular stabilization",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Maintain trunk stabilization keeping body upright",
+      "Keep upper arms straight and forward in line with springs",
+      "Straighten elbows completely following each repetition",
+      "Maintain neutral position of wrists"
+    ]
+  },
+  {
+    "id": "f2-006",
+    "name": "Rhomboids 1",
+    "block": 8,
+    "apparatus": "F2 Chair",
+    "collection": { "name": "Arm Sitting Series", "kind": "series" },
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-006a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-006b.png"
+    ],
+    "setup": "Starting in Chest Expansion position (page 32), arms forward at shoulder height, palms facing down",
+    "resistance": "Socket T, Lever Orientation 0, Lever Length 1, Lever Direction 7, Connector C, Spring Y/S",
+    "movement": [
+      { "breath": "exhale", "action": "Move elbows back, bending arms" },
+      { "breath": "inhale", "action": "Straighten arms, return to start position" }
+    ],
+    "muscleFocus": [
+      "Shoulder horizontal abductors",
+      "Elbow flexors"
+    ],
+    "objectives": [
+      "Shoulder horizontal abductor strength",
+      "Scapular stabilization",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Maintain trunk stabilization keeping body upright",
+      "Initiate movement by reaching elbows out to sides and back",
+      "Move arms along horizontal line at shoulder height"
+    ]
+  },
+  {
+    "id": "f2-007",
+    "name": "Rhomboids 2",
+    "block": 8,
+    "apparatus": "F2 Chair",
+    "collection": { "name": "Arm Sitting Series", "kind": "series" },
+    "level": "Intermediate",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-007a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-007b.png"
+    ],
+    "setup": "Starting in Chest Expansion position (page 32), arms forward at shoulder height, palms facing down",
+    "resistance": "Socket T, Lever Orientation 0, Lever Length 1, Lever Direction 7, Connector C, Spring Y/S",
+    "movement": [
+      { "breath": "exhale", "action": "Move elbows back, bending arms, glide scapulae together" },
+      { "breath": "inhale", "action": "Glide scapulae apart, move elbows forward, straightening arms, return to start position" }
+    ],
+    "muscleFocus": [
+      "Shoulder horizontal abductors",
+      "Scapular adductors",
+      "Elbow flexors"
+    ],
+    "objectives": [
+      "Shoulder horizontal abductor strength",
+      "Scapular adductor strength",
+      "Shoulder flexor control",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Maintain trunk stabilization keeping body upright",
+      "Move arms along horizontal line at shoulder height",
+      "Initiate by reaching elbows out to sides and back",
+      "Avoid scapular elevation when adducting scapulae"
+    ]
+  },
+  {
+    "id": "f2-008",
+    "name": "Hug-a-Tree",
+    "block": 8,
+    "apparatus": "F2 Chair",
+    "collection": { "name": "Arm Sitting Series", "kind": "series" },
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-008a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-008b.png"
+    ],
+    "setup": "Sitting upright, back against chair, legs hip width apart, feet on floor between Chair and Box, hands holding handles, arms in T position, micro-bend in elbows, palms facing forward",
+    "resistance": "Socket T, Lever Orientation 0, Lever Length 1, Lever Direction 7, Connector C, Spring Y/S",
+    "movement": [
+      { "breath": "exhale", "action": "Move arms forward" },
+      { "breath": "inhale", "action": "Move arms back, return to start position" }
+    ],
+    "muscleFocus": [
+      "Shoulder horizontal adductors",
+      "Shoulder flexors",
+      "Scapular stabilizers"
+    ],
+    "objectives": [
+      "Shoulder horizontal adductor strength",
+      "Shoulder flexor control",
+      "Scapular stabilization",
+      "Trunk stabilization"
+    ],
+    "cues": [
+      "Maintain scapular stabilization",
+      "Move arms along horizontal line at shoulder height",
+      "Move arms forward until parallel with each other",
+      "Keep hands in peripheral vision when opening arms"
+    ]
+  },
+  {
+    "id": "f2-009",
+    "name": "Salute",
+    "block": 8,
+    "apparatus": "F2 Chair",
+    "collection": { "name": "Arm Sitting Series", "kind": "series" },
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-009a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-009b.png"
+    ],
+    "setup": "Starting in Hug-a-Tree position (page 36), arms bent, hands holding handles, in line with eyes, fists facing forward",
+    "resistance": "Socket T, Lever Orientation 0, Lever Length 1, Lever Direction 7, Connector C, Spring Y/S",
+    "movement": [
+      { "breath": "exhale", "action": "Straighten arms on diagonal line" },
+      { "breath": "inhale", "action": "Bend arms, return to start position" }
+    ],
+    "muscleFocus": [
+      "Elbow extensors",
+      "Shoulder flexors",
+      "Scapular stabilizers"
+    ],
+    "objectives": [
+      "Elbow extensor strength",
+      "Shoulder flexor control",
+      "Scapular stabilization"
+    ],
+    "cues": [
+      "Maintain scapular stabilization",
+      "Keep elbows lifted and reaching outward",
+      "Point fist or fingers in direction of movement"
+    ]
+  },
+  {
+    "id": "f2-010",
+    "name": "Hundred Prep",
+    "block": 3,
+    "apparatus": "F2 Chair",
+    "collection": null,
+    "level": "Intermediate",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-010a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-010b.png"
+    ],
+    "setup": "Lying supine with head toward F2 Chair, feet on floor, heels pressing into the box, holding handles, arms straight, perpendicular, slight tension in springs",
+    "resistance": "Socket T, Lever Orientation 0, Lever Length 1, Lever Direction 3, Connector O, Spring Y/S",
+    "movement": [
+      { "breath": "exhale", "action": "Lift head, shoulders and chest, lower arms down to sides of body" },
+      { "breath": "inhale", "action": "Lift arms, to 90 degrees in shoulder joint, lower chest and head, return to start position" }
+    ],
+    "muscleFocus": [
+      "Spinal flexors",
+      "Shoulder extensors"
+    ],
+    "objectives": [
+      "Spinal flexor strength",
+      "Shoulder extensor control",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Bias toward a posterior tilt of pelvis",
+      "Lift into spinal flexion as much as possible to reduce neck tension",
+      "Maintain pelvic lumbar stabilization"
+    ]
+  },
+  {
+    "id": "f2-011",
+    "name": "Leg Changes 1",
+    "block": 3,
+    "apparatus": "F2 Chair",
+    "collection": null,
+    "level": "Intermediate",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-011a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-011b.png"
+    ],
+    "setup": "Starting in Hundred Prep position (page 80)",
+    "resistance": "Socket T, Lever Orientation 0, Lever Length 1, Lever Direction 3, Connector O, Spring Y/S",
+    "movement": [
+      { "breath": "exhale", "action": "Lift one leg, plantarflex foot" },
+      { "breath": "inhale", "action": "Switch legs" }
+    ],
+    "muscleFocus": [
+      "Hip flexors",
+      "Spinal flexors",
+      "Shoulder flexors"
+    ],
+    "objectives": [
+      "Hip flexor control",
+      "Hip disassociation",
+      "Shoulder extensor/flexor control",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Maintain pelvic lumbar stabilization",
+      "Maintain consistent angle of knee joint (90 degrees)",
+      "Maintain consistent height of chest lift"
+    ]
+  },
+  {
+    "id": "f2-012",
+    "name": "Frog",
+    "block": 4,
+    "apparatus": "F2 Chair",
+    "collection": { "name": "Hip Supine Series", "kind": "series" },
+    "level": "Intermediate",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-012a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-012b.png"
+    ],
+    "setup": "Lying supine with head toward chair, neutral spine position, feet dorsiflexed in straps, knees bent in Frog position, hands holding levers, elbows and shoulders 90 degrees angle",
+    "resistance": "Socket T, Lever Orientation 0, Lever Length 1, Lever Direction 1, Connector O, Spring Y/S; Socket B, Lever Orientation 0, Lever Length 1, Lever Direction 8, Connector O, Spring N/A",
+    "movement": [
+      { "breath": "exhale", "action": "Straighten legs" },
+      { "breath": "inhale", "action": "Bend legs, return to start position" }
+    ],
+    "muscleFocus": [
+      "Hip adductors",
+      "Hip extensors",
+      "Knee extensors"
+    ],
+    "objectives": [
+      "Hip adductor control",
+      "Hip extensor control",
+      "Knee extensor control",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Keep squeezing heels together",
+      "Avoid bending knees beyond 90 degrees"
+    ]
+  },
+  {
+    "id": "f2-013",
+    "name": "Circles Down",
+    "block": 4,
+    "apparatus": "F2 Chair",
+    "collection": { "name": "Hip Supine Series", "kind": "series" },
+    "level": "Intermediate",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-013a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-013b.png"
+    ],
+    "setup": "Lying supine with head toward chair, neutral spine position, legs straight, perpendicular to floor, hips externally rotated, feet in straps plantarflexed, hands holding levers, elbows and shoulders 90 degrees angle",
+    "resistance": "Socket T, Lever Orientation 0, Lever Length 1, Lever Direction 1, Connector O, Spring Y/S; Socket B, Lever Orientation 0, Lever Length 1, Lever Direction 8, Connector O, Spring N/A",
+    "movement": [
+      { "breath": "exhale", "action": "Lower legs" },
+      { "breath": "inhale", "action": "Open legs and circle around, lift legs, return to start position" }
+    ],
+    "muscleFocus": [
+      "Hip adductors",
+      "Hip extensors",
+      "Knee extensors"
+    ],
+    "objectives": [
+      "Hip adductor control",
+      "Hip extensor control",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Focus on hip disassociation",
+      "Maintain pelvic lumbar stabilization",
+      "Draw straight line down center, squeezing heels together",
+      "Draw two semi-circles back to back as legs circle around"
+    ]
+  },
+  {
+    "id": "f2-014",
+    "name": "Circles Up",
+    "block": 4,
+    "apparatus": "F2 Chair",
+    "collection": { "name": "Hip Supine Series", "kind": "series" },
+    "level": "Intermediate",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-014a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-014b.png"
+    ],
+    "setup": "Lying supine with head toward chair, neutral spine position, legs straight, perpendicular to floor, hips externally rotated, feet in straps plantarflexed, hands holding levers, elbows and shoulders 90 degrees angle",
+    "resistance": "Socket T, Lever Orientation 0, Lever Length 1, Lever Direction 1, Connector O, Spring Y/S; Socket B, Lever Orientation 0, Lever Length 1, Lever Direction 8, Connector O, Spring N/A",
+    "movement": [
+      { "breath": "exhale", "action": "Open legs out to sides, circle legs around and together" },
+      { "breath": "inhale", "action": "Lift legs, return to start position" }
+    ],
+    "muscleFocus": [
+      "Hip adductors",
+      "Hip extensors",
+      "Knee extensors"
+    ],
+    "objectives": [
+      "Hip adductor control",
+      "Hip extensor control",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Focus on hip disassociation",
+      "Maintain pelvic lumbar stabilization",
+      "Draw two semi-circles back to back as legs circle around",
+      "Draw straight line up center, squeezing heels together"
+    ]
+  },
+  {
+    "id": "f2-015",
+    "name": "Openings",
+    "block": 4,
+    "apparatus": "F2 Chair",
+    "collection": { "name": "Hip Supine Series", "kind": "series" },
+    "level": "Intermediate",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-015a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-015b.png"
+    ],
+    "setup": "Lying supine with head toward chair, neutral spine position, legs straight on a diagonal line (45 to 60 degrees), hips externally rotated, feet in straps, plantarflexed, hands holding levers, elbows and shoulders 90 degrees",
+    "resistance": "Socket T, Lever Orientation 0, Lever Length 1, Lever Direction 1, Connector O, Spring Y/S; Socket B, Lever Orientation 0, Lever Length 1, Lever Direction 8, Connector O, Spring N/A",
+    "movement": [
+      { "breath": "exhale", "action": "Open legs" },
+      { "breath": "inhale", "action": "Close legs, return to start position" }
+    ],
+    "muscleFocus": [
+      "Hip adductors",
+      "Spinal extensors",
+      "Spinal flexors"
+    ],
+    "objectives": [
+      "Hip adductor strength",
+      "Hip adductor stretch",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Maintain pelvic lumbar stabilization",
+      "Keep feet moving at a consistent height from floor as legs open and close",
+      "Move within the limits of pelvic lumbar control"
+    ]
+  },
+  {
+    "id": "f2-016",
+    "name": "Bottom Lift",
+    "block": 5,
+    "apparatus": "F2 Chair",
+    "collection": null,
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-016a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-016b.png"
+    ],
+    "setup": "Lying supine on box facing F2 Chair, in neutral spine position, feet placed on chair, hip width apart, legs parallel, knees bent, shins parallel to floor, hands holding handles, arms straight, in line with shoulders, palms facing down",
+    "resistance": "Socket T, Lever Orientation 0, Lever Length 1, Lever Direction 7, Connector O, Spring Y/S",
+    "movement": [
+      { "breath": "exhale", "action": "Roll spine up" },
+      { "breath": "inhale", "action": "Pause" },
+      { "breath": "exhale", "action": "Roll spine down" },
+      { "breath": "inhale", "action": "Pause" }
+    ],
+    "muscleFocus": [
+      "Spinal flexors",
+      "Hip extensors"
+    ],
+    "objectives": [
+      "Spinal articulation",
+      "Hip extensor control"
+    ],
+    "cues": [
+      "Articulate through each vertebra as spine rolls up and down",
+      "Keep adductors engage and legs parallel",
+      "Avoid straightening legs and \"pushing away\""
+    ]
+  },
+  {
+    "id": "f2-017",
+    "name": "Semi-Circle",
+    "block": 5,
+    "apparatus": "F2 Chair",
+    "collection": null,
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-017a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-017b.png"
+    ],
+    "setup": "Lying supine on box facing F2 Chair, lower back extended over curve of box, pelvis resting between box and chair, legs parallel, knees bent, feet placed on chair, hip width apart, holding handles, palms facing down, arms in line with shoulder",
+    "resistance": "Socket T, Lever Orientation 0, Lever Length 1, Lever Direction 7, Connector O, Spring Y/S",
+    "movement": [
+      { "breath": "exhale", "action": "Roll spine up" },
+      { "breath": "inhale", "action": "Pause" },
+      { "breath": "exhale", "action": "Roll spine down" },
+      { "breath": "inhale", "action": "Pause" }
+    ],
+    "muscleFocus": [
+      "Spinal flexors",
+      "Hip extensors"
+    ],
+    "objectives": [
+      "Spinal articulation",
+      "Hip extensor control"
+    ],
+    "cues": [
+      "Articulate through each vertebra as spine rolls up and down",
+      "Keep adductors engage and legs parallel",
+      "Avoid straightening legs and \"pushing away\""
+    ]
+  },
+  {
+    "id": "f2-018",
+    "name": "Lunge Kneeling",
+    "block": 6,
+    "apparatus": "F2 Chair",
+    "collection": null,
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-018a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-018b.png"
+    ],
+    "setup": "Standing, front leg bent, knee over ankle, knee of other leg placed on chair, shin resting on chair, hands holding levers",
+    "resistance": "Socket Box, Lever Orientation -90, Lever Length 1, Lever Direction 1, Connector N/A, Spring N/A",
+    "movement": [
+      { "breath": "inhale", "action": "Stretch hip flexors of leg on chair (3-5 breaths)" },
+      { "breath": "exhale", "action": "Dorsiflex foot on floor, straighten leg (3-5 breaths)" },
+      { "breath": "inhale", "action": "Bend front leg, return to start position" }
+    ],
+    "muscleFocus": [
+      "Hip flexors",
+      "Hip extensors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Hip flexor stretch",
+      "Hip extensor control"
+    ],
+    "cues": [
+      "Bias toward posterior tilt of pelvis during hip flexor stretch",
+      "Bias toward anterior tilt of pelvis during hamstring stretch",
+      "During hamstring stretch try to flatten back and keep pelvis square"
+    ]
+  },
+  {
+    "id": "f2-019",
+    "name": "Swan",
+    "block": 12,
+    "apparatus": "F2 Chair",
+    "collection": null,
+    "level": "Intermediate",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-019a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/f2-019b.png"
+    ],
+    "setup": "Lying prone on top of F2 chair facing the back, legs straight and together, hips externally rotated, parallel to floor (as close as possible), hands holding handles, elbows out to sides",
+    "resistance": "Socket T, Lever Orientation 0, Lever Length 1, Lever Direction 7, Connector N/A, Spring N/A",
+    "movement": [
+      { "breath": "inhale", "action": "Straighten arms, simultaneously lifting trunk" },
+      { "breath": "exhale", "action": "Bend arms, lowering trunk return to start position" }
+    ],
+    "muscleFocus": [
+      "Spinal extensors",
+      "Hip extensors",
+      "Elbow extensors",
+      "Spinal flexors"
+    ],
+    "objectives": [
+      "Spinal extensor control",
+      "Hip extensor control",
+      "Elbow extensor control"
+    ],
+    "cues": [
+      "Maintain abdominal engagement",
+      "Articulate spine into extension starting from crown of head",
+      "Keep legs straight and adducted",
+      "Maintain consistent height of legs throughout (as close to horizontal as possible)"
+    ]
+  }
+]

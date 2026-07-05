@@ -24,10 +24,12 @@ export const WARMUP_SERIES = [
     id: 'wu-f2chair',
     name: 'F2 Chair',
     apparatus: 'F2 Chair',
+    // f2-001/002/003 resolve by ID; Spine Twist Supine is not in the F2 Chair
+    // PDFs, so it stays a name-based placeholder (dashed) until it exists.
     exercises: [
-      'Roll-up with Extension',
-      'Mini Roll-Up',
-      'Mini Roll-Up Oblique',
+      'f2-001',
+      'f2-002',
+      'f2-003',
       'Spine Twist Supine',
     ],
   },
