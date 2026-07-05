@@ -1,1 +1,924 @@
-[]
+[
+  {
+    "id": "spine-001",
+    "name": "Chest Lift",
+    "block": 3,
+    "apparatus": "Spine Corrector",
+    "collection": null,
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-001a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-001b.png"
+    ],
+    "setup": "Lying supine, legs bent, shins perpendicular to floor, feet hip width apart, fingers interlaced behind head",
+    "resistance": null,
+    "movement": [
+      { "breath": "exhale", "action": "Lift head and chest" },
+      { "breath": "inhale", "action": "Pause" },
+      { "breath": "exhale", "action": "Lower chest and head, return to start position" },
+      { "breath": "inhale", "action": "Pause" }
+    ],
+    "muscleFocus": [
+      "Spinal flexors",
+      "Hip adductors"
+    ],
+    "objectives": [
+      "Spinal flexor control and stretch",
+      "Hip adductor control",
+      "Pelvic lumbar stabilization",
+      "Thoracic stretch"
+    ],
+    "cues": [
+      "Keep elbows wide",
+      "Keep legs parallel",
+      "Support head with hands",
+      "Keep lumbar spine in contact with barrel"
+    ]
+  },
+  {
+    "id": "spine-002",
+    "name": "Reach",
+    "block": 3,
+    "apparatus": "Spine Corrector",
+    "collection": null,
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-002a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-002b.png"
+    ],
+    "setup": "Sitting in C curve position, arms straight, shoulder width apart, shoulder height, hands holding pole, legs bent and together, shins perpendicular position to floor",
+    "resistance": null,
+    "movement": [
+      { "breath": "exhale", "action": "Roll down, lift arms up and overhead, simultaneously straighten legs creating straight line" },
+      { "breath": "inhale", "action": "Pause" },
+      { "breath": "exhale", "action": "Roll up, lift arms up and forward, bend legs, return to start position" },
+      { "breath": "inhale", "action": "Pause" }
+    ],
+    "muscleFocus": [
+      "Spinal flexors",
+      "Shoulder flexors"
+    ],
+    "objectives": [
+      "Spinal flexor control",
+      "Shoulder flexor control",
+      "Shoulder extensor control"
+    ],
+    "cues": [
+      "Establish C curve position, shoulders directly above hips",
+      "Establish straight line with body when in supine position",
+      "Move trunk, arms and legs simultaneously when rolling down to supine position and rolling up to sitting position"
+    ]
+  },
+  {
+    "id": "spine-003",
+    "name": "Overhead Stretch",
+    "block": 3,
+    "apparatus": "Spine Corrector",
+    "collection": null,
+    "level": "Intermediate",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-003a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-003b.png"
+    ],
+    "setup": "Sitting upright, arms straight, shoulder width apart, shoulder height, palms facing each other, legs bent, shins perpendicular to floor, feet hip width apart",
+    "resistance": null,
+    "movement": [
+      { "breath": "exhale", "action": "Roll down, lift arms up and overhead" },
+      { "breath": "inhale", "action": "Circle arms around lifting head" },
+      { "breath": "exhale", "action": "Roll up to C curve position" },
+      { "breath": "inhale", "action": "Extend trunk, sit upright, return to start position" }
+    ],
+    "muscleFocus": [
+      "Spinal flexors",
+      "Spinal extensors",
+      "Shoulder flexors"
+    ],
+    "objectives": [
+      "Spinal flexor control",
+      "Shoulder mobility",
+      "Thoracic stretch"
+    ],
+    "cues": [
+      "Keep head aligned with spine",
+      "Lift arms overhead when trunk reaches full extension",
+      "Coordinate lifting head as arms circle around",
+      "Rest back and head on barrel when arms are overhead"
+    ]
+  },
+  {
+    "id": "spine-004",
+    "name": "Teaser Prep",
+    "block": 3,
+    "apparatus": "Spine Corrector",
+    "collection": null,
+    "level": "Intermediate",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-004a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-004b.png"
+    ],
+    "setup": "Lying supine, coccyx on edge of step, arms straight and overhead, palms facing each other, legs straight and together, feet plantarflexed, body on diagonal line",
+    "resistance": null,
+    "movement": [
+      { "breath": "exhale", "action": "Lift arms, head and chest up and forward, simultaneously lift legs to perpendicular position" },
+      { "breath": "inhale", "action": "Lower arms, head, chest and legs, return to start position" }
+    ],
+    "muscleFocus": [
+      "Spinal flexors",
+      "Hip flexors",
+      "Shoulder flexors",
+      "Shoulder extensors"
+    ],
+    "objectives": [
+      "Spinal flexor strength",
+      "Hip flexor strength",
+      "Shoulder flexor control",
+      "Shoulder extensor control"
+    ],
+    "cues": [
+      "Lift legs perpendicular to floor, arms parallel to floor",
+      "Engage abdominals prior to lifting legs",
+      "Bring trunk close to legs to form pike position",
+      "Allow lower back to sink into step of barrel"
+    ]
+  },
+  {
+    "id": "spine-005",
+    "name": "Openings",
+    "block": 4,
+    "apparatus": "Spine Corrector",
+    "collection": { "name": "Hip Supine Series", "kind": "series" },
+    "level": "Intermediate",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-005a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-005b.png"
+    ],
+    "setup": "Lying supine, lower back and pelvis on barrel, legs straight, perpendicular to floor, hips externally rotated, feet plantarflexed, hands holding handles",
+    "resistance": null,
+    "movement": [
+      { "breath": "inhale", "action": "Open legs out to sides" },
+      { "breath": "exhale", "action": "Close legs, return to start position" }
+    ],
+    "muscleFocus": [
+      "Hip adductors",
+      "Spinal flexors"
+    ],
+    "objectives": [
+      "Hip adductor control and stretch",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Maintain pelvic lumbar stabilization",
+      "Open legs directly out to sides",
+      "Pause in perpendicular position between each repetition",
+      "Keep holding handles firmly and pulling barrel toward back"
+    ]
+  },
+  {
+    "id": "spine-006",
+    "name": "Helicopter",
+    "block": 4,
+    "apparatus": "Spine Corrector",
+    "collection": { "name": "Hip Supine Series", "kind": "series" },
+    "level": "Intermediate",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-006a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-006b.png"
+    ],
+    "setup": "Starting in Openings position (page 55), legs externally rotated",
+    "resistance": null,
+    "movement": [
+      { "breath": "inhale", "action": "Open legs to Scissors position" },
+      { "breath": "exhale", "action": "Circle legs around to Scissors position on opposite side, return to start position" }
+    ],
+    "muscleFocus": [
+      "Hip flexors",
+      "Hip extensors",
+      "Hip adductors",
+      "Spinal flexors"
+    ],
+    "objectives": [
+      "Hip joint control",
+      "Hip joint mobility",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Maintain pelvic stabilization",
+      "Touch each point of circle as legs circle around",
+      "Pass through perpendicular position following each circle",
+      "Keep feet at consistent distance from floor throughout circle",
+      "Keep holding handles firmly and pulling barrel toward back"
+    ]
+  },
+  {
+    "id": "spine-007",
+    "name": "Scissors",
+    "block": 4,
+    "apparatus": "Spine Corrector",
+    "collection": { "name": "Hip Supine Series", "kind": "series" },
+    "level": "Intermediate",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-007a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-007b.png"
+    ],
+    "setup": "Starting in Openings position (page 55), legs parallel",
+    "resistance": null,
+    "movement": [
+      { "breath": "exhale", "action": "Open legs to Scissors position (2 pulses)" },
+      { "breath": "inhale", "action": "Switch legs" },
+      { "breath": "exhale", "action": "Open legs to Scissors position (2 pulses)" },
+      { "breath": "inhale", "action": "Switch legs" }
+    ],
+    "muscleFocus": [
+      "Hip flexors",
+      "Hip extensors",
+      "Spinal flexors"
+    ],
+    "objectives": [
+      "Hip flexor control and stretch",
+      "Hip extensor control and stretch",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Maintain pelvic lumbar stabilization",
+      "Create even V in Scissors position",
+      "Pass through perpendicular position following each circle",
+      "Keep holding handles firmly and pulling barrel toward back"
+    ]
+  },
+  {
+    "id": "spine-008",
+    "name": "Bicycle",
+    "block": 4,
+    "apparatus": "Spine Corrector",
+    "collection": { "name": "Hip Supine Series", "kind": "series" },
+    "level": "Intermediate",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-008a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-008b.png"
+    ],
+    "setup": "Starting in Scissors position (page 57), open legs to V position",
+    "resistance": null,
+    "movement": [
+      { "breath": "exhale", "action": "Bend back knee, touch step with toes, move knee toward chest, straighten leg over face, simultaneously move opposite leg up and back to create Scissors position on opposite side" },
+      { "breath": "inhale", "action": "Repeat above sequence" }
+    ],
+    "muscleFocus": [
+      "Hip flexors",
+      "Hip extensors",
+      "Spinal flexors"
+    ],
+    "objectives": [
+      "Hip flexor control and stretch",
+      "Hip extensor control and stretch",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Maintain pelvic lumbar stabilization",
+      "Create V shape in Scissors position",
+      "Avoid externally rotating hip when bending back knee"
+    ]
+  },
+  {
+    "id": "spine-009",
+    "name": "Bicycle Reverse",
+    "block": 4,
+    "apparatus": "Spine Corrector",
+    "collection": { "name": "Hip Supine Series", "kind": "series" },
+    "level": "Intermediate",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-009a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-009b.png"
+    ],
+    "setup": "Starting in Scissors position (page 57), open legs to V position",
+    "resistance": null,
+    "movement": [
+      { "breath": "inhale", "action": "Bend front knee toward chest, move leg back, touch step with toes, straighten leg, simultaneously move opposite leg up and forward to create Scissors position on opposite side" },
+      { "breath": "exhale", "action": "Repeat above sequence" }
+    ],
+    "muscleFocus": [
+      "Hip flexors",
+      "Hip extensors",
+      "Spinal flexors"
+    ],
+    "objectives": [
+      "Hip flexor control and stretch",
+      "Hip extensor control and stretch",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Maintain pelvic lumbar stabilization",
+      "Maximize Scissors position prior to bending knee",
+      "Avoid externally rotating hip when bending back knee"
+    ]
+  },
+  {
+    "id": "spine-010",
+    "name": "Roll Over",
+    "block": 5,
+    "apparatus": "Spine Corrector",
+    "collection": null,
+    "level": "Intermediate",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-010a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-010b.png"
+    ],
+    "setup": "Lying supine with lower back and pelvis on barrel, legs straight and together, feet plantarflexed, hands holding handles, body on diagonal line",
+    "resistance": null,
+    "movement": [
+      { "breath": "inhale", "action": "Lift legs to 90 degrees in hip joint" },
+      { "breath": "exhale", "action": "Roll over, legs parallel to floor" },
+      { "breath": "inhale", "action": "Dorsiflex feet, separate legs, lower legs toward mat" },
+      { "breath": "exhale", "action": "Roll back, lift legs perpendicular to floor, plantarflex feet, lower legs to diagonal line, bring legs together, return to start position" }
+    ],
+    "muscleFocus": [
+      "Spinal flexors",
+      "Hip flexors",
+      "Hip extensors"
+    ],
+    "objectives": [
+      "Spinal articulation",
+      "Lower back stretch",
+      "Hip extensor stretch"
+    ],
+    "cues": [
+      "Maintain 90 degree angle in hip joint during roll over",
+      "Keep thighs close to chest when rolling back",
+      "Avoid lowering legs beyond diagonal line"
+    ]
+  },
+  {
+    "id": "spine-011",
+    "name": "Shoulder Stretch Lying Side",
+    "block": 6,
+    "apparatus": "Spine Corrector",
+    "collection": null,
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-011a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-011b.png"
+    ],
+    "setup": "Lying sideways on barrel, bottom leg bent, top leg straight, feet plantarflexed, arms straight overhead, head resting on bottom arm",
+    "resistance": null,
+    "movement": [
+      { "breath": "inhale", "action": "Circle top arm around to side, simultaneously roll body into supine position, externally rotating hips" },
+      { "breath": "exhale", "action": "Continue circling arm to side of body, simultaneously return to side lying position, circle arm forward and overhead, return to start position" }
+    ],
+    "muscleFocus": [
+      "Shoulder adductors",
+      "Shoulder abductors",
+      "Shoulder flexors",
+      "Spinal flexors"
+    ],
+    "objectives": [
+      "Shoulder adductor control and stretch",
+      "Shoulder flexor control",
+      "Thoracic stretch"
+    ],
+    "cues": [
+      "Coordinate movement of arm with movement of body",
+      "Keep neck relaxed and allow head to rest on arm and barrel"
+    ]
+  },
+  {
+    "id": "spine-012",
+    "name": "Spine Twist Supine",
+    "block": 11,
+    "apparatus": "Spine Corrector",
+    "collection": null,
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-012a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-012b.png"
+    ],
+    "setup": "Lying supine with lower back and pelvis on barrel, legs in tabletop position, thighs perpendicular to floor, hands holding handles",
+    "resistance": null,
+    "movement": [
+      { "breath": "inhale", "action": "Lower legs to one side" },
+      { "breath": "exhale", "action": "Lift legs to center, return to start position" },
+      { "breath": "inhale", "action": "Lower legs to one side" },
+      { "breath": "exhale", "action": "Lift legs to center, return to start position" }
+    ],
+    "muscleFocus": [
+      "Spinal flexors",
+      "Spinal rotators",
+      "Hip flexors"
+    ],
+    "objectives": [
+      "Spinal flexor control",
+      "Spinal rotator control and stretch",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Maintain pelvic lumbar stabilization",
+      "Initiate rotation to side and back to center with abdominals",
+      "Move legs and pelvis as one unit",
+      "Keep holding handles firmly and pulling barrel toward back"
+    ]
+  },
+  {
+    "id": "spine-013",
+    "name": "Side Lift",
+    "block": 11,
+    "apparatus": "Spine Corrector",
+    "collection": null,
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-013a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-013b.png"
+    ],
+    "setup": "Lying sideways on barrel, bottom leg bent, top leg straight, feet plantarflexed, arms straight overhead, head between arms, leg, trunk and arms in straight line",
+    "resistance": null,
+    "movement": [
+      { "breath": "exhale", "action": "Lift trunk" },
+      { "breath": "inhale", "action": "Lower trunk, return to start position" }
+    ],
+    "muscleFocus": [
+      "Spinal lateral flexors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Spinal lateral flexor strength and stretch",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Keep head aligned with spine and between arms",
+      "Maintain co-contraction of abdominals and back extensors",
+      "Imagine moving between two panes of glass",
+      "Keep arms straight"
+    ]
+  },
+  {
+    "id": "spine-014",
+    "name": "Corkscrew",
+    "block": 11,
+    "apparatus": "Spine Corrector",
+    "collection": null,
+    "level": "Intermediate",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-014a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-014b.png"
+    ],
+    "setup": "Starting in Scissors position (page 57)",
+    "resistance": null,
+    "movement": [
+      { "breath": "inhale", "action": "Lower legs to one side" },
+      { "breath": "exhale", "action": "Circle legs down and around to opposite side, return to start position" }
+    ],
+    "muscleFocus": [
+      "Spinal flexors",
+      "Spinal rotators",
+      "Hip flexors"
+    ],
+    "objectives": [
+      "Spinal flexor control",
+      "Spinal rotator control",
+      "Hip flexor control"
+    ],
+    "cues": [
+      "Keep legs together",
+      "Move legs and pelvis as one unit",
+      "Avoid lowering legs beyond diagonal line",
+      "Initiate rotation to side and back to center with abdominals",
+      "Keep holding handles firmly and pulling barrel toward back"
+    ]
+  },
+  {
+    "id": "spine-015",
+    "name": "Corkscrew Advanced",
+    "block": 11,
+    "apparatus": "Spine Corrector",
+    "collection": null,
+    "level": "Advanced",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-015a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-015b.png"
+    ],
+    "setup": "Starting in Roll Over position (page 60), legs overhead",
+    "resistance": null,
+    "movement": [
+      { "breath": "inhale", "action": "Rotate spine, moving legs to one side" },
+      { "breath": "exhale", "action": "Roll down side of trunk, circle legs around, rotate spine, roll up opposite side of trunk, rotate spine, moving legs to center, return to start position" }
+    ],
+    "muscleFocus": [
+      "Spinal rotators",
+      "Spinal flexors",
+      "Hip flexors"
+    ],
+    "objectives": [
+      "Spinal rotator control",
+      "Spinal flexor control",
+      "Hip flexor control"
+    ],
+    "cues": [
+      "Keep legs together",
+      "Move legs and pelvis as one unit",
+      "Avoid lowering legs beyond diagonal line",
+      "Initiate rotation to side and back to center with abdominals",
+      "Maintain connection with barrel"
+    ]
+  },
+  {
+    "id": "spine-016",
+    "name": "Swan Prep",
+    "block": 12,
+    "apparatus": "Spine Corrector",
+    "collection": null,
+    "level": "Intermediate",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-016a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-016b.png"
+    ],
+    "setup": "Lying prone on barrel, legs slightly bent, hip width apart and parallel, feet dorsiflexed, toes anchored on floor, hands behind head",
+    "resistance": null,
+    "movement": [
+      { "breath": "inhale", "action": "Lift trunk to diagonal line" },
+      { "breath": "exhale", "action": "Straighten arms overhead" },
+      { "breath": "inhale", "action": "Bend arms, placing hands behind head" },
+      { "breath": "exhale", "action": "Lower trunk, return to start position" }
+    ],
+    "muscleFocus": [
+      "Spinal extensors",
+      "Spinal flexors",
+      "Shoulder flexors"
+    ],
+    "objectives": [
+      "Spinal extensor strength",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Keep head aligned with spine",
+      "Maximize spinal articulation in both directions",
+      "Maintain abdominal engagement to protect lower back",
+      "Create V position with arms when reaching overhead",
+      "Touch fingers loosely behind head"
+    ]
+  },
+  {
+    "id": "spine-017",
+    "name": "Swan",
+    "block": 12,
+    "apparatus": "Spine Corrector",
+    "collection": null,
+    "level": "Advanced",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-017a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-017b.png"
+    ],
+    "setup": "Starting in Swan Prep position (page 66), hips externally rotated, feet in V position",
+    "resistance": null,
+    "movement": [
+      { "breath": "inhale", "action": "Lift trunk" },
+      { "breath": "exhale", "action": "Straighten arms overhead, simultaneously straighten legs, plantarflex feet" },
+      { "breath": "inhale", "action": "Bend arms, placing hands behind head" },
+      { "breath": "exhale", "action": "Lower trunk and legs, dorsiflex feet, anchor toes on floor, return to start position" }
+    ],
+    "muscleFocus": [
+      "Spinal extensors",
+      "Spinal flexors",
+      "Shoulder flexors",
+      "Hip extensors"
+    ],
+    "objectives": [
+      "Spinal extensor strength",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Keep head aligned with spine",
+      "Maximize spinal articulation in both directions",
+      "Maintain abdominal engagement to protect lower back",
+      "Create V position with arms when reaching overhead"
+    ]
+  },
+  {
+    "id": "spine-018",
+    "name": "Reach (F2 Springs)",
+    "block": 3,
+    "apparatus": "Spine Corrector",
+    "collection": null,
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-018a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-018b.png"
+    ],
+    "setup": "Sitting in C curve position, arms straight, shoulder width apart, shoulder height, hands holding handles, legs bent and together, shins perpendicular position to floor",
+    "resistance": "Socket C, Lever Orientation 0, Lever Length 1, Lever Direction 3, Connector O, Spring Y/S",
+    "movement": [
+      { "breath": "exhale", "action": "Roll down, lift arms up and overhead, simultaneously straighten legs creating straight line, continue reaching arms overhead, placing head on barrel" },
+      { "breath": "inhale", "action": "Pause" },
+      { "breath": "exhale", "action": "Lift arms and head to straight line, roll up, continue lifting arms up and forward, bend legs, return to start position" },
+      { "breath": "inhale", "action": "Pause" }
+    ],
+    "muscleFocus": [
+      "Spinal flexors",
+      "Shoulder flexors and extensors"
+    ],
+    "objectives": [
+      "Spinal flexor control",
+      "Shoulder flexor and extensor control"
+    ],
+    "cues": [
+      "Establish straight line with body prior to and following placing head on barrel, arms overhead"
+    ]
+  },
+  {
+    "id": "spine-019",
+    "name": "Hundred Prep (F2 Springs)",
+    "block": 3,
+    "apparatus": "Spine Corrector",
+    "collection": null,
+    "level": "Fundamental",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-019a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-019b.png"
+    ],
+    "setup": "Lying supine over barrel, arms straight, reaching overhead, hands holding handles, legs bent and together, shins perpendicular to floor",
+    "resistance": "Socket C, Lever Orientation 0, Lever Length 1, Lever Direction 7, Connector O, Spring Y/S",
+    "movement": [
+      { "breath": "exhale", "action": "Lift arms, head and chest up and forward" },
+      { "breath": "inhale", "action": "Pause" },
+      { "breath": "exhale", "action": "Lower chest and head, reaching arms up and overhead, return to start position" },
+      { "breath": "inhale", "action": "Pause" }
+    ],
+    "muscleFocus": [
+      "Spinal flexors",
+      "Shoulder flexors and extensors"
+    ],
+    "objectives": [
+      "Spinal flexor strength",
+      "Spinal flexor stretch",
+      "Shoulder flexor and extensor control"
+    ],
+    "cues": [
+      "Keep legs together",
+      "Maintain contact of lumbar spine with barrel",
+      "Continue reaching arms overhead to maximum range of shoulders, maintaining tension in springs"
+    ]
+  },
+  {
+    "id": "spine-020",
+    "name": "Teaser Prep (F2 Springs)",
+    "block": 3,
+    "apparatus": "Spine Corrector",
+    "collection": null,
+    "level": "Intermediate",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-020a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-020b.png"
+    ],
+    "setup": "Lying supine over barrel, arms straight, reaching overhead, hands holding handles, legs straight and together, feet plantarflexed, legs aligned with trunk",
+    "resistance": "Socket C, Lever Orientation 0, Lever Length 1, Lever Direction 7, Connector O, Spring Y/S",
+    "movement": [
+      { "breath": "exhale", "action": "Lift arms, head and chest up and forward, arms parallel to floor, simultaneously lift legs perpendicular to floor (as close as possible)" },
+      { "breath": "inhale", "action": "Pause" },
+      { "breath": "exhale", "action": "Lower chest and head, reaching arms up and overhead, simultaneously lower legs, return to start position" },
+      { "breath": "inhale", "action": "Pause" }
+    ],
+    "muscleFocus": [
+      "Spinal flexors",
+      "Hip flexors"
+    ],
+    "objectives": [
+      "Spinal flexor strength and stretch",
+      "Hip flexor strength"
+    ],
+    "cues": [
+      "Keep legs together",
+      "Continue reaching arms overhead to maximum range of shoulders, maintaining tension in springs"
+    ]
+  },
+  {
+    "id": "spine-021",
+    "name": "Frog (F2 Springs)",
+    "block": 4,
+    "apparatus": "Spine Corrector",
+    "collection": { "name": "Hip Supine Series", "kind": "series" },
+    "level": "Intermediate",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-021a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-021b.png"
+    ],
+    "setup": "Lying supine, lower back and pelvis on barrel, shoulders on mat, hands holding levers, legs bent, hips externally rotated, feet dorsiflexed in straps, heels together",
+    "resistance": "Socket C, Lever Orientation 0, Lever Length 1, Lever Direction 5, Connector O, Spring Y/S",
+    "movement": [
+      { "breath": "exhale", "action": "Straighten legs up" },
+      { "breath": "inhale", "action": "Bend legs, return to start position" }
+    ],
+    "muscleFocus": [
+      "Hip adductors",
+      "Knee extensors",
+      "Spinal flexors"
+    ],
+    "objectives": [
+      "Hip adductor strength",
+      "Knee extensor strength",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Avoid bending knees beyond 90 degrees",
+      "Initiate movement with hip adductors",
+      "Establish perpendicular position with legs when straight",
+      "Keep holding handles firmly and pulling barrel toward back"
+    ]
+  },
+  {
+    "id": "spine-022",
+    "name": "Openings (F2 Springs)",
+    "block": 4,
+    "apparatus": "Spine Corrector",
+    "collection": { "name": "Hip Supine Series", "kind": "series" },
+    "level": "Intermediate",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-022a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-022b.png"
+    ],
+    "setup": "Starting in Frog position (page 72), hips externally rotated, legs straight and together, perpendicular to floor, feet plantarflexed",
+    "resistance": "Socket C, Lever Orientation 0, Lever Length 1, Lever Direction 5, Connector O, Spring Y/S",
+    "movement": [
+      { "breath": "inhale", "action": "Open legs out to sides" },
+      { "breath": "exhale", "action": "Close legs, return to start position" }
+    ],
+    "muscleFocus": [
+      "Hip adductors",
+      "Spinal flexors"
+    ],
+    "objectives": [
+      "Hip adductor strength and stretch",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Maintain pelvic lumbar stabilization",
+      "Open legs as wide as possible while maintaining spring tension",
+      "Pause in perpendicular position between each repetition",
+      "Keep holding handles firmly and pulling barrel toward back"
+    ]
+  },
+  {
+    "id": "spine-023",
+    "name": "Scissors (F2 Springs)",
+    "block": 4,
+    "apparatus": "Spine Corrector",
+    "collection": { "name": "Hip Supine Series", "kind": "series" },
+    "level": "Intermediate",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-023a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-023b.png"
+    ],
+    "setup": "Starting in Frog position (page 72), hips externally rotated, legs straight and together, perpendicular to floor, feet plantarflexed",
+    "resistance": "Socket C, Lever Orientation 0, Lever Length 1, Lever Direction 5, Connector O, Spring Y/S",
+    "movement": [
+      { "breath": "exhale", "action": "Open legs to Scissors position (2 pulses)" },
+      { "breath": "inhale", "action": "Switch legs" }
+    ],
+    "muscleFocus": [
+      "Hip flexors",
+      "Hip extensors",
+      "Spinal flexors"
+    ],
+    "objectives": [
+      "Hip flexor control and stretch",
+      "Hip extensor control and stretch",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Maintain pelvic lumbar stabilization",
+      "Create even V in Scissors position",
+      "Pass through the perpendicular position following each repetition",
+      "Keep holding handles firmly and pulling barrel toward back"
+    ]
+  },
+  {
+    "id": "spine-024",
+    "name": "Helicopter (F2 Springs)",
+    "block": 4,
+    "apparatus": "Spine Corrector",
+    "collection": { "name": "Hip Supine Series", "kind": "series" },
+    "level": "Intermediate",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-024a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-024b.png"
+    ],
+    "setup": "Starting in Frog position (page 72), hips externally rotated, legs straight and together, perpendicular to floor, feet plantarflexed",
+    "resistance": "Socket C, Lever Orientation 0, Lever Length 1, Lever Direction 5, Connector O, Spring Y/S",
+    "movement": [
+      { "breath": "inhale", "action": "Open legs to Scissors position (page 74)" },
+      { "breath": "exhale", "action": "Circle legs around to Scissors position on opposite side, return to start position" }
+    ],
+    "muscleFocus": [
+      "Hip flexors",
+      "Hip extensors",
+      "Hip adductors",
+      "Spinal flexors"
+    ],
+    "objectives": [
+      "Hip joint control and mobility",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Touch each point of the circle as legs circle around",
+      "Pass through the perpendicular position following each circle",
+      "Keep feet at consistent distance from mat throughout circle"
+    ]
+  },
+  {
+    "id": "spine-025",
+    "name": "Roll Over (F2 Springs)",
+    "block": 5,
+    "apparatus": "Spine Corrector",
+    "collection": null,
+    "level": "Intermediate",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-025a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-025b.png"
+    ],
+    "setup": "Lying supine with lower back and pelvis on barrel, legs straight and together, feet plantarflexed, hands holding levers, body on diagonal line",
+    "resistance": "Socket C, Lever Orientation 0, Lever Length 1, Lever Direction 5, Connector O, Spring Y/S",
+    "movement": [
+      { "breath": "inhale", "action": "Lift legs to 90 degrees in hip joint" },
+      { "breath": "exhale", "action": "Roll over, legs parallel to floor" },
+      { "breath": "inhale", "action": "Dorsiflex feet, separate legs, lower legs toward mat" },
+      { "breath": "exhale", "action": "Roll back, lift legs perpendicular to floor, plantarflex feet, lower legs to diagonal line, bring legs together, return to start position" }
+    ],
+    "muscleFocus": [
+      "Spinal flexors",
+      "Hip flexors",
+      "Hip extensors"
+    ],
+    "objectives": [
+      "Spinal articulation",
+      "Lower back and hip extensor stretch"
+    ],
+    "cues": [
+      "Maintain 90 degree angle in hip joint during roll over",
+      "Keep thighs close to chest when rolling back",
+      "Avoid lowering legs beyond diagonal line"
+    ]
+  },
+  {
+    "id": "spine-026",
+    "name": "Side Lift (F2 Springs)",
+    "block": 11,
+    "apparatus": "Spine Corrector",
+    "collection": null,
+    "level": "Intermediate",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-026a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-026b.png"
+    ],
+    "setup": "Lying sideways on barrel, bottom leg bent, foot plantarflexed, top leg straight, foot plantarflexed in strap, arms straight and overhead",
+    "resistance": "Socket C, Lever Orientation 0, Lever Length 1, Lever Direction 7, Connector O, Spring Y/S",
+    "movement": [
+      { "breath": "exhale", "action": "Lift trunk" },
+      { "breath": "inhale", "action": "Lower trunk" }
+    ],
+    "muscleFocus": [
+      "Spinal lateral flexors",
+      "Spinal flexors",
+      "Spinal extensors"
+    ],
+    "objectives": [
+      "Spinal lateral flexor strength and stretch",
+      "Pelvic lumbar stabilization"
+    ],
+    "cues": [
+      "Keep head aligned with spine and between arms",
+      "Maintain co-contraction of abdominals and back extensors",
+      "Imagine moving between two panes of glass",
+      "Keep arms straight",
+      "Keep leg straight, maintaining tension in spring"
+    ]
+  },
+  {
+    "id": "spine-027",
+    "name": "Swan (F2 Springs)",
+    "block": 12,
+    "apparatus": "Spine Corrector",
+    "collection": null,
+    "level": "Intermediate",
+    "image": [
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-027a.png",
+      "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-027b.png"
+    ],
+    "setup": "Lying prone over barrel, feet on floor, legs bent and together, hips externally rotated, feet in V position, hands on levers, elbows out to sides",
+    "resistance": "Socket C, Lever Orientation 0, Lever Length 1, Lever Direction 7, Connector C, Spring N/A",
+    "movement": [
+      { "breath": "inhale", "action": "Lift trunk, straightening arms and legs, plantarflex feet" },
+      { "breath": "exhale", "action": "Lower trunk, bending arms and legs, place feet on floor, return to position" }
+    ],
+    "muscleFocus": [
+      "Spinal extensors",
+      "Hip extensors",
+      "Spinal flexors"
+    ],
+    "objectives": [
+      "Spinal extensor strength",
+      "Hip extensor control"
+    ],
+    "cues": [
+      "Maintain abdominal support",
+      "Avoid scapular elevation as arms straighten",
+      "Keep legs straight and hips extended as back lifts",
+      "Maintain contact between pelvis and barrel"
+    ]
+  }
+]
