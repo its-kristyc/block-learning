@@ -692,7 +692,7 @@
     "name": "Frog (F2 Springs)",
     "block": 4,
     "apparatus": "Spine Corrector",
-    "collection": { "name": "Hip Supine Series", "kind": "series" },
+    "collection": { "name": "Hip Supine Series (F2 Springs)", "kind": "series" },
     "level": "Intermediate",
     "image": [
       "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-021a.png",
@@ -726,7 +726,7 @@
     "name": "Openings (F2 Springs)",
     "block": 4,
     "apparatus": "Spine Corrector",
-    "collection": { "name": "Hip Supine Series", "kind": "series" },
+    "collection": { "name": "Hip Supine Series (F2 Springs)", "kind": "series" },
     "level": "Intermediate",
     "image": [
       "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-022a.png",
@@ -758,7 +758,7 @@
     "name": "Scissors (F2 Springs)",
     "block": 4,
     "apparatus": "Spine Corrector",
-    "collection": { "name": "Hip Supine Series", "kind": "series" },
+    "collection": { "name": "Hip Supine Series (F2 Springs)", "kind": "series" },
     "level": "Intermediate",
     "image": [
       "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-023a.png",
@@ -792,7 +792,7 @@
     "name": "Helicopter (F2 Springs)",
     "block": 4,
     "apparatus": "Spine Corrector",
-    "collection": { "name": "Hip Supine Series", "kind": "series" },
+    "collection": { "name": "Hip Supine Series (F2 Springs)", "kind": "series" },
     "level": "Intermediate",
     "image": [
       "https://res.cloudinary.com/dgauos4zk/image/upload/v1782320453/spine-024a.png",
