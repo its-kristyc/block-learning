@@ -181,7 +181,7 @@ Convert all of the above to CSS custom properties / design tokens in the real bu
 
 ## 8. Known polish items (do these first in Claude Code, against a live render)
 
-- Wheel wedge labels: long names (Full Body Integration I/II, Spinal Articulation) don't fully fit inside wedges — fix tspan wrapping/sizing against the real rendered SVG.
+- ~~Wheel wedge labels: long names (Full Body Integration I/II, Spinal Articulation) don't fully fit inside wedges — fix tspan wrapping/sizing against the real rendered SVG.~~ **Resolved** via a hand-tuned `WEDGE_CONFIG` lookup in Wheel.jsx (per-label lines/size/xOffset). The 12 BASI blocks are a fixed closed set, so a static table is correct here — no dynamic text-measurement needed. Verified rendering 2026-07-07.
 - Replace all Unicode glyph icons with the chosen icon library.
 - Replace both drag implementations with dnd-kit (or similar).
 - Real exercise images (one wide photo each).
