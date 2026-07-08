@@ -837,6 +837,9 @@
       {
         "breath": "inhale",
         "action": "Continue alternating bicycle pattern with both legs"
+      },
+      {
+        "note": "Repeat entire breath cycle (exhale and inhale) 3 times, reverse direction and again repeat entire breath cycle 3 times"
       }
     ],
     "muscleFocus": [
@@ -1053,6 +1056,9 @@
       {
         "breath": "inhale",
         "action": "Bend knee, flex hip bringing leg toward chest, straighten leg toward ceiling, return to start position"
+      },
+      {
+        "note": "Reverse direction after 5 complete cycles"
       }
     ],
     "muscleFocus": [

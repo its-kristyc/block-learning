@@ -1524,6 +1524,9 @@
       {
         "breath": "exhale",
         "action": "Bend leg, return to start position"
+      },
+      {
+        "note": "Change sides after 10 repetitions"
       }
     ],
     "muscleFocus": [
@@ -1567,6 +1570,9 @@
       {
         "breath": "exhale",
         "action": "Bend leg, return to start position"
+      },
+      {
+        "note": "Change sides after 10 repetitions"
       }
     ],
     "muscleFocus": [
@@ -3082,6 +3088,9 @@
       {
         "breath": "exhale",
         "action": "Bend legs"
+      },
+      {
+        "note": "Alternate sides"
       }
     ],
     "muscleFocus": [

@@ -31,7 +31,8 @@
     "resistance": null,
     "movement": [
       {"breath": "inhale", "action": "Lower legs to one side"},
-      {"breath": "exhale", "action": "Lift legs to center, return to start position"}
+      {"breath": "exhale", "action": "Lift legs to center, return to start position"},
+      {"note": "Alternate sides"}
     ],
     "muscleFocus": ["Spinal flexors", "Spinal rotators", "Hip flexors"],
     "objectives": ["Spinal flexor control", "Spinal rotator control and stretch", "Pelvic lumbar stabilization"],
@@ -89,7 +90,8 @@
     "resistance": null,
     "movement": [
       {"breath": "exhale", "action": "Lift one leg, plantarflex foot"},
-      {"breath": "inhale", "action": "Lower leg, touch Mat with toes"}
+      {"breath": "inhale", "action": "Lower leg, touch Mat with toes"},
+      {"note": "Change leg after 5 repetitions"}
     ],
     "muscleFocus": ["Hip flexors", "Spinal flexors", "Spinal extensors"],
     "objectives": ["Hip flexor control", "Hip disassociation", "Pelvic lumbar stabilization"],
@@ -163,7 +165,9 @@
     "resistance": null,
     "movement": [
       {"breath": "inhale", "action": "Bring leg across center line, circle down and around"},
-      {"breath": "exhale", "action": "Complete circle, same direction"}
+      {"breath": "exhale", "action": "Complete circle, same direction"},
+      {"note": "Reverse direction after 5 repetitions"},
+      {"note": "Change leg"}
     ],
     "muscleFocus": ["Spinal flexors", "Spinal extensors", "Hip flexors", "Hip adductors"],
     "objectives": ["Pelvic lumbar stabilization", "Hip disassociation"],
@@ -219,7 +223,8 @@
     "resistance": null,
     "movement": [
       {"breath": "exhale", "action": "Lift legs"},
-      {"breath": "inhale", "action": "Lower legs, without touching Mat"}
+      {"breath": "inhale", "action": "Lower legs, without touching Mat"},
+      {"note": "Change side after 10 repetitions"}
     ],
     "muscleFocus": ["Spinal lateral flexors", "Spinal flexors", "Spinal extensors", "Hip adductors"],
     "objectives": ["Spinal lateral flexor strength", "Trunk stabilization", "Hip adductor control"],
@@ -356,7 +361,8 @@
       {"breath": "inhale", "action": "Rotate trunk"},
       {"breath": "exhale", "action": "Reach forward as back arm internally rotates, front hand reaches past outside of foot"},
       {"breath": "inhale", "action": "Return to upright position in rotation, back arm returns to shoulder line, front arm returns to T position"},
-      {"breath": "exhale", "action": "Rotate to center, return to start position"}
+      {"breath": "exhale", "action": "Rotate to center, return to start position"},
+      {"note": "Alternate sides"}
     ],
     "muscleFocus": ["Hip extensors", "Spinal extensors", "Spinal rotators"],
     "objectives": ["Hip extensor stretch", "Spinal extensor control", "Spinal rotator control"],
@@ -376,7 +382,8 @@
       {"breath": "exhale", "action": "Rotate trunk to one side (2 pulses)"},
       {"breath": "inhale", "action": "Rotate to center"},
       {"breath": "exhale", "action": "Rotate trunk to other side (2 pulses)"},
-      {"breath": "inhale", "action": "Rotate to center"}
+      {"breath": "inhale", "action": "Rotate to center"},
+      {"note": "Alternate sides"}
     ],
     "muscleFocus": ["Spinal rotators", "Spinal extensors"],
     "objectives": ["Trunk mobility", "Spinal rotator control", "Spinal extensor control"],
@@ -543,7 +550,8 @@
     "resistance": null,
     "movement": [
       {"breath": "inhale", "action": "Round back, roll back"},
-      {"breath": "exhale", "action": "Roll up, straighten back, return to start position"}
+      {"breath": "exhale", "action": "Roll up, straighten back, return to start position"},
+      {"note": "Change leg after 5 repetitions"}
     ],
     "muscleFocus": ["Spinal flexors", "Spinal extensors"],
     "objectives": ["Trunk stabilization", "Spinal extensor control", "Spinal articulation"],
@@ -561,7 +569,8 @@
     "resistance": null,
     "movement": [
       {"breath": "exhale", "action": "Lift one leg toward chest, plantarflex foot"},
-      {"breath": "inhale", "action": "Lower leg, touching Mat with toes"}
+      {"breath": "inhale", "action": "Lower leg, touching Mat with toes"},
+      {"note": "Change leg after 5 repetitions"}
     ],
     "muscleFocus": ["Spinal flexors", "Spinal extensors", "Hip extensors", "Hip flexors"],
     "objectives": ["Pelvic lumbar stabilization", "Hip extensor strength", "Hip flexor control", "Hip disassociation"],
@@ -653,7 +662,8 @@
     "resistance": null,
     "movement": [
       {"breath": "exhale", "action": "Lift leg"},
-      {"breath": "inhale", "action": "Lower leg"}
+      {"breath": "inhale", "action": "Lower leg"},
+      {"note": "Change leg after 5 repetitions"}
     ],
     "muscleFocus": ["Spinal flexors", "Spinal extensors", "Hip extensors", "Scapular stabilizers"],
     "objectives": ["Pelvic lumbar stabilization", "Hip extensor control", "Scapular stabilization", "Trunk stabilization"],
@@ -671,7 +681,8 @@
     "resistance": null,
     "movement": [
       {"breath": "exhale", "action": "Lift leg"},
-      {"breath": "inhale", "action": "Lower leg"}
+      {"breath": "inhale", "action": "Lower leg"},
+      {"note": "Change leg after 5 repetitions"}
     ],
     "muscleFocus": ["Hip extensors", "Hip flexors", "Shoulder extensors", "Spinal extensors"],
     "objectives": ["Hip extensor strength", "Hip flexor control", "Shoulder extensor strength", "Trunk stabilization"],
@@ -743,7 +754,8 @@
     "resistance": null,
     "movement": [
       {"breath": "exhale", "action": "Lower leg"},
-      {"breath": "inhale", "action": "Lift leg, dorsiflex foot"}
+      {"breath": "inhale", "action": "Lift leg, dorsiflex foot"},
+      {"note": "Change leg after 5 repetitions"}
     ],
     "muscleFocus": ["Spinal flexors", "Spinal extensors", "Hip flexors", "Hip extensors"],
     "objectives": ["Pelvic lumbar stabilization", "Hip flexor control and stretch", "Hip extensor control and stretch"],
@@ -801,7 +813,8 @@
     "resistance": null,
     "movement": [
       {"breath": "inhale", "action": "Move legs to one side"},
-      {"breath": "exhale", "action": "Circle legs down and around to opposite side, return to start position"}
+      {"breath": "exhale", "action": "Circle legs down and around to opposite side, return to start position"},
+      {"note": "Change direction after 5 repetitions"}
     ],
     "muscleFocus": ["Spinal flexors", "Spinal rotators", "Hip flexors"],
     "objectives": ["Spinal flexor control", "Spinal rotator control", "Hip flexor control"],
@@ -819,7 +832,8 @@
     "resistance": null,
     "movement": [
       {"breath": "exhale", "action": "Swing top leg forward, dorsiflex foot (2 pulses)"},
-      {"breath": "inhale", "action": "Swing top leg back, plantarflex foot (2 pulses)"}
+      {"breath": "inhale", "action": "Swing top leg back, plantarflex foot (2 pulses)"},
+      {"note": "Change leg after 5 repetitions"}
     ],
     "muscleFocus": ["Hip abductors", "Hip flexors", "Hip extensors"],
     "objectives": ["Trunk stabilization", "Hip flexor control and stretch", "Hip extensor control and stretch"],
@@ -839,7 +853,8 @@
       {"breath": "inhale", "action": "Lift pelvis, straighten legs, raise top arm to shoulder height, body on diagonal line"},
       {"breath": "exhale", "action": "Lift pelvis higher toward ceiling, transferring top arm overhead"},
       {"breath": "inhale", "action": "Return to diagonal line"},
-      {"breath": "exhale", "action": "Lower body, return to start position"}
+      {"breath": "exhale", "action": "Lower body, return to start position"},
+      {"note": "Change side after 5 repetitions"}
     ],
     "muscleFocus": ["Spinal lateral flexors", "Scapular stabilizers", "Shoulder abductors"],
     "objectives": ["Spinal lateral flexor strength", "Scapular stabilization", "Shoulder strength"],
@@ -931,7 +946,8 @@
     "resistance": null,
     "movement": [
       {"breath": "exhale", "action": "Lower right leg toward Mat, bend right knee to 90 degrees and flex hip bringing leg toward chest, straighten leg to form V position. Simultaneously lower left leg toward Mat, create V position, bend left knee to 90 degrees and flex hip bringing leg toward chest, straighten to Scissors position"},
-      {"breath": "inhale", "action": "Simultaneously lower right leg toward Mat, continue with this exact movement pattern of right and left leg while inhaling"}
+      {"breath": "inhale", "action": "Simultaneously lower right leg toward Mat, continue with this exact movement pattern of right and left leg while inhaling"},
+      {"note": "Repeat entire breath cycle (exhale and inhale) 3 times, reverse direction, repeat 3 times"}
     ],
     "muscleFocus": ["Hip flexors", "Hip extensors", "Spinal flexors"],
     "objectives": ["Hip flexor control and stretch", "Hip extensor control and stretch", "Pelvic lumbar stabilization"],
@@ -949,7 +965,8 @@
     "resistance": null,
     "movement": [
       {"breath": "inhale", "action": "Rotate spine, move legs to one side"},
-      {"breath": "exhale", "action": "Roll down side of trunk, circle legs around, rotate spine, roll up opposite side of trunk, move legs to center, return to start position"}
+      {"breath": "exhale", "action": "Roll down side of trunk, circle legs around, rotate spine, roll up opposite side of trunk, move legs to center, return to start position"},
+      {"note": "Alternate sides"}
     ],
     "muscleFocus": ["Spinal rotators", "Spinal flexors", "Hip flexors"],
     "objectives": ["Spinal rotator control", "Spinal flexor control", "Hip flexor control"],
@@ -1021,7 +1038,8 @@
     "resistance": null,
     "movement": [
       {"breath": "inhale", "action": "Rotate upper trunk, arms, and head in one direction, pelvis and legs in opposite direction"},
-      {"breath": "exhale", "action": "Circle legs down and around to opposite side and arms up and around to opposite side simultaneously, return to start position"}
+      {"breath": "exhale", "action": "Circle legs down and around to opposite side and arms up and around to opposite side simultaneously, return to start position"},
+      {"note": "Change direction after 5 repetitions"}
     ],
     "muscleFocus": ["Spinal rotators", "Spinal flexors", "Spinal extensors", "Hip flexors"],
     "objectives": ["Spinal rotator strength", "Hip flexor strength"],
@@ -1041,7 +1059,8 @@
       {"breath": "inhale", "action": "Lift pelvis, straighten legs, raise top arm to shoulder height, body on diagonal line"},
       {"breath": "exhale", "action": "Lift pelvis toward ceiling, rotate trunk, reach arm under and back"},
       {"breath": "inhale", "action": "Return to diagonal line"},
-      {"breath": "exhale", "action": "Lower body, return to start position"}
+      {"breath": "exhale", "action": "Lower body, return to start position"},
+      {"note": "Change side after 5 repetitions"}
     ],
     "muscleFocus": ["Spinal lateral flexors", "Spinal rotators", "Scapular stabilizers", "Shoulder abductors"],
     "objectives": ["Spinal rotator control", "Scapular stabilization", "Shoulder strength"],
@@ -1213,7 +1232,8 @@
     "resistance": "light to medium",
     "movement": [
       {"breath": "exhale", "action": "Lift leg"},
-      {"breath": "inhale", "action": "Lower leg"}
+      {"breath": "inhale", "action": "Lower leg"},
+      {"note": "Change leg/side after completing the series"}
     ],
     "muscleFocus": ["Hip adductors", "Spinal flexors", "Spinal extensors"],
     "objectives": ["Hip adductor strength", "Pelvic lumbar stabilization"],
@@ -1267,7 +1287,8 @@
     "resistance": "light to medium",
     "movement": [
       {"breath": "exhale", "action": "Lift leg"},
-      {"breath": "inhale", "action": "Lower leg, return to start position"}
+      {"breath": "inhale", "action": "Lower leg, return to start position"},
+      {"note": "Change leg after completing the series"}
     ],
     "muscleFocus": ["Hip extensors", "Spinal flexors", "Spinal extensors"],
     "objectives": ["Hip extensor strength", "Pelvic lumbar stabilization"],

@@ -188,7 +188,8 @@
     "resistance": null,
     "movement": [
       { "breath": "inhale", "action": "Open legs to Scissors position" },
-      { "breath": "exhale", "action": "Circle legs around to Scissors position on opposite side, return to start position" }
+      { "breath": "exhale", "action": "Circle legs around to Scissors position on opposite side, return to start position" },
+      { "note": "Change direction after 5 repetitions" }
     ],
     "muscleFocus": [
       "Hip flexors",
@@ -260,7 +261,8 @@
     "resistance": null,
     "movement": [
       { "breath": "exhale", "action": "Bend back knee, touch step with toes, move knee toward chest, straighten leg over face, simultaneously move opposite leg up and back to create Scissors position on opposite side" },
-      { "breath": "inhale", "action": "Repeat above sequence" }
+      { "breath": "inhale", "action": "Repeat above sequence" },
+      { "note": "Repeat 5 cycles on each leg" }
     ],
     "muscleFocus": [
       "Hip flexors",
@@ -293,7 +295,8 @@
     "resistance": null,
     "movement": [
       { "breath": "inhale", "action": "Bend front knee toward chest, move leg back, touch step with toes, straighten leg, simultaneously move opposite leg up and forward to create Scissors position on opposite side" },
-      { "breath": "exhale", "action": "Repeat above sequence" }
+      { "breath": "exhale", "action": "Repeat above sequence" },
+      { "note": "Repeat 5 cycles on each leg" }
     ],
     "muscleFocus": [
       "Hip flexors",
@@ -361,7 +364,8 @@
     "resistance": null,
     "movement": [
       { "breath": "inhale", "action": "Circle top arm around to side, simultaneously roll body into supine position, externally rotating hips" },
-      { "breath": "exhale", "action": "Continue circling arm to side of body, simultaneously return to side lying position, circle arm forward and overhead, return to start position" }
+      { "breath": "exhale", "action": "Continue circling arm to side of body, simultaneously return to side lying position, circle arm forward and overhead, return to start position" },
+      { "note": "Change direction after 5 repetitions" }
     ],
     "muscleFocus": [
       "Shoulder adductors",
@@ -396,7 +400,8 @@
       { "breath": "inhale", "action": "Lower legs to one side" },
       { "breath": "exhale", "action": "Lift legs to center, return to start position" },
       { "breath": "inhale", "action": "Lower legs to one side" },
-      { "breath": "exhale", "action": "Lift legs to center, return to start position" }
+      { "breath": "exhale", "action": "Lift legs to center, return to start position" },
+      { "note": "Alternate sides" }
     ],
     "muscleFocus": [
       "Spinal flexors",
@@ -498,7 +503,8 @@
     "resistance": null,
     "movement": [
       { "breath": "inhale", "action": "Rotate spine, moving legs to one side" },
-      { "breath": "exhale", "action": "Roll down side of trunk, circle legs around, rotate spine, roll up opposite side of trunk, rotate spine, moving legs to center, return to start position" }
+      { "breath": "exhale", "action": "Roll down side of trunk, circle legs around, rotate spine, roll up opposite side of trunk, rotate spine, moving legs to center, return to start position" },
+      { "note": "Alternate sides" }
     ],
     "muscleFocus": [
       "Spinal rotators",

@@ -80,7 +80,8 @@
     "resistance": "Socket T, Lever Orientation 0, Lever Length 1, Lever Direction 7, Connector C, Spring Y/S",
     "movement": [
       { "breath": "exhale", "action": "Lift trunk" },
-      { "breath": "inhale", "action": "Lower trunk" }
+      { "breath": "inhale", "action": "Lower trunk" },
+      { "note": "Change sides after 5 repetitions" }
     ],
     "muscleFocus": [
       "Spinal rotators",
@@ -586,7 +587,8 @@
     "movement": [
       { "breath": "inhale", "action": "Stretch hip flexors of leg on chair (3-5 breaths)" },
       { "breath": "exhale", "action": "Dorsiflex foot on floor, straighten leg (3-5 breaths)" },
-      { "breath": "inhale", "action": "Bend front leg, return to start position" }
+      { "breath": "inhale", "action": "Bend front leg, return to start position" },
+      { "note": "Change sides after 2 repetitions" }
     ],
     "muscleFocus": [
       "Hip flexors",
