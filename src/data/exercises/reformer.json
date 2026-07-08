@@ -287,7 +287,11 @@
       },
       {
         "breath": "exhale",
-        "action": "Lower one heel and lift other simultaneously, switch; final exhale: lift both heels, return to start position"
+        "action": "Lower one heel and lift other simultaneously, switch"
+      },
+      {
+        "breath": "final exhale",
+        "action": "Lift both heels, return to start position"
       }
     ],
     "muscleFocus": [
@@ -495,11 +499,26 @@
     "movement": [
       {
         "breath": "exhale",
-        "action": "Lift head and chest, reach arms down to sides of body, parallel to floor, straighten legs forward; pump arms up and down for 5 counts"
+        "action": "Lift head and chest, reach arms down to sides of body, parallel to floor, straighten legs forward"
       },
       {
         "breath": "inhale",
-        "action": "Pump arms up and down for 5 counts; final: return to start position"
+        "action": "Prepare"
+      },
+      {
+        "breath": "exhale",
+        "action": "Pump arms up and down for 5 counts"
+      },
+      {
+        "breath": "inhale",
+        "action": "Pump arms up and down for 5 counts"
+      },
+      {
+        "note": "Continue for 10 breath cycles"
+      },
+      {
+        "breath": "final exhale",
+        "action": "Return to start position"
       }
     ],
     "muscleFocus": [
@@ -577,11 +596,19 @@
     "movement": [
       {
         "breath": "exhale",
-        "action": "Round trunk into C curve, shoulders above hip joints, lift arms parallel to floor, lower trunk back; lift trunk to sitting C curve"
+        "action": "Round trunk into C curve, shoulders above hip joints, lift arms parallel to floor, lower trunk back"
       },
       {
         "breath": "inhale",
-        "action": "Pause; straighten back and lower arms, return to start position"
+        "action": "Pause"
+      },
+      {
+        "breath": "exhale",
+        "action": "Lift trunk to sitting C curve"
+      },
+      {
+        "breath": "inhale",
+        "action": "Straighten back and lower arms, return to start position"
       }
     ],
     "muscleFocus": [
@@ -669,7 +696,18 @@
       },
       {
         "breath": "exhale",
-        "action": "Lift back to center, return to start position; arc trunk to opposite side"
+        "action": "Lift back to center, return to start position"
+      },
+      {
+        "breath": "inhale",
+        "action": "Arc trunk to opposite side"
+      },
+      {
+        "breath": "exhale",
+        "action": "Lift back to center, return to start position"
+      },
+      {
+        "note": "Alternate sides"
       }
     ],
     "muscleFocus": [
@@ -713,7 +751,18 @@
       },
       {
         "breath": "exhale",
-        "action": "Lift trunk to center, rotate to front, return to start position; rotate trunk to opposite side"
+        "action": "Lift trunk to center, rotate to front, return to start position"
+      },
+      {
+        "breath": "inhale",
+        "action": "Rotate trunk, lower trunk diagonally back to opposite side"
+      },
+      {
+        "breath": "exhale",
+        "action": "Lift trunk to center, rotate to front, return to start position"
+      },
+      {
+        "note": "Alternate sides"
       }
     ],
     "muscleFocus": [
@@ -797,11 +846,27 @@
     "movement": [
       {
         "breath": "exhale",
-        "action": "Pump knee to chest 3 times; round back, walk hands down leg 3 times beginning with outside hand, lifting leg to perpendicular to floor; walk hands up leg 3 times beginning with inside hand"
+        "action": "Pump knee to chest 3 times"
       },
       {
         "breath": "inhale",
-        "action": "Straighten leg holding above ankle; arch back over box, circle arms overhead and around, lift head and chest, hold onto leg; straighten spine, bend leg, return to start position"
+        "action": "Straighten leg holding above ankle"
+      },
+      {
+        "breath": "exhale",
+        "action": "Round back, walk hands down leg 3 times beginning with outside hand, lifting leg to perpendicular to floor"
+      },
+      {
+        "breath": "inhale",
+        "action": "Arch back over box, circle arms overhead and around, lift head and chest, rounding trunk, hold onto leg"
+      },
+      {
+        "breath": "exhale",
+        "action": "Walk hands up leg 3 times beginning with inside hand"
+      },
+      {
+        "breath": "inhale",
+        "action": "Straighten spine, bend leg, return to start position"
       }
     ],
     "muscleFocus": [
@@ -1009,11 +1074,19 @@
     "movement": [
       {
         "breath": "exhale",
-        "action": "Straighten legs; bend legs, bring heels together, return to start position"
+        "action": "Straighten legs"
       },
       {
         "breath": "inhale",
-        "action": "Open legs; pause"
+        "action": "Open legs"
+      },
+      {
+        "breath": "exhale",
+        "action": "Bend legs, bring heels together, return to start position"
+      },
+      {
+        "breath": "inhale",
+        "action": "Pause"
       }
     ],
     "muscleFocus": [
@@ -1051,11 +1124,19 @@
     "movement": [
       {
         "breath": "exhale",
-        "action": "Straighten legs out to sides; close legs"
+        "action": "Straighten legs out to sides"
       },
       {
         "breath": "inhale",
-        "action": "Pause; bend legs, return to start position"
+        "action": "Pause"
+      },
+      {
+        "breath": "exhale",
+        "action": "Close legs"
+      },
+      {
+        "breath": "inhale",
+        "action": "Bend legs, return to start position"
       }
     ],
     "muscleFocus": [
@@ -1090,11 +1171,19 @@
     "movement": [
       {
         "breath": "exhale",
-        "action": "Roll spine up; roll spine down"
+        "action": "Roll spine up"
       },
       {
         "breath": "inhale",
-        "action": "Pause; pause"
+        "action": "Pause"
+      },
+      {
+        "breath": "exhale",
+        "action": "Roll spine down"
+      },
+      {
+        "breath": "inhale",
+        "action": "Pause"
       }
     ],
     "muscleFocus": [
@@ -1128,11 +1217,26 @@
     "movement": [
       {
         "breath": "exhale",
-        "action": "Roll spine up; straighten legs (not completely); roll spine down, return to start position"
+        "action": "Roll spine up"
       },
       {
         "breath": "inhale",
-        "action": "Pause; bend legs"
+        "action": "Pause"
+      },
+      {
+        "breath": "exhale",
+        "action": "Straighten legs (not completely)"
+      },
+      {
+        "breath": "inhale",
+        "action": "Bend legs"
+      },
+      {
+        "note": "Repeat extensions 5-10 times"
+      },
+      {
+        "breath": "final exhale",
+        "action": "Roll spine down, return to start position"
       }
     ],
     "muscleFocus": [
@@ -1168,11 +1272,27 @@
     "movement": [
       {
         "breath": "exhale",
-        "action": "Straighten legs, plantarflex feet; roll up onto shoulders; articulate spine down, keep feet over eyes"
+        "action": "Straighten legs, plantarflex feet"
       },
       {
         "breath": "inhale",
-        "action": "Bring legs overhead keeping pelvis stable; bend knees to Frog position; dorsiflex feet, roll sacrum down to mat, move legs forward, return to start position"
+        "action": "Bring legs overhead keeping pelvis stable (as much as possible)"
+      },
+      {
+        "breath": "exhale",
+        "action": "Roll up onto shoulders"
+      },
+      {
+        "breath": "inhale",
+        "action": "Bend knees to Frog position"
+      },
+      {
+        "breath": "exhale",
+        "action": "Articulate spine down, keep feet over eyes"
+      },
+      {
+        "breath": "inhale",
+        "action": "Dorsiflex feet, roll sacrum down to mat, move legs forward, return to start position"
       }
     ],
     "muscleFocus": [
@@ -1207,11 +1327,19 @@
     "movement": [
       {
         "breath": "inhale",
-        "action": "Lift legs perpendicular to floor; open legs shoulder width apart"
+        "action": "Lift legs perpendicular to floor"
       },
       {
         "breath": "exhale",
-        "action": "Roll up onto shoulder girdle; roll down to sacrum, lower and close legs, return to start position"
+        "action": "Roll up onto shoulder girdle"
+      },
+      {
+        "breath": "inhale",
+        "action": "Open legs shoulder width apart"
+      },
+      {
+        "breath": "exhale",
+        "action": "Roll down to sacrum, lower and close legs, return to start position"
       }
     ],
     "muscleFocus": [
@@ -1248,11 +1376,18 @@
     "movement": [
       {
         "breath": "inhale",
-        "action": "Stretch hip flexors of leg on carriage (3-5 breaths); bend front leg, return to start position"
+        "action": "Stretch hip flexors of leg on carriage (3-5 breaths)"
       },
       {
         "breath": "exhale",
         "action": "Dorsiflex foot on floor, straighten leg and lower trunk forward (3-5 breaths)"
+      },
+      {
+        "breath": "inhale",
+        "action": "Bend front leg, return to start position"
+      },
+      {
+        "note": "Change sides after 2 repetitions"
       }
     ],
     "muscleFocus": [
@@ -1288,11 +1423,18 @@
     "movement": [
       {
         "breath": "inhale",
-        "action": "Stretch hip flexors of leg on carriage (3-5 breaths); bend leg, return to start position"
+        "action": "Stretch hip flexors of leg on carriage (3-5 breaths)"
       },
       {
         "breath": "exhale",
         "action": "Straighten front leg, lower trunk forward (3-5 breaths)"
+      },
+      {
+        "breath": "inhale",
+        "action": "Bend leg, return to start position"
+      },
+      {
+        "note": "Change sides after 2 repetitions"
       }
     ],
     "muscleFocus": [
@@ -1329,11 +1471,18 @@
     "movement": [
       {
         "breath": "inhale",
-        "action": "Stretch hip flexors of back leg (3-5 breaths); bend front leg, return to start position"
+        "action": "Stretch hip flexors of back leg (3-5 breaths)"
       },
       {
         "breath": "exhale",
         "action": "Straighten front leg, lower trunk forward (3-5 breaths)"
+      },
+      {
+        "breath": "inhale",
+        "action": "Bend front leg, return to start position"
+      },
+      {
+        "note": "Change sides after 2 repetitions"
       }
     ],
     "muscleFocus": [
@@ -2657,11 +2806,19 @@
     "movement": [
       {
         "breath": "inhale",
-        "action": "Push carriage out, lower body until arm is parallel with floor, simultaneously lift other arm to diagonal line; rotate trunk back to previous position"
+        "action": "Push carriage out, lower body until arm is parallel with floor, simultaneously lift other arm to diagonal line"
       },
       {
         "breath": "exhale",
-        "action": "Rotate trunk, bring arm around to footbar; bring carriage in, return to start position"
+        "action": "Rotate trunk, bring arm around to footbar"
+      },
+      {
+        "breath": "inhale",
+        "action": "Rotate trunk back to previous position"
+      },
+      {
+        "breath": "exhale",
+        "action": "Bring carriage in, return to start position"
       }
     ],
     "muscleFocus": [
@@ -3198,7 +3355,7 @@
         "action": "Straighten arms"
       },
       {
-        "breath": "inhale",
+        "breath": "final inhale",
         "action": "Lift trunk, return to start position"
       }
     ],
@@ -3243,7 +3400,7 @@
         "action": "Straighten arm"
       },
       {
-        "breath": "inhale",
+        "breath": "final inhale",
         "action": "Lift trunk, return to start position"
       }
     ],

@@ -11,7 +11,9 @@
     "resistance": null,
     "movement": [
       {"breath": "exhale", "action": "Lift head and chest, press legs and arms together"},
-      {"breath": "inhale", "action": "Pause; lower head and chest, open legs and arms, return to start position"}
+      {"breath": "inhale", "action": "Pause"},
+      {"breath": "exhale", "action": "Lower head and chest, open legs and arms, return to start position"},
+      {"breath": "inhale", "action": "Pause"}
     ],
     "muscleFocus": ["Spinal flexors", "Hip adductors", "Shoulder horizontal adductors"],
     "objectives": ["Spinal flexor strength", "Hip adductor strength", "Shoulder horizontal adductor strength"],
@@ -102,7 +104,8 @@
     "resistance": null,
     "movement": [
       {"breath": "exhale", "action": "Press arm"},
-      {"breath": "inhale", "action": "Open arm; change arm after 5–10 repetitions"}
+      {"breath": "inhale", "action": "Open arm"},
+      {"note": "Change arm after 5-10 repetitions"}
     ],
     "muscleFocus": ["Shoulder adductors", "Scapular stabilizers"],
     "objectives": ["Shoulder adductor strength", "Scapular stabilization"],
@@ -125,7 +128,8 @@
     "resistance": null,
     "movement": [
       {"breath": "exhale", "action": "Press arm down"},
-      {"breath": "inhale", "action": "Lift arm; change arm after 5–10 repetitions"}
+      {"breath": "inhale", "action": "Lift arm"},
+      {"note": "Change arm after 5-10 repetitions"}
     ],
     "muscleFocus": ["Elbow flexors", "Scapular stabilizers"],
     "objectives": ["Elbow flexor strength", "Scapular stabilization"],
@@ -326,7 +330,8 @@
     "resistance": null,
     "movement": [
       {"breath": "exhale", "action": "Bend leg"},
-      {"breath": "inhale", "action": "Straighten leg; change leg after 5–10 repetitions"}
+      {"breath": "inhale", "action": "Straighten leg"},
+      {"note": "Change leg after 5-10 repetitions"}
     ],
     "muscleFocus": ["Knee flexors", "Hip extensors", "Spinal extensors", "Spinal flexors"],
     "objectives": ["Knee flexor strength", "Hip extensor strength", "Pelvic lumbar stabilization"],

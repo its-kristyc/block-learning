@@ -122,7 +122,10 @@
       },
       {
         "breath": "exhale",
-        "action": "Straighten and lift trunk to center, return to start position; alternate sides"
+        "action": "Straighten and lift trunk to center, return to start position"
+      },
+      {
+        "note": "Alternate sides"
       }
     ],
     "muscleFocus": [
@@ -174,7 +177,10 @@
       },
       {
         "breath": "inhale",
-        "action": "Rotate back to center; alternate sides"
+        "action": "Rotate back to center"
+      },
+      {
+        "note": "Alternate sides"
       }
     ],
     "muscleFocus": [

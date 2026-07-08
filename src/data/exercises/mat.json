@@ -271,10 +271,11 @@
     "setup": "Starting in Hundred Prep position",
     "resistance": null,
     "movement": [
-      {"breath": "exhale", "action": "Lift arms, head and chest, bringing arms to sides of body parallel to Mat, simultaneously straighten legs forward"},
+      {"breath": "exhale", "action": "Lift arms, head and chest, bringing arms to sides of body parallel to floor"},
       {"breath": "inhale", "action": "Pause"},
       {"breath": "exhale", "action": "Pump arms up and down for 5 counts"},
-      {"breath": "inhale", "action": "Pump arms up and down for 5 counts (continue for 10 breath cycles)"},
+      {"breath": "inhale", "action": "Pump arms up and down for 5 counts"},
+      {"note": "Continue for 10 breath cycles"},
       {"breath": "final exhale", "action": "Lift arms to 90 degrees in the shoulder joint, lower body, return to start position"}
     ],
     "muscleFocus": ["Spinal flexors", "Hip flexors", "Shoulder flexors", "Shoulder extensors"],

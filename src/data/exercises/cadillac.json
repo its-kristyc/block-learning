@@ -520,7 +520,7 @@
         "action": "Lower trunk, return to start position"
       },
       {
-        "breath": "exhale",
+        "breath": "final exhale",
         "action": "Lower trunk to supine position"
       }
     ],
@@ -565,8 +565,11 @@
         "action": "Lower trunk, return to start position"
       },
       {
-        "breath": "inhale",
+        "breath": "final inhale",
         "action": "Return to center, lower trunk to supine position"
+      },
+      {
+        "note": "Change sides after 5 repetitions"
       }
     ],
     "muscleFocus": [
@@ -829,7 +832,7 @@
     "movement": [
       {
         "breath": "exhale",
-        "action": "Lower one leg to mat into L shape, bend knee to 90 degrees and flex hip bringing leg toward chest, straighten leg to ceiling; simultaneously repeat with other leg"
+        "action": "Lower one leg to mat into L shape, bend knee to 90 degrees and flex hip bringing leg toward chest, straighten leg to ceiling, simultaneously repeat with other leg"
       },
       {
         "breath": "inhale",
@@ -1474,7 +1477,7 @@
         "action": "Lower top leg down behind bottom leg"
       },
       {
-        "breath": "exhale",
+        "breath": "final exhale",
         "action": "Lower top leg to bottom leg, return to start position"
       }
     ],
