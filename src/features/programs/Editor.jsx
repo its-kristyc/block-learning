@@ -117,13 +117,21 @@ export function Editor({ draft, setDraft, onSave, onCancel, openFrom, isMobile }
   const libApparatuses = useMemo(() => (
     [...new Set(EXERCISES.map(e => e.apparatus))].sort((a, b) => apparatusRank(a) - apparatusRank(b))
   ), []);
-  const blockOptions = BLOCK_DISPLAY_ORDER.map(n => BLOCKS[n - 1]);
+  // Warm Up (block 1) has no exercises of its own — the warm-up/foundation
+  // exercises are stored as Foundation (block 13). Merge both into a single
+  // filter option that matches the kanban's "Warm Up / Foundation" column.
+  const WARMUP_LABEL = 'Warm Up / Foundation';
+  const blockFilterName = b => (b === 1 || b === 13) ? WARMUP_LABEL : BLOCKS[b - 1];
+  const blockOptions = [
+    WARMUP_LABEL,
+    ...BLOCK_DISPLAY_ORDER.filter(n => n !== 1 && n !== 13).map(n => BLOCKS[n - 1]),
+  ];
   const searchingLib = pickQ.trim().length > 0;
   const pickerList = searchingLib
     ? EXERCISES.filter(e => e.name.toLowerCase().includes(pickQ.toLowerCase()))
     : EXERCISES.filter(e =>
         (!libFilters.apparatus.length || libFilters.apparatus.includes(e.apparatus)) &&
-        (!libFilters.block.length || libFilters.block.includes(BLOCKS[e.block - 1]))
+        (!libFilters.block.length || libFilters.block.includes(blockFilterName(e.block)))
       );
 
   const header = (
