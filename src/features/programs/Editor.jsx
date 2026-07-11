@@ -2,6 +2,7 @@ import { useState, useRef, useMemo } from 'react';
 import { Check, Search, X, GripVertical } from 'lucide-react';
 import { C } from '../../styles/tokens.js';
 import { EXERCISES, BLOCKS, byId, apparatusRank, BLOCK_DISPLAY_ORDER } from '../../data/index.js';
+import { WARMUP_SERIES } from '../../data/warmupSeries.js';
 import { ExerciseCard } from '../../components/ExerciseCard.jsx';
 import { KindBadge } from '../../components/KindBadge.jsx';
 import { Select } from '../../components/Select.jsx';
@@ -117,21 +118,23 @@ export function Editor({ draft, setDraft, onSave, onCancel, openFrom, isMobile }
   const libApparatuses = useMemo(() => (
     [...new Set(EXERCISES.map(e => e.apparatus))].sort((a, b) => apparatusRank(a) - apparatusRank(b))
   ), []);
-  // Warm Up (block 1) has no exercises of its own — the warm-up/foundation
-  // exercises are stored as Foundation (block 13). Merge both into a single
-  // filter option that matches the kanban's "Warm Up / Foundation" column.
-  const WARMUP_LABEL = 'Warm Up / Foundation';
-  const blockFilterName = b => (b === 1 || b === 13) ? WARMUP_LABEL : BLOCKS[b - 1];
-  const blockOptions = [
-    WARMUP_LABEL,
-    ...BLOCK_DISPLAY_ORDER.filter(n => n !== 1 && n !== 13).map(n => BLOCKS[n - 1]),
-  ];
+  // "Warm Up" (block 1) has no exercises stored under it — it's the 4 warm-up
+  // series (Mat Foundation/Intermediate, Cadillac, F2 Chair). Resolve the union
+  // of their exercise IDs so the filter surfaces them (name-based placeholders
+  // that don't resolve to a real exercise are dropped).
+  const warmupIds = useMemo(() => new Set(
+    WARMUP_SERIES.flatMap(s => s.exercises).filter(ref => byId[ref])
+  ), []);
+  const blockOptions = BLOCK_DISPLAY_ORDER.map(n => BLOCKS[n - 1]);
+  const matchesBlock = e => !libFilters.block.length || libFilters.block.some(b =>
+    b === 'Warm Up' ? warmupIds.has(e.id) : BLOCKS[e.block - 1] === b
+  );
   const searchingLib = pickQ.trim().length > 0;
   const pickerList = searchingLib
     ? EXERCISES.filter(e => e.name.toLowerCase().includes(pickQ.toLowerCase()))
     : EXERCISES.filter(e =>
         (!libFilters.apparatus.length || libFilters.apparatus.includes(e.apparatus)) &&
-        (!libFilters.block.length || libFilters.block.includes(blockFilterName(e.block)))
+        matchesBlock(e)
       );
 
   const header = (
