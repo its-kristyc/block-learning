@@ -12,7 +12,7 @@ const primaryBtn = {
   padding: '7px 13px', cursor: 'pointer',
 };
 
-export function FlowView({ board, back, onEdit, onDelete, user, openFrom, isMobile }) {
+export function FlowView({ board, back, onEdit, onDelete, onNotesChange, user, openFrom, isMobile }) {
   const blocksWith = BLOCKS.map((name, i) => [i + 1, name, board.blocks[i + 1] || []]);
   const total = blocksWith.reduce((s, [, , a]) => s + a.length, 0);
 
@@ -40,6 +40,24 @@ export function FlowView({ board, back, onEdit, onDelete, user, openFrom, isMobi
             <TrashIcon />
           </button>
         </div>
+      </div>
+
+      <div style={{ maxWidth: 680, margin: '0 auto', width: '100%', boxSizing: 'border-box', padding: '16px 18px 0' }}>
+        <label style={{ display: 'block', fontSize: 12, fontWeight: 700, color: C.muted, marginBottom: 6 }}>
+          Notes
+        </label>
+        <textarea
+          value={user.notes[`program:${board.id}`] || ''}
+          onChange={e => onNotesChange(e.target.value)}
+          placeholder="Notes on this program — focus, cueing reminders, client considerations…"
+          rows={3}
+          style={{
+            width: '100%', boxSizing: 'border-box', resize: 'vertical',
+            fontSize: 14, lineHeight: 1.5, color: C.ink, fontFamily: 'inherit',
+            background: C.card, border: `1px solid ${C.line}`, borderRadius: 8,
+            padding: '10px 12px', outline: 'none',
+          }}
+        />
       </div>
 
       <div style={{ maxWidth: 680, margin: '0 auto', width: '100%', boxSizing: 'border-box', padding: '24px 18px 8px' }}>

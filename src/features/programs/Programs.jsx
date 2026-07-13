@@ -5,7 +5,7 @@ import { ConfirmDialog } from '../../components/ConfirmDialog.jsx';
 import { Empty } from '../../components/Empty.jsx';
 import { FlowView } from './FlowView.jsx';
 import { Editor } from './Editor.jsx';
-import { MoreHorizontal } from 'lucide-react';
+import { MoreHorizontal, Pin } from 'lucide-react';
 
 const DotsIcon = () => <MoreHorizontal size={15} />;
 
@@ -87,14 +87,30 @@ export function Programs({ user, setUser, openFrom, isMobile, leaveGuard }) {
     setDiscardPrompt(null);
     if (action) action();
   };
+  const noteKey = id => `program:${id}`;
   const confirmDelete = () => {
-    setUser({ ...user, programs: user.programs.filter(b => b.id !== toDelete.id) });
+    const notes = { ...user.notes };
+    delete notes[noteKey(toDelete.id)];
+    setUser({ ...user, programs: user.programs.filter(b => b.id !== toDelete.id), notes });
     if (viewId === toDelete.id) setViewId(null);
     setToDelete(null);
   };
-  const dupBoard = b => setUser({
+  const dupBoard = b => {
+    const newId = uid();
+    const src = user.notes[noteKey(b.id)];
+    setUser({
+      ...user,
+      programs: [...user.programs, { ...b, id: newId, name: b.name + ' (copy)', blocks: JSON.parse(JSON.stringify(b.blocks)) }],
+      notes: src != null ? { ...user.notes, [noteKey(newId)]: src } : user.notes,
+    });
+  };
+  const togglePin = b => setUser({
     ...user,
-    programs: [...user.programs, { ...b, id: uid(), name: b.name + ' (copy)', blocks: JSON.parse(JSON.stringify(b.blocks)) }],
+    programs: user.programs.map(p => p.id === b.id ? { ...p, pinned: !p.pinned } : p),
+  });
+  const setBoardNotes = (id, notes) => setUser({
+    ...user,
+    notes: { ...user.notes, [noteKey(id)]: notes },
   });
 
   const viewBoard = user.programs.find(b => b.id === viewId);
@@ -115,6 +131,7 @@ export function Programs({ user, setUser, openFrom, isMobile, leaveGuard }) {
         back={() => setViewId(null)}
         onEdit={() => startEdit(viewBoard)}
         onDelete={() => setToDelete(viewBoard)}
+        onNotesChange={notes => setBoardNotes(viewBoard.id, notes)}
         user={user} openFrom={openFrom} isMobile={isMobile}
       />
     );
@@ -134,7 +151,10 @@ export function Programs({ user, setUser, openFrom, isMobile, leaveGuard }) {
         )}
 
         <div>
-          {user.programs.map(b => {
+          {(() => {
+            const newestFirst = [...user.programs].reverse();
+            return [...newestFirst.filter(b => b.pinned), ...newestFirst.filter(b => !b.pinned)];
+          })().map(b => {
             const count = Object.values(b.blocks).reduce((s, a) => s + a.length, 0);
             return (
               <div key={b.id}
@@ -143,7 +163,10 @@ export function Programs({ user, setUser, openFrom, isMobile, leaveGuard }) {
                 style={{ cursor: 'pointer', display: 'flex', alignItems: 'center', gap: 10, padding: '15px 10px', borderBottom: `1px solid ${C.line}` }}
               >
                 <div style={{ flex: 1, minWidth: 120 }}>
-                  <div style={{ fontWeight: 700, fontSize: 15.5, color: C.ink }}>{b.name}</div>
+                  <div style={{ fontWeight: 700, fontSize: 15.5, color: C.ink, display: 'flex', alignItems: 'center', gap: 6 }}>
+                    {b.pinned && <Pin size={13} fill={C.red} color={C.red} style={{ flexShrink: 0 }} />}
+                    {b.name}
+                  </div>
                   <div style={{ fontSize: 12.5, color: C.muted, marginTop: 3 }}>
                     {count} {count === 1 ? 'exercise' : 'exercises'}
                   </div>
@@ -161,6 +184,7 @@ export function Programs({ user, setUser, openFrom, isMobile, leaveGuard }) {
                     <>
                       <div onClick={e => { e.stopPropagation(); setMenuId(null); }} style={{ position: 'fixed', inset: 0, zIndex: 30 }} />
                       <div style={menuPop} onClick={e => e.stopPropagation()}>
+                        <button onClick={() => { togglePin(b); setMenuId(null); }} style={menuItem}>{b.pinned ? 'Unpin' : 'Pin to top'}</button>
                         <button onClick={() => { startEdit(b); setMenuId(null); }} style={menuItem}>Edit</button>
                         <button onClick={() => { dupBoard(b); setMenuId(null); }} style={menuItem}>Duplicate</button>
                         <button onClick={() => { setToDelete(b); setMenuId(null); }} style={{ ...menuItem, color: C.redDeep }}>Delete</button>
