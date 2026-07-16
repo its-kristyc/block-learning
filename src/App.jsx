@@ -3,7 +3,9 @@ import { Compass, BarChart3, Layers, Info } from 'lucide-react';
 import { C } from './styles/tokens.js';
 import { useViewport } from './hooks/useViewport.js';
 import { storage, emptyUser } from './lib/storage.js';
+import { onAuth, isConfigured } from './lib/supabase.js';
 import { Drawer } from './components/Drawer.jsx';
+import { Account } from './components/Account.jsx';
 import { Explore } from './features/explore/Explore.jsx';
 import { Programs } from './features/programs/Programs.jsx';
 import { Practice } from './features/practice/Practice.jsx';
@@ -20,22 +22,28 @@ export default function App() {
   const { isMobile }      = useViewport();
   const [tab, setTab]     = useState('explore');
   const [user, setUserState] = useState(emptyUser);
+  const [session, setSession] = useState(null);
   const [drawer, setDrawer]  = useState(null);
   const saveTimer         = useRef(null);
   const leaveGuard        = useRef(null);
+  const sessionRef        = useRef(null);
 
-  // Load persisted user data on mount
+  // Track the auth session; reload data whenever it changes (sign-in/out).
   useEffect(() => {
-    storage.load().then(d => {
-      if (d) setUserState({ ...emptyUser, ...d });
+    return onAuth(s => {
+      sessionRef.current = s;
+      setSession(s);
+      storage.load(s).then(d => {
+        setUserState(d ? { ...emptyUser, ...d } : emptyUser);
+      });
     });
   }, []);
 
-  // Debounced save on every user state change
+  // Debounced save on every user state change (local now, cloud when signed in)
   const setUser = useCallback(u => {
     setUserState(u);
     clearTimeout(saveTimer.current);
-    saveTimer.current = setTimeout(() => storage.save(u), 600);
+    saveTimer.current = setTimeout(() => storage.save(u, sessionRef.current), 600);
   }, []);
 
   // Guard inter-tab navigation while a draft program is dirty
@@ -105,19 +113,22 @@ export default function App() {
       <div style={{ flex: 1, display: 'flex', flexDirection: 'column', minWidth: 0, minHeight: 0 }}>
         {/* Global header */}
         <header style={{
-          display: 'flex', alignItems: 'center', gap: 10,
-          padding: isMobile ? '16px 14px' : '16px 22px',
+          display: 'flex', alignItems: 'center', gap: isMobile ? 8 : 10,
+          padding: isMobile ? '14px 12px' : '16px 22px',
           borderBottom: `1px solid ${C.line}`,
           background: C.card, flexShrink: 0,
         }}>
-          <span style={{ fontWeight: 700, fontSize: 20, color: C.ink, lineHeight: 1 }}>
+          <span style={{
+            fontWeight: 700, fontSize: isMobile ? 16 : 20, color: C.ink, lineHeight: 1.1,
+            minWidth: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
+          }}>
             BASI Block System
           </span>
 
           {/* Data-info tooltip */}
           <span
             className="saveInfo"
-            style={{ position: 'relative', display: 'inline-flex', alignItems: 'center', color: C.muted, cursor: 'help' }}
+            style={{ position: 'relative', display: 'inline-flex', alignItems: 'center', flexShrink: 0, color: C.muted, cursor: 'help' }}
             tabIndex={0}
             aria-label="How your data is saved"
           >
@@ -131,19 +142,26 @@ export default function App() {
               zIndex: 60, opacity: 0, visibility: 'hidden',
               transition: 'opacity .15s', pointerEvents: 'none', fontWeight: 400,
             }}>
-              Your notes, favorites, and programs are saved in this browser on this device.
-              They aren't synced or sent anywhere.
+              {session
+                ? `Signed in as ${session.user.email}. Your notes, favorites, and programs sync across every device you sign in on.`
+                : isConfigured
+                ? "Your notes, favorites, and programs are saved on this device. Sign in to sync them across devices."
+                : "Your notes, favorites, and programs are saved in this browser on this device. They aren't synced or sent anywhere."}
             </span>
           </span>
 
           <div style={{ flex: 1 }} />
 
-          <span style={{
-            fontSize: 10.5, fontWeight: 500, color: C.muted,
-            userSelect: 'none', whiteSpace: 'nowrap',
-          }}>
-            BASI students only &nbsp;·&nbsp; Designed and vibe-coded by Kristy 🤍
-          </span>
+          <Account session={session} isMobile={isMobile} />
+
+          {!isMobile && (
+            <span style={{
+              fontSize: 10.5, fontWeight: 500, color: C.muted,
+              userSelect: 'none', whiteSpace: 'nowrap',
+            }}>
+              BASI students only &nbsp;·&nbsp; Designed and vibe-coded by Kristy 🤍
+            </span>
+          )}
         </header>
 
         {/* Tab content */}
