@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Bold, Italic } from 'lucide-react';
 import { C } from '../styles/tokens.js';
 
@@ -63,10 +63,34 @@ const toolbarBtn = {
 
 export function NotesEditor({ value, onChange, placeholder, minHeight = 96, background = C.paper }) {
   const ref = useRef(null);
+  const [editing, setEditing] = useState(false);
+
+  useEffect(() => {
+    if (editing) ref.current?.focus();
+  }, [editing]);
 
   const applyMarker = marker => {
     if (ref.current) wrapSelection(ref.current, value || '', onChange, marker);
   };
+
+  // Once there's text and the field isn't focused, show it formatted
+  // instead of the raw markers — tap it to go back to editing.
+  if (!editing && value) {
+    return (
+      <div
+        onClick={() => setEditing(true)}
+        style={{
+          width: '100%', minHeight, boxSizing: 'border-box',
+          fontSize: 14, lineHeight: 1.5, color: C.ink,
+          background, border: `1px solid ${C.line}`,
+          borderRadius: 10, padding: '10px 12px',
+          whiteSpace: 'pre-wrap', wordBreak: 'break-word', cursor: 'text',
+        }}
+      >
+        {renderNotesMarkup(value)}
+      </div>
+    );
+  }
 
   return (
     <div>
@@ -98,6 +122,8 @@ export function NotesEditor({ value, onChange, placeholder, minHeight = 96, back
         className="noteField"
         value={value || ''}
         onChange={e => onChange(e.target.value)}
+        onFocus={() => setEditing(true)}
+        onBlur={() => setEditing(false)}
         placeholder={placeholder}
         style={{
           width: '100%', minHeight, boxSizing: 'border-box',
@@ -107,15 +133,6 @@ export function NotesEditor({ value, onChange, placeholder, minHeight = 96, back
           resize: 'vertical', outline: 'none', fontFamily: 'inherit',
         }}
       />
-
-      {value && (
-        <div style={{
-          fontSize: 13, lineHeight: 1.5, color: C.muted, marginTop: 6,
-          whiteSpace: 'pre-wrap', wordBreak: 'break-word',
-        }}>
-          {renderNotesMarkup(value)}
-        </div>
-      )}
     </div>
   );
 }
