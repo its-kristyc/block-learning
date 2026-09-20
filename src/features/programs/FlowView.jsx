@@ -2,6 +2,7 @@ import { Pencil, Trash2 } from 'lucide-react';
 import { C } from '../../styles/tokens.js';
 import { BLOCKS, byId, blockLabel } from '../../data/index.js';
 import { ExerciseCard } from '../../components/ExerciseCard.jsx';
+import { NotesEditor } from '../../components/NotesEditor.jsx';
 
 const PencilIcon = () => <Pencil size={15} strokeWidth={2} />;
 const TrashIcon = () => <Trash2 size={15} strokeWidth={2} />;
@@ -46,17 +47,12 @@ export function FlowView({ board, back, onEdit, onDelete, onNotesChange, user, o
         <label style={{ display: 'block', fontSize: 12, fontWeight: 700, color: C.muted, marginBottom: 6 }}>
           Notes
         </label>
-        <textarea
+        <NotesEditor
           value={user.notes[`program:${board.id}`] || ''}
-          onChange={e => onNotesChange(e.target.value)}
+          onChange={onNotesChange}
           placeholder="Notes on this program — focus, cueing reminders, client considerations…"
-          rows={3}
-          style={{
-            width: '100%', boxSizing: 'border-box', resize: 'vertical',
-            fontSize: 14, lineHeight: 1.5, color: C.ink, fontFamily: 'inherit',
-            background: C.card, border: `1px solid ${C.line}`, borderRadius: 8,
-            padding: '10px 12px', outline: 'none',
-          }}
+          minHeight={60}
+          background={C.card}
         />
       </div>
 
