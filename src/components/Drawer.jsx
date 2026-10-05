@@ -5,7 +5,6 @@ import { byId, BLOCKS, blockLabel } from '../data/index.js';
 import { LevelPill } from './LevelPill.jsx';
 import { KindBadge } from './KindBadge.jsx';
 import { Heart } from './Heart.jsx';
-import { NotesEditor } from './NotesEditor.jsx';
 
 const chip = {
   fontSize: 12, color: C.ink, background: C.card,
@@ -194,10 +193,18 @@ export function Drawer({ ctx, setCtx, user, toggleFav, setNote, isMobile }) {
           </Section>
 
           <Section label="My notes">
-            <NotesEditor
+            <textarea
+              className="noteField"
               value={user.notes[exo.id] || ''}
-              onChange={text => setNote(exo.id, text)}
+              onChange={e => setNote(exo.id, e.target.value)}
               placeholder="Spring settings, corrections from class, what to feel…"
+              style={{
+                width: '100%', minHeight: 96, boxSizing: 'border-box',
+                fontSize: 14, lineHeight: 1.5, color: C.ink,
+                background: C.paper, border: `1px solid ${C.line}`,
+                borderRadius: 10, padding: '10px 12px',
+                resize: 'vertical', outline: 'none',
+              }}
             />
             <div style={{ fontSize: 11, color: C.muted, marginTop: 4 }}>Saved automatically</div>
           </Section>
