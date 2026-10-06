@@ -194,7 +194,7 @@ export function Drawer({ ctx, setCtx, user, toggleFav, setNote, isMobile }) {
             </ul>
           </Section>
 
-          <Section label="My notes">
+          <Section label="Notes">
             <textarea
               ref={noteRef}
               className="noteField"
