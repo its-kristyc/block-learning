@@ -2,6 +2,7 @@ import { Pencil, Trash2 } from 'lucide-react';
 import { C } from '../../styles/tokens.js';
 import { BLOCKS, byId, blockLabel } from '../../data/index.js';
 import { ExerciseCard } from '../../components/ExerciseCard.jsx';
+import { useAutoGrow } from '../../hooks/useAutoGrow.js';
 
 const PencilIcon = () => <Pencil size={15} strokeWidth={2} />;
 const TrashIcon = () => <Trash2 size={15} strokeWidth={2} />;
@@ -15,6 +16,7 @@ const primaryBtn = {
 export function FlowView({ board, back, onEdit, onDelete, onNotesChange, user, openFrom, isMobile }) {
   const blocksWith = BLOCKS.map((name, i) => [i + 1, name, board.blocks[i + 1] || []]);
   const total = blocksWith.reduce((s, [, , a]) => s + a.length, 0);
+  const noteRef = useAutoGrow(user.notes[`program:${board.id}`]);
 
   return (
     <div style={{ height: '100%', overflowY: 'auto', paddingBottom: isMobile ? 90 : 30 }}>
@@ -47,12 +49,13 @@ export function FlowView({ board, back, onEdit, onDelete, onNotesChange, user, o
           Notes
         </label>
         <textarea
+          ref={noteRef}
           value={user.notes[`program:${board.id}`] || ''}
           onChange={e => onNotesChange(e.target.value)}
           placeholder="Notes on this program — focus, cueing reminders, client considerations…"
           rows={3}
           style={{
-            width: '100%', boxSizing: 'border-box', resize: 'vertical',
+            width: '100%', boxSizing: 'border-box', resize: 'none', overflow: 'hidden',
             fontSize: 14, lineHeight: 1.5, color: C.ink, fontFamily: 'inherit',
             background: C.card, border: `1px solid ${C.line}`, borderRadius: 8,
             padding: '10px 12px', outline: 'none',

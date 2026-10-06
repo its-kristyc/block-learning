@@ -5,6 +5,7 @@ import { byId, BLOCKS, blockLabel } from '../data/index.js';
 import { LevelPill } from './LevelPill.jsx';
 import { KindBadge } from './KindBadge.jsx';
 import { Heart } from './Heart.jsx';
+import { useAutoGrow } from '../hooks/useAutoGrow.js';
 
 const chip = {
   fontSize: 12, color: C.ink, background: C.card,
@@ -31,6 +32,7 @@ function Section({ label, children }) {
 export function Drawer({ ctx, setCtx, user, toggleFav, setNote, isMobile }) {
   const open = !!ctx;
   const exo = ctx ? byId[ctx.list[ctx.index]] : null;
+  const noteRef = useAutoGrow(exo ? user.notes[exo.id] : '');
 
   useEffect(() => {
     const f = e => { if (e.key === 'Escape') setCtx(null); };
@@ -194,6 +196,7 @@ export function Drawer({ ctx, setCtx, user, toggleFav, setNote, isMobile }) {
 
           <Section label="My notes">
             <textarea
+              ref={noteRef}
               className="noteField"
               value={user.notes[exo.id] || ''}
               onChange={e => setNote(exo.id, e.target.value)}
@@ -203,7 +206,7 @@ export function Drawer({ ctx, setCtx, user, toggleFav, setNote, isMobile }) {
                 fontSize: 14, lineHeight: 1.5, color: C.ink,
                 background: C.paper, border: `1px solid ${C.line}`,
                 borderRadius: 10, padding: '10px 12px',
-                resize: 'vertical', outline: 'none',
+                resize: 'none', overflow: 'hidden', outline: 'none',
               }}
             />
             <div style={{ fontSize: 11, color: C.muted, marginTop: 4 }}>Saved automatically</div>
